@@ -1,3 +1,6 @@
+# ignore graphic files
+*.png
+
 # ignore all PDF files
 *.pdf
 
@@ -5,10 +8,6 @@
 *.aux
 *.log
 *.out
-
-# ignore auxiliary files created by BibTeX
-*.bbl
-*.blg
 
 # ignore Emacs backup files
 *~
