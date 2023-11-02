@@ -36,8 +36,8 @@ func main() {
 	plotFun.X.Label.Text = "x"
 	plotFun.Y.Label.Text = "y"
 
-	err := plotutil.AddLinePoints(plotFun,
-		"math.Acos", mathAcosFunPlotData)
+	err := plotutil.AddLinePoints(plotFun,"math.Acos",
+		mathAcosFunPlotData)
 
 	if err != nil {
 		panic(err)
@@ -45,6 +45,7 @@ func main() {
 
 	if err := plotFun.Save(10*vg.Inch, 10*vg.Inch,
 		"Go_math_Acos_plot.png"); err != nil {
+
 		panic(err)
 	}
 }
