@@ -2,6 +2,7 @@ package main
 
 import (
 	"math"
+
 	"gonum.org/v1/plot"
 	"gonum.org/v1/plot/plotter"
 	"gonum.org/v1/plot/plotutil"

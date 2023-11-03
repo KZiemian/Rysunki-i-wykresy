@@ -1,7 +1,9 @@
 package main
 
 import (
+	"fmt"
 	"math"
+
 	"gonum.org/v1/plot"
 	"gonum.org/v1/plot/plotter"
 	"gonum.org/v1/plot/plotutil"
@@ -12,11 +14,19 @@ func main() {
 	mathAcoshFunPlotData := make(plotter.XYs, 20)
 
 
+	mathAcoshValue := math.Acosh(1.0)
+
 	mathAcoshFunPlotData[0].X = 1.0
-	mathAcoshFunPlotData[0].Y = math.Acosh(1.0)
+	mathAcoshFunPlotData[0].Y = mathAcoshValue
+
+	fmt.Printf("math.Acosh(1.0) = %.3f.\n", mathAcoshValue)
+
+	mathAcoshValue = math.Acosh(1.1)
 
 	mathAcoshFunPlotData[1].X = 1.1
-	mathAcoshFunPlotData[1].Y = math.Acosh(1.1)
+	mathAcoshFunPlotData[1].Y = mathAcoshValue
+
+	fmt.Printf("math.Acosh(1.1) = %.3f.\n", mathAcoshValue)
 
 	mathAcoshFunPlotData[2].X = 1.2
 	mathAcoshFunPlotData[2].Y = math.Acosh(1.2)
