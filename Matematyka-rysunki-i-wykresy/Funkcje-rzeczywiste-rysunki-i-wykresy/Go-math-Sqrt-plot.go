@@ -14,7 +14,7 @@ func main() {
 	mathSqrtFunPlotData := make(plotter.XYs, 201)
 
 	x := 0.0
-	deltaX := 2.0 / 200
+	deltaX := 1.0 / 100.0
 
 	for i := range mathSqrtFunPlotData {
 		mathSqrtFunPlotData[i].X = x
@@ -52,7 +52,6 @@ func main() {
 	mathSqrtFunPlotData = make(plotter.XYs, 501)
 
 	x = 0.0
-	deltaX = 5.0 / 500
 
 	for i := range mathSqrtFunPlotData {
 		mathSqrtFunPlotData[i].X = x
@@ -90,7 +89,6 @@ func main() {
 	mathSqrtFunPlotData = make(plotter.XYs, 1_001)
 
 	x = 0.0
-	deltaX = 10.0 / 1_001.0
 
 	for i := range mathSqrtFunPlotData {
 		mathSqrtFunPlotData[i].X = x

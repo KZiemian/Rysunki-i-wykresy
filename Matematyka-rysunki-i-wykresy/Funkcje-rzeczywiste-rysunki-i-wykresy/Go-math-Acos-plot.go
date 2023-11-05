@@ -13,7 +13,7 @@ func main() {
 	mathAcosFunPlotData := make(plotter.XYs, 601)
 
 	x := -1.0
-	deltaX := 1.0/300.0
+	deltaX := 1.0/100.0
 
 	for i := range mathAcosFunPlotData {
 		mathAcosFunPlotData[i].X = x
