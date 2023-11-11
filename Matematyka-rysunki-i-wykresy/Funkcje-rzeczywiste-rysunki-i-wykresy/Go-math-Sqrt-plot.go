@@ -1,12 +1,11 @@
 package main
 
 import (
-	// "fmt"
+	"image/color"
 	"math"
 
 	"gonum.org/v1/plot"
 	"gonum.org/v1/plot/plotter"
-	"gonum.org/v1/plot/plotutil"
 	"gonum.org/v1/plot/vg"
 )
 
@@ -25,21 +24,26 @@ func main() {
 
 
 
-	plotFun := plot.New()
+	plotOfFun := plot.New()
 
-	plotFun.Title.Text = "Wykres funkcji math.Sqrt(x)"
+	plotOfFun.Title.Text = "Wykres funkcji math.Sqrt(x)"
 
-	plotFun.X.Label.Text = "x"
-	plotFun.Y.Label.Text = "y"
+	plotOfFun.X.Label.Text = "x"
+	plotOfFun.Y.Label.Text = "y"
 
-	err := plotutil.AddLinePoints(plotFun, "math.Sqrt",
-		mathSqrtFunPlotData)
+	l, err := plotter.NewLine(mathSqrtFunPlotData)
 
 	if err != nil {
 		panic(err)
 	}
 
-	if err := plotFun.Save(10*vg.Inch, 10*vg.Inch,
+	l.LineStyle.Width = vg.Points(1)
+	l.LineStyle.Color = color.RGBA{R: 200, G: 100, B: 100}
+
+	plotOfFun.Add(l)
+	plotOfFun.Legend.Add("math.Sqrt(x)", l)
+
+	if err := plotOfFun.Save(10*vg.Inch, 10*vg.Inch,
 		"Go_math_Sqrt_plot_01.png"); err != nil {
 
 		panic(err)
@@ -62,21 +66,26 @@ func main() {
 
 
 
-	plotFun = plot.New()
+	plotOfFun = plot.New()
 
-	plotFun.Title.Text = "Wykres funkcji math.Sqrt(x)"
+	plotOfFun.Title.Text = "Wykres funkcji math.Sqrt(x)"
 
-	plotFun.X.Label.Text = "x"
-	plotFun.Y.Label.Text = "y"
+	plotOfFun.X.Label.Text = "x"
+	plotOfFun.Y.Label.Text = "y"
 
-	err = plotutil.AddLinePoints(plotFun, "math.Sqrt",
-		mathSqrtFunPlotData)
+	l, err = plotter.NewLine(mathSqrtFunPlotData)
 
 	if err != nil {
 		panic(err)
 	}
 
-	if err := plotFun.Save(10*vg.Inch, 10*vg.Inch,
+	l.LineStyle.Width = vg.Points(1)
+	l.LineStyle.Color = color.RGBA{R: 200, G: 100, B: 100}
+
+	plotOfFun.Add(l)
+	plotOfFun.Legend.Add("math.Sqrt(x)", l)
+
+	if err := plotOfFun.Save(10*vg.Inch, 10*vg.Inch,
 		"Go_math_Sqrt_plot_02.png"); err != nil {
 
 		panic(err)
@@ -99,21 +108,26 @@ func main() {
 
 
 
-	plotFun = plot.New()
+	plotOfFun = plot.New()
 
-	plotFun.Title.Text = "Wykres funkcji math.Sqrt(x)"
+	plotOfFun.Title.Text = "Wykres funkcji math.Sqrt(x)"
 
-	plotFun.X.Label.Text = "x"
-	plotFun.Y.Label.Text = "y"
+	plotOfFun.X.Label.Text = "x"
+	plotOfFun.Y.Label.Text = "y"
 
-	err = plotutil.AddLinePoints(plotFun, "math.Sqrt",
-		mathSqrtFunPlotData)
+	l, err = plotter.NewLine(mathSqrtFunPlotData)
 
 	if err != nil {
 		panic(err)
 	}
 
-	if err := plotFun.Save(10*vg.Inch, 10*vg.Inch,
+	l.LineStyle.Width = vg.Points(1)
+	l.LineStyle.Color = color.RGBA{R: 200, G: 100, B: 100}
+
+	plotOfFun.Add(l)
+	plotOfFun.Legend.Add("math.Sqrt(x)", l)
+
+	if err := plotOfFun.Save(10*vg.Inch, 10*vg.Inch,
 		"Go_math_Sqrt_plot_03.png"); err != nil {
 
 		panic(err)
