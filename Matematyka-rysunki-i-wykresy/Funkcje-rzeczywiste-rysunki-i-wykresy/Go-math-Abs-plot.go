@@ -43,8 +43,9 @@ func main() {
 	plotOfFun.Legend.Add("math.Abs(x)", l)
 
 
-	if err := plotOfFun.Save(10*vg.Inch, 10*vg.Inch,
-		"Go_math_Abs_plot.png"); err != nil {
+	if err := plotOfFun.Save(10*vg.Inch, 5*vg.Inch,
+		"Go_math_Abs_plot_01.png"); err != nil {
+
 		panic(err)
 	}
 }

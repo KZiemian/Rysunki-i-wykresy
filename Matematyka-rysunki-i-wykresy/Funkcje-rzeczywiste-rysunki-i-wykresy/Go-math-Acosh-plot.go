@@ -44,6 +44,9 @@ func main() {
 	plotOfFun.Add(l)
 	plotOfFun.Legend.Add("math.Acosh", l)
 
+	// pictureWidthInInches := 10.0
+	// pictureHeightInInches := (pictureWidthInInches * mathAcoshFunPlotData[300].Y / mathAcoshFunPlotData[300].X)
+
 	if err := plotOfFun.Save(10*vg.Inch, 10*vg.Inch,
 		"Go_math_Acosh_plot_01.png"); err != nil {
 
