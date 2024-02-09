@@ -83,5 +83,4 @@ func main() {
 		"Obwiednia-rodziny-krzywych.png"); err != nil {
 		panic(err)
 	}
-
 }
