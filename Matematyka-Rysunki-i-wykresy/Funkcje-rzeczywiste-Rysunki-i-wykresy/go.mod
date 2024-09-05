@@ -1,6 +1,6 @@
-module github.com/KZiemian/Rysunki-i-wykresy
+module rysunki-i-wykres.com/Funkcje-rzeczywiste
 
-go 1.22.0
+go 1.23.0
 
 require (
 	git.sr.ht/~sbinet/gg v0.5.0 // indirect
