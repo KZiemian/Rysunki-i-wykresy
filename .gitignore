@@ -1,13 +1,24 @@
-# ignore graphic files
-*.png
-
 # ignore all PDF files
 *.pdf
 
-# ignore auxiliary files created by pdfLaTeX
+# ignore auxiliary files created by luaLaTeX or pdfLaTeX
 *.aux
 *.log
+*.nav
 *.out
+*.snm
+*.svg
+*.toc
+*.vrb
+
+# ignore auxilliary files created by BibLaTeX and Biber
+*.bbl
+*.bcf
+*.blg
+*.run.xml
+
+# ignore all picture files of these types
+*.png
 
 # ignore Emacs backup files
 *~
