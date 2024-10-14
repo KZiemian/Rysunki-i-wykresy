@@ -1,0 +1,778 @@
+% ------------------------------------------------------------------------------------------------------------------
+% Basic configuration and packages
+% ------------------------------------------------------------------------------------------------------------------
+% Package for discovering wrong and outdated usage of LaTeX.
+% More information to be found in l2tabu English version.
+\RequirePackage[l2tabu, orthodox]{nag}
+% Class of LaTeX document: {size of paper, size of font}[document class]
+\documentclass[a4paper,11pt]{article}
+
+
+
+% ------------------------------------------------------
+% Packages not tied to particular normal language
+% ------------------------------------------------------
+% This package should improved spaces in the text
+\usepackage{microtype}
+% Add few important symbols, like text Celcius degree
+\usepackage{textcomp}
+
+
+
+% ------------------------------------------------------
+% Polonization of LaTeX document
+% ------------------------------------------------------
+% Basic polonization of the text
+\usepackage[MeX]{polski}
+% Switching on UTF-8 encoding
+\usepackage[utf8]{inputenc}
+% Adding font Latin Modern
+\usepackage{lmodern}
+% Package is need for fonts Latin Modern
+\usepackage[T1]{fontenc}
+
+
+
+% ------------------------------------------------------
+% Setting margins
+% ------------------------------------------------------
+\usepackage[a4paper, total={14cm, 25cm}]{geometry}
+
+
+
+% ------------------------------------------------------
+% Setting vertical spaces in the text
+% ------------------------------------------------------
+% Setting space between lines
+\renewcommand{\baselinestretch}{1.1}
+
+% Setting space between lines in tables
+\renewcommand{\arraystretch}{1.4}
+
+
+
+% ------------------------------------------------------
+% Packages for scientific papers
+% ------------------------------------------------------
+% Switching off \lll symbol, that I guess is representing letter "Ł"
+% It collide with `amsmath' package's command with the same name
+\let\lll\undefined
+% Basic package from American Mathematical Society (AMS)
+\usepackage[intlimits]{amsmath}
+% Equations are numbered separately in every section
+\numberwithin{equation}{section}
+
+% Other very useful packages from AMS
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amscd}
+\usepackage{amsthm}
+
+% Package with better looking calligraphy fonts
+\usepackage{calrsfs}
+
+% Package with better looking greek letters
+% Example of use: pi -> \uppi
+\usepackage{upgreek}
+% Improving look of lambda letter
+\let\oldlambda\Lambda
+\renewcommand{\lambda}{\uplambda}
+
+
+
+
+% ------------------------------------------------------
+% BibLaTeX
+% ------------------------------------------------------
+% Package biblatex, with biber as its backend, allow us to handle
+% bibliography entries that use Unicode symbols outside ASCII
+% \usepackage[
+% language=polish,
+% backend=biber,
+% style=alphabetic,
+% url=false,
+% eprint=true,
+% ]{biblatex}
+
+% \addbibresource{Logika-i-teoria-mnogości-Bibliography.bib}
+
+
+
+
+
+% ------------------------------------------------------
+% Defining new environments (?)
+% ------------------------------------------------------
+% Defining enviroment "Wniosek"
+% \newtheorem{corollary}{Wniosek}
+% \newtheorem{definition}{Definicja}
+% \newtheorem{theorem}{Twierdzenie}
+
+
+
+
+
+% ------------------------------------------------------
+% Wonderful package PGF/TikZ
+% ------------------------------------------------------
+\usepackage{tikz}
+
+% Loding TikZ libraries
+
+% Library for positioning nodes
+\usetikzlibrary{positioning}
+
+% Styles for arrows
+\usepackage{./Local-packages/PGF-TikZ-Arrows-styles}
+
+% Node and pics for drawing charts
+\usepackage{./Local-packages/PGF-TikZ-Chart-nodes-and-pics}
+
+
+
+
+% ------------------------------------------------------
+% Local packages
+% You need to put them in the same directory as .tex file
+% ------------------------------------------------------
+% Package containing various command useful for working with a text
+% \usepackage{general-commands}
+% Package containing commands and other code useful for working with
+% mathematical text
+% \usepackage{math-commands}
+
+
+
+
+
+% ------------------------------------------------------
+% Package "hyperref"
+% They advised to put it on the end of preambule
+% ------------------------------------------------------
+% It allows you to use hyperlinks in the text
+\usepackage{hyperref}
+
+
+
+
+
+
+
+
+
+
+% ------------------------------------------------------------------------------------------------------------------
+% Title and author of the text
+\title{Funkcje rzeczywiste \\
+  {\Large Rysunki i~wykresy}}
+
+\author{Kamil Ziemian}
+
+
+% \date{}
+% ------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+% ####################################################################
+% Beginning of the document
+\begin{document}
+% ####################################################################
+
+
+
+
+
+% ######################################
+% Title of the text
+\maketitle
+% ######################################
+
+
+
+
+
+% % ######################################
+% \section{Funkcje wykładnicze i~logarytmiczne}
+
+% \label{sec:Funkcje-wykladnicze-i-logarytmiczne}
+% % ######################################
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+% ######################################
+\section{Funkcje trygonometryczne}
+
+\label{sec:Funkcje-trygonometryczne}
+% ######################################
+
+
+
+% ##################
+\begin{figure}
+
+  \label{fig:sin-function-01}
+
+
+  \centering
+
+  \begin{tikzpicture}
+
+    % x axis
+    \draw[axis arrow] (-0.3,0) -- (7.3,0);
+
+    \pic at (7.3,0) {x mark for horizontal axis 1};
+
+
+
+
+
+    % Graph of sin function
+    \draw[color=blue] (0,0) -- (0.05,0.049) -- (0.1,0.099) --
+    (0.15,0.149) -- (0.2,0.198) -- (0.25,0.247) -- (0.3,0.295) --
+    (0.35,0.342) -- (0.4,0.389) -- (0.45,0.434) -- (0.5,0.479) --
+    (0.55,0.522) -- (0.6,0.564) -- (0.65,0.605) -- (0.7,0.644) --
+    (0.75,0.681) -- (0.8,0.717) -- (0.85,0.751) -- (0.9,0.783) --
+    (0.95,0.813) -- (1,0.841) -- (1.05,0.867) -- (1.1,0.891) --
+    (1.15,0.912) -- (1.2,0.932) -- (1.25,0.948) -- (1.3,0.963) --
+    (1.35,0.975) -- (1.4,0.985) -- (1.45,0.992) -- (1.5,0.997) --
+    (1.55,0.999) -- (1.6,0.999) -- (1.65,0.996) -- (1.7,0.991) --
+    (1.75,0.983) -- (1.8,0.973) -- (1.85,0.961) -- (1.9,0.946) --
+    (1.95,0.928) -- (2.0,0.909) -- (2.05,0.887) -- (2.1,0.863) --
+    (2.15,0.836) -- (2.2,0.808) -- (2.25,0.778) -- (2.3,0.745) --
+    (2.35,0.711) -- (2.4,0.675) -- (2.45,0.637) -- (2.5,0.598) --
+    (2.55,0.557) -- (2.6,0.515) -- (2.65,0.472) -- (2.7,0.427) --
+    (2.75,0.381) -- (2.8,0.334) -- (2.85,0.287) -- (2.9,0.239) --
+    (2.95,0.19) -- (3,0.141) -- (3.05,0.091) -- (3.1,0.041) --
+    (3.15,-0.008) -- (3.2,-0.058) -- (3.25,-0.108) -- (3.3,-0.157) --
+    (3.35,-0.206) -- (3.4,-0.255) -- (3.45,-0.303) -- (3.5,-0.35) --
+    (3.55,-0.397) -- (3.6,-0.442) -- (3.65,-0.486) -- (3.7,-0.529) --
+    (3.75,-0.571) -- (3.8,-0.611) -- (3.85,-0.65) -- (3.9,-0.687) --
+    (3.95,-0.723) -- (4,-0.756) -- (4.05,-0.788) -- (4.1,-0.818) --
+    (4.15,-0.845) -- (4.2,-0.871) -- (4.25,-0.894) -- (4.3,-0.916) --
+    (4.35,-0.935) -- (4.4,-0.951) -- (4.45,-0.965) -- (4.5,-0.977) --
+    (4.55,-0.986) -- (4.6,-0.993) -- (4.65,-0.998) -- (4.7,-0.999) --
+    (4.75,-0.999) -- (4.8,-0.996) -- (4.85,-0.99) -- (4.9,-0.982) --
+    (4.95,-0.971) -- (5,-0.958) -- (5.05,-0.943) -- (5.1,-0.925) --
+    (5.15,-0.905) -- (5.2,-0.883) -- (5.25,-0.858) -- (5.3,-0.832) --
+    (5.35,-0.803) -- (5.4,-0.772) -- (5.45,-0.74) -- (5.5,-0.705) --
+    (5.55,-0.669) -- (5.6,-0.631) -- (5.65,-0.591) -- (5.7,-0.55) --
+    (5.75,-0.508) -- (5.8,-0.464) -- (5.85,-0.419) -- (5.9,-0.373) --
+    (5.95,-0.327) -- (6,-0.279) -- (6.05,-0.231) -- (6.1,-0.182) --
+    (6.15,-0.132) -- (6.2,-0.083) -- (6.25,-0.033) -- (6.3,0.016);
+
+
+
+
+
+    % y axis
+    \draw[axis arrow] (0,-1.3) -- (0,1.6);
+
+    \pic at (0,1.6) {y mark for vertical axis 1};
+
+    \node[right] at (0,0) {$0$};
+
+
+
+
+
+    % Thicks on x axis
+    \pic at (1,0) {tick horizontal axis thin};
+
+    \node[number below x axis] at (1,0) {$1$};
+
+
+    \pic at (2,0) {tick horizontal axis thin};
+
+    \node[below] at (2,0) {$2$};
+
+
+    \pic at (3,0) {tick horizontal axis thin};
+
+    \node[below] at (3,0) {$3$};
+
+
+    \pic at (4,0) {tick horizontal axis thin};
+
+    \node[below] at (4,0) {$4$};
+
+
+    \pic at (5,0) {tick horizontal axis thin};
+
+    \node[below] at (5,0) {$5$};
+
+
+    \pic at (6,0) {tick horizontal axis thin};
+
+    \node[below] at (6,0) {$6$};
+
+
+
+
+
+    % Ticks on y axis
+    \pic at (0,-1) {tick vertical axis thin};
+
+    \node[left] at (0,-1) {$-1$};
+
+
+    \pic at (0,-0.5) {tick vertical axis thin 1};
+
+    \node[node scale small 2,left] at (0,-0.5) {$-0.5$};
+
+
+    \pic at (0,0.5) {tick vertical axis thin 1};
+
+    \node[node scale small 2,left] at (0,0.5) {$0.5$};
+
+
+    \pic at (0,1) {tick vertical axis thin};
+
+    \node[left] at (0,1) {$1$};
+
+  \end{tikzpicture}
+
+  \caption{Funkcja $\sin$, $x \in [ 0, 6.3 ]$}
+
+
+\end{figure}
+% ##################
+
+
+
+
+
+% ##################
+\begin{figure}
+
+  \label{fig:sin-function-02}
+
+
+  \centering
+
+  \begin{tikzpicture}
+
+    % x axis
+    \draw[axis arrow] (-3.6,0) -- (4.3,0);
+
+    \pic at (4.3,0) {x mark for horizontal axis 1};
+
+
+
+
+
+    % Graph of sin function
+    \draw[color=blue] (-3.3,0.157) -- (-3.25,0.108) -- (-3.2,0.058) --
+    (-3.15,0.008) -- (-3.1,-0.041) -- (-3.05,-0.091) -- (-3,-0.141) --
+    (-2.95,-0.19) -- (-2.9,-0.239) -- (-2.85,-0.287) -- (-2.8,-0.334) --
+    (-2.75,-0.381) -- (-2.7,-0.427) -- (-2.65,-0.472) -- (-2.6,-0.515) --
+    (-2.55,-0.557) -- (-2.5,-0.598) -- (-2.45,-0.637) -- (-2.4,-0.675) --
+    (-2.45,-0.637) -- (-2.4,-0.675) -- (-2.35,-0.711) -- (-2.3,-0.745) --
+    (-2.25,-0.778) -- (-2.2,-0.808) -- (-2.15,-0.836) -- (-2.1,-0.863) --
+    (-2.05,-0.887) -- (-2,-0.909) -- (-1.95,-0.928) -- (-1.9,-0.946) --
+    (-1.85,-0.961) -- (-1.8,-0.973) -- (-1.75,-0.983) -- (-1.7,-0.991) --
+    (-1.65,-0.996) -- (-1.6,-0.999) -- (-1.55,-0.999) -- (-1.5,-0.997) --
+    (-1.45,-0.992) -- (-1.4,-0.985) -- (-1.35,-0.975) -- (-1.3,-0.963) --
+    (-1.25,-0.948) -- (-1.2,-0.932) -- (-1.15,-0.912) -- (-1.1,-0.891) --
+    (-1.05,-0.867) -- (-1,-0.841) -- (-0.95,-0.813) -- (-0.9,-0.783) --
+    (-0.85,-0.751) -- (-0.8,-0.717) -- (-0.75,-0.681) -- (-0.7,-0.644) --
+    (-0.65,-0.605) -- (-0.6,-0.564) -- (-0.55,-0.522) -- (-0.5,-0.479) --
+    (-0.45,-0.434) -- (-0.4,-0.389) -- (-0.35,-0.342) -- (-0.3,-0.295) --
+    (-0.25,-0.247) -- (-0.2,-0.198) -- (-0.15,-0.149) -- (-0.1,-0.099) --
+    (-0.05,-0.049) -- (0,0) -- (0.05,0.049) -- (0.1,0.099) -- (0.15,0.149) --
+    (0.2,0.198) -- (0.25,0.247) -- (0.3,0.295) -- (0.35,0.342) --
+    (0.4,0.389) -- (0.45,0.434) -- (0.5,0.479) -- (0.55,0.522) --
+    (0.6,0.564) -- (0.65,0.605) -- (0.7,0.644) -- (0.75,0.681) --
+    (0.8,0.717) -- (0.85,0.751) -- (0.9,0.783) -- (0.95,0.813) --
+    (1,0.841) -- (1.05,0.867) -- (1.1,0.891) -- (1.15,0.912) --
+    (1.2,0.932) -- (1.25,0.948) -- (1.3,0.963) -- (1.35,0.975) --
+    (1.4,0.985) -- (1.45,0.992) -- (1.5,0.997) -- (1.55,0.999) --
+    (1.6,0.999) -- (1.65,0.996) -- (1.7,0.991) -- (1.75,0.983) --
+    (1.8,0.973) -- (1.85,0.961) -- (1.9,0.946) -- (1.95,0.928) --
+    (2,0.909) -- (2.05,0.887) -- (2.1,0.863) -- (2.15,0.836) --
+    (2.2,0.808) -- (2.25,0.778) -- (2.3,0.745) -- (2.35,0.711) --
+    (2.4,0.675) -- (2.45,0.637) -- (2.5,0.598) -- (2.55,0.557) --
+    (2.6,0.515) -- (2.65,0.472) -- (2.7,0.427) -- (2.75,0.381) --
+    (2.8,0.334) -- (2.85,0.287) -- (2.9,0.239) -- (2.95,0.19) --
+    (3,0.141) -- (3.05,0.091) -- (3.1,0.041) -- (3.15,-0.008) --
+    (3.2,-0.058) -- (3.25,-0.108) -- (3.3,-0.157);
+
+
+
+
+
+    % y axis
+    \draw[axis arrow] (0,-1.3) -- (0,1.6);
+
+    \pic at (0,1.6) {y mark for vertical axis 1};
+
+
+
+    \node[number on the right and below] at (0,0) {$0$};
+
+
+
+
+
+    % Thicks on x axis
+    \pic at (-3,0) {tick horizontal axis thin 1};
+
+    \node[below] at (-3,0) {$-3$};
+
+
+    \pic at (-2,0) {tick horizontal axis thin};
+
+    \node[below] at (-2,0) {$-2$};
+
+
+    \pic at (-1,0) {tick horizontal axis thin};
+
+    \node[below] at (-1,0) {$-1$};
+
+
+    \pic at (1,0) {tick horizontal axis thin};
+
+    \node[number below x axis] at (1,0) {$1$};
+
+
+    \pic at (2,0) {tick horizontal axis thin};
+
+    \node[below] at (2,0) {$2$};
+
+
+    \pic at (3,0) {tick horizontal axis thin};
+
+    \node[below] at (3,0) {$3$};
+
+
+
+
+
+    % Ticks on y axis
+    \pic at (0,-1) {tick vertical axis thin};
+
+    \node[number on the left of y axis] at (0,-1) {$-1$};
+
+
+    \pic at (0,-0.5) {tick vertical axis thin 1};
+
+    \node[node scale small 2,number on the left of y axis] at (0,-0.5)
+    {$-0.5$};
+
+
+    \pic at (0,0.5) {tick vertical axis thin 1};
+
+    \node[node scale small 2,left] at (0,0.5) {$0.5$};
+
+
+    \pic at (0,1) {tick vertical axis thin};
+
+    \node[left] at (0,1) {$1$};
+
+  \end{tikzpicture}
+
+  \caption{Funkcja $\sin$, $x \in [ -3.3, 3.3 ]$}
+
+
+\end{figure}
+% ##################
+
+
+
+
+
+
+
+
+
+
+% ##################
+\begin{figure}
+
+  \label{fig:cos-function-01}
+
+
+  \centering
+
+  \begin{tikzpicture}
+
+    % x axis
+    \draw[axis arrow] (-0.3,0) -- (7.3,0);
+
+    \pic at (7.3,0) {x mark for horizontal axis 1};
+
+
+
+
+
+    % Graph of cos function
+    \draw[color=blue] (0,1) -- (0.05,0.998) -- (0.1,0.995) -- (0.15,0.988) --
+    (0.2,0.98) -- (0.25,0.968) -- (0.3,0.955) -- (0.35,0.939) --
+    (0.4,0.921) -- (0.45,0.9) -- (0.5,0.877) -- (0.55,0.852) --
+    (0.6,0.825) -- (0.65,0.796) -- (0.7,0.764) -- (0.75,0.731) --
+    (0.8,0.696) -- (0.85,0.659) -- (0.9,0.621) -- (0.95,0.581) --
+    (1,0.54) -- (1.05,0.497) -- (1.1,0.453) -- (1.15,0.408) --
+    (1.2,0.362) -- (1.25,0.315) -- (1.3,0.267) -- (1.35,0.219) --
+    (1.4,0.169) -- (1.45,0.12) -- (1.5,0.07) -- (1.55,0.02) --
+    (1.6,-0.029) -- (1.65,-0.079) -- (1.7,-0.128) -- (1.75,-0.178) --
+    (1.8,-0.227) -- (1.85,-0.275) -- (1.9,-0.323) -- (1.95,-0.37) --
+    (2,-0.416) -- (2.05,-0.461) -- (2.1,-0.504) -- (2.15,-0.547) --
+    (2.2,-0.588) -- (2.25,-0.628) -- (2.3,-0.666) -- (2.35,-0.702) --
+    (2.4,-0.737) -- (2.45,-0.77) -- (2.5,-0.801) -- (2.55,-0.83) --
+    (2.6,-0.856) -- (2.65,-0.881) -- (2.7,-0.904) -- (2.75,-0.924) --
+    (2.8,-0.942) -- (2.85,-0.957) -- (2.9,-0.97) -- (2.95,-0.981) --
+    (3,-0.989) -- (3.05,-0.995) -- (3.1,-0.999) -- (3.15,-0.999) --
+    (3.2,-0.998) -- (3.25,-0.994) -- (3.3,-0.987) -- (3.35,-0.978) --
+    (3.4,-0.966) -- (3.45,-0.952) -- (3.5,-0.936) -- (3.55,-0.917) --
+    (3.6,-0.896) -- (3.65,-0.873) -- (3.7,-0.848) -- (3.75,-0.82) --
+    (3.8,-0.79) -- (3.85,-0.759) -- (3.9,-0.725) -- (3.95,-0.69) --
+    (4,-0.653) -- (4.05,-0.615) -- (4.1,-0.574) -- (4.15,-0.533) --
+    (4.2,-0.49) -- (4.25,-0.446) -- (4.3,-0.4) -- (4.35,-0.354) --
+    (4.4,-0.307) -- (4.45,-0.259) -- (4.5,-0.21) -- (4.55,-0.161) --
+    (4.6,-0.112) -- (4.65,-0.062) -- (4.7,-0.012) -- (4.75,0.037) --
+    (4.8,0.087) -- (4.85,0.137) -- (4.9,0.186) -- (4.95,0.235) --
+    (5,0.283) -- (5.05,0.331) -- (5.1,0.377) -- (5.15,0.423) --
+    (5.2,0.468) -- (5.25,0.512) -- (5.3,0.554) -- (5.35,0.595) --
+    (5.4,0.634) -- (5.45,0.672) -- (5.5,0.708) -- (5.55,0.743) --
+    (5.6,0.775) -- (5.65,0.806) -- (5.7,0.834) -- (5.75,0.861) --
+    (5.8,0.885) -- (5.85,0.907) -- (5.9,0.927) -- (5.95,0.945) --
+    (6,0.96) -- (6.05,0.972) -- (6.1,0.983) -- (6.15,0.991) --
+    (6.2,0.996) -- (6.25,0.999) -- (6.3,0.999);
+
+
+
+
+
+    % y axis
+    \draw[axis arrow] (0,-1.3) -- (0,1.6);
+
+    \pic at (0,1.6) {y mark for vertical axis 1};
+
+    \node[right] at (0,0) {$0$};
+
+
+
+
+
+    % Thicks on x axis
+    \pic at (1,0) {tick horizontal axis thin};
+
+    \node[number below x axis] at (1,0) {$1$};
+
+
+    \pic at (2,0) {tick horizontal axis thin};
+
+    \node[below] at (2,0) {$2$};
+
+
+    \pic at (3,0) {tick horizontal axis thin};
+
+    \node[below] at (3,0) {$3$};
+
+
+    \pic at (4,0) {tick horizontal axis thin};
+
+    \node[below] at (4,0) {$4$};
+
+
+    \pic at (5,0) {tick horizontal axis thin};
+
+    \node[below] at (5,0) {$5$};
+
+
+    \pic at (6,0) {tick horizontal axis thin};
+
+    \node[below] at (6,0) {$6$};
+
+
+
+
+
+    % Ticks on y axis
+    \pic at (0,-1) {tick vertical axis thin};
+
+    \node[left] at (0,-1) {$-1$};
+
+
+    \pic at (0,-0.5) {tick vertical axis thin 1};
+
+    \node[node scale small 2,left] at (0,-0.5) {$-0.5$};
+
+
+    \pic at (0,0.5) {tick vertical axis thin 1};
+
+    \node[node scale small 2,left] at (0,0.5) {$0.5$};
+
+
+    \pic at (0,1) {tick vertical axis thin};
+
+    \node[left] at (0,1) {$1$};
+
+  \end{tikzpicture}
+
+  \caption{Funkcja $\cos$, $x \in [ 0, 6.3 ]$}
+
+
+\end{figure}
+% ##################
+
+
+
+
+
+% ##################
+\begin{figure}
+
+  \label{fig:co-function-02}
+
+
+  \centering
+
+  \begin{tikzpicture}
+
+    % x axis
+    \draw[axis arrow] (-3.6,0) -- (4.3,0);
+
+    \pic at (4.3,0) {x mark for horizontal axis 1};
+
+
+
+
+
+    % Graph of cos function
+    \draw[color=blue] (-3.3,-0.987) -- (-3.25,-0.994) -- (-3.2,-0.998) --
+    (-3.15,-0.999) -- (-3.1,-0.999) -- (-3.05,-0.995) -- (-3,-0.989) --
+    (-2.95,-0.981) -- (-2.9,-0.97) -- (-2.85,-0.957) -- (-2.8,-0.942) --
+    (-2.75,-0.924) -- (-2.7,-0.904) -- (-2.65,-0.881) -- (-2.6,-0.856) --
+    (-2.55,-0.83) -- (-2.5,-0.801) -- (-2.45,-0.77) -- (-2.4,-0.737) --
+    (-2.35,-0.702) -- (-2.3,-0.666) -- (-2.25,-0.628) -- (-2.2,-0.588) --
+    (-2.15,-0.547) -- (-2.1,-0.504) -- (-2.05,-0.461) -- (-2,-0.416) --
+    (-1.95,-0.37) -- (-1.9,-0.323) -- (-1.85,-0.275) -- (-1.8,-0.227) --
+    (-1.75,-0.178) -- (-1.7,-0.128) -- (-1.65,-0.079) -- (-1.6,-0.029) --
+    (-1.55,0.02) -- (-1.5,0.07) -- (-1.45,0.12) -- (-1.4,0.169) --
+    (-1.35,0.219) -- (-1.3,0.267) -- (-1.25,0.315) -- (-1.2,0.362) --
+    (-1.15,0.408) -- (-1.1,0.453) -- (-1.05,0.497) --
+    (3.3,-0.987);
+
+
+
+
+
+
+    % y axis
+    \draw[axis arrow] (0,-1.3) -- (0,1.6);
+
+    \pic at (0,1.6) {y mark for vertical axis 1};
+
+
+
+    \node[number on the right and below] at (0,0) {$0$};
+
+
+
+
+
+    % Thicks on x axis
+    \pic at (-3,0) {tick horizontal axis thin 1};
+
+    \node[below] at (-3,0) {$-3$};
+
+
+    \pic at (-2,0) {tick horizontal axis thin};
+
+    \node[below] at (-2,0) {$-2$};
+
+
+    \pic at (-1,0) {tick horizontal axis thin};
+
+    \node[below] at (-1,0) {$-1$};
+
+
+    \pic at (1,0) {tick horizontal axis thin};
+
+    \node[number below x axis] at (1,0) {$1$};
+
+
+    \pic at (2,0) {tick horizontal axis thin};
+
+    \node[below] at (2,0) {$2$};
+
+
+    \pic at (3,0) {tick horizontal axis thin};
+
+    \node[below] at (3,0) {$3$};
+
+
+
+
+
+    % Ticks on y axis
+    \pic at (0,-1) {tick vertical axis thin};
+
+    \node[number on the left of y axis] at (0,-1) {$-1$};
+
+
+    \pic at (0,-0.5) {tick vertical axis thin 1};
+
+    \node[node scale small 2,number on the left of y axis] at (0,-0.5)
+    {$-0.5$};
+
+
+    \pic at (0,0.5) {tick vertical axis thin 1};
+
+    \node[node scale small 2,left] at (0,0.5) {$0.5$};
+
+
+    \pic at (0,1) {tick vertical axis thin};
+
+    \node[left] at (0,1) {$1$};
+
+  \end{tikzpicture}
+
+  \caption{Funkcja $\cos$, $x \in [ -3.3, 3.3 ]$}
+
+
+\end{figure}
+% ##################
+
+
+
+
+
+
+
+
+
+
+% ####################################################################
+% ####################################################################
+% Bibliography
+
+% \printbibliography
+
+
+
+
+
+% ############################
+% End of the document
+
+\end{document}

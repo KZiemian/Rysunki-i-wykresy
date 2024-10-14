@@ -86,15 +86,15 @@
 % ------------------------------------------------------
 % Package biblatex, with biber as its backend, allow us to handle
 % bibliography entries that use Unicode symbols outside ASCII
-\usepackage[
-language=polish,
-backend=biber,
-style=alphabetic,
-url=false,
-eprint=true,
-]{biblatex}
+% \usepackage[
+% language=polish,
+% backend=biber,
+% style=alphabetic,
+% url=false,
+% eprint=true,
+% ]{biblatex}
 
-\addbibresource{Logika-i-teoria-mnogości-Bibliography.bib}
+% \addbibresource{Logika-i-teoria-mnogości-Bibliography.bib}
 
 
 
@@ -208,6 +208,15 @@ eprint=true,
 
   \begin{tikzpicture}
 
+    % x axis
+    \draw[axis arrow] (-0.3,0) -- (11,0);
+
+    \pic at (11,0) {x mark for horizontal axis 1};
+
+
+
+
+
     % Graph of Bessel function of zeroth order
     \draw[color=blue] (0,1) -- (0.05,0.999) -- (0.1,0.997) --
     (0.15,0.994) -- (0.2,0.99) -- (0.25,0.984) -- (0.3,0.977) --
@@ -265,16 +274,10 @@ eprint=true,
 
 
 
-    % x axis
-    \draw[axis arrow] (-0.3,0) -- (11,0);
-
-    \pic at (11,0) {x mark for x axis 1};
-
-
     % y axis
     \draw[axis arrow] (0,-1.3) -- (0,1.6);
 
-    \pic at (0,1.6) {y mark for y axis 1};
+    \pic at (0,1.6) {y mark for vertical axis 1};
 
 
 
@@ -283,19 +286,9 @@ eprint=true,
 
 
     % Thicks on x axis
-    \pic at (0.5,0) {tick x axis thin 1};
-
-    \node[node scale small 2,number below x axis] at (0.5,0) {$0.5$};
-
-
     \pic at (1,0) {tick x axis thin};
 
     \node[number below x axis] at (1,0) {$1$};
-
-
-    \pic at (1.5,0) {tick x axis thin 1};
-
-    \node[node scale small 2,number below x axis] at (1.5,0) {$1.5$};
 
 
     \pic at (2,0) {tick x axis thin};
@@ -303,19 +296,9 @@ eprint=true,
     \node[number below x axis] at (2,0) {$2$};
 
 
-    \pic at (2.5,0) {tick x axis thin};
-
-    \node[node scale small 2,number below x axis] at (2.5,0) {$2.5$};
-
-
     \pic at (3,0) {tick x axis thin};
 
     \node[number below x axis] at (3,0) {$3$};
-
-
-    \pic at (3.5,0) {tick x axis thin};
-
-    \node[node scale small 2,number below x axis] at (3.5,0) {$3.5$};
 
 
     \pic at (4,0) {tick x axis thin};
@@ -323,19 +306,9 @@ eprint=true,
     \node[number below x axis] at (4,0) {$4$};
 
 
-    \pic at (4.5,0) {tick x axis thin};
-
-    \node[node scale small 2,number below x axis] at (4.5,0) {$4.5$};
-
-
     \pic at (5,0) {tick x axis thin};
 
     \node[number below x axis] at (5,0) {$5$};
-
-
-    \pic at (5.5,0) {tick x axis thin};
-
-    \node[node scale small 2,number below x axis] at (5.5,0) {$5.5$};
 
 
     \pic at (6,0) {tick x axis thin};
@@ -343,19 +316,9 @@ eprint=true,
     \node[number below x axis] at (6,0) {$6$};
 
 
-    \pic at (6.5,0) {tick x axis thin};
-
-    \node[node scale small 2,number below x axis] at (6.5,0) {$6.5$};
-
-
     \pic at (7,0) {tick x axis thin};
 
     \node[number below x axis] at (7,0) {$7$};
-
-
-    \pic at (7.5,0) {tick x axis thin};
-
-    \node[node scale small 2,number below x axis] at (7.5,0) {$7.5$};
 
 
     \pic at (8,0) {tick x axis thin};
@@ -363,19 +326,9 @@ eprint=true,
     \node[number below x axis] at (8,0) {$8$};
 
 
-    \pic at (8.5,0) {tick x axis thin};
-
-    \node[node scale small 2,number below x axis] at (8.5,0) {$8.5$};
-
-
     \pic at (9,0) {tick x axis thin};
 
     \node[number below x axis] at (9,0) {$9$};
-
-
-    \pic at (9.5,0) {tick x axis thin};
-
-    \node[node scale small 2,number below x axis] at (9.5,0) {$9.5$};
 
 
     \pic at (10,0) {tick x axis thin};
@@ -429,6 +382,15 @@ eprint=true,
   \centering
 
   \begin{tikzpicture}
+
+    % x axis
+    \draw[axis arrow] (9.7,0) -- (21,0);
+
+    \pic at (21,0) {x mark for horizontal axis 1};
+
+
+
+
 
     % Graph of Bessel function of zeroth order
     \draw[color=blue] (10,-0.245) -- (10.05,-0.247) -- (10.1,-0.249) --
@@ -487,16 +449,10 @@ eprint=true,
 
 
 
-    % x axis
-    \draw[axis arrow] (9.7,0) -- (21,0);
-
-    \pic at (21,0) {x mark for x axis 1};
-
-
     % y axis
     \draw[axis arrow] (10,-1.3) -- (10,1.6);
 
-    \pic at (10,1.6) {y mark for y axis 1};
+    \pic at (10,1.6) {y mark for vertical axis 1};
 
 
 
@@ -592,6 +548,11 @@ eprint=true,
 
 
 
+
+
+
+
+
 % ##################
 \begin{figure}
 
@@ -601,6 +562,15 @@ eprint=true,
   \centering
 
   \begin{tikzpicture}
+
+    % x axis
+    \draw[axis arrow] (-0.3,0) -- (11,0);
+
+    \pic at (11,0) {x mark for horizontal axis 1};
+
+
+
+
 
     % Graph of Bessel function of first order
     \draw[color=blue] (0,0) -- (0.05,0.024) -- (0.1,0.049) --
@@ -659,16 +629,10 @@ eprint=true,
 
 
 
-    % x axis
-    \draw[axis arrow] (-0.3,0) -- (11,0);
-
-    \pic at (11,0) {x mark for x axis 1};
-
-
     % y axis
     \draw[axis arrow] (0,-1.3) -- (0,1.6);
 
-    \pic at (0,1.6) {y mark for y axis 1};
+    \pic at (0,1.6) {y mark for vertical axis 1};
 
 
 
@@ -677,19 +641,9 @@ eprint=true,
 
 
     % Thicks on x axis
-    \pic at (0.5,0) {tick x axis thin 1};
-
-    \node[node scale small 2,number below x axis] at (0.5,0) {$0.5$};
-
-
     \pic at (1,0) {tick x axis thin};
 
     \node[number below x axis] at (1,0) {$1$};
-
-
-    \pic at (1.5,0) {tick x axis thin 1};
-
-    \node[node scale small 2,number below x axis] at (1.5,0) {$1.5$};
 
 
     \pic at (2,0) {tick x axis thin};
@@ -697,19 +651,9 @@ eprint=true,
     \node[number below x axis] at (2,0) {$2$};
 
 
-    \pic at (2.5,0) {tick x axis thin};
-
-    \node[node scale small 2,number below x axis] at (2.5,0) {$2.5$};
-
-
     \pic at (3,0) {tick x axis thin};
 
     \node[number below x axis] at (3,0) {$3$};
-
-
-    \pic at (3.5,0) {tick x axis thin};
-
-    \node[node scale small 2,number below x axis] at (3.5,0) {$3.5$};
 
 
     \pic at (4,0) {tick x axis thin};
@@ -717,19 +661,9 @@ eprint=true,
     \node[number below x axis] at (4,0) {$4$};
 
 
-    \pic at (4.5,0) {tick x axis thin};
-
-    \node[node scale small 2,number below x axis] at (4.5,0) {$4.5$};
-
-
     \pic at (5,0) {tick x axis thin};
 
     \node[number below x axis] at (5,0) {$5$};
-
-
-    \pic at (5.5,0) {tick x axis thin};
-
-    \node[node scale small 2,number below x axis] at (5.5,0) {$5.5$};
 
 
     \pic at (6,0) {tick x axis thin};
@@ -737,19 +671,9 @@ eprint=true,
     \node[number below x axis] at (6,0) {$6$};
 
 
-    \pic at (6.5,0) {tick x axis thin};
-
-    \node[node scale small 2,number below x axis] at (6.5,0) {$6.5$};
-
-
     \pic at (7,0) {tick x axis thin};
 
     \node[number below x axis] at (7,0) {$7$};
-
-
-    \pic at (7.5,0) {tick x axis thin};
-
-    \node[node scale small 2,number below x axis] at (7.5,0) {$7.5$};
 
 
     \pic at (8,0) {tick x axis thin};
@@ -757,19 +681,9 @@ eprint=true,
     \node[number below x axis] at (8,0) {$8$};
 
 
-    \pic at (8.5,0) {tick x axis thin};
-
-    \node[node scale small 2,number below x axis] at (8.5,0) {$8.5$};
-
-
     \pic at (9,0) {tick x axis thin};
 
     \node[number below x axis] at (9,0) {$9$};
-
-
-    \pic at (9.5,0) {tick x axis thin};
-
-    \node[node scale small 2,number below x axis] at (9.5,0) {$9.5$};
 
 
     \pic at (10,0) {tick x axis thin};
@@ -823,6 +737,15 @@ eprint=true,
   \centering
 
   \begin{tikzpicture}
+
+    % x axis
+    \draw[axis arrow] (9.7,0) -- (21,0);
+
+    \pic at (21,0) {x mark for horizontal axis 1};
+
+
+
+
 
     % Graph of Bessel function of first order
     \draw[color=blue] (10,0.043) -- (10.05,0.018) -- (10.1,0.018) --
@@ -881,16 +804,10 @@ eprint=true,
 
 
 
-    % x axis
-    \draw[axis arrow] (9.7,0) -- (21,0);
-
-    \pic at (21,0) {x mark for x axis 1};
-
-
     % y axis
     \draw[axis arrow] (10,-1.3) -- (10,1.6);
 
-    \pic at (10,1.6) {y mark for y axis 1};
+    \pic at (10,1.6) {y mark for vertical axis 1};
 
 
 
@@ -986,6 +903,11 @@ eprint=true,
 
 
 
+
+
+
+
+
 % ##################
 \begin{figure}
 
@@ -995,6 +917,15 @@ eprint=true,
   \centering
 
   \begin{tikzpicture}
+
+    % x axis
+    \draw[axis arrow] (-0.3,0) -- (11,0);
+
+    \pic at (11,0) {x mark for horizontal axis 1};
+
+
+
+
 
     % Graph of Bessel function of second order
     \draw[color=blue] (0,0) -- (0.05,0) -- (0.1,0.001) -- (0.15,0.002) --
@@ -1053,16 +984,10 @@ eprint=true,
 
 
 
-    % x axis
-    \draw[axis arrow] (-0.3,0) -- (11,0);
-
-    \pic at (11,0) {x mark for x axis 1};
-
-
     % y axis
     \draw[axis arrow] (0,-1.3) -- (0,1.6);
 
-    \pic at (0,1.6) {y mark for y axis 1};
+    \pic at (0,1.6) {y mark for vertical axis 1};
 
 
 
@@ -1168,6 +1093,15 @@ eprint=true,
 
   \begin{tikzpicture}
 
+    % x axis
+    \draw[axis arrow] (9.7,0) -- (21,0);
+
+    \pic at (21,0) {x mark for horizontal axis 1};
+
+
+
+
+
     % Graph of Bessel function of second order
     \draw[color=blue] (10,0.254) -- (10.05,0.253) -- (10.1,0.252) --
     (10.15,0.25) -- (10.2,0.248) -- (10.25,0.245) -- (10.3,0.241) --
@@ -1225,16 +1159,10 @@ eprint=true,
 
 
 
-    % x axis
-    \draw[axis arrow] (9.7,0) -- (21,0);
-
-    \pic at (21,0) {x mark for x axis 1};
-
-
     % y axis
     \draw[axis arrow] (10,-1.3) -- (10,1.6);
 
-    \pic at (10,1.6) {y mark for y axis 1};
+    \pic at (10,1.6) {y mark for vertical axis 1};
 
 
 
@@ -1330,6 +1258,354 @@ eprint=true,
 
 
 
+
+
+
+
+
+% ##################
+\begin{figure}
+
+  \label{fig:Bessel-function-third-order-Part-I}
+
+
+  \centering
+
+  \begin{tikzpicture}
+
+    % x axis
+    \draw[axis arrow] (-0.3,0) -- (11,0);
+
+    \pic at (11,0) {x mark for horizontal axis 1};
+
+
+
+
+
+    % Graph of Bessel function of third order
+    \draw[color=blue] (0,0) -- (0.35,0) -- (0.4,0.001) -- (0.45,0.001) --
+    (0.5,0.002) -- (0.55,0.003) -- (0.6,0.004) -- (0.65,0.005) --
+    (0.7,0.007) -- (0.75,0.008) -- (0.8,0.01) -- (0.85,0.012) --
+    (0.9,0.014) -- (0.95,0.016) -- (1,0.019) -- (1.05,0.022) --
+    (1.1,0.025) -- (1.15,0.029) -- (1.2,0.032) -- (1.25,0.036) --
+    (1.3,0.041) -- (1.35,0.045) -- (1.4,0.05) -- (1.45,0.055) --
+    (1.5,0.06) -- (1.55,0.066) -- (1.6,0.072) -- (1.65,0.078) --
+    (1.7,0.085) -- (1.75,0.091) -- (1.8,0.098) -- (1.85,0.105) --
+    (1.9,0.113) -- (1.95,0.121) -- (2,0.128) -- (2.05,0.137) --
+    (2.1,0.145) -- (2.15,0.153) -- (2.2,0.162) -- (2.25,0.171) --
+    (2.3,0.179) -- (2.35,0.188) -- (2.4,0.198) -- (2.45,0.207) --
+    (2.5,0.216) -- (2.55,0.225) -- (2.6,0.235) -- (2.65,0.244) --
+    (2.7,0.254) -- (2.75,0.263) -- (2.8,0.272) -- (2.85,0.281) --
+    (2.9,0.291) -- (2.95,0.3) -- (3,0.309) -- (3.05,0.317) --
+    (3.1,0.326) -- (3.15,0.334) -- (3.2,0.343) -- (3.25,0.351) --
+    (3.3,0.358) -- (3.35,0.366) -- (3.4,0.373) -- (3.45,0.38) --
+    (3.5,0.386) -- (3.55,0.392) -- (3.6,0.398) -- (3.65,0.404) --
+    (3.7,0.409) -- (3.75,0.413) -- (3.8,0.418) -- (3.85,0.421) --
+    (3.9,0.427) -- (3.95,0.427) -- (4,0.43) -- (4.05,0.431) --
+    (4.1,0.433) -- (4.15,0.434) -- (4.2,0.434) -- (4.25,0.434) --
+    (4.3,0.433) -- (4.35,0.432) -- (4.4,0.43) -- (4.45,0.427) --
+    (4.5,0.424) -- (4.55,0.421) -- (4.6,0.417) -- (4.65,0.412) --
+    (4.7,0.407) -- (4.75,0.401) -- (4.8,0.395) -- (4.85,0.388) --
+    (4.9,0.381) -- (4.95,0.373) -- (5,0.364) -- (5.05,0.355) --
+    (5.1,0.346) -- (5.15,0.336) -- (5.2,0.326) -- (5.25,0.315) --
+    (5.3,0.304) -- (5.35,0.293) -- (5.4,0.281) -- (5.45,0.268) --
+    (5.5,0.256) -- (5.55,0.243) -- (5.6,0.229) -- (5.65,0.216) --
+    (5.7,0.202) -- (5.75,0.188) -- (5.8,0.173) -- (5.85,0.159) --
+    (5.9,0.144) -- (5.95,0.129) -- (6,0.114) -- (6.05,0.099) --
+    (6.1,0.084) -- (6.15,0.069) -- (6.2,0.054) -- (6.25,0.039) --
+    (6.3,0.024) -- (6.35,0.009) -- (6.4,-0.005) -- (6.45,-0.02) --
+    (6.5,-0.035) -- (6.55,-0.049) -- (6.6,-0.064) -- (6.65,-0.078) --
+    (6.7,-0.091) -- (6.75,-0.105) -- (6.8,-0.118) -- (6.85,-0.131) --
+    (6.9,-0.143) -- (6.95,-0.155) -- (7,-0.167) -- (7.05,-0.178) --
+    (7.1,-0.189) -- (7.15,-0.199) -- (7.2,-0.209) -- (7.25,-0.219) --
+    (7.3,-0.228) -- (7.35,-0.236) -- (7.4,-0.244) -- (7.45,-0.251) --
+    (7.5,-0.258) -- (7.55,-0.264) -- (7.6,-0.269) -- (7.65,-0.274) --
+    (7.7,-0.278) -- (7.75,-0.282) -- (7.8,-0.285) -- (7.85,-0.287) --
+    (7.9,-0.289) -- (7.95,-0.29) -- (8,-0.291) -- (8.05,-0.291) --
+    (8.1,-0.29) -- (8.15,-0.288) -- (8.2,-0.286) -- (8.25,-0.284) --
+    (8.3,-0.281) -- (8.35,-0.277) -- (8.4,-0.273) -- (8.45,-0.268) --
+    (8.5,-0.262) -- (8.55,-0.256) -- (8.6,-0.25) -- (8.65,-0.242) --
+    (8.7,-0.235) -- (8.75,-0.227) -- (8.8,-0.218) -- (8.85,-0.21) --
+    (8.9,-0.2) -- (8.95,-0.191) -- (9.0,-0.18) -- (9.05,-0.17) --
+    (9.1,-0.159) -- (9.15,-0.148) -- (9.2,-0.137) -- (9.25,-0.125) --
+    (9.3,-0.114) -- (9.35,-0.102) -- (9.4,-0.089) -- (9.45,-0.077) --
+    (9.5,-0.065) -- (9.55,-0.052) -- (9.6,-0.04) -- (9.65,-0.027) --
+    (9.7,-0.015) -- (9.75,-0.002) -- (9.8,0.009) -- (9.85,0.022) --
+    (9.9,0.034) -- (9.95,0.046) -- (10,0.058);
+
+
+
+
+
+    % y axis
+    \draw[axis arrow] (0,-1.3) -- (0,1.6);
+
+    \pic at (0,1.6) {y mark for vertical axis 1};
+
+
+
+    \node[number on the right and below] at (0,0) {$0$};
+
+
+
+    % Thicks on x axis
+    \pic at (1,0) {tick x axis thin};
+
+    \node[number below x axis] at (1,0) {$1$};
+
+
+    \pic at (2,0) {tick x axis thin};
+
+    \node[number below x axis] at (2,0) {$2$};
+
+
+    \pic at (3,0) {tick x axis thin};
+
+    \node[number below x axis] at (3,0) {$3$};
+
+
+    \pic at (4,0) {tick x axis thin};
+
+    \node[number below x axis] at (4,0) {$4$};
+
+
+    \pic at (5,0) {tick x axis thin};
+
+    \node[number below x axis] at (5,0) {$5$};
+
+
+    \pic at (6,0) {tick x axis thin};
+
+    \node[number below x axis] at (6,0) {$6$};
+
+
+    \pic at (7,0) {tick x axis thin};
+
+    \node[number below x axis] at (7,0) {$7$};
+
+
+    \pic at (8,0) {tick x axis thin};
+
+    \node[number below x axis] at (8,0) {$8$};
+
+
+    \pic at (9,0) {tick x axis thin};
+
+    \node[number below x axis] at (9,0) {$9$};
+
+
+    \pic at (10,0) {tick x axis thin};
+
+    \node[number below x axis] at (10,0) {$10$};
+
+
+
+
+
+    % Ticks on y axis
+    \pic at (0,-1) {tick y axis thin};
+
+    \node[number on the left of y axis] at (0,-1) {$-1$};
+
+
+    \pic at (0,-0.5) {tick y axis thin 1};
+
+    \node[node scale small 2,number on the left of y axis] at (0,-0.5)
+    {$-0.5$};
+
+
+    \pic at (0,0.5) {tick y axis thin 1};
+
+    \node[node scale small 2,number on the left of y axis] at (0,0.5)
+    {$0.5$};
+
+
+    \pic at (0,1) {tick y axis thin};
+
+    \node[number on the left of y axis] at (0,1) {$1$};
+
+  \end{tikzpicture}
+
+  \caption{Funkcja Bessela $J_{ 3 }$, część~I}
+
+
+\end{figure}
+% ##################
+
+
+
+
+
+% ##################
+\begin{figure}
+
+  \label{fig:Bessel-function-second-order-Part-II}
+
+
+  \centering
+
+  \begin{tikzpicture}
+
+    % x axis
+    \draw[axis arrow] (9.7,0) -- (21,0);
+
+    \pic at (21,0) {x mark for horizontal axis 1};
+
+
+
+
+
+    % Graph of Bessel function of third order
+    \draw[color=blue] (10,0.058) -- (10.05,0.07) -- (10.1,0.081) --
+    (10.15,0.092) -- (10.2,0.103) -- (10.25,0.114) -- (10.3,0.125) --
+    (10.35,0.135) -- (10.4,0.144) -- (10.45,0.154) -- (10.5,0.163) --
+    (10.55,0.171) -- (10.6,0.179) -- (10.65,0.187) -- (10.7,0.194) --
+    (10.75,0.201) -- (10.8,0.207) -- (10.85,0.213) -- (10.9,0.218) --
+    (10.95,0.223) -- (11,0.227) -- (11.05,0.23) -- (11.1,0.233) --
+    (11.15,0.236) -- (11.2,0.238) -- (11.25,0.239) -- (11.3,0.24) --
+    (11.35,0.24) -- (11.4,0.24) -- (11.45,0.239) -- (11.5,0.238) --
+    (11.55,0.236) -- (11.6,0.233) -- (11.65,0.23) -- (11.7,0.226) --
+    (11.75,0.222) -- (11.8,0.218) -- (11.85,0.213) -- (11.9,0.207) --
+    (11.95,0.201) -- (12,0.195) -- (12.05,0.188) -- (12.1,0.18) --
+    (12.15,0.173) -- (12.2,0.165) -- (12.25,0.156) -- (12.3,0.147) --
+    (12.35,0.138) -- (12.4,0.128) -- (12.45,0.119) -- (12.5,0.11) --
+    (12.55,0.099) -- (12.6,0.089) -- (12.65,0.079) -- (12.7,0.068) --
+    (12.75,0.057) -- (12.8,0.047) -- (12.85,0.036) -- (12.9,0.025) --
+    (12.95,0.014) -- (13,0.003) -- (13.05,-0.007) -- (13.1,-0.018) --
+    (13.15,-0.029) -- (13.2,-0.039) -- (13.25,-0.05) -- (13.3,-0.06) --
+    (13.35,-0.07) -- (13.4,0-0.08) -- (13.45,-0.09) -- (13.5,-0.1) --
+    (13.55,-0.109) -- (13.6,-0.118) -- (13.65,-0.126) -- (13.7,-0.135) --
+    (13.75,-0.143) -- (13.8,-0.15) -- (13.85,-0.157) -- (13.9,-0.164) --
+    (13.95,-0.17) -- (14,-0.176) -- (14.05,-0.182) -- (14.1,-0.187) --
+    (14.15,-0.191) -- (14.2,-0.195) -- (14.25,-0.199) -- (14.3,-0.202) --
+    (14.35,-0.205) -- (14.4,-0.207) -- (14.45,-0.209) -- (14.5,-0.21) --
+    (14.55,-0.21) -- (14.6,-0.21) -- (14.65,-0.21) -- (14.7,-0.209) --
+    (14.75,-0.208) -- (14.8,-0.206) -- (14.85,-0.203) -- (14.9,-0.201) --
+    (14.95,-0.197) -- (15,-0.194) -- (15.05,-0.189) -- (15.1,-0.185) --
+    (15.15,-0.179) -- (15.2,-0.174) -- (15.25,-0.168) -- (15.3,-0.162) --
+    (15.35,-0.155) -- (15.4,-0.148) -- (15.45,-0.141) -- (15.5,-0.133) --
+    (15.55,-0.125) -- (15.6,-0.117) -- (15.65,-0.108) -- (15.7,-0.099) --
+    (15.75,-0.091) -- (15.8,-0.081) -- (15.85,-0.072) -- (15.9,-0.063) --
+    (15.95,-0.053) -- (16,-0.043) -- (16.05,-0.034) -- (16.1,-0.024) --
+    (16.15,-0.014) -- (16.2,-0.004) -- (16.25,0.005) -- (16.3,0.014) --
+    (16.35,0.024) -- (16.4,0.034) -- (16.45,0.043) -- (16.5,0.053) --
+    (16.55,0.062) -- (16.6,0.071) -- (16.65,0.08) -- (16.7,0.088) --
+    (16.75,0.097) -- (16.8,0.105) -- (16.85,0.113) -- (16.9,0.12) --
+    (16.95,0.128) -- (17,0.134) -- (17.05,0.141) -- (17.1,0.147) --
+    (17.15,0.153) -- (17.2,0.158) -- (17.25,0.163) -- (17.3,0.168) --
+    (17.35,0.172) -- (17.4,0.176) -- (17.45,0.179) -- (17.5,0.182) --
+    (17.55,0.185) -- (17.6,0.187) -- (17.65,0.188) -- (17.7,0.189) --
+    (17.75,0.19) -- (17.8,0.19) -- (17.85,0.19) -- (17.9,0.189) --
+    (17.95,0.188) -- (18,0.186) -- (18.05,0.184) -- (18.1,0.181) --
+    (18.15,0.178) -- (18.2,0.175) -- (18.25,0.171) -- (18.3,0.166) --
+    (18.35,0.162) -- (18.4,0.157) -- (18.45,0.151) -- (18.5,0.146) --
+    (18.55,0.139) -- (18.6,0.133) -- (18.65,0.126) -- (18.7,0.119) --
+    (18.75,0.112) -- (18.8,0.104) -- (18.85,0.097) -- (18.9,0.089) --
+    (18.95,0.08) -- (19,0.072) -- (19.05,0.063) -- (19.1,0.055) --
+    (19.15,0.046) -- (19.2,0.037) -- (19.25,0.028) -- (19.3,0.019) --
+    (19.35,0.01) -- (19.4,0.001) -- (19.45,-0.007) -- (19.5,-0.016) --
+    (19.55,-0.025) -- (19.6,-0.033) -- (19.65,-0.042) -- (19.7,-0.051) --
+    (19.75,-0.059) -- (19.8,-0.067) -- (19.85,-0.075) -- (19.9,-0.083) --
+    (19.95,-0.091) -- (20,-0.098);
+
+
+
+
+
+    % y axis
+    \draw[axis arrow] (10,-1.3) -- (10,1.6);
+
+    \pic at (10,1.6) {y mark for vertical axis 1};
+
+
+
+    \node[number on the right and below] at (10,0) {$10$};
+
+
+
+    % Thicks on x axis
+    \pic at (11,0) {tick x axis thin};
+
+    \node[number below x axis] at (11,0) {$11$};
+
+
+    \pic at (12,0) {tick x axis thin};
+
+    \node[number below x axis] at (12,0) {$12$};
+
+
+    \pic at (13,0) {tick x axis thin};
+
+    \node[number below x axis] at (13,0) {$13$};
+
+
+    \pic at (14,0) {tick x axis thin};
+
+    \node[number below x axis] at (14,0) {$14$};
+
+
+    \pic at (15,0) {tick x axis thin};
+
+    \node[number below x axis] at (15,0) {$15$};
+
+
+    \pic at (16,0) {tick x axis thin};
+
+    \node[number below x axis] at (16,0) {$16$};
+
+
+    \pic at (17,0) {tick x axis thin};
+
+    \node[number below x axis] at (17,0) {$17$};
+
+
+    \pic at (18,0) {tick x axis thin};
+
+    \node[number below x axis] at (18,0) {$18$};
+
+
+    \pic at (19,0) {tick x axis thin};
+
+    \node[number below x axis] at (19,0) {$19$};
+
+
+    \pic at (20,0) {tick x axis thin};
+
+    \node[number below x axis] at (20,0) {$20$};
+
+
+
+
+
+    % Ticks on y axis
+    \pic at (10,-1) {tick y axis thin};
+
+    \node[number on the left of y axis] at (10,-1) {$-1$};
+
+
+    \pic at (10,-0.5) {tick y axis thin 1};
+
+    \node[node scale small 2,number on the left of y axis] at (10,-0.5)
+    {$-0.5$};
+
+
+    \pic at (10,0.5) {tick y axis thin 1};
+
+    \node[node scale small 2,number on the left of y axis] at (10,0.5)
+    {$0.5$};
+
+
+    \pic at (10,1) {tick y axis thin};
+
+    \node[number on the left of y axis] at (10,1) {$1$};
+
+  \end{tikzpicture}
+
+  \caption{Funkcja Bessela $J_{ 3 }$, część~II}
+
+
+\end{figure}
+% ##################
 
 
 
