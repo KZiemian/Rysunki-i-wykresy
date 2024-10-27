@@ -209,9 +209,9 @@
   \begin{tikzpicture}
 
     % x axis
-    \draw[axis arrow] (-0.3,0) -- (11,0);
+    \draw[axis arrow] (-0.3,0) -- (12,0);
 
-    \pic at (11,0) {x mark for horizontal axis 1};
+    \pic at (12,0) {x mark for horizontal axis 1};
 
 
 
@@ -268,7 +268,9 @@
     (9.35,-0.167) -- (9.4,-0.176) -- (9.45,-0.185) -- (9.5,-0.193) --
     (9.55,-0.201) -- (9.6,-0.208) -- (9.65,-0.215) -- (9.7,-0.221) --
     (9.75,-0.227) -- (9.8,-0.232) -- (9.85,-0.236) -- (9.9,-0.24) --
-    (9.95,-0.243) -- (10,-0.245);
+    (9.95,-0.243) -- (10,-0.245) -- (10.1,-0.249) -- (10.2,-0.249) --
+    (10.3,-0.247) -- (10.4,-0.243) -- (10.5,-0.236) -- (10.6,-0.227) --
+    (10.7,-0.216) -- (10.8,-0.203) -- (10.9,-0.188) -- (11,-0.171);
 
 
 
@@ -286,84 +288,89 @@
 
 
     % Thicks on x axis
-    \pic at (1,0) {tick x axis thin};
+    \pic at (1,0) {tick horizontal axis thin};
 
-    \node[number below x axis] at (1,0) {$1$};
-
-
-    \pic at (2,0) {tick x axis thin};
-
-    \node[number below x axis] at (2,0) {$2$};
+    \node[number below horizontal axis] at (1,0) {$1$};
 
 
-    \pic at (3,0) {tick x axis thin};
+    \pic at (2,0) {tick horizontal axis thin};
 
-    \node[number below x axis] at (3,0) {$3$};
-
-
-    \pic at (4,0) {tick x axis thin};
-
-    \node[number below x axis] at (4,0) {$4$};
+    \node[number below horizontal axis] at (2,0) {$2$};
 
 
-    \pic at (5,0) {tick x axis thin};
+    \pic at (3,0) {tick horizontal axis thin};
 
-    \node[number below x axis] at (5,0) {$5$};
-
-
-    \pic at (6,0) {tick x axis thin};
-
-    \node[number below x axis] at (6,0) {$6$};
+    \node[number below horizontal axis] at (3,0) {$3$};
 
 
-    \pic at (7,0) {tick x axis thin};
+    \pic at (4,0) {tick horizontal axis thin};
 
-    \node[number below x axis] at (7,0) {$7$};
-
-
-    \pic at (8,0) {tick x axis thin};
-
-    \node[number below x axis] at (8,0) {$8$};
+    \node[number below horizontal axis] at (4,0) {$4$};
 
 
-    \pic at (9,0) {tick x axis thin};
+    \pic at (5,0) {tick horizontal axis thin};
 
-    \node[number below x axis] at (9,0) {$9$};
+    \node[number below horizontal axis] at (5,0) {$5$};
 
 
-    \pic at (10,0) {tick x axis thin};
+    \pic at (6,0) {tick horizontal axis thin};
 
-    \node[number below x axis] at (10,0) {$10$};
+    \node[number below horizontal axis] at (6,0) {$6$};
+
+
+    \pic at (7,0) {tick horizontal axis thin};
+
+    \node[number below horizontal axis] at (7,0) {$7$};
+
+
+    \pic at (8,0) {tick horizontal axis thin};
+
+    \node[number below horizontal axis] at (8,0) {$8$};
+
+
+    \pic at (9,0) {tick horizontal axis thin};
+
+    \node[number below horizontal axis] at (9,0) {$9$};
+
+
+    \pic at (10,0) {tick horizontal axis thin};
+
+    \node[number below horizontal axis] at (10,0) {$10$};
+
+
+    \pic at (11,0) {tick horizontal axis thin};
+
+    \node[number below horizontal axis] at (11,0) {$11$};
 
 
 
 
 
     % Ticks on y axis
-    \pic at (0,-1) {tick y axis thin};
+    \pic at (0,-1) {tick vertical axis thin};
 
-    \node[number on the left of y axis] at (0,-1) {$-1$};
-
-
-    \pic at (0,-0.5) {tick y axis thin 1};
-
-    \node[node scale small 2,number on the left of y axis] at (0,-0.5)
-    {$-0.5$};
+    \node[number on the left of vertical axis] at (0,-1) {$-1$};
 
 
-    \pic at (0,0.5) {tick y axis thin 1};
+    \pic at (0,-0.5) {tick vertical axis thin 1};
 
-    \node[node scale small 2,number on the left of y axis] at (0,0.5)
-    {$0.5$};
+    \node[node scale small 2,number on the left of vertical axis]
+    at (0,-0.5) {$-0.5$};
 
 
-    \pic at (0,1) {tick y axis thin};
+    \pic at (0,0.5) {tick vertical axis thin 1};
 
-    \node[number on the left of y axis] at (0,1) {$1$};
+    \node[node scale small 2,number on the left of vertical axis]
+    at (0,0.5) {$0.5$};
+
+
+    \pic at (0,1) {tick vertical axis thin};
+
+    \node[number on the left of vertical axis] at (0,1) {$1$};
 
   \end{tikzpicture}
 
-  \caption{Funkcja Bessela $J_{ 0 }$, część~I}
+  \caption{Funkcja Bessela $J_{ 0 }$, $x \in [ 0, 10 ]$.}
 
 
 \end{figure}
@@ -461,84 +468,219 @@
 
 
     % Thicks on x axis
-    \pic at (11,0) {tick x axis thin};
+    \pic at (11,0) {tick horizontal axis thin};
 
-    \node[number below x axis] at (11,0) {$11$};
-
-
-    \pic at (12,0) {tick x axis thin};
-
-    \node[number below x axis] at (12,0) {$12$};
+    \node[number below horizontal axis] at (11,0) {$11$};
 
 
-    \pic at (13,0) {tick x axis thin};
+    \pic at (12,0) {tick horizontal axis thin};
 
-    \node[number below x axis] at (13,0) {$13$};
-
-
-    \pic at (14,0) {tick x axis thin};
-
-    \node[number below x axis] at (14,0) {$14$};
+    \node[number below horizontal axis] at (12,0) {$12$};
 
 
-    \pic at (15,0) {tick x axis thin};
+    \pic at (13,0) {tick horizontal axis thin};
 
-    \node[number below x axis] at (15,0) {$15$};
-
-
-    \pic at (16,0) {tick x axis thin};
-
-    \node[number below x axis] at (16,0) {$16$};
+    \node[number below horizontal axis] at (13,0) {$13$};
 
 
-    \pic at (17,0) {tick x axis thin};
+    \pic at (14,0) {tick horizontal axis thin};
 
-    \node[number below x axis] at (17,0) {$17$};
-
-
-    \pic at (18,0) {tick x axis thin};
-
-    \node[number below x axis] at (18,0) {$18$};
+    \node[number below horizontal axis] at (14,0) {$14$};
 
 
-    \pic at (19,0) {tick x axis thin};
+    \pic at (15,0) {tick horizontal axis thin};
 
-    \node[number below x axis] at (19,0) {$19$};
+    \node[number below horizontal axis] at (15,0) {$15$};
 
 
-    \pic at (20,0) {tick x axis thin};
+    \pic at (16,0) {tick horizontal axis thin};
 
-    \node[number below x axis] at (20,0) {$20$};
+    \node[number below horizontal axis] at (16,0) {$16$};
+
+
+    \pic at (17,0) {tick horizontal axis thin};
+
+    \node[number below horizontal axis] at (17,0) {$17$};
+
+
+    \pic at (18,0) {tick horizontal axis thin};
+
+    \node[number below horizontal axis] at (18,0) {$18$};
+
+
+    \pic at (19,0) {tick horizontal axis thin};
+
+    \node[number below horizontal axis] at (19,0) {$19$};
+
+
+    \pic at (20,0) {tick horizontal axis thin};
+
+    \node[number below horizontal axis] at (20,0) {$20$};
 
 
 
 
 
     % Ticks on y axis
-    \pic at (10,-1) {tick y axis thin};
+    \pic at (10,-1) {tick vertical axis thin};
 
-    \node[number on the left of y axis] at (10,-1) {$-1$};
-
-
-    \pic at (10,-0.5) {tick y axis thin 1};
-
-    \node[node scale small 2,number on the left of y axis] at (10,-0.5)
-    {$-0.5$};
+    \node[number on the left of vertical axis] at (10,-1) {$-1$};
 
 
-    \pic at (10,0.5) {tick y axis thin 1};
+    \pic at (10,-0.5) {tick vertical axis thin 1};
 
-    \node[node scale small 2,number on the left of y axis] at (10,0.5)
-    {$0.5$};
+    \node[node scale small 2,number on the left of vertical axis]
+    at (10,-0.5) {$-0.5$};
 
 
-    \pic at (10,1) {tick y axis thin};
+    \pic at (10,0.5) {tick vertical axis thin 1};
 
-    \node[number on the left of y axis] at (10,1) {$1$};
+    \node[node scale small 2,number on the left of vertical axis]
+    at (10,0.5) {$0.5$};
+
+
+    \pic at (10,1) {tick vertical axis thin};
+
+    \node[number on the left of vertical axis] at (10,1) {$1$};
 
   \end{tikzpicture}
 
-  \caption{Funkcja Bessela $J_{ 0 }$, część~II}
+  \caption{Funkcja Bessela $J_{ 0 }$, $x \in [ 10, 20 ]$.}
+
+
+\end{figure}
+% ##################
+
+
+
+
+
+% ##################
+\begin{figure}
+
+  \label{fig:Bessel-function-zero-order-Part-III}
+
+
+  \centering
+
+  \begin{tikzpicture}[scale=2]
+
+    % x axis
+    \draw[axis arrow] (-0.3,0) -- (7,0);
+
+    \pic at (7,0) {x mark for horizontal axis 1};
+
+
+
+
+
+    % Graph of Bessel function of zeroth order
+    % \draw[color=blue] (0,1) -- (0.05,0.999) -- (0.1,0.997) --
+
+
+
+
+
+    % y axis
+    \draw[axis arrow] (0,-1.3) -- (0,1.6);
+
+    \pic at (0,1.6) {y mark for vertical axis 1};
+
+
+
+    \node[number on the right and below] at (0,0) {$0$};
+
+
+
+    % Thicks on x axis
+    \pic at (0.5,0) {tick horizontal axis thin 1};
+
+    \node[node scale small 2,below] at (0.5,0) {$0.5$};
+
+
+    \pic at (1,0) {tick horizontal axis thin};
+
+    \node[number below horizontal axis] at (1,0) {$1$};
+
+
+    \pic at (2,0) {tick horizontal axis thin};
+
+    \node[number below horizontal axis] at (2,0) {$2$};
+
+
+    \pic at (3,0) {tick horizontal axis thin};
+
+    \node[number below horizontal axis] at (3,0) {$3$};
+
+
+    \pic at (4,0) {tick horizontal axis thin};
+
+    \node[number below horizontal axis] at (4,0) {$4$};
+
+
+    \pic at (5,0) {tick horizontal axis thin};
+
+    \node[number below horizontal axis] at (5,0) {$5$};
+
+
+    \pic at (6,0) {tick horizontal axis thin};
+
+    \node[number below horizontal axis] at (6,0) {$6$};
+
+
+    % \pic at (7,0) {tick horizontal axis thin};
+
+    % \node[number below horizontal axis] at (7,0) {$7$};
+
+
+    % \pic at (8,0) {tick horizontal axis thin};
+
+    % \node[number below horizontal axis] at (8,0) {$8$};
+
+
+    % \pic at (9,0) {tick horizontal axis thin};
+
+    % \node[number below horizontal axis] at (9,0) {$9$};
+
+
+    % \pic at (10,0) {tick horizontal axis thin};
+
+    % \node[number below horizontal axis] at (10,0) {$10$};
+
+
+    % \pic at (11,0) {tick horizontal axis thin};
+
+    % \node[number below horizontal axis] at (11,0) {$11$};
+
+
+
+
+
+    % Ticks on y axis
+    \pic at (0,-1) {tick vertical axis thin};
+
+    \node[number on the left of vertical axis] at (0,-1) {$-1$};
+
+
+    \pic at (0,-0.5) {tick vertical axis thin 1};
+
+    \node[node scale small 2,number on the left of vertical axis]
+    at (0,-0.5) {$-0.5$};
+
+
+    \pic at (0,0.5) {tick vertical axis thin 1};
+
+    \node[node scale small 2,number on the left of vertical axis]
+    at (0,0.5) {$0.5$};
+
+
+    \pic at (0,1) {tick vertical axis thin};
+
+    \node[number on the left of vertical axis] at (0,1) {$1$};
+
+  \end{tikzpicture}
+
+  \caption{Funkcja Bessela $J_{ 0 }$, $x \in [ 0, 6.5 ]$.}
 
 
 \end{figure}
@@ -641,84 +783,84 @@
 
 
     % Thicks on x axis
-    \pic at (1,0) {tick x axis thin};
+    \pic at (1,0) {tick horizontal axis thin};
 
-    \node[number below x axis] at (1,0) {$1$};
-
-
-    \pic at (2,0) {tick x axis thin};
-
-    \node[number below x axis] at (2,0) {$2$};
+    \node[number below horizontal axis] at (1,0) {$1$};
 
 
-    \pic at (3,0) {tick x axis thin};
+    \pic at (2,0) {tick horizontal axis thin};
 
-    \node[number below x axis] at (3,0) {$3$};
-
-
-    \pic at (4,0) {tick x axis thin};
-
-    \node[number below x axis] at (4,0) {$4$};
+    \node[number below horizontal axis] at (2,0) {$2$};
 
 
-    \pic at (5,0) {tick x axis thin};
+    \pic at (3,0) {tick horizontal axis thin};
 
-    \node[number below x axis] at (5,0) {$5$};
-
-
-    \pic at (6,0) {tick x axis thin};
-
-    \node[number below x axis] at (6,0) {$6$};
+    \node[number below horizontal axis] at (3,0) {$3$};
 
 
-    \pic at (7,0) {tick x axis thin};
+    \pic at (4,0) {tick horizontal axis thin};
 
-    \node[number below x axis] at (7,0) {$7$};
-
-
-    \pic at (8,0) {tick x axis thin};
-
-    \node[number below x axis] at (8,0) {$8$};
+    \node[number below horizontal axis] at (4,0) {$4$};
 
 
-    \pic at (9,0) {tick x axis thin};
+    \pic at (5,0) {tick horizontal axis thin};
 
-    \node[number below x axis] at (9,0) {$9$};
+    \node[number below horizontal axis] at (5,0) {$5$};
 
 
-    \pic at (10,0) {tick x axis thin};
+    \pic at (6,0) {tick horizontal axis thin};
 
-    \node[number below x axis] at (10,0) {$10$};
+    \node[number below horizontal axis] at (6,0) {$6$};
+
+
+    \pic at (7,0) {tick horizontal axis thin};
+
+    \node[number below horizontal axis] at (7,0) {$7$};
+
+
+    \pic at (8,0) {tick horizontal axis thin};
+
+    \node[number below horizontal axis] at (8,0) {$8$};
+
+
+    \pic at (9,0) {tick horizontal axis thin};
+
+    \node[number below horizontal axis] at (9,0) {$9$};
+
+
+    \pic at (10,0) {tick horizontal axis thin};
+
+    \node[number below horizontal axis] at (10,0) {$10$};
 
 
 
 
 
     % Ticks on y axis
-    \pic at (0,-1) {tick y axis thin};
+    \pic at (0,-1) {tick vertical axis thin};
 
-    \node[number on the left of y axis] at (0,-1) {$-1$};
-
-
-    \pic at (0,-0.5) {tick y axis thin 1};
-
-    \node[node scale small 2,number on the left of y axis] at (0,-0.5)
-    {$-0.5$};
+    \node[number on the left of vertical axis] at (0,-1) {$-1$};
 
 
-    \pic at (0,0.5) {tick y axis thin 1};
+    \pic at (0,-0.5) {tick vertical axis thin 1};
 
-    \node[node scale small 2,number on the left of y axis] at (0,0.5)
-    {$0.5$};
+    \node[node scale small 2,number on the left of vertical axis]
+    at (0,-0.5) {$-0.5$};
 
 
-    \pic at (0,1) {tick y axis thin};
+    \pic at (0,0.5) {tick vertical axis thin 1};
 
-    \node[number on the left of y axis] at (0,1) {$1$};
+    \node[node scale small 2,number on the left of vertical axis]
+    at (0,0.5) {$0.5$};
+
+
+    \pic at (0,1) {tick vertical axis thin};
+
+    \node[number on the left of vertical axis] at (0,1) {$1$};
 
   \end{tikzpicture}
 
-  \caption{Funkcja Bessela $J_{ 1 }$, część~I}
+  \caption{Funkcja Bessela $J_{ 1 }$, $x \in [ 0, 10 ]$.}
 
 
 \end{figure}
@@ -816,84 +958,84 @@
 
 
     % Thicks on x axis
-    \pic at (11,0) {tick x axis thin};
+    \pic at (11,0) {tick horizontal axis thin};
 
-    \node[number below x axis] at (11,0) {$11$};
-
-
-    \pic at (12,0) {tick x axis thin};
-
-    \node[number below x axis] at (12,0) {$12$};
+    \node[number below horizontal axis] at (11,0) {$11$};
 
 
-    \pic at (13,0) {tick x axis thin};
+    \pic at (12,0) {tick horizontal axis thin};
 
-    \node[number below x axis] at (13,0) {$13$};
-
-
-    \pic at (14,0) {tick x axis thin};
-
-    \node[number below x axis] at (14,0) {$14$};
+    \node[number below horizontal axis] at (12,0) {$12$};
 
 
-    \pic at (15,0) {tick x axis thin};
+    \pic at (13,0) {tick horizontal axis thin};
 
-    \node[number below x axis] at (15,0) {$15$};
-
-
-    \pic at (16,0) {tick x axis thin};
-
-    \node[number below x axis] at (16,0) {$16$};
+    \node[number below horizontal axis] at (13,0) {$13$};
 
 
-    \pic at (17,0) {tick x axis thin};
+    \pic at (14,0) {tick horizontal axis thin};
 
-    \node[number below x axis] at (17,0) {$17$};
-
-
-    \pic at (18,0) {tick x axis thin};
-
-    \node[number below x axis] at (18,0) {$18$};
+    \node[number below horizontal axis] at (14,0) {$14$};
 
 
-    \pic at (19,0) {tick x axis thin};
+    \pic at (15,0) {tick horizontal axis thin};
 
-    \node[number below x axis] at (19,0) {$19$};
+    \node[number below horizontal axis] at (15,0) {$15$};
 
 
-    \pic at (20,0) {tick x axis thin};
+    \pic at (16,0) {tick horizontal axis thin};
 
-    \node[number below x axis] at (20,0) {$20$};
+    \node[number below horizontal axis] at (16,0) {$16$};
+
+
+    \pic at (17,0) {tick horizontal axis thin};
+
+    \node[number below horizontal axis] at (17,0) {$17$};
+
+
+    \pic at (18,0) {tick horizontal axis thin};
+
+    \node[number below horizontal axis] at (18,0) {$18$};
+
+
+    \pic at (19,0) {tick horizontal axis thin};
+
+    \node[number below horizontal axis] at (19,0) {$19$};
+
+
+    \pic at (20,0) {tick horizontal axis thin};
+
+    \node[number below horizontal axis] at (20,0) {$20$};
 
 
 
 
 
     % Ticks on y axis
-    \pic at (10,-1) {tick y axis thin};
+    \pic at (10,-1) {tick vertical axis thin};
 
-    \node[number on the left of y axis] at (10,-1) {$-1$};
-
-
-    \pic at (10,-0.5) {tick y axis thin 1};
-
-    \node[node scale small 2,number on the left of y axis] at (10,-0.5)
-    {$-0.5$};
+    \node[number on the left of vertical axis] at (10,-1) {$-1$};
 
 
-    \pic at (10,0.5) {tick y axis thin 1};
+    \pic at (10,-0.5) {tick vertical axis thin 1};
 
-    \node[node scale small 2,number on the left of y axis] at (10,0.5)
-    {$0.5$};
+    \node[node scale small 2,number on the left of vertical axis]
+    at (10,-0.5) {$-0.5$};
 
 
-    \pic at (10,1) {tick y axis thin};
+    \pic at (10,0.5) {tick vertical axis thin 1};
 
-    \node[number on the left of y axis] at (10,1) {$1$};
+    \node[node scale small 2,number on the left of vertical axis]
+    at (10,0.5) {$0.5$};
+
+
+    \pic at (10,1) {tick vertical axis thin};
+
+    \node[number on the left of vertical axis] at (10,1) {$1$};
 
   \end{tikzpicture}
 
-  \caption{Funkcja Bessela $J_{ 1 }$, część~II}
+  \caption{Funkcja Bessela $J_{ 1 }$, $x \in [ 10, 20 ]$.}
 
 
 \end{figure}
@@ -996,84 +1138,84 @@
 
 
     % Thicks on x axis
-    \pic at (1,0) {tick x axis thin};
+    \pic at (1,0) {tick horizontal axis thin};
 
-    \node[number below x axis] at (1,0) {$1$};
-
-
-    \pic at (2,0) {tick x axis thin};
-
-    \node[number below x axis] at (2,0) {$2$};
+    \node[number below horizontal axis] at (1,0) {$1$};
 
 
-    \pic at (3,0) {tick x axis thin};
+    \pic at (2,0) {tick horizontal axis thin};
 
-    \node[number below x axis] at (3,0) {$3$};
-
-
-    \pic at (4,0) {tick x axis thin};
-
-    \node[number below x axis] at (4,0) {$4$};
+    \node[number below horizontal axis] at (2,0) {$2$};
 
 
-    \pic at (5,0) {tick x axis thin};
+    \pic at (3,0) {tick horizontal axis thin};
 
-    \node[number below x axis] at (5,0) {$5$};
-
-
-    \pic at (6,0) {tick x axis thin};
-
-    \node[number below x axis] at (6,0) {$6$};
+    \node[number below horizontal axis] at (3,0) {$3$};
 
 
-    \pic at (7,0) {tick x axis thin};
+    \pic at (4,0) {tick horizontal axis thin};
 
-    \node[number below x axis] at (7,0) {$7$};
-
-
-    \pic at (8,0) {tick x axis thin};
-
-    \node[number below x axis] at (8,0) {$8$};
+    \node[number below horizontal axis] at (4,0) {$4$};
 
 
-    \pic at (9,0) {tick x axis thin};
+    \pic at (5,0) {tick horizontal axis thin};
 
-    \node[number below x axis] at (9,0) {$9$};
+    \node[number below horizontal axis] at (5,0) {$5$};
 
 
-    \pic at (10,0) {tick x axis thin};
+    \pic at (6,0) {tick horizontal axis thin};
 
-    \node[number below x axis] at (10,0) {$10$};
+    \node[number below horizontal axis] at (6,0) {$6$};
+
+
+    \pic at (7,0) {tick horizontal axis thin};
+
+    \node[number below horizontal axis] at (7,0) {$7$};
+
+
+    \pic at (8,0) {tick horizontal axis thin};
+
+    \node[number below horizontal axis] at (8,0) {$8$};
+
+
+    \pic at (9,0) {tick horizontal axis thin};
+
+    \node[number below horizontal axis] at (9,0) {$9$};
+
+
+    \pic at (10,0) {tick horizontal axis thin};
+
+    \node[number below horizontal axis] at (10,0) {$10$};
 
 
 
 
 
     % Ticks on y axis
-    \pic at (0,-1) {tick y axis thin};
+    \pic at (0,-1) {tick vertical axis thin};
 
-    \node[number on the left of y axis] at (0,-1) {$-1$};
-
-
-    \pic at (0,-0.5) {tick y axis thin 1};
-
-    \node[node scale small 2,number on the left of y axis] at (0,-0.5)
-    {$-0.5$};
+    \node[number on the left of vertical axis] at (0,-1) {$-1$};
 
 
-    \pic at (0,0.5) {tick y axis thin 1};
+    \pic at (0,-0.5) {tick vertical axis thin 1};
 
-    \node[node scale small 2,number on the left of y axis] at (0,0.5)
-    {$0.5$};
+    \node[node scale small 2,number on the left of vertical axis]
+    at (0,-0.5) {$-0.5$};
 
 
-    \pic at (0,1) {tick y axis thin};
+    \pic at (0,0.5) {tick vertical axis thin 1};
 
-    \node[number on the left of y axis] at (0,1) {$1$};
+    \node[node scale small 2,number on the left of vertical axis]
+    at (0,0.5) {$0.5$};
+
+
+    \pic at (0,1) {tick vertical axis thin};
+
+    \node[number on the left of vertical axis] at (0,1) {$1$};
 
   \end{tikzpicture}
 
-  \caption{Funkcja Bessela $J_{ 2 }$, część~I}
+  \caption{Funkcja Bessela $J_{ 2 }$, $x \in [ 0, 10 ]$.}
 
 
 \end{figure}
@@ -1171,84 +1313,84 @@
 
 
     % Thicks on x axis
-    \pic at (11,0) {tick x axis thin};
+    \pic at (11,0) {tick horizontal axis thin};
 
-    \node[number below x axis] at (11,0) {$11$};
-
-
-    \pic at (12,0) {tick x axis thin};
-
-    \node[number below x axis] at (12,0) {$12$};
+    \node[number below horizontal axis] at (11,0) {$11$};
 
 
-    \pic at (13,0) {tick x axis thin};
+    \pic at (12,0) {tick horizontal axis thin};
 
-    \node[number below x axis] at (13,0) {$13$};
-
-
-    \pic at (14,0) {tick x axis thin};
-
-    \node[number below x axis] at (14,0) {$14$};
+    \node[number below horizontal axis] at (12,0) {$12$};
 
 
-    \pic at (15,0) {tick x axis thin};
+    \pic at (13,0) {tick horizontal axis thin};
 
-    \node[number below x axis] at (15,0) {$15$};
-
-
-    \pic at (16,0) {tick x axis thin};
-
-    \node[number below x axis] at (16,0) {$16$};
+    \node[number below horizontal axis] at (13,0) {$13$};
 
 
-    \pic at (17,0) {tick x axis thin};
+    \pic at (14,0) {tick horizontal axis thin};
 
-    \node[number below x axis] at (17,0) {$17$};
-
-
-    \pic at (18,0) {tick x axis thin};
-
-    \node[number below x axis] at (18,0) {$18$};
+    \node[number below horizontal axis] at (14,0) {$14$};
 
 
-    \pic at (19,0) {tick x axis thin};
+    \pic at (15,0) {tick horizontal axis thin};
 
-    \node[number below x axis] at (19,0) {$19$};
+    \node[number below horizontal axis] at (15,0) {$15$};
 
 
-    \pic at (20,0) {tick x axis thin};
+    \pic at (16,0) {tick horizontal axis thin};
 
-    \node[number below x axis] at (20,0) {$20$};
+    \node[number below horizontal axis] at (16,0) {$16$};
+
+
+    \pic at (17,0) {tick horizontal axis thin};
+
+    \node[number below horizontal axis] at (17,0) {$17$};
+
+
+    \pic at (18,0) {tick horizontal axis thin};
+
+    \node[number below horizontal axis] at (18,0) {$18$};
+
+
+    \pic at (19,0) {tick horizontal axis thin};
+
+    \node[number below horizontal axis] at (19,0) {$19$};
+
+
+    \pic at (20,0) {tick horizontal axis thin};
+
+    \node[number below horizontal axis] at (20,0) {$20$};
 
 
 
 
 
     % Ticks on y axis
-    \pic at (10,-1) {tick y axis thin};
+    \pic at (10,-1) {tick vertical axis thin};
 
-    \node[number on the left of y axis] at (10,-1) {$-1$};
-
-
-    \pic at (10,-0.5) {tick y axis thin 1};
-
-    \node[node scale small 2,number on the left of y axis] at (10,-0.5)
-    {$-0.5$};
+    \node[number on the left of vertical axis] at (10,-1) {$-1$};
 
 
-    \pic at (10,0.5) {tick y axis thin 1};
+    \pic at (10,-0.5) {tick vertical axis thin 1};
 
-    \node[node scale small 2,number on the left of y axis] at (10,0.5)
-    {$0.5$};
+    \node[node scale small 2,number on the left of vertical axis]
+    at (10,-0.5) {$-0.5$};
 
 
-    \pic at (10,1) {tick y axis thin};
+    \pic at (10,0.5) {tick vertical axis thin 1};
 
-    \node[number on the left of y axis] at (10,1) {$1$};
+    \node[node scale small 2,number on the left of vertical axis]
+    at (10,0.5) {$0.5$};
+
+
+    \pic at (10,1) {tick vertical axis thin};
+
+    \node[number on the left of vertical axis] at (10,1) {$1$};
 
   \end{tikzpicture}
 
-  \caption{Funkcja Bessela $J_{ 2 }$, część~II}
+  \caption{Funkcja Bessela $J_{ 2 }$, $x \in [ 10, 20 ]$.}
 
 
 \end{figure}
@@ -1349,84 +1491,84 @@
 
 
     % Thicks on x axis
-    \pic at (1,0) {tick x axis thin};
+    \pic at (1,0) {tick horizontal axis thin};
 
-    \node[number below x axis] at (1,0) {$1$};
-
-
-    \pic at (2,0) {tick x axis thin};
-
-    \node[number below x axis] at (2,0) {$2$};
+    \node[number below horizontal axis] at (1,0) {$1$};
 
 
-    \pic at (3,0) {tick x axis thin};
+    \pic at (2,0) {tick horizontal axis thin};
 
-    \node[number below x axis] at (3,0) {$3$};
-
-
-    \pic at (4,0) {tick x axis thin};
-
-    \node[number below x axis] at (4,0) {$4$};
+    \node[number below horizontal axis] at (2,0) {$2$};
 
 
-    \pic at (5,0) {tick x axis thin};
+    \pic at (3,0) {tick horizontal axis thin};
 
-    \node[number below x axis] at (5,0) {$5$};
-
-
-    \pic at (6,0) {tick x axis thin};
-
-    \node[number below x axis] at (6,0) {$6$};
+    \node[number below horizontal axis] at (3,0) {$3$};
 
 
-    \pic at (7,0) {tick x axis thin};
+    \pic at (4,0) {tick horizontal axis thin};
 
-    \node[number below x axis] at (7,0) {$7$};
-
-
-    \pic at (8,0) {tick x axis thin};
-
-    \node[number below x axis] at (8,0) {$8$};
+    \node[number below horizontal axis] at (4,0) {$4$};
 
 
-    \pic at (9,0) {tick x axis thin};
+    \pic at (5,0) {tick horizontal axis thin};
 
-    \node[number below x axis] at (9,0) {$9$};
+    \node[number below horizontal axis] at (5,0) {$5$};
 
 
-    \pic at (10,0) {tick x axis thin};
+    \pic at (6,0) {tick horizontal axis thin};
 
-    \node[number below x axis] at (10,0) {$10$};
+    \node[number below horizontal axis] at (6,0) {$6$};
+
+
+    \pic at (7,0) {tick horizontal axis thin};
+
+    \node[number below horizontal axis] at (7,0) {$7$};
+
+
+    \pic at (8,0) {tick horizontal axis thin};
+
+    \node[number below horizontal axis] at (8,0) {$8$};
+
+
+    \pic at (9,0) {tick horizontal axis thin};
+
+    \node[number below horizontal axis] at (9,0) {$9$};
+
+
+    \pic at (10,0) {tick horizontal axis thin};
+
+    \node[number below horizontal axis] at (10,0) {$10$};
 
 
 
 
 
     % Ticks on y axis
-    \pic at (0,-1) {tick y axis thin};
+    \pic at (0,-1) {tick vertical axis thin};
 
-    \node[number on the left of y axis] at (0,-1) {$-1$};
-
-
-    \pic at (0,-0.5) {tick y axis thin 1};
-
-    \node[node scale small 2,number on the left of y axis] at (0,-0.5)
-    {$-0.5$};
+    \node[number on the left of vertical axis] at (0,-1) {$-1$};
 
 
-    \pic at (0,0.5) {tick y axis thin 1};
+    \pic at (0,-0.5) {tick vertical axis thin 1};
 
-    \node[node scale small 2,number on the left of y axis] at (0,0.5)
-    {$0.5$};
+    \node[node scale small 2,number on the left of vertical axis]
+    at (0,-0.5) {$-0.5$};
 
 
-    \pic at (0,1) {tick y axis thin};
+    \pic at (0,0.5) {tick vertical axis thin 1};
 
-    \node[number on the left of y axis] at (0,1) {$1$};
+    \node[node scale small 2,number on the left of vertical axis]
+    at (0,0.5) {$0.5$};
+
+
+    \pic at (0,1) {tick vertical axis thin};
+
+    \node[number on the left of vertical axis] at (0,1) {$1$};
 
   \end{tikzpicture}
 
-  \caption{Funkcja Bessela $J_{ 3 }$, część~I}
+  \caption{Funkcja Bessela $J_{ 3 }$, $x \in [ 0, 10 ]$.}
 
 
 \end{figure}
@@ -1439,7 +1581,7 @@
 % ##################
 \begin{figure}
 
-  \label{fig:Bessel-function-second-order-Part-II}
+  \label{fig:Bessel-function-third-order-Part-II}
 
 
   \centering
@@ -1524,84 +1666,84 @@
 
 
     % Thicks on x axis
-    \pic at (11,0) {tick x axis thin};
+    \pic at (11,0) {tick horizontal axis thin};
 
-    \node[number below x axis] at (11,0) {$11$};
-
-
-    \pic at (12,0) {tick x axis thin};
-
-    \node[number below x axis] at (12,0) {$12$};
+    \node[number below horizontal axis] at (11,0) {$11$};
 
 
-    \pic at (13,0) {tick x axis thin};
+    \pic at (12,0) {tick horizontal axis thin};
 
-    \node[number below x axis] at (13,0) {$13$};
-
-
-    \pic at (14,0) {tick x axis thin};
-
-    \node[number below x axis] at (14,0) {$14$};
+    \node[number below horizontal axis] at (12,0) {$12$};
 
 
-    \pic at (15,0) {tick x axis thin};
+    \pic at (13,0) {tick horizontal axis thin};
 
-    \node[number below x axis] at (15,0) {$15$};
-
-
-    \pic at (16,0) {tick x axis thin};
-
-    \node[number below x axis] at (16,0) {$16$};
+    \node[number below horizontal axis] at (13,0) {$13$};
 
 
-    \pic at (17,0) {tick x axis thin};
+    \pic at (14,0) {tick horizontal axis thin};
 
-    \node[number below x axis] at (17,0) {$17$};
-
-
-    \pic at (18,0) {tick x axis thin};
-
-    \node[number below x axis] at (18,0) {$18$};
+    \node[number below horizontal axis] at (14,0) {$14$};
 
 
-    \pic at (19,0) {tick x axis thin};
+    \pic at (15,0) {tick horizontal axis thin};
 
-    \node[number below x axis] at (19,0) {$19$};
+    \node[number below horizontal axis] at (15,0) {$15$};
 
 
-    \pic at (20,0) {tick x axis thin};
+    \pic at (16,0) {tick horizontal axis thin};
 
-    \node[number below x axis] at (20,0) {$20$};
+    \node[number below horizontal axis] at (16,0) {$16$};
+
+
+    \pic at (17,0) {tick horizontal axis thin};
+
+    \node[number below horizontal axis] at (17,0) {$17$};
+
+
+    \pic at (18,0) {tick horizontal axis thin};
+
+    \node[number below horizontal axis] at (18,0) {$18$};
+
+
+    \pic at (19,0) {tick horizontal axis thin};
+
+    \node[number below horizontal axis] at (19,0) {$19$};
+
+
+    \pic at (20,0) {tick horizontal axis thin};
+
+    \node[number below horizontal axis] at (20,0) {$20$};
 
 
 
 
 
     % Ticks on y axis
-    \pic at (10,-1) {tick y axis thin};
+    \pic at (10,-1) {tick vertical axis thin};
 
-    \node[number on the left of y axis] at (10,-1) {$-1$};
-
-
-    \pic at (10,-0.5) {tick y axis thin 1};
-
-    \node[node scale small 2,number on the left of y axis] at (10,-0.5)
-    {$-0.5$};
+    \node[number on the left of vertical axis] at (10,-1) {$-1$};
 
 
-    \pic at (10,0.5) {tick y axis thin 1};
+    \pic at (10,-0.5) {tick vertical axis thin 1};
 
-    \node[node scale small 2,number on the left of y axis] at (10,0.5)
-    {$0.5$};
+    \node[node scale small 2,number on the left of vertical axis]
+    at (10,-0.5) {$-0.5$};
 
 
-    \pic at (10,1) {tick y axis thin};
+    \pic at (10,0.5) {tick vertical axis thin 1};
 
-    \node[number on the left of y axis] at (10,1) {$1$};
+    \node[node scale small 2,number on the left of vertical axis]
+    at (10,0.5) {$0.5$};
+
+
+    \pic at (10,1) {tick vertical axis thin};
+
+    \node[number on the left of vertical axis] at (10,1) {$1$};
 
   \end{tikzpicture}
 
-  \caption{Funkcja Bessela $J_{ 3 }$, część~II}
+  \caption{Funkcja Bessela $J_{ 3 }$, $x \in [ 10, 20 ]$.}
 
 
 \end{figure}
@@ -1611,11 +1753,16 @@
 
 
 
+
+
+
+
+
 % ####################################################################
 % ####################################################################
 % Bibliography
 
-\printbibliography
+% \printbibliography
 
 
 
