@@ -198,6 +198,301 @@ eprint=true,
 
 
 
+% ######################################
+\section{Funkcje wykładnicze}
+
+\label{sec:Funkcje-wykladnicze}
+% ######################################
+
+
+
+
+
+% ##################
+\begin{figure}
+
+  \label{fig:exp-function-01}
+
+
+  \centering
+
+  \begin{tikzpicture}[scale=2]
+
+    % x axis
+    \draw[axis arrow] (-1.8,0) -- (2.2,0);
+
+    \pic at (2.2,0) {x mark for horizontal axis 1};
+
+
+
+
+
+    % Graph of exp function
+    \draw[color=blue] (-1.5,0.223) -- (-1.4,0.246) -- (-1.3,0.272) --
+    (-1.2,0.301) -- (-1.1,0.332) -- (-1,0.367) -- (-0.9,0.406) --
+    (-0.8,0.449) -- (-0.7,0.496) -- (-0.65,0.522) -- (-0.6,0.548) --
+    (-0.55,0.576) -- (-0.5,0.606) -- (-0.45,0.637) -- (-0.4,0.67) --
+    (-0.35,0.704) -- (-0.3,0.74) -- (-0.25,0.778) -- (-0.2,0.818) --
+    (-0.15,0.86) -- (-0.1,0.904) -- (-0.05,0.951) -- (0,1) --
+    (0.025,1.025) -- (0.05,1.051) -- (0.075,1.077) -- (0.1,1.105) --
+    (0.125,1.133) -- (0.15,1.161) -- (0.175,1.191) -- (0.2,1.221) --
+    (0.225,1.252) -- (0.25,1.284) -- (0.275,1.316) -- (0.3,1.349) --
+    (0.325,1.384) -- (0.35,1.419) -- (0.375,1.455) -- (0.4,1.491) --
+    (0.425,1.529) -- (0.45,1.568) -- (0.475,1.608) -- (0.5,1.648) --
+    (0.525,1.69) -- (0.55,1.733) -- (0.575,1.777) -- (0.6,1.822) --
+    (0.625,1.868) -- (0.65,1.915) -- (0.675,1.964) -- (0.7,2.013) --
+    (0.71,2.034) -- (0.72,2.054) -- (0.73,2.075) -- (0.74,2.095) --
+    (0.75,2.117) -- (0.76,2.138) -- (0.77,2.159) -- (0.78,2.181) --
+    (0.79,2.203) -- (0.8,2.225) -- (0.81,2.247) -- (0.82,2.27) --
+    (0.83,2.293) -- (0.84,2.316) -- (0.85,2.339) -- (0.86,2.363) --
+    (0.87,2.386) -- (0.88,2.41) -- (0.89,2.435) -- (0.9,2.459) --
+    (0.91,2.484) -- (0.92,2.509) -- (0.93,2.534) -- (0.94,2.56) --
+    (0.95,2.585) -- (0.96,2.611) -- (0.97,2.637) -- (0.98,2.664) --
+    (0.99,2.691) -- (1,2.718) -- (1.01,2.745) -- (1.02,2.773) --
+    (1.03,2.801) -- (1.04,2.829) -- (1.05,2.857) -- (1.06,2.886) --
+    (1.07,2.915) -- (1.08,2.944) -- (1.09,2.974) -- (1.1,3.004) --
+    (1.11,3.034) -- (1.12,3.064) -- (1.13,3.095) -- (1.14,3.126) --
+    (1.15,3.158) -- (1.16,3.189) -- (1.17,3.222) -- (1.18,3.254) --
+    (1.19,3.287) -- (1.2,3.32) -- (1.21,3.353) -- (1.22,3.387) --
+    (1.23,3.421) -- (1.24,3.455) -- (1.25,3.49) -- (1.26,3.525) --
+    (1.27,3.56) -- (1.28,3.596) -- (1.29,3.632) -- (1.3,3.669) --
+    (1.31,3.706) -- (1.32,3.743) -- (1.33,3.781) -- (1.34,3.819) --
+    (1.35,3.857) -- (1.36,3.896) -- (1.37,3.935) -- (1.38,3.974) --
+    (1.39,4.014) -- (1.4,4.055) -- (1.41,4.096) -- (1.42,4.137) --
+    (1.43,4.178) -- (1.44,4.22) -- (1.45,4.263) -- (1.46,4.306) --
+    (1.47,4.349) -- (1.48,4.392) -- (1.49,4.437) -- (1.5,4.481);
+
+
+
+
+
+    % y axis
+    \draw[axis arrow] (0,-0.3) -- (0,5);
+
+    \pic at (0,5) {y mark for vertical axis 1};
+
+
+
+    \node[number on the right and below] at (0,0) {$0$};
+
+
+
+
+
+    % Thicks on x axis
+    \pic at (-1.5,0) {tick horizontal axis thin 1};
+
+    \node[node scale small 2,below] at (-1.5,0) {$-1.5$};
+
+
+    \pic at (-1,0) {tick horizontal axis thin};
+
+    \node[below] at (-1,0) {$-1$};
+
+
+    \pic at (-0.5,0) {tick horizontal axis thin 1};
+
+    \node[node scale small 2,below] at (-0.5,0) {$-0.5$};
+
+
+    \pic at (0.5,0) {tick horizontal axis thin 1};
+
+    \node[node scale small 2,number below horizontal axis]
+    at (0.5,0) {$0.5$};
+
+
+    \pic at (1,0) {tick horizontal axis thin};
+
+    \node[number below horizontal axis] at (1,0) {$1$};
+
+
+    \pic at (1.5,0) {tick horizontal axis thin 1};
+
+    \node[node scale small 2,number below horizontal axis]
+    at (1.5,0) {$1.5$};
+
+
+
+
+
+
+
+    % \pic at (4,0) {tick horizontal axis thin};
+
+    % \node[below] at (4,0) {$4$};
+
+
+    % \pic at (4.5,0) {tick horizontal axis thin 1};
+
+    % \node[node scale small 2,below] at (4.5,0) {$4.5$};
+
+
+    % \pic at (5,0) {tick horizontal axis thin};
+
+    % \node[below] at (5,0) {$5$};
+
+
+    % \pic at (5.5,0) {tick horizontal axis thin 1};
+
+    % \node[node scale small 2,below] at (5.5,0) {$5.5$};
+
+
+    % \pic at (6,0) {tick horizontal axis thin};
+
+    % \node[below] at (6,0) {$6$};
+
+
+    % \pic at (6.5,0) {tick horizontal axis thin 1};
+
+    % \node[node scale small 2,below] at (6.5,0) {$6.5$};
+
+
+    % \pic at (7,0) {tick horizontal axis thin};
+
+    % \node[below] at (7,0) {$7$};
+
+
+    % \pic at (7.5,0) {tick horizontal axis thin 1};
+
+    % \node[node scale small 2,below] at (7.5,0) {$7.5$};
+
+
+    % \pic at (8,0) {tick horizontal axis thin};
+
+    % \node[below] at (8,0) {$8$};
+
+
+    % \pic at (8.5,0) {tick x axis thin 1};
+
+    % \node[node scale small 2,below] at (8.5,0) {$8.5$};
+
+
+    % \pic at (9,0) {tick x axis thin};
+
+    % \node[below] at (9,0) {$9$};
+
+
+    % \pic at (9.5,0) {tick x axis thin 1};
+
+    % \node[node scale small 2,below] at (9.5,0) {$9.5$};
+
+
+    % \pic at (10,0) {tick x axis thin};
+
+    % \node[below] at (10,0) {$10$};
+
+
+
+
+
+    % Ticks on y axis
+    % \pic at (0,-4.5) {tick y axis thin 1};
+
+    % \node[node scale small 2,left] at (0,-4.5) {$-4.5$};
+
+
+    % \pic at (0,-4) {tick y axis thin};
+
+    % \node[left] at (0,-4) {$4$};
+
+
+    % \pic at (0,-3.5) {tick y axis thin 1};
+
+    % \node[node scale small 2,left] at (0,-3.5) {$-3.5$};
+
+
+    % \pic at (0,-3) {tick y axis thin};
+
+    % \node[left] at (0,-3) {$-3$};
+
+
+    % \pic at (0,-2.5) {tick y axis thin 1};
+
+    % \node[node scale small 2,left] at (0,-2.5) {$-2.5$};
+
+
+    % \pic at (0,-2) {tick y axis thin};
+
+    % \node[left] at (0,-2) {$-2$};
+
+
+    % \pic at (0,-1.5) {tick y axis thin 1};
+
+    % \node[node scale small 2,left] at (0,-1.5) {$-1.5$};
+
+
+    % \pic at (0,-1) {tick y axis thin};
+
+    % \node[number on the left of y axis] at (0,-1) {$-1$};
+
+
+    % \pic at (0,-0.5) {tick vertical axis thin 1};
+
+    % \node[node scale small 2,number on the left of vertical axis]
+    % at (0,-0.5) {$-0.5$};
+
+
+    \pic at (0,0.5) {tick vertical axis thin 1};
+
+    \node[node scale small 2,left] at (0,0.5) {$0.5$};
+
+
+    \pic at (0,1) {tick vertical axis thin};
+
+    \node[left] at (0,1) {$1$};
+
+
+    \pic at (0,1.5) {tick vertical axis thin 1};
+
+    \node[node scale small 2,left] at (0,1.5) {$1.5$};
+
+
+    \pic at (0,2) {tick vertical axis thin};
+
+    \node[left] at (0,2) {$2$};
+
+
+    \pic at (0,2.5) {tick vertical axis thin 1};
+
+    \node[node scale small 2,left] at (0,2.5) {$2.5$};
+
+
+    \pic at (0,3) {tick vertical axis thin};
+
+    \node[left] at (0,3) {$3$};
+
+
+    \pic at (0,3.5) {tick vertical axis thin 1};
+
+    \node[node scale small 2,left] at (0,3.5) {$3.5$};
+
+
+    \pic at (0,4) {tick vertical axis thin};
+
+    \node[left] at (0,4) {$4$};
+
+
+    \pic at (0,4.5) {tick vertical axis thin 1};
+
+    \node[node scale small 2,left] at (0,4.5) {$4.5$};
+
+  \end{tikzpicture}
+
+  \caption{Funkcja $\exp$, $x \in [ -1.5, 1.5 ]$.}
+
+
+\end{figure}
+% ##################
+
+
+
+
+
+
+
+
+
+
 % % ######################################
 % \section{Funkcje wykładnicze i~logarytmiczne}
 
@@ -469,7 +764,7 @@ eprint=true,
 
 %   \end{tikzpicture}
 
-%   \caption{Funkcja $\ln$}
+%   \caption{Funkcja $\ln$, $x \in [ 0.01, 10 ]????$}
 
 
 % \end{figure}
@@ -484,11 +779,11 @@ eprint=true,
 
 
 
-% ######################################
-\section{Funkcje trygonometryczne}
+% % ######################################
+% \section{Funkcje trygonometryczne}
 
-\label{sec:Funkcje-trygonometryczne}
-% ######################################
+% \label{sec:Funkcje-trygonometryczne}
+% % ######################################
 
 
 
