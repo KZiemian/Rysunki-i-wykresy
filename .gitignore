@@ -28,3 +28,8 @@
 
 # ignore auxiliary (Emacs?) catalogs
 auto/
+
+
+
+# ignore spefic files
+Rysunki-specjalne.tex

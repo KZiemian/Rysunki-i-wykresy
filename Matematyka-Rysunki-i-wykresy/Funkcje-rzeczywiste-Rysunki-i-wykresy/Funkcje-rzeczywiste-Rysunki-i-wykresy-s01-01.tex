@@ -86,15 +86,15 @@
 % ------------------------------------------------------
 % Package biblatex, with biber as its backend, allow us to handle
 % bibliography entries that use Unicode symbols outside ASCII
-\usepackage[
-language=polish,
-backend=biber,
-style=alphabetic,
-url=false,
-eprint=true,
-]{biblatex}
+% \usepackage[
+% language=polish,
+% backend=biber,
+% style=alphabetic,
+% url=false,
+% eprint=true,
+% ]{biblatex}
 
-\addbibresource{Logika-i-teoria-mnogości-Bibliography.bib}
+% \addbibresource{Logika-i-teoria-mnogości-Bibliography.bib}
 
 
 
@@ -133,8 +133,10 @@ eprint=true,
 
 % ------------------------------------------------------
 % Local packages
-% You need to put them in the same directory as .tex file
 % ------------------------------------------------------
+% Local configuration of this particular file
+\usepackage{./Local-packages/local-settings}
+
 % Package containing various command useful for working with a text
 % \usepackage{general-commands}
 % Package containing commands and other code useful for working with
@@ -163,10 +165,10 @@ eprint=true,
 
 % ------------------------------------------------------------------------------------------------------------------
 % Title and author of the text
-\title{Funkcje rzeczywiste \\
-  {\Large Rysunki i~wykresy}}
+\title{Wykresy funkcji rzeczywistych}
 
-\author{Kamil Ziemian}
+\author{Kamil Ziemian \\
+  \email}
 
 
 % \date{}
@@ -211,7 +213,7 @@ eprint=true,
 \begin{figure}
   % !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
   \label{fig:Smooth-function-with-compact-support-01}
-  % 2.718 * exp(-1/(1 - x^2)) dla [ -1, 1 ], zero w pozostałych przypadkach.
+  % , zero w pozostałych przypadkach.
 
 
   \centering
@@ -262,12 +264,12 @@ eprint=true,
     % \node[node scale small 1,below] at (-2.5,0) {$-2.5$};
 
 
-    \pic at (-2,0) {tick x axis thin};
+    \pic at (-2,0) {tick horizontal axis thin};
 
     \node[below] at (-2,0) {$-2$};
 
 
-    \pic at (-1.5,0) {tick x axis thin 1};
+    \pic at (-1.5,0) {tick horizontal axis thin 1};
 
     \node[node scale small 1,below] at (-1.5,0) {$-1.5$};
 
@@ -327,7 +329,8 @@ eprint=true,
 
   \end{tikzpicture}
 
-  \caption{Funkcja $\sin$}
+  \caption{Funkcja $f( x ) = 2.718 * exp( -1/( 1 - x^{ 2 } ) )$
+    dla~$x \in [ -1, 1 ]$, $f( x ) = 0$ w~pozostałych przypadkach.}
 
 
 \end{figure}
