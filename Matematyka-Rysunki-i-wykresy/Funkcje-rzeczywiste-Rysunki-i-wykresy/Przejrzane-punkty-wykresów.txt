@@ -1,1 +1,2 @@
 Wykresy-funkcji-Bessela-01.tex
+Wykresy-funkcji-wykładniczych-i-logarytmicznych-01.tex
