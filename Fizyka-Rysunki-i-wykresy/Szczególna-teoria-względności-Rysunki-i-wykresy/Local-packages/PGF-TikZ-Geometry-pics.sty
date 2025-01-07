@@ -1,0 +1,55 @@
+% ####################################################################
+% PGF/TikZ's pics for drawning basic geometrical objects
+
+% To use pics form this file, you may need package "xcolor" and style file
+% "Jagiellonian-theme-colors.sty"
+
+\ProvidesPackage{PGF-TikZ-Geometry-pics}
+% ####################################################################
+
+
+
+% ############################
+% Geometric points
+
+\tikzset{
+  point/.pic = {
+    \fill (0,0) circle [radius=0.09];
+  },
+  point transparent/.pic={
+    \fill[opacity=0.65] (0,0) circle [radius=0.09];
+  },
+}
+% ############################
+
+
+
+
+
+% ############################
+% Geometric points with colors
+
+\tikzset{
+  point red/.pic={
+    \fill[color=jAxisRed] (0,0) circle [radius=0.09];
+  },
+  point green/.pic={
+    \fill[color=jAxisGreen] (0,0) circle [radius=0.09];
+  },
+  point blue/.pic={
+    \fill[color=jAxisBlue] (0,0) circle [radius=0.09];
+  },
+  point math color/.pic={
+    \fill[color=jMathTextFGColor] (0,0) circle [radius=0.09];
+  },
+  point orange/.pic={
+    \fill[color=jOrange] (0,0) circle [radius=0.09];
+  },
+  point transparent/.pic={
+    \fill[opacity=0.65] (0,0) circle [radius=0.09];
+  },
+  point transparent math color/.pic={
+    \fill[color=jMathTextFGColor,opacity=0.65] (0,0) circle [radius=0.09];
+  },
+}
+% ############################

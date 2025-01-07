@@ -1,0 +1,4264 @@
+% ------------------------------------------------------------------------------------------------------------------
+% Basic configuration and packages
+% ------------------------------------------------------------------------------------------------------------------
+% Package for discovering wrong and outdated usage of LaTeX.
+% More information to be found in l2tabu English version.
+\RequirePackage[l2tabu, orthodox]{nag}
+% Class of LaTeX document: {size of paper, size of font}[document class]
+\documentclass[a4paper,11pt]{article}
+
+
+
+% ------------------------------------------------------
+% Packages not tied to particular normal language
+% ------------------------------------------------------
+% This package should improved spaces in the text
+\usepackage{microtype}
+% Add few important symbols, like text Celcius degree
+\usepackage{textcomp}
+
+
+
+% ------------------------------------------------------
+% Polonization of LaTeX document
+% ------------------------------------------------------
+% Basic polonization of the text
+\usepackage[MeX]{polski}
+% Switching on UTF-8 encoding
+\usepackage[utf8]{inputenc}
+% Adding font Latin Modern
+\usepackage{lmodern}
+% Package is need for fonts Latin Modern
+\usepackage[T1]{fontenc}
+
+
+
+% ------------------------------------------------------
+% Setting margins
+% ------------------------------------------------------
+\usepackage[a4paper, total={14cm, 25cm}]{geometry}
+
+
+
+% ------------------------------------------------------
+% Setting vertical spaces in the text
+% ------------------------------------------------------
+% Setting space between lines
+\renewcommand{\baselinestretch}{1.1}
+
+% Setting space between lines in tables
+\renewcommand{\arraystretch}{1.4}
+
+
+
+% ------------------------------------------------------
+% Packages for scientific papers
+% ------------------------------------------------------
+% Switching off \lll symbol, that I guess is representing letter "Ł"
+% It collide with `amsmath' package's command with the same name
+\let\lll\undefined
+% Basic package from American Mathematical Society (AMS)
+\usepackage[intlimits]{amsmath}
+% Equations are numbered separately in every section
+\numberwithin{equation}{section}
+
+% Other very useful packages from AMS
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amscd}
+\usepackage{amsthm}
+
+% Package with better looking calligraphy fonts
+\usepackage{calrsfs}
+
+% Package with better looking greek letters
+% Example of use: pi -> \uppi
+\usepackage{upgreek}
+% Improving look of lambda letter
+\let\oldlambda\Lambda
+\renewcommand{\lambda}{\uplambda}
+
+
+
+
+% % ------------------------------------------------------
+% % BibLaTeX
+% % ------------------------------------------------------
+% % Package biblatex, with biber as its backend, allow us to handle
+% % bibliography entries that use Unicode symbols outside ASCII
+% \usepackage[
+% language=polish,
+% backend=biber,
+% style=alphabetic,
+% url=false,
+% eprint=true,
+% ]{biblatex}
+
+% \addbibresource{Logika-i-teoria-mnogości-Bibliography.bib}
+
+
+
+
+
+% ------------------------------------------------------
+% Defining new environments (?)
+% ------------------------------------------------------
+% Defining enviroment "Wniosek"
+% \newtheorem{corollary}{Wniosek}
+% \newtheorem{definition}{Definicja}
+% \newtheorem{theorem}{Twierdzenie}
+
+
+
+
+
+% ------------------------------------------------------
+% Wonderful package PGF/TikZ
+% ------------------------------------------------------
+\usepackage{tikz}
+
+% Library for positioning nodes
+\usetikzlibrary{positioning}
+
+% Colors need for PGF-TikZ-Geometry-pics
+\usepackage{./Local-packages/Jagiellonian-theme-colors}
+
+% Pics for drawing basic geometric objects
+\usepackage{./Local-packages/PGF-TikZ-Geometry-pics}
+
+
+
+
+
+% ------------------------------------------------------
+% Local packages
+% You need to put them in the same directory as .tex file
+% ------------------------------------------------------
+% Package containing various command useful for working with a text
+% \usepackage{general-commands}
+% Package containing commands and other code useful for working with
+% mathematical text
+% \usepackage{math-commands}
+
+
+
+
+
+% ------------------------------------------------------
+% Package "hyperref"
+% They advised to put it on the end of preambule
+% ------------------------------------------------------
+% It allows you to use hyperlinks in the text
+\usepackage{hyperref}
+
+
+
+
+
+
+
+
+
+
+% ------------------------------------------------------------------------------------------------------------------
+% Title and author of the text
+\title{Krzywe na płaszczyźnie \\
+  {\Large Rysunki i~wykresy}}
+
+\author{Kamil Ziemian}
+
+
+% \date{}
+% ------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+% ####################################################################
+% Beginning of the document
+\begin{document}
+% ####################################################################
+
+
+
+
+
+% ######################################
+% Title of the text
+\maketitle
+% ######################################
+
+
+
+
+
+% ##################
+\begin{figure}
+
+  \label{fig:Bezier-curves-of-third-order-01}
+
+
+  \centering
+
+  \begin{tikzpicture}
+
+    \draw (0,0) .. controls (0,1) and (3,1) .. (3,0);
+
+    % Ending points of the curve
+    \pic at (0,0) {point};
+
+    \pic at (3,0) {point};
+
+    % Controls points of the curve
+    \pic at (0,1) {point blue};
+
+    \pic at (3,1) {point blue};
+
+    \node[scale=0.75,text width=12em] at (1.5,-0.8)
+    {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+      $( 0, 1 )$, $( 3, 1 )$.};
+
+
+
+    \begin{scope}[xshift=4.5cm]
+
+      \draw (0,0) .. controls (0.017,0.999) and (2.982,0.999) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.017,0.999) {point blue};
+
+      \pic at (2.982,0.999) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.017, 0.999 )$, $( 2.982, 0.999 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=9cm]
+
+      \draw (0,0) .. controls (0.034,0.999) and (2.965,0.999) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.034,0.999) {point blue};
+
+      \pic at (2.965,0.999) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.034, 0.999 )$, $( 2.965, 0.999 )$.};
+
+    \end{scope}
+
+
+
+
+
+    \begin{scope}[yshift=-3.5cm]
+
+      \draw (0,0) .. controls (0.052,0.998) and (2.947,0.998) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.052,0.998) {point blue};
+
+      \pic at (2.947,0.998) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.052, 0.998 )$, $( 2.947, 0.998 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=4.5cm,yshift=-3.5cm]
+
+      \draw (0,0) .. controls (0.069,0.997) and (2.93,0.997) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.069,0.997) {point blue};
+
+      \pic at (2.93,0.997) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.069, 0.997 )$, $( 2.93, 0.997 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=9cm,yshift=-3.5cm]
+
+      \draw (0,0) .. controls (0.087,0.996) and (2.912,0.996) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.087,0.996) {point blue};
+
+      \pic at (2.912,0.996) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.087, 0.996 )$, $( 2.912, 0.996 )$.};
+
+    \end{scope}
+
+
+
+
+
+    \begin{scope}[yshift=-7cm]
+
+      \draw (0,0) .. controls (0.104,0.994) and (2.895,0.994) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.104,0.994) {point blue};
+
+      \pic at (2.895,0.994) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.104, 0.994 )$, $( 2.895, 0.994 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=4.5cm,yshift=-7cm]
+
+      \draw (0,0) .. controls (0.121,0.992) and (2.878,0.992) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.121,0.992) {point blue};
+
+      \pic at (2.878,0.992) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.121, 0.992 )$, $( 2.878, 0.992 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=9cm,yshift=-7cm]
+
+      \draw (0,0) .. controls (0.139,0.99) and (2.86,0.99) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.139,0.99) {point blue};
+
+      \pic at (2.86,0.99) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.139, 0.99 )$, $( 2.86, 0.99 )$.};
+
+    \end{scope}
+
+
+
+
+
+    \begin{scope}[yshift=-10.5cm]
+
+      \draw (0,0) .. controls (0.156,0.987) and (2.843,0.987) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.156,0.987) {point blue};
+
+      \pic at (2.843,0.987) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.156, 0.987 )$, $( 2.843, 0.987 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=4.5cm,yshift=-10.5cm]
+
+      \draw (0,0) .. controls (0.173,0.984) and (2.826,0.984) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.173,0.984) {point blue};
+
+      \pic at (2.826,0.984) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.173, 0.984 )$, $( 2.826, 0.984 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=9cm,yshift=-10.5cm]
+
+      \draw (0,0) .. controls (0.19,0.981) and (2.809,0.981) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.19,0.981) {point blue};
+
+      \pic at (2.809,0.981) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.19, 0.981 )$, $( 2.809, 0.981 )$.};
+
+    \end{scope}
+
+
+
+
+
+    \begin{scope}[yshift=-14cm]
+
+      \draw (0,0) .. controls (0.207,0.978) and (2.792,0.978) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.207,0.978) {point blue};
+
+      \pic at (2.792,0.978) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.207, 0.978 )$, $( 2.792, 0.978 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=4.5cm,yshift=-14cm]
+
+      \draw (0,0) .. controls (0.225,0.974) and (2.775,0.974) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.225,0.974) {point blue};
+
+      \pic at (2.775,0.974) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.224, 0.974 )$, $( 2.775, 0.974 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=9cm,yshift=-14cm]
+
+      \draw (0,0) .. controls (0.241,0.97) and (2.758,0.97) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.241,0.97) {point blue};
+
+      \pic at (2.758,0.97) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe $( 0, 0 )$, $( 3, 0 )$, punkty kontrolne
+        $( 0.241, 0.97 )$, $( 2.758, 0.97 )$.};
+
+    \end{scope}
+
+
+
+
+
+    \begin{scope}[yshift=-17.5cm]
+
+      \draw (0,0) .. controls (0.258,0.965) and (2.741,0.965) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.258,0.965) {point blue};
+
+      \pic at (2.741,0.965) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.258, 0.965 )$, $( 2.741, 0.965 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=4.5cm,yshift=-17.5cm]
+
+      \draw (0,0) .. controls (0.275,0.961) and (2.724,0.961) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.275,0.961) {point blue};
+
+      \pic at (2.724,0.961) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.275, 0.961 )$, $( 2.724, 0.961 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=9cm,yshift=-17.5cm]
+
+      \draw (0,0) .. controls (0.292,0.956) and (2.707,0.956) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.292,0.956) {point blue};
+
+      \pic at (2.707,0.956) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.292, 0.956 )$, $( 2.707, 0.956 )$.};
+
+    \end{scope}
+
+
+
+
+
+    \begin{scope}[yshift=-21cm]
+
+      \draw (0,0) .. controls (0.309,0.951) and (2.691,0.951) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.309,0.951) {point blue};
+
+      \pic at (2.691,0.951) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne
+        $( 0.309, 0.951 )$, $( 2.691, 0.951 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=4.5cm,yshift=-21cm]
+
+      \draw (0,0) .. controls (0.325,0.945) and (2.674,0.945) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.325,0.945) {point blue};
+
+      \pic at (2.674,0.945) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne
+        $( 0.324, 0.945 )$, $( 2.674, 0.945 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=9cm,yshift=-21cm]
+
+      \draw (0,0) .. controls (0.342,0.939) and (2.658,0.939) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.342,0.939) {point blue};
+
+      \pic at (2.658,0.939) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne
+        $( 0.342, 0.939 )$, $( 2.658, 0.939 )$.};
+
+    \end{scope}
+
+  \end{tikzpicture}
+
+  \caption{Sześcienne krzywe B\'{e}zier.}
+
+
+\end{figure}
+% ##################
+
+
+
+
+
+% ##################
+\begin{figure}
+
+  \label{fig:Bezier-curves-of-third-order-02}
+
+
+  \centering
+
+  \begin{tikzpicture}
+
+    \draw (0,0) .. controls (0.358,0.933) and (2.641,0.933) .. (3,0);
+
+    % Ending points of the curve
+    \pic at (0,0) {point};
+
+    \pic at (3,0) {point};
+
+    % Controls points of the curve
+    \pic at (0.358,0.933) {point blue};
+
+    \pic at (2.641,0.933) {point blue};
+
+    \node[scale=0.75,text width=14em] at (1.9,-0.8)
+    {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+      $( 0.358, 0.933 )$, $( 2.641, 0.933 )$.};
+
+
+
+    \begin{scope}[xshift=4.5cm]
+
+      \draw (0,0) .. controls (0.374,0.927) and (2.625,0.927) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.374,0.927) {point blue};
+
+      \pic at (2.625,0.927) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.374, 0.927 )$, $( 2.625, 0.927 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=9cm]
+
+      \draw (0,0) .. controls (0.39,0.92) and (2.609,0.92) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.39,0.92) {point blue};
+
+      \pic at (2.609,0.92) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.39, 0.92 )$, $( 2.609, 0.92 )$.};
+
+    \end{scope}
+
+
+
+
+
+    \begin{scope}[yshift=-3.5cm]
+
+      \draw (0,0) .. controls (0.406,0.913) and (2.593,0.913) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.422,0.906) {point blue};
+
+      \pic at (2.577,0.906) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.406, 0.913 )$, $( 2.593, 0.913 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=4.5cm,yshift=-3.5cm]
+
+      \draw (0,0) .. controls (0.422,0.906) and (2.577,0.906) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.422,0.906) {point blue};
+
+      \pic at (2.577,0.906) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.422, 0.906 )$, $( 2.577, 0.906 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=9cm,yshift=-3.5cm]
+
+      \draw (0,0) .. controls (0.438,0.898) and (2.561,0.898) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.438,0.898) {point blue};
+
+      \pic at (2.561,0.898) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.438, 0.898 )$, $( 2.561, 0.898 )$.};
+
+    \end{scope}
+
+
+
+
+
+    \begin{scope}[yshift=-7cm]
+
+      \draw (0,0) .. controls (0.454,0.891) and (2.546,0.891) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.454,0.891) {point blue};
+
+      \pic at (2.546,0.891) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.454, 0.891 )$, $( 2.546, 0.891 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=4.5cm,yshift=-7cm]
+
+      \draw (0,0) .. controls (0.469,0.882) and (2.53,0.882) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.469,0.882) {point blue};
+
+      \pic at (2.53,0.882) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.469, 0.882 )$, $( 2.53, 0.882 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=9cm,yshift=-7cm]
+
+      \draw (0,0) .. controls (0.484,0.874) and (2.515,0.874) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.484,0.874) {point blue};
+
+      \pic at (2.515,0.874) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.484, 0.874 )$, $( 2.515, 0.874 )$.};
+
+    \end{scope}
+
+
+
+
+
+    \begin{scope}[yshift=-10.5cm]
+
+      \draw (0,0) .. controls (0.5,0.866) and (2.5,0.866) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.5,0.866) {point blue};
+
+      \pic at (2.5,0.866) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.5, 0.866 )$, $( 2.5, 0.866 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=4.5cm,yshift=-10.5cm]
+
+      \draw (0,0) .. controls (0.515,0.857) and (2.485,0.857) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.515,0.857) {point blue};
+
+      \pic at (2.485,0.857) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.515, 0.857 )$, $( 2.485, 0.857 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=9cm,yshift=-10.5cm]
+
+      \draw (0,0) .. controls (0.529,0.848) and (2.47,0.848) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.529,0.848) {point blue};
+
+      \pic at (2.47,0.848) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.529, 0.848 )$, $( 2.47, 0.898 )$.};
+
+    \end{scope}
+
+
+
+
+
+    \begin{scope}[yshift=-14cm]
+
+      \draw (0,0) .. controls (0.544,0.838) and (2.455,0.838) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.544,0.838) {point blue};
+
+      \pic at (2.455,0.838) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.544, 0.838 )$, $( 2.455, 0.838 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=4.5cm,yshift=-14cm]
+
+      \draw (0,0) .. controls (0.559,0.829) and (2.44,0.829) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.559,0.829) {point blue};
+
+      \pic at (2.44,0.829) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.559, 0.829 )$, $( 2.44, 0.829 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=9cm,yshift=-14cm]
+
+      \draw (0,0) .. controls (0.573,0.819) and (2.426,0.819) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.583,0.819) {point blue};
+
+      \pic at (2.426,0.819) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe $( 0, 0 )$, $( 3, 0 )$, punkty kontrolne
+        $( 0.573, 0.819 )$, $( 2.426, 0.819 )$.};
+
+    \end{scope}
+
+
+
+
+
+    \begin{scope}[yshift=-17.5cm]
+
+      \draw (0,0) .. controls (0.587,0.809) and (2.412,0.809) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.587,0.809) {point blue};
+
+      \pic at (2.412,0.809) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.587, 0.809 )$, $( 2.412, 0.809 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=4.5cm,yshift=-17.5cm]
+
+      \draw (0,0) .. controls (0.601,0.798) and (2.398,0.798) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.601,0.798) {point blue};
+
+      \pic at (2.398,0.798) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.601, 0.798 )$, $( 2.398, 0.798 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=9cm,yshift=-17.5cm]
+
+      \draw (0,0) .. controls (0.615,0.788) and (2.384,0.788) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.615,0.788) {point blue};
+
+      \pic at (2.384,0.788) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.615, 0.788 )$, $( 2.384, 0.788 )$.};
+
+    \end{scope}
+
+
+
+
+
+    \begin{scope}[yshift=-21cm]
+
+      \draw (0,0) .. controls (0.629,0.777) and (2.37,0.777) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.629,0.777) {point blue};
+
+      \pic at (2.37,0.777) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne
+        $( 0.629, 0.777 )$, $( 2.37, 0.777 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=4.5cm,yshift=-21cm]
+
+      \draw (0,0) .. controls (0.642,0.766) and (2.357,0.766) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.642,0.766) {point blue};
+
+      \pic at (2.357,0.766) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne
+        $( 0.642, 0.766 )$, $( 2.357, 0.766 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=9cm,yshift=-21cm]
+
+      \draw (0,0) .. controls (0.656,0.754) and (2.343,0.754) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.656,0.754) {point blue};
+
+      \pic at (2.343,0.754) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne
+        $( 0.656, 0.754 )$, $( 2.343, 0.754 )$.};
+
+    \end{scope}
+
+  \end{tikzpicture}
+
+  \caption{Sześcienne krzywe B\'{e}zier.}
+
+
+\end{figure}
+% ##################
+
+
+
+
+
+% ##################
+\begin{figure}
+
+  \label{fig:Bezier-curves-of-third-order-03}
+
+
+  \centering
+
+  \begin{tikzpicture}
+
+    \draw (0,0) .. controls (0.669,0.743) and (2.33,0.743) .. (3,0);
+
+    % Ending points of the curve
+    \pic at (0,0) {point};
+
+    \pic at (3,0) {point};
+
+    % Controls points of the curve
+    \pic at (0.669,0.743) {point blue};
+
+    \pic at (2.33,0.743) {point blue};
+
+    \node[scale=0.75,text width=14em] at (1.9,-0.8)
+    {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+      $( 0.669, 0.743 )$, $( 2.33, 0.743 )$.};
+
+
+
+    \begin{scope}[xshift=4.5cm]
+
+      \draw (0,0) .. controls (0.682,0.731) and (2.318,0.731) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.682,0.731) {point blue};
+
+      \pic at (2.318,0.731) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.682, 0.731 )$, $( 2.317, 0.731 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=9cm]
+
+      \draw (0,0) .. controls (0.694,0.719) and (2.305,0.719) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.694,0.719) {point blue};
+
+      \pic at (2.305,0.719) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.694, 0.719 )$, $( 2.305, 0.719 )$.};
+
+    \end{scope}
+
+
+
+
+
+    \begin{scope}[yshift=-3.5cm]
+
+      \draw (0,0) .. controls (0.707,0.707) and (2.292,0.707) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.707,0.707) {point blue};
+
+      \pic at (2.292,0.708) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.707, 0.707 )$, $( 2.292, 0.708 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=4.5cm,yshift=-3.5cm]
+
+      \draw (0,0) .. controls (0.719,0.694) and (2.28,0.694) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.719,0.694) {point blue};
+
+      \pic at (2.28,0.695) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.719, 0.694 )$, $( 2.28, 0.695 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=9cm,yshift=-3.5cm]
+
+      \draw (0,0) .. controls (0.731,0.682) and (2.268,0.682) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.731,0.682) {point blue};
+
+      \pic at (2.268,0.682) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.731, 0.682 )$, $( 2.268, 0.682 )$.};
+
+    \end{scope}
+
+
+
+
+
+    \begin{scope}[yshift=-7cm]
+
+      \draw (0,0) .. controls (0.743,0.669) and (2.256,0.669) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.743,0.669) {point blue};
+
+      \pic at (2.256,0.669) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.743, 0.669 )$, $( 2.256, 0.669 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=4.5cm,yshift=-7cm]
+
+      \draw (0,0) .. controls (0.754,0.656) and (2.245,0.656) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.754,0.656) {point blue};
+
+      \pic at (2.245,0.656) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.754, 0.656 )$, $( 2.245, 0.656 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=9cm,yshift=-7cm]
+
+      \draw (0,0) .. controls (0.766,0.642) and (2.234,0.642) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.766,0.642) {point blue};
+
+      \pic at (2.234,0.642) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.766, 0.642 )$, $( 2.234, 0.642 )$.};
+
+    \end{scope}
+
+
+
+
+
+    \begin{scope}[yshift=-10.5cm]
+
+      \draw (0,0) .. controls (0.777,0.629) and (2.222,0.629) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.777,0.629) {point blue};
+
+      \pic at (2.222,0.629) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.777, 0.629 )$, $( 2.222, 0.629 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=4.5cm,yshift=-10.5cm]
+
+      \draw (0,0) .. controls (0.788,0.615) and (2.212,0.615) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.788,0.615) {point blue};
+
+      \pic at (2.212,0.615) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.788, 0.615 )$, $( 2.212, 0.615 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=9cm,yshift=-10.5cm]
+
+      \draw (0,0) .. controls (0.798,0.601) and (2.201,0.601) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.798,0.601) {point blue};
+
+      \pic at (2.201,0.601) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.798, 0.601 )$, $( 2.201, 0.601 )$.};
+
+    \end{scope}
+
+
+
+
+
+    \begin{scope}[yshift=-14cm]
+
+      \draw (0,0) .. controls (0.809,0.587) and (2.191,0.587) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.809,0.587) {point blue};
+
+      \pic at (2.191,0.587) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.809, 0.587 )$, $( 2.191, 0.587 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=4.5cm,yshift=-14cm]
+
+      \draw (0,0) .. controls (0.819,0.573) and (2.18,0.573) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.819,0.573) {point blue};
+
+      \pic at (2.18,0.573) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.819, 0.573 )$, $( 2.18, 0.573 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=9cm,yshift=-14cm]
+
+      \draw (0,0) .. controls (0.829,0.559) and (2.171,0.559) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.829,0.559) {point blue};
+
+      \pic at (2.171,0.559) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe $( 0, 0 )$, $( 3, 0 )$, punkty kontrolne
+        $( 0.829, 0.559 )$, $( 2.171, 0.559 )$.};
+
+    \end{scope}
+
+
+
+
+
+    \begin{scope}[yshift=-17.5cm]
+
+      \draw (0,0) .. controls (0.838,0.544) and (2.161,0.544) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.838,0.544) {point blue};
+
+      \pic at (2.161,0.544) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.838, 0.544 )$, $( 2.161, 0.544 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=4.5cm,yshift=-17.5cm]
+
+      \draw (0,0) .. controls (0.848,0.529) and (2.152,0.529) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.848,0.529) {point blue};
+
+      \pic at (2.151,0.529) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.848, 0.529 )$, $( 2.152, 0.529 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=9cm,yshift=-17.5cm]
+
+      \draw (0,0) .. controls (0.857,0.515) and (2.142,0.515) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.857,0.515) {point blue};
+
+      \pic at (2.142,0.515) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.857, 0.515 )$, $( 2.142, 0.515 )$.};
+
+    \end{scope}
+
+
+
+
+
+    \begin{scope}[yshift=-21cm]
+
+      \draw (0,0) .. controls (0.866,0.5) and (2.134,0.5) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.866,0.5) {point blue};
+
+      \pic at (2.134,0.5) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne
+        $( 0.866, 0.5 )$, $( 2.134, 0.5 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=4.5cm,yshift=-21cm]
+
+      \draw (0,0) .. controls (0.874,0.484) and (2.125,0.484) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.874,0.484) {point blue};
+
+      \pic at (2.125,0.484) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne
+        $( 0.874, 0.484 )$, $( 2.125, 0.484 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=9cm,yshift=-21cm]
+
+      \draw (0,0) .. controls (0.882,0.469) and (2.117,0.469) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.882,0.469) {point blue};
+
+      \pic at (2.117,0.469) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne
+        $( 0.882, 0.469 )$, $( 2.117, 0.469 )$.};
+
+    \end{scope}
+
+  \end{tikzpicture}
+
+  \caption{Sześcienne krzywe B\'{e}zier.}
+
+
+\end{figure}
+% ##################
+
+
+
+
+
+% ##################
+\begin{figure}
+
+  \label{fig:Bezier-curves-of-third-order-04}
+
+
+  \centering
+
+  \begin{tikzpicture}
+
+    \draw (0,0) .. controls (0.891,0.454) and (2.109,0.454) .. (3,0);
+
+    % Ending points of the curve
+    \pic at (0,0) {point};
+
+    \pic at (3,0) {point};
+
+    % Controls points of the curve
+    \pic at (0.891,0.454) {point blue};
+
+    \pic at (2.109,0.454) {point blue};
+
+    \node[scale=0.75,text width=14em] at (1.9,-0.8)
+    {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+      $( 0.891, 0.454 )$, $( 2.109, 0.454 )$.};
+
+
+
+    \begin{scope}[xshift=4.5cm]
+
+      \draw (0,0) .. controls (0.898,0.438) and (2.101,0.438) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.898,0.438) {point blue};
+
+      \pic at (2.101,0.438) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.898, 0.438 )$, $( 2.101, 0.438 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=9cm]
+
+      \draw (0,0) .. controls (0.906,0.422) and (2.093,0.422) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.906,0.422) {point blue};
+
+      \pic at (2.093,0.422) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.906, 0.422 )$, $( 2.093, 0.422 )$.};
+
+    \end{scope}
+
+
+
+
+
+    \begin{scope}[yshift=-3.5cm]
+
+      \draw (0,0) .. controls (0.913,0.406) and (2.086,0.406) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.913,0.406) {point blue};
+
+      \pic at (2.086,0.406) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.913, 0.406 )$, $( 2.086, 0.406 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=4.5cm,yshift=-3.5cm]
+
+      \draw (0,0) .. controls (0.92,0.39) and (2.079,0.39) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.92,0.39) {point blue};
+
+      \pic at (2.079,0.39) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.92, 0.39 )$, $( 2.079, 0.92 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=9cm,yshift=-3.5cm]
+
+      \draw (0,0) .. controls (0.927,0.374) and (2.072,0.374) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.927,0.374) {point blue};
+
+      \pic at (2.072,0.374) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.927, 0.374 )$, $( 2.072, 0.374 )$.};
+
+    \end{scope}
+
+
+
+
+
+    \begin{scope}[yshift=-7cm]
+
+      \draw (0,0) .. controls (0.933,0.358) and (2.066,0.358) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.933,0.358) {point blue};
+
+      \pic at (2.066,0.358) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.933, 0.358 )$, $( 2.066, 0.358 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=4.5cm,yshift=-7cm]
+
+      \draw (0,0) .. controls (0.939,0.342) and (2.06,0.342) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.939,0.342) {point blue};
+
+      \pic at (2.06,0.342) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.939, 0.342 )$, $( 2.06, 0.342 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=9cm,yshift=-7cm]
+
+      \draw (0,0) .. controls (0.945,0.325) and (2.054,0.325) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.945,0.325) {point blue};
+
+      \pic at (2.054,0.325) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.945, 0.325 )$, $( 2.054, 0.325 )$.};
+
+    \end{scope}
+
+
+
+
+
+    \begin{scope}[yshift=-10.5cm]
+
+      \draw (0,0) .. controls (0.951,0.309) and (2.048,0.309) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.951,0.309) {point blue};
+
+      \pic at (2.048,0.309) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.951, 0.309 )$, $( 2.048, 0.309 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=4.5cm,yshift=-10.5cm]
+
+      \draw (0,0) .. controls (0.956,0.292) and (2.043,0.292) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.956,0.292) {point blue};
+
+      \pic at (2.043,0.292) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.956, 0.292 )$, $( 2.043, 0.292 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=9cm,yshift=-10.5cm]
+
+      \draw (0,0) .. controls (0.961,0.275) and (2.038,0.275) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.961,0.275) {point blue};
+
+      \pic at (2.038,0.275) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.961, 0.275 )$, $( 2.038, 0.275 )$.};
+
+    \end{scope}
+
+
+
+
+
+    \begin{scope}[yshift=-14cm]
+
+      \draw (0,0) .. controls (0.965,0.258) and (2.034,0.258) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.965,0.258) {point blue};
+
+      \pic at (2.034,0.258) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.965, 0.258 )$, $( 2.034, 0.258 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=4.5cm,yshift=-14cm]
+
+      \draw (0,0) .. controls (0.97,0.207) and (2.021,0.207) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.97,0.207) {point blue};
+
+      \pic at (2.021,0.207) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.97, 0.207 )$, $( 2.021, 0.207 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=9cm,yshift=-14cm]
+
+      \draw (0,0) .. controls (0.981,0.19) and (2.018,0.19) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.981,0.19) {point blue};
+
+      \pic at (2.018,0.19) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe $( 0, 0 )$, $( 3, 0 )$, punkty kontrolne
+        $( 0.981, 0.19 )$, $( 2.018, 0.19 )$.};
+
+    \end{scope}
+
+
+
+
+
+    \begin{scope}[yshift=-17.5cm]
+
+      \draw (0,0) .. controls (0.984,0.173) and (2.015,0.173) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.984,0.173) {point blue};
+
+      \pic at (2.015,0.173) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.984, 0.173 )$, $( 2.015, 0.173 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=4.5cm,yshift=-17.5cm]
+
+      \draw (0,0) .. controls (0.987,0.156) and (2.012,0.156) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.987,0.156) {point blue};
+
+      \pic at (2.012,0.156) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.987, 0.156 )$, $( 2.012, 0.156 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=9cm,yshift=-17.5cm]
+
+      \draw (0,0) .. controls (0.99,0.139) and (2.009,0.139) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.99,0.139) {point blue};
+
+      \pic at (2.009,0.139) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.99, 0.139 )$, $( 2.009, 0.139 )$.};
+
+    \end{scope}
+
+
+
+
+
+    \begin{scope}[yshift=-21cm]
+
+      \draw (0,0) .. controls (0.992,0.121) and (2.007,0.121) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.992,0.121) {point blue};
+
+      \pic at (2.007,0.121) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne
+        $( 0.992, 0.121 )$, $( 2.007, 0.121 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=4.5cm,yshift=-21cm]
+
+      \draw (0,0) .. controls (0.994,0.104) and (2.005,0.104) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.994,0.104) {point blue};
+
+      \pic at (2.005,0.104) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne
+        $( 0.994, 0.104 )$, $( 2.005, 0.104 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=9cm,yshift=-21cm]
+
+      \draw (0,0) .. controls (0.996,0.087) and (2.003,0.087) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.996,0.087) {point blue};
+
+      \pic at (2.003,0.087) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne
+        $( 0.996, 0.087 )$, $( 2.003, 0.087 )$.};
+
+    \end{scope}
+
+  \end{tikzpicture}
+
+  \caption{Sześcienne krzywe B\'{e}zier.}
+
+
+\end{figure}
+% ##################
+
+
+
+
+
+% ##################
+\begin{figure}
+
+  \label{fig:Bezier-curves-of-third-order-04}
+
+
+  \centering
+
+  \begin{tikzpicture}
+
+    \draw (0,0) .. controls (0.997,0.069) and (2.002,0.069) .. (3,0);
+
+    % Ending points of the curve
+    \pic at (0,0) {point};
+
+    \pic at (3,0) {point};
+
+    % Controls points of the curve
+    \pic at (0.997,0.069) {point blue};
+
+    \pic at (2.002,0.069) {point blue};
+
+    \node[scale=0.75,text width=14em] at (1.9,-0.8)
+    {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+      $( 0.997, 0.069 )$, $( 2.002, 0.069 )$.};
+
+
+
+    \begin{scope}[xshift=4.5cm]
+
+      \draw (0,0) .. controls (0.998,0.052) and (2.001,0.052) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.998,0.052) {point blue};
+
+      \pic at (2.001,0.052) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.998, 0.052 )$, $( 2.001, 0.052 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=9cm]
+
+      \draw (0,0) .. controls (0.999,0.034) and (2,0.034) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.999,0.034) {point blue};
+
+      \pic at (2,0.034) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.999, 0.034 )$, $( 2, 0.034 )$.};
+
+    \end{scope}
+
+
+
+
+
+    \begin{scope}[yshift=-2.5cm]
+
+      \draw (0,0) .. controls (0.999,0.017) and (2,0.017) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.999,0.017) {point blue};
+
+      \pic at (2,0.017) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-1.5)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.999, 0.017 )$, $( 2, 0.017 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=4.5cm,yshift=-2.5cm]
+
+      \draw (0,0) .. controls (1,0) and (2,0) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (1,0) {point blue};
+
+      \pic at (2,0) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-1.5)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 1, 0 )$, $( 2, 0 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=9cm,yshift=-2.5cm]
+
+      \draw (0,0) .. controls (0.999,-0.017) and (2,-0.017) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.999,-0.017) {point blue};
+
+      \pic at (2,-0.017) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-1.5)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.999, -0.017 )$, $( 2, -0.017 )$.};
+
+    \end{scope}
+
+
+
+
+
+    \begin{scope}[yshift=-5.5cm]
+
+      \draw (0,0) .. controls (0.999,-0.034) and (2,-0.034) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.999,-0.034) {point blue};
+
+      \pic at (2,-0.034) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-1.5)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.999, -0.034 )$, $( 2, -0.034 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=4.5cm,yshift=-5.5cm]
+
+      \draw (0,0) .. controls (0.999,-0.052) and (2,-0.052) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.998,-0.052) {point blue};
+
+      \pic at (2.001,-0.052) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-1.5)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.998, -0.052 )$, $( 2.001, -0.052 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=9cm,yshift=-5.5cm]
+
+      \draw (0,0) .. controls (0.997,-0.069) and (2.002,-0.069) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.997,-0.069) {point blue};
+
+      \pic at (2.002,-0.069) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-1.5)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.997, -0.069 )$, $( 2.002, -0.069 )$.};
+
+    \end{scope}
+
+
+
+
+
+    \begin{scope}[yshift=-8.5cm]
+
+      \draw (0,0) .. controls (0.996,-0.087) and (2.003,-0.087) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.996,-0.087) {point blue};
+
+      \pic at (2.003,-0.087) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-1.5)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.996, -0.087 )$, $( 2.003, -0.087 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=4.5cm,yshift=-8.5cm]
+
+      \draw (0,0) .. controls (0.994,-0.104) and (2.005,-0.104) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.994,-0.104) {point blue};
+
+      \pic at (2.005,-0.104) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-1.5)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.994, -0.104 )$, $( 2.005, -0.104 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=9cm,yshift=-8.5cm]
+
+      \draw (0,0) .. controls (0.992,-0.121) and (2.007,-0.121) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.992,-0.121) {point blue};
+
+      \pic at (2.007,-0.121) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-1.5)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.992, -0.121 )$, $( 2.007, -0.121 )$.};
+
+    \end{scope}
+
+
+
+
+
+    \begin{scope}[yshift=-11.5cm]
+
+      \draw (0,0) .. controls (0.99,-0.139) and (2.009,-0.139) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.99,-0.139) {point blue};
+
+      \pic at (2.009,-0.139) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-1.5)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.99, -0.139 )$, $( 2.009, -0.139 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=4.5cm,yshift=-11.5cm]
+
+      \draw (0,0) .. controls (0.987,-0.156) and (2.012,-0.156) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.987,-0.156) {point blue};
+
+      \pic at (2.012,-0.156) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-1.5)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.987, -0.157 )$, $( 2.012, -0.156 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=9cm,yshift=-11.5cm]
+
+      \draw (0,0) .. controls (0.984,-0.173) and (2.015,-0.173) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.984,-0.173) {point blue};
+
+      \pic at (2.015,-0.173) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-1.5)
+      {Punkty początkowe $( 0, 0 )$, $( 3, 0 )$, punkty kontrolne
+        $( 0.984, -0.173 )$, $( 2.015, -0.173 )$.};
+
+    \end{scope}
+
+
+
+
+
+    \begin{scope}[yshift=-14.5cm]
+
+      \draw (0,0) .. controls (0.981,-0.19) and (2.018,-0.19) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.981,-0.19) {point blue};
+
+      \pic at (2.018,-0.19) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-1.5)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.981, -0.19 )$, $( 2.018, -0.19 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=4.5cm,yshift=-14.5cm]
+
+      \draw (0,0) .. controls (0.97,-0.207) and (2.021,-0.207) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.97,-0.207) {point blue};
+
+      \pic at (2.021,-0.207) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-1.5)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.97, -0.207 )$, $( 2.021, -0.207 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=9cm,yshift=-14.5cm]
+
+      \draw (0,0) .. controls (0.965,-0.258) and (2.034,-0.258) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.965,-0.258) {point blue};
+
+      \pic at (2.034,-0.258) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-1.5)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.965, -0.258 )$, $( 2.034, -0.258 )$.};
+
+    \end{scope}
+
+
+
+
+
+    \begin{scope}[yshift=-17.5cm]
+
+      \draw (0,0) .. controls (0.961,-0.275) and (2.038,-0.275) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.961,-0.275) {point blue};
+
+      \pic at (2.038,-0.275) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-1.5)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne
+        $( 0.961, -0.275 )$, $( 2.038, -0.275 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=4.5cm,yshift=-17.5cm]
+
+      \draw (0,0) .. controls (0.956,-0.292) and (2.043,-0.292) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.956,-0.292) {point blue};
+
+      \pic at (2.043,-0.292) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-1.5)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne
+        $( 0.956, -0.292 )$, $( 2.043, -0.292 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=9cm,yshift=-17.5cm]
+
+      \draw (0,0) .. controls (0.951,-0.309) and (2.048,-0.309) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.951,-0.309) {point blue};
+
+      \pic at (2.048,-0.309) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-1.5)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne
+        $( 0.951, -0.309 )$, $( 2.048, -0.309 )$.};
+
+    \end{scope}
+
+
+
+
+
+    \begin{scope}[yshift=-20.5cm]
+
+      \draw (0,0) .. controls (0.945,-0.325) and (2.054,-0.325) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.945,-0.325) {point blue};
+
+      \pic at (2.054,-0.325) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-1.5)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne
+        $( 0.945, -0.325 )$, $( 2.054, -0.325 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=4.5cm,yshift=-20.5cm]
+
+      \draw (0,0) .. controls (0.939,-0.342) and (2.06,-0.342) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.939,-0.342) {point blue};
+
+      \pic at (2.06,-0.342) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-1.5)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne
+        $( 0.939, -0.342 )$, $( 2.06, -0.342 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=9cm,yshift=-20.5cm]
+
+      \draw (0,0) .. controls (0.933,-0.358) and (2.066,-0.358) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.933,-0.358) {point blue};
+
+      \pic at (2.066,-0.358) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-1.5)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne
+        $( 0.933, -0.342 )$, $( 2.066, -0.358 )$.};
+
+    \end{scope}
+
+  \end{tikzpicture}
+
+  \caption{Sześcienne krzywe B\'{e}zier.}
+
+
+\end{figure}
+% ##################
+
+
+
+
+
+% ##################
+\begin{figure}
+
+  \label{fig:Bezier-curves-of-third-order-01}
+
+
+  \centering
+
+  \begin{tikzpicture}
+
+    \draw (0,0) .. controls (0,1) and (4,1) .. (4,0);
+
+    % Ending points of the curve
+    \pic at (0,0) {point};
+
+    \pic at (4,0) {point};
+
+    % Controls points of the curve
+    \pic at (0,1) {point blue};
+
+    \pic at (4,1) {point blue};
+
+    \node[scale=0.75,text width=15em] at (2.1,-0.8)
+    {Punkty początkowe: $( 0, 0 )$, $( 4, 0 )$; punkty kontrolne:
+      $( 0, 1 )$, $( 4, 1 )$.};
+
+
+
+    \begin{scope}[xshift=5.5cm]
+
+      \draw (0,0) .. controls (0.017,0.999) and (3.982,0.999) .. (4,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (4,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.017,0.999) {point blue};
+
+      \pic at (3.982,0.999) {point blue};
+
+      \node[scale=0.75,text width=15em] at (2.1,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 4, 0 )$; punkty kontrolne:
+        $( 0.017, 0.999 )$, $( 3.982, 0.999 )$.};
+
+    \end{scope}
+
+
+
+
+
+    \begin{scope}[yshift=-3.25cm]
+
+      \draw (0,0) .. controls (0.034,0.999) and (3.965,0.999) .. (4,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (4,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.034,0.999) {point blue};
+
+      \pic at (3.965,0.999) {point blue};
+
+      \node[scale=0.75,text width=15em] at (2.1,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 4, 0 )$; punkty kontrolne:
+        $( 0.034, 0.999 )$, $( 3.965, 0.999 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=5.5cm,yshift=-3.25cm]
+
+      \draw (0,0) .. controls (0.052,0.998) and (3.947,0.998) .. (4,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (4,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.052,0.998) {point blue};
+
+      \pic at (3.947,0.998) {point blue};
+
+      \node[scale=0.75,text width=15em] at (2.1,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 4, 0 )$; punkty kontrolne:
+        $( 0.052, 0.998 )$, $( 3.947, 0.998 )$.};
+
+    \end{scope}
+
+
+
+
+
+    \begin{scope}[yshift=-6.5cm]
+
+      \draw (0,0) .. controls (0.069,0.997) and (3.93,0.997) .. (4,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (4,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.069,0.997) {point blue};
+
+      \pic at (3.93,0.997) {point blue};
+
+      \node[scale=0.75,text width=15em] at (2.1,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 4, 0 )$; punkty kontrolne:
+        $( 0.069, 0.997 )$, $( 3.93, 0.997 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=5.5cm,yshift=-6.5cm]
+
+      \draw (0,0) .. controls (0.087,0.996) and (3.912,0.996) .. (4,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (4,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.087,0.996) {point blue};
+
+      \pic at (3.912,0.996) {point blue};
+
+      \node[scale=0.75,text width=15em] at (2.1,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 4, 0 )$; punkty kontrolne:
+        $( 0.087, 0.996 )$, $( 3.912, 0.996 )$.};
+
+    \end{scope}
+
+
+
+
+
+    \begin{scope}[yshift=-9.75cm]
+
+      \draw (0,0) .. controls (0.104,0.994) and (3.895,0.994) .. (4,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (4,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.104,0.994) {point blue};
+
+      \pic at (3.895,0.994) {point blue};
+
+      \node[scale=0.75,text width=15em] at (2.1,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 4, 0 )$; punkty kontrolne:
+        $( 0.104, 0.994 )$, $( 3.895, 0.994 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=5.5cm,yshift=-9.75cm]
+
+      \draw (0,0) .. controls (0.121,0.992) and (3.878,0.992) .. (4,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (4,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.121,0.992) {point blue};
+
+      \pic at (3.878,0.992) {point blue};
+
+      \node[scale=0.75,text width=15em] at (2.1,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 4, 0 )$; punkty kontrolne:
+        $( 0.121, 0.992 )$, $( 3.878, 0.992 )$.};
+
+    \end{scope}
+
+
+
+
+
+    \begin{scope}[yshift=-13cm]
+
+      \draw (0,0) .. controls (0.139,0.99) and (3.86,0.99) .. (4,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (4,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.139,0.99) {point blue};
+
+      \pic at (3.86,0.99) {point blue};
+
+      \node[scale=0.75,text width=15em] at (2.1,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 4, 0 )$; punkty kontrolne:
+        $( 0.139, 0.99 )$, $( 3.86, 0.99 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=5.5cm,yshift=-13cm]
+
+      \draw (0,0) .. controls (0.156,0.987) and (3.843,0.987) .. (4,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (4,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.156,0.987) {point blue};
+
+      \pic at (3.843,0.987) {point blue};
+
+      \node[scale=0.75,text width=15em] at (2.1,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 4, 0 )$; punkty kontrolne:
+        $( 0.156, 0.987 )$, $( 3.843, 0.987 )$.};
+
+    \end{scope}
+
+
+
+
+
+    \begin{scope}[yshift=-16.25cm]
+
+      \draw (0,0) .. controls (0.173,0.984) and (3.826,0.984) .. (4,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (4,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.173,0.984) {point blue};
+
+      \pic at (3.826,0.984) {point blue};
+
+      \node[scale=0.75,text width=15em] at (2.1,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 4, 0 )$; punkty kontrolne:
+        $( 0.173, 0.984 )$, $( 3.826, 0.984 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=5.5cm,yshift=-16.25cm]
+
+      \draw (0,0) .. controls (0.173,0.984) and (3.826,0.984) .. (4,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (4,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.173,0.984) {point blue};
+
+      \pic at (3.826,0.984) {point blue};
+
+      \node[scale=0.75,text width=15em] at (2.1,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 4, 0 )$; punkty kontrolne:
+        $( 0.173, 0.984 )$, $( 3.826, 0.984 )$.};
+
+    \end{scope}
+
+
+
+
+
+    \begin{scope}[yshift=-19.5cm]
+
+      \draw (0,0) .. controls (0.19,0.981) and (3.809,0.981) .. (4,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (4,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.19,0.981) {point blue};
+
+      \pic at (3.809,0.981) {point blue};
+
+      \node[scale=0.75,text width=15em] at (2.1,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 4, 0 )$; punkty kontrolne:
+        $( 0.19, 0.981 )$, $( 3.809, 0.981 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=5.5cm,yshift=-19.5cm]
+
+      \draw (0,0) .. controls (0.207,0.978) and (3.792,0.978) .. (4,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (4,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.207,0.978) {point blue};
+
+      \pic at (3.792,0.978) {point blue};
+
+      \node[scale=0.75,text width=15em] at (2.1,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 4, 0 )$; punkty kontrolne:
+        $( 0.207, 0.978 )$, $( 3.792, 0.978 )$.};
+
+    \end{scope}
+
+  \end{tikzpicture}
+
+  \caption{Sześcienne krzywe B\'{e}zier.}
+
+
+\end{figure}
+% ##################
+
+
+
+
+
+% ##################
+\begin{figure}
+
+  \label{fig:Bezier-curves-of-third-order-01}
+
+
+  \centering
+
+  \begin{tikzpicture}
+
+    \draw (0,0) .. controls (0.225,0.974) and (3.775,0.974) .. (4,0);
+
+    % Ending points of the curve
+    \pic at (0,0) {point};
+
+    \pic at (4,0) {point};
+
+    % Controls points of the curve
+    \pic at (0.225,0.974) {point blue};
+
+    \pic at (3.775,0.974) {point blue};
+
+    \node[scale=0.75,text width=15em] at (2.1,-0.8)
+    {Punkty początkowe: $( 0, 0 )$, $( 4, 0 )$; punkty kontrolne:
+      $( 0.225, 0.974 )$, $( 3.775, 0.974 )$.};
+
+
+
+    \begin{scope}[xshift=5.5cm]
+
+      \draw (0,0) .. controls (0.258,0.965) and (3.741,0.965) .. (4,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (4,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.258,0.965) {point blue};
+
+      \pic at (3.741,0.965) {point blue};
+
+      \node[scale=0.75,text width=15em] at (2.1,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 4, 0 )$; punkty kontrolne:
+        $( 0.258, 0.965 )$, $( 3.741, 0.965 )$.};
+
+    \end{scope}
+
+
+
+
+
+    \begin{scope}[yshift=-3.25cm]
+
+      \draw (0,0) .. controls (0.275,0.961) and (3.724,0.961) .. (4,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (4,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.275,0.961) {point blue};
+
+      \pic at (3.724,0.961) {point blue};
+
+      \node[scale=0.75,text width=15em] at (2.1,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 4, 0 )$; punkty kontrolne:
+        $( 0.275, 0.961 )$, $( 3.724, 0.961 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=5.5cm,yshift=-3.25cm]
+
+      \draw (0,0) .. controls (0.292,0.956) and (3.707,0.956) .. (4,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (4,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.292,0.956) {point blue};
+
+      \pic at (3.707,0.956) {point blue};
+
+      \node[scale=0.75,text width=15em] at (2.1,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 4, 0 )$; punkty kontrolne:
+        $( 0.292, 0.956 )$, $( 3.707, 0.956 )$.};
+
+    \end{scope}
+
+
+
+
+
+    \begin{scope}[yshift=-6.5cm]
+
+      \draw (0,0) .. controls (0.309,0.951) and (3.691,0.951) .. (4,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (4,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.309,0.951) {point blue};
+
+      \pic at (3.691,0.951) {point blue};
+
+      \node[scale=0.75,text width=15em] at (2.1,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 4, 0 )$; punkty kontrolne:
+        $( 0.309, 0.951 )$, $( 3.691, 0.951 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=5.5cm,yshift=-6.5cm]
+
+      \draw (0,0) .. controls (0.325,0.945) and (3.674,0.945) .. (4,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (4,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.325,0.945) {point blue};
+
+      \pic at (3.674,0.945) {point blue};
+
+      \node[scale=0.75,text width=15em] at (2.1,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 4, 0 )$; punkty kontrolne:
+        $( 0.325, 0.945 )$, $( 3.674, 0.945 )$.};
+
+    \end{scope}
+
+
+
+
+
+    \begin{scope}[yshift=-9.75cm]
+
+      \draw (0,0) .. controls (0.342,0.939) and (3.658,0.939) .. (4,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (4,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.342,0.939) {point blue};
+
+      \pic at (3.658,0.939) {point blue};
+
+      \node[scale=0.75,text width=15em] at (2.1,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 4, 0 )$; punkty kontrolne:
+        $( 0.342, 0.939 )$, $( 3.658, 0.939 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=5.5cm,yshift=-9.75cm]
+
+      \draw (0,0) .. controls (0.358,0.933) and (3.641,0.933) .. (4,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (4,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.358,0.933) {point blue};
+
+      \pic at (3.641,0.933) {point blue};
+
+      \node[scale=0.75,text width=15em] at (2.1,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 4, 0 )$; punkty kontrolne:
+        $( 0.358, 0.933 )$, $( 3.641, 0.933 )$.};
+
+    \end{scope}
+
+
+
+
+
+    \begin{scope}[yshift=-13cm]
+
+      \draw (0,0) .. controls (0.374,0.927) and (3.625,0.927) .. (4,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (4,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.374,0.927) {point blue};
+
+      \pic at (3.625,0.927) {point blue};
+
+      \node[scale=0.75,text width=15em] at (2.1,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 4, 0 )$; punkty kontrolne:
+        $( 0.374, 0.927 )$, $( 3.625, 0.927 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=5.5cm,yshift=-13cm]
+
+      \draw (0,0) .. controls (0.39,0.92) and (3.609,0.92) .. (4,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (4,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.39,0.92) {point blue};
+
+      \pic at (3.609,0.92) {point blue};
+
+      \node[scale=0.75,text width=15em] at (2.1,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 4, 0 )$; punkty kontrolne:
+        $( 0.39, 0.92 )$, $( 3.609, 0.92 )$.};
+
+    \end{scope}
+
+
+
+
+
+    \begin{scope}[yshift=-16.25cm]
+
+      \draw (0,0) .. controls (0.406,0.913) and (3.593,0.913) .. (4,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (4,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.406,0.913) {point blue};
+
+      \pic at (3.593,0.913) {point blue};
+
+      \node[scale=0.75,text width=15em] at (2.1,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 4, 0 )$; punkty kontrolne:
+        $( 0.406, 0.913 )$, $( 3.593, 0.913 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=5.5cm,yshift=-16.25cm]
+
+      \draw (0,0) .. controls (0.422,0.906) and (3.577,0.906) .. (4,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (4,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.422,0.906) {point blue};
+
+      \pic at (3.577,0.906) {point blue};
+
+      \node[scale=0.75,text width=15em] at (2.1,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 4, 0 )$; punkty kontrolne:
+        $( 0.422, 0.906 )$, $( 3.577, 0.906 )$.};
+
+    \end{scope}
+
+
+
+
+
+    \begin{scope}[yshift=-19.5cm]
+
+      \draw (0,0) .. controls (0.438,0.898) and (3.561,0.898) .. (4,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (4,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.438,0.898) {point blue};
+
+      \pic at (3.561,0.898) {point blue};
+
+      \node[scale=0.75,text width=15em] at (2.1,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 4, 0 )$; punkty kontrolne:
+        $( 0.438, 0.898 )$, $( 3.561, 0.898 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=5.5cm,yshift=-19.5cm]
+
+      \draw (0,0) .. controls (0.454,0.891) and (3.546,0.891) .. (4,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (4,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.454,0.891) {point blue};
+
+      \pic at (3.546,0.891) {point blue};
+
+      \node[scale=0.75,text width=15em] at (2.1,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 4, 0 )$; punkty kontrolne:
+        $( 0.454, 0.891 )$, $( 3.546, 0.891 )$.};
+
+    \end{scope}
+
+  \end{tikzpicture}
+
+  \caption{Sześcienne krzywe B\'{e}zier.}
+
+
+\end{figure}
+% ##################
+
+
+
+
+
+% ##################
+\begin{figure}
+
+  \label{fig:Bezier-curves-of-third-order-01}
+
+
+  \centering
+
+  \begin{tikzpicture}
+
+    \draw (0,0) .. controls (0.469,0.882) and (3.53,0.882) .. (4,0);
+
+    % Ending points of the curve
+    \pic at (0,0) {point};
+
+    \pic at (4,0) {point};
+
+    % Controls points of the curve
+    \pic at (0.469,0.882) {point blue};
+
+    \pic at (3.53,0.882) {point blue};
+
+    \node[scale=0.75,text width=15em] at (2.1,-0.8)
+    {Punkty początkowe: $( 0, 0 )$, $( 4, 0 )$; punkty kontrolne:
+      $( 0.469, 0.882 )$, $( 3.53, 0.882 )$.};
+
+
+
+    \begin{scope}[xshift=5.5cm]
+
+      \draw (0,0) .. controls (0.484,0.874) and (3.515,0.874) .. (4,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (4,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.484,0.874) {point blue};
+
+      \pic at (3.515,0.874) {point blue};
+
+      \node[scale=0.75,text width=15em] at (2.1,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 4, 0 )$; punkty kontrolne:
+        $( 0.484, 0.874 )$, $( 3.515, 0.874 )$.};
+
+    \end{scope}
+
+
+
+
+
+    \begin{scope}[yshift=-3.25cm]
+
+      \draw (0,0) .. controls (0.5,0.866) and (3.5,0.866) .. (4,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (4,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.5,0.866) {point blue};
+
+      \pic at (3.5,0.866) {point blue};
+
+      \node[scale=0.75,text width=15em] at (2.1,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 4, 0 )$; punkty kontrolne:
+        $( 0.5, 0.866 )$, $( 3.5, 0.866 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=5.5cm,yshift=-3.25cm]
+
+      \draw (0,0) .. controls (0.292,0.956) and (3.707,0.956) .. (4,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (4,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.292,0.956) {point blue};
+
+      \pic at (3.707,0.956) {point blue};
+
+      \node[scale=0.75,text width=15em] at (2.1,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 4, 0 )$; punkty kontrolne:
+        $( 0.292, 0.956 )$, $( 3.707, 0.956 )$.};
+
+    \end{scope}
+
+
+
+
+
+    % \begin{scope}[yshift=-6.5cm]
+
+    %   \draw (0,0) .. controls (0.309,0.951) and (3.691,0.951) .. (4,0);
+
+    %   % Ending points of the curve
+    %   \pic at (0,0) {point};
+
+    %   \pic at (4,0) {point};
+
+    %   % Controls points of the curve
+    %   \pic at (0.309,0.951) {point blue};
+
+    %   \pic at (3.691,0.951) {point blue};
+
+    %   \node[scale=0.75,text width=15em] at (2.1,-0.8)
+    %   {Punkty początkowe: $( 0, 0 )$, $( 4, 0 )$; punkty kontrolne:
+    %     $( 0.309, 0.951 )$, $( 3.691, 0.951 )$.};
+
+    % \end{scope}
+
+
+
+    % \begin{scope}[xshift=5.5cm,yshift=-6.5cm]
+
+    %   \draw (0,0) .. controls (0.325,0.945) and (3.674,0.945) .. (4,0);
+
+    %   % Ending points of the curve
+    %   \pic at (0,0) {point};
+
+    %   \pic at (4,0) {point};
+
+    %   % Controls points of the curve
+    %   \pic at (0.325,0.945) {point blue};
+
+    %   \pic at (3.674,0.945) {point blue};
+
+    %   \node[scale=0.75,text width=15em] at (2.1,-0.8)
+    %   {Punkty początkowe: $( 0, 0 )$, $( 4, 0 )$; punkty kontrolne:
+    %     $( 0.325, 0.945 )$, $( 3.674, 0.945 )$.};
+
+    % \end{scope}
+
+
+
+
+
+    % \begin{scope}[yshift=-9.75cm]
+
+    %   \draw (0,0) .. controls (0.342,0.939) and (3.658,0.939) .. (4,0);
+
+    %   % Ending points of the curve
+    %   \pic at (0,0) {point};
+
+    %   \pic at (4,0) {point};
+
+    %   % Controls points of the curve
+    %   \pic at (0.342,0.939) {point blue};
+
+    %   \pic at (3.658,0.939) {point blue};
+
+    %   \node[scale=0.75,text width=15em] at (2.1,-0.8)
+    %   {Punkty początkowe: $( 0, 0 )$, $( 4, 0 )$; punkty kontrolne:
+    %     $( 0.342, 0.939 )$, $( 3.658, 0.939 )$.};
+
+    % \end{scope}
+
+
+
+    % \begin{scope}[xshift=5.5cm,yshift=-9.75cm]
+
+    %   \draw (0,0) .. controls (0.358,0.933) and (3.641,0.933) .. (4,0);
+
+    %   % Ending points of the curve
+    %   \pic at (0,0) {point};
+
+    %   \pic at (4,0) {point};
+
+    %   % Controls points of the curve
+    %   \pic at (0.358,0.933) {point blue};
+
+    %   \pic at (3.641,0.933) {point blue};
+
+    %   \node[scale=0.75,text width=15em] at (2.1,-0.8)
+    %   {Punkty początkowe: $( 0, 0 )$, $( 4, 0 )$; punkty kontrolne:
+    %     $( 0.358, 0.933 )$, $( 3.641, 0.933 )$.};
+
+    % \end{scope}
+
+
+
+
+
+    % \begin{scope}[yshift=-13cm]
+
+    %   \draw (0,0) .. controls (0.374,0.927) and (3.625,0.927) .. (4,0);
+
+    %   % Ending points of the curve
+    %   \pic at (0,0) {point};
+
+    %   \pic at (4,0) {point};
+
+    %   % Controls points of the curve
+    %   \pic at (0.374,0.927) {point blue};
+
+    %   \pic at (3.625,0.927) {point blue};
+
+    %   \node[scale=0.75,text width=15em] at (2.1,-0.8)
+    %   {Punkty początkowe: $( 0, 0 )$, $( 4, 0 )$; punkty kontrolne:
+    %     $( 0.374, 0.927 )$, $( 3.625, 0.927 )$.};
+
+    % \end{scope}
+
+
+
+    % \begin{scope}[xshift=5.5cm,yshift=-13cm]
+
+    %   \draw (0,0) .. controls (0.39,0.92) and (3.609,0.92) .. (4,0);
+
+    %   % Ending points of the curve
+    %   \pic at (0,0) {point};
+
+    %   \pic at (4,0) {point};
+
+    %   % Controls points of the curve
+    %   \pic at (0.39,0.92) {point blue};
+
+    %   \pic at (3.609,0.92) {point blue};
+
+    %   \node[scale=0.75,text width=15em] at (2.1,-0.8)
+    %   {Punkty początkowe: $( 0, 0 )$, $( 4, 0 )$; punkty kontrolne:
+    %     $( 0.39, 0.92 )$, $( 3.609, 0.92 )$.};
+
+    % \end{scope}
+
+
+
+
+
+    % \begin{scope}[yshift=-16.25cm]
+
+    %   \draw (0,0) .. controls (0.406,0.913) and (3.593,0.913) .. (4,0);
+
+    %   % Ending points of the curve
+    %   \pic at (0,0) {point};
+
+    %   \pic at (4,0) {point};
+
+    %   % Controls points of the curve
+    %   \pic at (0.406,0.913) {point blue};
+
+    %   \pic at (3.593,0.913) {point blue};
+
+    %   \node[scale=0.75,text width=15em] at (2.1,-0.8)
+    %   {Punkty początkowe: $( 0, 0 )$, $( 4, 0 )$; punkty kontrolne:
+    %     $( 0.406, 0.913 )$, $( 3.593, 0.913 )$.};
+
+    % \end{scope}
+
+
+
+    % \begin{scope}[xshift=5.5cm,yshift=-16.25cm]
+
+    %   \draw (0,0) .. controls (0.422,0.906) and (3.577,0.906) .. (4,0);
+
+    %   % Ending points of the curve
+    %   \pic at (0,0) {point};
+
+    %   \pic at (4,0) {point};
+
+    %   % Controls points of the curve
+    %   \pic at (0.422,0.906) {point blue};
+
+    %   \pic at (3.577,0.906) {point blue};
+
+    %   \node[scale=0.75,text width=15em] at (2.1,-0.8)
+    %   {Punkty początkowe: $( 0, 0 )$, $( 4, 0 )$; punkty kontrolne:
+    %     $( 0.422, 0.906 )$, $( 3.577, 0.906 )$.};
+
+    % \end{scope}
+
+
+
+
+
+    % \begin{scope}[yshift=-19.5cm]
+
+    %   \draw (0,0) .. controls (0.438,0.898) and (3.561,0.898) .. (4,0);
+
+    %   % Ending points of the curve
+    %   \pic at (0,0) {point};
+
+    %   \pic at (4,0) {point};
+
+    %   % Controls points of the curve
+    %   \pic at (0.438,0.898) {point blue};
+
+    %   \pic at (3.561,0.898) {point blue};
+
+    %   \node[scale=0.75,text width=15em] at (2.1,-0.8)
+    %   {Punkty początkowe: $( 0, 0 )$, $( 4, 0 )$; punkty kontrolne:
+    %     $( 0.438, 0.898 )$, $( 3.561, 0.898 )$.};
+
+    % \end{scope}
+
+
+
+    % \begin{scope}[xshift=5.5cm,yshift=-19.5cm]
+
+    %   \draw (0,0) .. controls (0.454,0.891) and (3.546,0.891) .. (4,0);
+
+    %   % Ending points of the curve
+    %   \pic at (0,0) {point};
+
+    %   \pic at (4,0) {point};
+
+    %   % Controls points of the curve
+    %   \pic at (0.454,0.891) {point blue};
+
+    %   \pic at (3.546,0.891) {point blue};
+
+    %   \node[scale=0.75,text width=15em] at (2.1,-0.8)
+    %   {Punkty początkowe: $( 0, 0 )$, $( 4, 0 )$; punkty kontrolne:
+    %     $( 0.454, 0.891 )$, $( 3.546, 0.891 )$.};
+
+    % \end{scope}
+
+  \end{tikzpicture}
+
+  \caption{Sześcienne krzywe B\'{e}zier.}
+
+
+\end{figure}
+% ##################
+
+
+
+
+
+% ##################
+\begin{figure}
+
+  \label{fig:Bezier-curves-of-third-order-01}
+
+
+  \centering
+
+  \begin{tikzpicture}
+
+    \draw (0,0) .. controls (0,1) and (3,1) .. (3,0);
+
+    % Ending points of the curve
+    \pic at (0,0) {point};
+
+    \pic at (3,0) {point};
+
+    % Controls points of the curve
+    \pic at (0,1) {point blue};
+
+    \pic at (3,1) {point blue};
+
+    \node[scale=0.75,text width=12em] at (1.5,-0.8)
+    {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+      $( 0, 1 )$, $( 3, 1 )$.};
+
+
+
+    \begin{scope}[xshift=4.5cm]
+
+      \draw (0,0) .. controls (0.017,0.999) and (3,1) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.017,0.999) {point blue};
+
+      \pic at (3,1) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.017, 0.999 )$, $( 3, 1 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=9cm]
+
+      \draw (0,0) .. controls (0.034,0.999) and (3,1) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.034,0.999) {point blue};
+
+      \pic at (3,1) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.034, 0.999 )$, $( 3, 1 )$.};
+
+    \end{scope}
+
+
+
+
+
+    \begin{scope}[yshift=-3.5cm]
+
+      \draw (0,0) .. controls (0.052,0.998) and (3,1) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.052,0.998) {point blue};
+
+      \pic at (3,1) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.052, 0.998 )$, $( 3, 1 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=4.5cm,yshift=-3.5cm]
+
+      \draw (0,0) .. controls (0.069,0.997) and (3,1) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.069,0.997) {point blue};
+
+      \pic at (3,1) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.069, 0.997 )$, $( 3, 1 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=9cm,yshift=-3.5cm]
+
+      \draw (0,0) .. controls (0.087,0.996) and (3,1) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.087,0.996) {point blue};
+
+      \pic at (3,1) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.087, 0.996 )$, $( 3, 1 )$.};
+
+    \end{scope}
+
+
+
+
+
+    \begin{scope}[yshift=-7cm]
+
+      \draw (0,0) .. controls (0.104,0.994) and (3,1) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.104,0.994) {point blue};
+
+      \pic at (3,1) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.104, 0.994 )$, $( 3, 1 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=4.5cm,yshift=-7cm]
+
+      \draw (0,0) .. controls (0.121,0.992) and (3,1) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.121,0.992) {point blue};
+
+      \pic at (3,1) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.121, 0.992 )$, $( 3, 1 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=9cm,yshift=-7cm]
+
+      \draw (0,0) .. controls (0.139,0.99) and (3,1) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.139,0.99) {point blue};
+
+      \pic at (3,1) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.139, 0.99 )$, $( 3, 1 )$.};
+
+    \end{scope}
+
+
+
+
+
+    \begin{scope}[yshift=-10.5cm]
+
+      \draw (0,0) .. controls (0.156,0.987) and (3,1) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.156,0.987) {point blue};
+
+      \pic at (3,1) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.156, 0.987 )$, $( 3, 1 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=4.5cm,yshift=-10.5cm]
+
+      \draw (0,0) .. controls (0.173,0.984) and (3,1) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.173,0.984) {point blue};
+
+      \pic at (3,1) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.173, 0.984 )$, $( 3, 1 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=9cm,yshift=-10.5cm]
+
+      \draw (0,0) .. controls (0.19,0.981) and (3,1) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.19,0.981) {point blue};
+
+      \pic at (3,1) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.19, 0.981 )$, $( 3, 1 )$.};
+
+    \end{scope}
+
+
+
+
+
+    \begin{scope}[yshift=-14cm]
+
+      \draw (0,0) .. controls (0.207,0.978) and (3,1) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.207,0.978) {point blue};
+
+      \pic at (3,1) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.207, 0.978 )$, $( 3, 1 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=4.5cm,yshift=-14cm]
+
+      \draw (0,0) .. controls (0.225,0.974) and (3,1) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.225,0.974) {point blue};
+
+      \pic at (3,1) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.224, 0.974 )$, $( 3, 1 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=9cm,yshift=-14cm]
+
+      \draw (0,0) .. controls (0.241,0.97) and (3,1) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.241,0.97) {point blue};
+
+      \pic at (3,1) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe $( 0, 0 )$, $( 3, 0 )$, punkty kontrolne
+        $( 0.241, 0.97 )$, $( 3, 1 )$.};
+
+    \end{scope}
+
+
+
+
+
+    \begin{scope}[yshift=-17.5cm]
+
+      \draw (0,0) .. controls (0.258,0.965) and (3,1) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.258,0.965) {point blue};
+
+      \pic at (3,1) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.258, 0.965 )$, $( 3, 1 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=4.5cm,yshift=-17.5cm]
+
+      \draw (0,0) .. controls (0.275,0.961) and (3,1) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.275,0.961) {point blue};
+
+      \pic at (3,1) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.275, 0.961 )$, $( 3, 1 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=9cm,yshift=-17.5cm]
+
+      \draw (0,0) .. controls (0.292,0.956) and (3,1) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.292,0.956) {point blue};
+
+      \pic at (3,1) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne:
+        $( 0.292, 0.956 )$, $( 3, 1 )$.};
+
+    \end{scope}
+
+
+
+
+
+    \begin{scope}[yshift=-21cm]
+
+      \draw (0,0) .. controls (0.309,0.951) and (3,1) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.309,0.951) {point blue};
+
+      \pic at (2.691,0.951) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne
+        $( 0.309, 0.951 )$, $( 3, 1 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=4.5cm,yshift=-21cm]
+
+      \draw (0,0) .. controls (0.325,0.945) and (3,1) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.325,0.945) {point blue};
+
+      \pic at (3,1) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne
+        $( 0.324, 0.945 )$, $( 3, 1 )$.};
+
+    \end{scope}
+
+
+
+    \begin{scope}[xshift=9cm,yshift=-21cm]
+
+      \draw (0,0) .. controls (0.342,0.939) and (3,1) .. (3,0);
+
+      % Ending points of the curve
+      \pic at (0,0) {point};
+
+      \pic at (3,0) {point};
+
+      % Controls points of the curve
+      \pic at (0.342,0.939) {point blue};
+
+      \pic at (3,1) {point blue};
+
+      \node[scale=0.75,text width=14em] at (1.9,-0.8)
+      {Punkty początkowe: $( 0, 0 )$, $( 3, 0 )$; punkty kontrolne
+        $( 0.342, 0.939 )$, $( 3, 1 )$.};
+
+    \end{scope}
+
+  \end{tikzpicture}
+
+  \caption{Sześcienne krzywe B\'{e}zier.}
+
+
+\end{figure}
+% ##################
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+% ####################################################################
+% ####################################################################
+% Bibliography
+
+% \printbibliography
+
+
+
+
+
+% ############################
+% End of the document
+
+\end{document}
