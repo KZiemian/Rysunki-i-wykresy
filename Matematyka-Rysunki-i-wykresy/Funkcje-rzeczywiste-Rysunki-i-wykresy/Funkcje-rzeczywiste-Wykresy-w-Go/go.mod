@@ -1,6 +1,6 @@
-module rysunki-i-wykresy.com/Go-math-etc
+module Rysunki-i-wykresy.com/Go-math-etc
 
-go 1.23.0
+go 1.24.0
 
 require (
 	git.sr.ht/~sbinet/gg v0.6.0 // indirect
