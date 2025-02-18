@@ -466,1150 +466,1150 @@ func main() {
 	punktyWykresuFunkcji[149].Y = 4.01
 
 	punktyWykresuFunkcji[150].X = 1.5
-	punktyWykresuFunkcji[150].Y = 4.036
+	punktyWykresuFunkcji[150].Y = 0.0
 
 	punktyWykresuFunkcji[151].X = 1.51
-	punktyWykresuFunkcji[151].Y = 4.063
+	punktyWykresuFunkcji[151].Y = 3.91
 
 	punktyWykresuFunkcji[152].X = 1.52
-	punktyWykresuFunkcji[152].Y = 4.088
+	punktyWykresuFunkcji[152].Y = 3.924
 
 	punktyWykresuFunkcji[153].X = 1.53
-	punktyWykresuFunkcji[153].Y = 4.114
+	punktyWykresuFunkcji[153].Y = 3.938
 
 	punktyWykresuFunkcji[154].X = 1.54
-	punktyWykresuFunkcji[154].Y = 4.139
+	punktyWykresuFunkcji[154].Y = 3.951
 
 	punktyWykresuFunkcji[155].X = 1.55
-	punktyWykresuFunkcji[155].Y = 4.165
+	punktyWykresuFunkcji[155].Y = 3.963
 
 	punktyWykresuFunkcji[156].X = 1.56
-	punktyWykresuFunkcji[156].Y = 4.19
+	punktyWykresuFunkcji[156].Y = 3.975
 
 	punktyWykresuFunkcji[157].X = 1.57
-	punktyWykresuFunkcji[157].Y = 4.215
+	punktyWykresuFunkcji[157].Y = 3.986
 
 	punktyWykresuFunkcji[158].X = 1.58
-	punktyWykresuFunkcji[158].Y = 4.239
+	punktyWykresuFunkcji[158].Y = 3.996
 
 	punktyWykresuFunkcji[159].X = 1.59
-	punktyWykresuFunkcji[159].Y = 4.264
+	punktyWykresuFunkcji[159].Y = 4.006
 
 	punktyWykresuFunkcji[160].X = 1.6
-	punktyWykresuFunkcji[160].Y = 4.288
+	punktyWykresuFunkcji[160].Y = 4.015
 
 	punktyWykresuFunkcji[161].X = 1.61
-	punktyWykresuFunkcji[161].Y = 4.312
+	punktyWykresuFunkcji[161].Y = 4.023
 
 	punktyWykresuFunkcji[162].X = 1.62
-	punktyWykresuFunkcji[162].Y = 4.336
+	punktyWykresuFunkcji[162].Y = 4.031
 
 	punktyWykresuFunkcji[163].X = 1.63
-	punktyWykresuFunkcji[163].Y = 4.359
+	punktyWykresuFunkcji[163].Y = 4.038
 
 	punktyWykresuFunkcji[164].X = 1.64
-	punktyWykresuFunkcji[164].Y = 4.383
+	punktyWykresuFunkcji[164].Y = 4.045
 
 	punktyWykresuFunkcji[165].X = 1.65
-	punktyWykresuFunkcji[165].Y = 4.406
+	punktyWykresuFunkcji[165].Y = 4.05
 
 	punktyWykresuFunkcji[166].X = 1.66
-	punktyWykresuFunkcji[166].Y = 4.429
+	punktyWykresuFunkcji[166].Y = 4.055
 
 	punktyWykresuFunkcji[167].X = 1.67
-	punktyWykresuFunkcji[167].Y = 4.452
+	punktyWykresuFunkcji[167].Y = 4.06
 
 	punktyWykresuFunkcji[168].X = 1.68
-	punktyWykresuFunkcji[168].Y = 4.474
+	punktyWykresuFunkcji[168].Y = 4.063
 
 	punktyWykresuFunkcji[169].X = 1.69
-	punktyWykresuFunkcji[169].Y = 4.497
+	punktyWykresuFunkcji[169].Y = 4.066
 
 	punktyWykresuFunkcji[170].X = 1.7
-	punktyWykresuFunkcji[170].Y = 4.519
+	punktyWykresuFunkcji[170].Y = 4.068
 
 	punktyWykresuFunkcji[171].X = 1.71
-	punktyWykresuFunkcji[171].Y = 4.541
+	punktyWykresuFunkcji[171].Y = 4.07
 
 	punktyWykresuFunkcji[172].X = 1.72
-	punktyWykresuFunkcji[172].Y = 4.562
+	punktyWykresuFunkcji[172].Y = 4.071
 
 	punktyWykresuFunkcji[173].X = 1.73
-	punktyWykresuFunkcji[173].Y = 4.584
+	punktyWykresuFunkcji[173].Y = 4.07
 
 	punktyWykresuFunkcji[174].X = 1.74
-	punktyWykresuFunkcji[174].Y = 4.605
+	punktyWykresuFunkcji[174].Y = 4.07
 
 	punktyWykresuFunkcji[175].X = 1.75
-	punktyWykresuFunkcji[175].Y = 4.626
+	punktyWykresuFunkcji[175].Y = 4.068
 
 	punktyWykresuFunkcji[176].X = 1.76
-	punktyWykresuFunkcji[176].Y = 4.647
+	punktyWykresuFunkcji[176].Y = 4.065
 
 	punktyWykresuFunkcji[177].X = 1.77
-	punktyWykresuFunkcji[177].Y = 4.668
+	punktyWykresuFunkcji[177].Y = 4.062
 
 	punktyWykresuFunkcji[178].X = 1.78
-	punktyWykresuFunkcji[178].Y = 4.688
+	punktyWykresuFunkcji[178].Y = 4.058
 
 	punktyWykresuFunkcji[179].X = 1.79
-	punktyWykresuFunkcji[179].Y = 4.708
+	punktyWykresuFunkcji[179].Y = 4.053
 
 	punktyWykresuFunkcji[180].X = 1.8
-	punktyWykresuFunkcji[180].Y = 4.728
+	punktyWykresuFunkcji[180].Y = 4.048
 
 	punktyWykresuFunkcji[181].X = 1.81
-	punktyWykresuFunkcji[181].Y = 4.748
+	punktyWykresuFunkcji[181].Y = 4.041
 
 	punktyWykresuFunkcji[182].X = 1.82
-	punktyWykresuFunkcji[182].Y = 4.767
+	punktyWykresuFunkcji[182].Y = 4.034
 
 	punktyWykresuFunkcji[183].X = 1.83
-	punktyWykresuFunkcji[183].Y = 4.786
+	punktyWykresuFunkcji[183].Y = 4.025
 
 	punktyWykresuFunkcji[184].X = 1.84
-	punktyWykresuFunkcji[184].Y = 4.805
+	punktyWykresuFunkcji[184].Y = 4.016
 
 	punktyWykresuFunkcji[185].X = 1.85
-	punktyWykresuFunkcji[185].Y = 4.824
+	punktyWykresuFunkcji[185].Y = 4.006
 
 	punktyWykresuFunkcji[186].X = 1.86
-	punktyWykresuFunkcji[186].Y = 4.843
+	punktyWykresuFunkcji[186].Y = 3.996
 
 	punktyWykresuFunkcji[187].X = 1.87
-	punktyWykresuFunkcji[187].Y = 4.861
+	punktyWykresuFunkcji[187].Y = 3.984
 
 	punktyWykresuFunkcji[188].X = 1.88
-	punktyWykresuFunkcji[188].Y = 4.879
+	punktyWykresuFunkcji[188].Y = 3.971
 
 	punktyWykresuFunkcji[189].X = 1.89
-	punktyWykresuFunkcji[189].Y = 4.897
+	punktyWykresuFunkcji[189].Y = 3.958
 
 	punktyWykresuFunkcji[190].X = 1.9
-	punktyWykresuFunkcji[190].Y = 4.915
+	punktyWykresuFunkcji[190].Y = 3.943
 
 	punktyWykresuFunkcji[191].X = 1.91
-	punktyWykresuFunkcji[191].Y = 4.933
+	punktyWykresuFunkcji[191].Y = 3.928
 
 	punktyWykresuFunkcji[192].X = 1.92
-	punktyWykresuFunkcji[192].Y = 4.95
+	punktyWykresuFunkcji[192].Y = 3.912
 
 	punktyWykresuFunkcji[193].X = 1.93
-	punktyWykresuFunkcji[193].Y = 4.967
+	punktyWykresuFunkcji[193].Y = 3.894
 
 	punktyWykresuFunkcji[194].X = 1.94
-	punktyWykresuFunkcji[194].Y = 4.984
+	punktyWykresuFunkcji[194].Y = 3.876
 
 	punktyWykresuFunkcji[195].X = 1.95
-	punktyWykresuFunkcji[195].Y = 5.0
+	punktyWykresuFunkcji[195].Y = 3.857
 
 	punktyWykresuFunkcji[196].X = 1.96
-	punktyWykresuFunkcji[196].Y = 5.017
+	punktyWykresuFunkcji[196].Y = 3.837
 
 	punktyWykresuFunkcji[197].X = 1.97
-	punktyWykresuFunkcji[197].Y = 5.033
+	punktyWykresuFunkcji[197].Y = 3.816
 
 	punktyWykresuFunkcji[198].X = 1.98
-	punktyWykresuFunkcji[198].Y = 5.049
+	punktyWykresuFunkcji[198].Y = 3.794
 
 	punktyWykresuFunkcji[199].X = 1.99
-	punktyWykresuFunkcji[199].Y = 5.065
+	punktyWykresuFunkcji[199].Y = 3.771
 
 	punktyWykresuFunkcji[200].X = 2.0
-	punktyWykresuFunkcji[200].Y = 5.08
+	punktyWykresuFunkcji[200].Y = 3.747
 
 	punktyWykresuFunkcji[201].X = 2.01
-	punktyWykresuFunkcji[201].Y = 5.096
+	punktyWykresuFunkcji[201].Y = 3.722
 
 	punktyWykresuFunkcji[202].X = 2.02
-	punktyWykresuFunkcji[202].Y = 5.111
+	punktyWykresuFunkcji[202].Y = 3.696
 
 	punktyWykresuFunkcji[203].X = 2.03
-	punktyWykresuFunkcji[203].Y = 5.126
+	punktyWykresuFunkcji[203].Y = 3.669
 
 	punktyWykresuFunkcji[204].X = 2.04
-	punktyWykresuFunkcji[204].Y = 5.14
+	punktyWykresuFunkcji[204].Y = 3.641
 
 	punktyWykresuFunkcji[205].X = 2.05
-	punktyWykresuFunkcji[205].Y = 5.155
+	punktyWykresuFunkcji[205].Y = 3.612
 
 	punktyWykresuFunkcji[206].X = 2.06
-	punktyWykresuFunkcji[206].Y = 5.169
+	punktyWykresuFunkcji[206].Y = 3.581
 
 	punktyWykresuFunkcji[207].X = 2.07
-	punktyWykresuFunkcji[207].Y = 5.184
+	punktyWykresuFunkcji[207].Y = 3.55
 
 	punktyWykresuFunkcji[208].X = 2.08
-	punktyWykresuFunkcji[208].Y = 5.197
+	punktyWykresuFunkcji[208].Y = 3.518
 
 	punktyWykresuFunkcji[209].X = 2.09
-	punktyWykresuFunkcji[209].Y = 5.211
+	punktyWykresuFunkcji[209].Y = 3.484
 
 	punktyWykresuFunkcji[210].X = 2.1
-	punktyWykresuFunkcji[210].Y = 5.225
+	punktyWykresuFunkcji[210].Y = 3.45
 
 	punktyWykresuFunkcji[211].X = 2.11
-	punktyWykresuFunkcji[211].Y = 5.238
+	punktyWykresuFunkcji[211].Y = 3.414
 
 	punktyWykresuFunkcji[212].X = 2.12
-	punktyWykresuFunkcji[212].Y = 5.251
+	punktyWykresuFunkcji[212].Y = 3.378
 
 	punktyWykresuFunkcji[213].X = 2.13
-	punktyWykresuFunkcji[213].Y = 5.264
+	punktyWykresuFunkcji[213].Y = 3.34
 
 	punktyWykresuFunkcji[214].X = 2.14
-	punktyWykresuFunkcji[214].Y = 5.277
+	punktyWykresuFunkcji[214].Y = 3.301
 
 	punktyWykresuFunkcji[215].X = 2.15
-	punktyWykresuFunkcji[215].Y = 5.29
+	punktyWykresuFunkcji[215].Y = 3.261
 
 	punktyWykresuFunkcji[216].X = 2.16
-	punktyWykresuFunkcji[216].Y = 5.302
+	punktyWykresuFunkcji[216].Y = 3.22
 
 	punktyWykresuFunkcji[217].X = 2.17
-	punktyWykresuFunkcji[217].Y = 5.315
+	punktyWykresuFunkcji[217].Y = 3.177
 
 	punktyWykresuFunkcji[218].X = 2.18
-	punktyWykresuFunkcji[218].Y = 5.327
+	punktyWykresuFunkcji[218].Y = 3.134
 
 	punktyWykresuFunkcji[219].X = 2.19
-	punktyWykresuFunkcji[219].Y = 5.339
+	punktyWykresuFunkcji[219].Y = 3.089
 
 	punktyWykresuFunkcji[220].X = 2.2
-	punktyWykresuFunkcji[220].Y = 5.35
+	punktyWykresuFunkcji[220].Y = 3.043
 
 	punktyWykresuFunkcji[221].X = 2.21
-	punktyWykresuFunkcji[221].Y = 5.362
+	punktyWykresuFunkcji[221].Y = 2.996
 
 	punktyWykresuFunkcji[222].X = 2.22
-	punktyWykresuFunkcji[222].Y = 5.374
+	punktyWykresuFunkcji[222].Y = 2.948
 
 	punktyWykresuFunkcji[223].X = 2.23
-	punktyWykresuFunkcji[223].Y = 5.385
+	punktyWykresuFunkcji[223].Y = 2.899
 
 	punktyWykresuFunkcji[224].X = 2.24
-	punktyWykresuFunkcji[224].Y = 5.396
+	punktyWykresuFunkcji[224].Y = 2.848
 
 	punktyWykresuFunkcji[225].X = 2.25
-	punktyWykresuFunkcji[225].Y = 5.407
+	punktyWykresuFunkcji[225].Y = 2.797
 
 	punktyWykresuFunkcji[226].X = 2.26
-	punktyWykresuFunkcji[226].Y = 5.418
+	punktyWykresuFunkcji[226].Y = 2.744
 
 	punktyWykresuFunkcji[227].X = 2.27
-	punktyWykresuFunkcji[227].Y = 5.429
+	punktyWykresuFunkcji[227].Y = 2.69
 
 	punktyWykresuFunkcji[228].X = 2.28
-	punktyWykresuFunkcji[228].Y = 5.439
+	punktyWykresuFunkcji[228].Y = 2.634
 
 	punktyWykresuFunkcji[229].X = 2.29
-	punktyWykresuFunkcji[229].Y = 5.45
+	punktyWykresuFunkcji[229].Y = 2.577
 
 	punktyWykresuFunkcji[230].X = 2.3
-	punktyWykresuFunkcji[230].Y = 5.46
+	punktyWykresuFunkcji[230].Y = 2.52
 
 	punktyWykresuFunkcji[231].X = 2.31
-	punktyWykresuFunkcji[231].Y = 5.47
+	punktyWykresuFunkcji[231].Y = 2.46
 
 	punktyWykresuFunkcji[232].X = 2.32
-	punktyWykresuFunkcji[232].Y = 5.48
+	punktyWykresuFunkcji[232].Y = 2.4
 
 	punktyWykresuFunkcji[233].X = 2.33
-	punktyWykresuFunkcji[233].Y = 5.49
+	punktyWykresuFunkcji[233].Y = 2.338
 
 	punktyWykresuFunkcji[234].X = 2.34
-	punktyWykresuFunkcji[234].Y = 5.5
+	punktyWykresuFunkcji[234].Y = 2.275
 
 	punktyWykresuFunkcji[235].X = 2.35
-	punktyWykresuFunkcji[235].Y = 5.51
+	punktyWykresuFunkcji[235].Y = 2.211
 
 	punktyWykresuFunkcji[236].X = 2.36
-	punktyWykresuFunkcji[236].Y = 5.519
+	punktyWykresuFunkcji[236].Y = 2.146
 
 	punktyWykresuFunkcji[237].X = 2.37
-	punktyWykresuFunkcji[237].Y = 5.529
+	punktyWykresuFunkcji[237].Y = 2.079
 
 	punktyWykresuFunkcji[238].X = 2.38
-	punktyWykresuFunkcji[238].Y = 5.538
+	punktyWykresuFunkcji[238].Y = 2.011
 
 	punktyWykresuFunkcji[239].X = 2.39
-	punktyWykresuFunkcji[239].Y = 5.548
+	punktyWykresuFunkcji[239].Y = 1.941
 
 	punktyWykresuFunkcji[240].X = 2.4
-	punktyWykresuFunkcji[240].Y = 5.557
+	punktyWykresuFunkcji[240].Y = 1.871
 
 	punktyWykresuFunkcji[241].X = 2.41
-	punktyWykresuFunkcji[241].Y = 5.566
+	punktyWykresuFunkcji[241].Y = 1.798
 
 	punktyWykresuFunkcji[242].X = 2.42
-	punktyWykresuFunkcji[242].Y = 5.575
+	punktyWykresuFunkcji[242].Y = 1.725
 
 	punktyWykresuFunkcji[243].X = 2.43
-	punktyWykresuFunkcji[243].Y = 5.584
+	punktyWykresuFunkcji[243].Y = 1.65
 
 	punktyWykresuFunkcji[244].X = 2.44
-	punktyWykresuFunkcji[244].Y = 5.593
+	punktyWykresuFunkcji[244].Y = 1.574
 
 	punktyWykresuFunkcji[245].X = 2.45
-	punktyWykresuFunkcji[245].Y = 5.602
+	punktyWykresuFunkcji[245].Y = 1.497
 
 	punktyWykresuFunkcji[246].X = 2.46
-	punktyWykresuFunkcji[246].Y = 5.611
+	punktyWykresuFunkcji[246].Y = 1.418
 
 	punktyWykresuFunkcji[247].X = 2.47
-	punktyWykresuFunkcji[247].Y = 5.62
+	punktyWykresuFunkcji[247].Y = 1.338
 
 	punktyWykresuFunkcji[248].X = 2.48
-	punktyWykresuFunkcji[248].Y = 5.628
+	punktyWykresuFunkcji[248].Y = 1.256
 
 	punktyWykresuFunkcji[249].X = 2.49
-	punktyWykresuFunkcji[249].Y = 5.637
+	punktyWykresuFunkcji[249].Y = 1.173
 
 	punktyWykresuFunkcji[250].X = 2.5
-	punktyWykresuFunkcji[250].Y = 5.646
+	punktyWykresuFunkcji[250].Y = 1.089
 
 	punktyWykresuFunkcji[251].X = 2.51
-	punktyWykresuFunkcji[251].Y = 5.655
+	punktyWykresuFunkcji[251].Y = 1.003
 
 	punktyWykresuFunkcji[252].X = 2.52
-	punktyWykresuFunkcji[252].Y = 5.663
+	punktyWykresuFunkcji[252].Y = 0.916
 
 	punktyWykresuFunkcji[253].X = 2.53
-	punktyWykresuFunkcji[253].Y = 5.672
+	punktyWykresuFunkcji[253].Y = 0.827
 
 	punktyWykresuFunkcji[254].X = 2.54
-	punktyWykresuFunkcji[254].Y = 5.68
+	punktyWykresuFunkcji[254].Y = 0.737
 
 	punktyWykresuFunkcji[255].X = 2.55
-	punktyWykresuFunkcji[255].Y = 5.689
+	punktyWykresuFunkcji[255].Y = 0.646
 
 	punktyWykresuFunkcji[256].X = 2.56
-	punktyWykresuFunkcji[256].Y = 5.698
+	punktyWykresuFunkcji[256].Y = 0.553
 
 	punktyWykresuFunkcji[257].X = 2.57
-	punktyWykresuFunkcji[257].Y = 5.706
+	punktyWykresuFunkcji[257].Y = 0.458
 
 	punktyWykresuFunkcji[258].X = 2.58
-	punktyWykresuFunkcji[258].Y = 5.715
+	punktyWykresuFunkcji[258].Y = 0.363
 
 	punktyWykresuFunkcji[259].X = 2.59
-	punktyWykresuFunkcji[259].Y = 5.724
+	punktyWykresuFunkcji[259].Y = 0.265
 
 	punktyWykresuFunkcji[260].X = 2.6
-	punktyWykresuFunkcji[260].Y = 5.732
+	punktyWykresuFunkcji[260].Y = 0.167
 
 	punktyWykresuFunkcji[261].X = 2.61
-	punktyWykresuFunkcji[261].Y = 5.741
+	punktyWykresuFunkcji[261].Y = 0.067
 
 	punktyWykresuFunkcji[262].X = 2.62
-	punktyWykresuFunkcji[262].Y = 5.75
+	punktyWykresuFunkcji[262].Y = -0.034
 
 	punktyWykresuFunkcji[263].X = 2.63
-	punktyWykresuFunkcji[263].Y = 5.759
+	punktyWykresuFunkcji[263].Y = -0.137
 
 	punktyWykresuFunkcji[264].X = 2.64
-	punktyWykresuFunkcji[264].Y = 5.768
+	punktyWykresuFunkcji[264].Y = -0.242
 
 	punktyWykresuFunkcji[265].X = 2.65
-	punktyWykresuFunkcji[265].Y = 5.777
+	punktyWykresuFunkcji[265].Y = -0.348
 
 	punktyWykresuFunkcji[266].X = 2.66
-	punktyWykresuFunkcji[266].Y = 5.786
+	punktyWykresuFunkcji[266].Y = -0.456
 
 	punktyWykresuFunkcji[267].X = 2.67
-	punktyWykresuFunkcji[267].Y = 5.795
+	punktyWykresuFunkcji[267].Y = -0.565
 
 	punktyWykresuFunkcji[268].X = 2.68
-	punktyWykresuFunkcji[268].Y = 5.804
+	punktyWykresuFunkcji[268].Y = -0.675
 
 	punktyWykresuFunkcji[269].X = 2.69
-	punktyWykresuFunkcji[269].Y = 5.813
+	punktyWykresuFunkcji[269].Y = -0.788
 
 	punktyWykresuFunkcji[270].X = 2.7
-	punktyWykresuFunkcji[270].Y = 5.823
+	punktyWykresuFunkcji[270].Y = -0.901
 
 	punktyWykresuFunkcji[271].X = 2.71
-	punktyWykresuFunkcji[271].Y = 5.832
+	punktyWykresuFunkcji[271].Y = -1.016
 
 	punktyWykresuFunkcji[272].X = 2.72
-	punktyWykresuFunkcji[272].Y = 5.842
+	punktyWykresuFunkcji[272].Y = -1.133
 
 	punktyWykresuFunkcji[273].X = 2.73
-	punktyWykresuFunkcji[273].Y = 5.852
+	punktyWykresuFunkcji[273].Y = -1.251
 
 	punktyWykresuFunkcji[274].X = 2.74
-	punktyWykresuFunkcji[274].Y = 5.862
+	punktyWykresuFunkcji[274].Y = -1.371
 
 	punktyWykresuFunkcji[275].X = 2.75
-	punktyWykresuFunkcji[275].Y = 5.872
+	punktyWykresuFunkcji[275].Y = -1.493
 
 	punktyWykresuFunkcji[276].X = 2.76
-	punktyWykresuFunkcji[276].Y = 5.882
+	punktyWykresuFunkcji[276].Y = -1.616
 
 	punktyWykresuFunkcji[277].X = 2.77
-	punktyWykresuFunkcji[277].Y = 5.893
+	punktyWykresuFunkcji[277].Y = -1.74
 
 	punktyWykresuFunkcji[278].X = 2.78
-	punktyWykresuFunkcji[278].Y = 5.903
+	punktyWykresuFunkcji[278].Y = -1.866
 
 	punktyWykresuFunkcji[279].X = 2.79
-	punktyWykresuFunkcji[279].Y = 5.914
+	punktyWykresuFunkcji[279].Y = -1.994
 
 	punktyWykresuFunkcji[280].X = 2.8
-	punktyWykresuFunkcji[280].Y = 5.925
+	punktyWykresuFunkcji[280].Y = -2.123
 
 	punktyWykresuFunkcji[281].X = 2.81
-	punktyWykresuFunkcji[281].Y = 5.936
+	punktyWykresuFunkcji[281].Y = -2.254
 
 	punktyWykresuFunkcji[282].X = 2.82
-	punktyWykresuFunkcji[282].Y = 5.948
+	punktyWykresuFunkcji[282].Y = -2.386
 
 	punktyWykresuFunkcji[283].X = 2.83
-	punktyWykresuFunkcji[283].Y = 5.959
+	punktyWykresuFunkcji[283].Y = -2.52
 
 	punktyWykresuFunkcji[284].X = 2.84
-	punktyWykresuFunkcji[284].Y = 5.971
+	punktyWykresuFunkcji[284].Y = -2.656
 
 	punktyWykresuFunkcji[285].X = 2.85
-	punktyWykresuFunkcji[285].Y = 5.983
+	punktyWykresuFunkcji[285].Y = -2.793
 
 	punktyWykresuFunkcji[286].X = 2.86
-	punktyWykresuFunkcji[286].Y = 5.995
+	punktyWykresuFunkcji[286].Y = -2.932
 
 	punktyWykresuFunkcji[287].X = 2.87
-	punktyWykresuFunkcji[287].Y = 6.008
+	punktyWykresuFunkcji[287].Y = -3.073
 
 	punktyWykresuFunkcji[288].X = 2.88
-	punktyWykresuFunkcji[288].Y = 6.021
+	punktyWykresuFunkcji[288].Y = -3.215
 
 	punktyWykresuFunkcji[289].X = 2.89
-	punktyWykresuFunkcji[289].Y = 6.034
+	punktyWykresuFunkcji[289].Y = -3.359
 
 	punktyWykresuFunkcji[290].X = 2.9
-	punktyWykresuFunkcji[290].Y = 6.047
+	punktyWykresuFunkcji[290].Y = -3.504
 
 	punktyWykresuFunkcji[291].X = 2.91
-	punktyWykresuFunkcji[291].Y = 6.061
+	punktyWykresuFunkcji[291].Y = -3.651
 
 	punktyWykresuFunkcji[292].X = 2.92
-	punktyWykresuFunkcji[292].Y = 6.075
+	punktyWykresuFunkcji[292].Y = -3.8
 
 	punktyWykresuFunkcji[293].X = 2.93
-	punktyWykresuFunkcji[293].Y = 6.089
+	punktyWykresuFunkcji[293].Y = -3.95
 
 	punktyWykresuFunkcji[294].X = 2.94
-	punktyWykresuFunkcji[294].Y = 6.104
+	punktyWykresuFunkcji[294].Y = -4.102
 
 	punktyWykresuFunkcji[295].X = 2.95
-	punktyWykresuFunkcji[295].Y = 6.119
+	punktyWykresuFunkcji[295].Y = -4.256
 
 	punktyWykresuFunkcji[296].X = 2.96
-	punktyWykresuFunkcji[296].Y = 6.134
+	punktyWykresuFunkcji[296].Y = -4.411
 
 	punktyWykresuFunkcji[297].X = 2.97
-	punktyWykresuFunkcji[297].Y = 6.15
+	punktyWykresuFunkcji[297].Y = -4.568
 
 	punktyWykresuFunkcji[298].X = 2.98
-	punktyWykresuFunkcji[298].Y = 6.166
+	punktyWykresuFunkcji[298].Y = -4.727
 
 	punktyWykresuFunkcji[299].X = 2.99
-	punktyWykresuFunkcji[299].Y = 6.183
+	punktyWykresuFunkcji[299].Y = -4.887
 
 	punktyWykresuFunkcji[300].X = 3.0
-	punktyWykresuFunkcji[300].Y = 6.2
+	punktyWykresuFunkcji[300].Y = -5.05
 
 	punktyWykresuFunkcji[301].X = 3.01
-	punktyWykresuFunkcji[301].Y = 6.217
+	punktyWykresuFunkcji[301].Y = -5.213
 
 	punktyWykresuFunkcji[302].X = 3.02
-	punktyWykresuFunkcji[302].Y = 6.234
+	punktyWykresuFunkcji[302].Y = -5.379
 
 	punktyWykresuFunkcji[303].X = 3.03
-	punktyWykresuFunkcji[303].Y = 6.253
+	punktyWykresuFunkcji[303].Y = -5.546
 
 	punktyWykresuFunkcji[304].X = 3.04
-	punktyWykresuFunkcji[304].Y = 6.271
+	punktyWykresuFunkcji[304].Y = -5.715
 
 	punktyWykresuFunkcji[305].X = 3.05
-	punktyWykresuFunkcji[305].Y = 6.29
+	punktyWykresuFunkcji[305].Y = -5.886
 
 	punktyWykresuFunkcji[306].X = 3.06
-	punktyWykresuFunkcji[306].Y = 6.31
+	punktyWykresuFunkcji[306].Y = -6.058
 
 	punktyWykresuFunkcji[307].X = 3.07
-	punktyWykresuFunkcji[307].Y = 6.329
+	punktyWykresuFunkcji[307].Y = -6.232
 
 	punktyWykresuFunkcji[308].X = 3.08
-	punktyWykresuFunkcji[308].Y = 6.35
+	punktyWykresuFunkcji[308].Y = -6.408
 
 	punktyWykresuFunkcji[309].X = 3.09
-	punktyWykresuFunkcji[309].Y = 6.371
+	punktyWykresuFunkcji[309].Y = -6.585
 
 	punktyWykresuFunkcji[310].X = 3.1
-	punktyWykresuFunkcji[310].Y = 6.392
+	punktyWykresuFunkcji[310].Y = -6.765
 
 	punktyWykresuFunkcji[311].X = 3.11
-	punktyWykresuFunkcji[311].Y = 6.414
+	punktyWykresuFunkcji[311].Y = -6.946
 
 	punktyWykresuFunkcji[312].X = 3.12
-	punktyWykresuFunkcji[312].Y = 6.437
+	punktyWykresuFunkcji[312].Y = -7.128
 
 	punktyWykresuFunkcji[313].X = 3.13
-	punktyWykresuFunkcji[313].Y = 6.46
+	punktyWykresuFunkcji[313].Y = -7.313
 
 	punktyWykresuFunkcji[314].X = 3.14
-	punktyWykresuFunkcji[314].Y = 6.483
+	punktyWykresuFunkcji[314].Y = -7.499
 
 	punktyWykresuFunkcji[315].X = 3.15
-	punktyWykresuFunkcji[315].Y = 6.507
+	punktyWykresuFunkcji[315].Y = -7.687
 
 	punktyWykresuFunkcji[316].X = 3.16
-	punktyWykresuFunkcji[316].Y = 6.532
+	punktyWykresuFunkcji[316].Y = -7.887
 
 	punktyWykresuFunkcji[317].X = 3.17
-	punktyWykresuFunkcji[317].Y = 6.558
+	punktyWykresuFunkcji[317].Y = -8.068
 
 	punktyWykresuFunkcji[318].X = 3.18
-	punktyWykresuFunkcji[318].Y = 6.584
+	punktyWykresuFunkcji[318].Y = -8.262
 
 	punktyWykresuFunkcji[319].X = 3.19
-	punktyWykresuFunkcji[319].Y = 6.61
+	punktyWykresuFunkcji[319].Y = -8.457
 
 	punktyWykresuFunkcji[320].X = 3.2
-	punktyWykresuFunkcji[320].Y = 6.637
+	punktyWykresuFunkcji[320].Y = -8.653
 
 	punktyWykresuFunkcji[321].X = 3.21
-	punktyWykresuFunkcji[321].Y = 6.665
+	punktyWykresuFunkcji[321].Y = -8.852
 
 	punktyWykresuFunkcji[322].X = 3.22
-	punktyWykresuFunkcji[322].Y = 6.694
+	punktyWykresuFunkcji[322].Y = -9.052
 
 	punktyWykresuFunkcji[323].X = 3.23
-	punktyWykresuFunkcji[323].Y = 6.723
+	punktyWykresuFunkcji[323].Y = -9.255
 
 	punktyWykresuFunkcji[324].X = 3.24
-	punktyWykresuFunkcji[324].Y = 6.753
+	punktyWykresuFunkcji[324].Y = -9.459
 
 	punktyWykresuFunkcji[325].X = 3.25
-	punktyWykresuFunkcji[325].Y = 6.784
+	punktyWykresuFunkcji[325].Y = -9.664
 
 	punktyWykresuFunkcji[326].X = 3.26
-	punktyWykresuFunkcji[326].Y = 6.815
+	punktyWykresuFunkcji[326].Y = -9.872
 
 	punktyWykresuFunkcji[327].X = 3.27
-	punktyWykresuFunkcji[327].Y = 6.847
+	punktyWykresuFunkcji[327].Y = -10.081
 
 	punktyWykresuFunkcji[328].X = 3.28
-	punktyWykresuFunkcji[328].Y = 6.88
+	punktyWykresuFunkcji[328].Y = -10.292
 
 	punktyWykresuFunkcji[329].X = 3.29
-	punktyWykresuFunkcji[329].Y = 6.914
+	punktyWykresuFunkcji[329].Y = -10.505
 
 	punktyWykresuFunkcji[330].X = 3.3
-	punktyWykresuFunkcji[330].Y = 6.948
+	punktyWykresuFunkcji[330].Y = -10.72
 
 	punktyWykresuFunkcji[331].X = 3.31
-	punktyWykresuFunkcji[331].Y = 6.983
+	punktyWykresuFunkcji[331].Y = -10.937
 
 	punktyWykresuFunkcji[332].X = 3.32
-	punktyWykresuFunkcji[332].Y = 7.019
+	punktyWykresuFunkcji[332].Y = -11.155
 
 	punktyWykresuFunkcji[333].X = 3.33
-	punktyWykresuFunkcji[333].Y = 7.056
+	punktyWykresuFunkcji[333].Y = -11.375
 
 	punktyWykresuFunkcji[334].X = 3.34
-	punktyWykresuFunkcji[334].Y = 7.094
+	punktyWykresuFunkcji[334].Y = -11.597
 
 	punktyWykresuFunkcji[335].X = 3.35
-	punktyWykresuFunkcji[335].Y = 7.132
+	punktyWykresuFunkcji[335].Y = -11.821
 
 	punktyWykresuFunkcji[336].X = 3.36
-	punktyWykresuFunkcji[336].Y = 7.171
+	punktyWykresuFunkcji[336].Y = -12.047
 
 	punktyWykresuFunkcji[337].X = 3.37
-	punktyWykresuFunkcji[337].Y = 7.212
+	punktyWykresuFunkcji[337].Y = -12.275
 
 	punktyWykresuFunkcji[338].X = 3.38
-	punktyWykresuFunkcji[338].Y = 7.253
+	punktyWykresuFunkcji[338].Y = -12.504
 
 	punktyWykresuFunkcji[339].X = 3.39
-	punktyWykresuFunkcji[339].Y = 7.295
+	punktyWykresuFunkcji[339].Y = -12.735
 
 	punktyWykresuFunkcji[340].X = 3.4
-	punktyWykresuFunkcji[340].Y = 7.338
+	punktyWykresuFunkcji[340].Y = -12.968
 
 	punktyWykresuFunkcji[341].X = 3.41
-	punktyWykresuFunkcji[341].Y = 7.382
+	punktyWykresuFunkcji[341].Y = -13.203
 
 	punktyWykresuFunkcji[342].X = 3.42
-	punktyWykresuFunkcji[342].Y = 7.427
+	punktyWykresuFunkcji[342].Y = -13.44
 
 	punktyWykresuFunkcji[343].X = 3.43
-	punktyWykresuFunkcji[343].Y = 7.473
+	punktyWykresuFunkcji[343].Y = -13.678
 
 	punktyWykresuFunkcji[344].X = 3.44
-	punktyWykresuFunkcji[344].Y = 7.52
+	punktyWykresuFunkcji[344].Y = -13.919
 
 	punktyWykresuFunkcji[345].X = 3.45
-	punktyWykresuFunkcji[345].Y = 7.567
+	punktyWykresuFunkcji[345].Y = -14.161
 
 	punktyWykresuFunkcji[346].X = 3.46
-	punktyWykresuFunkcji[346].Y = 7.616
+	punktyWykresuFunkcji[346].Y = -14.405
 
 	punktyWykresuFunkcji[347].X = 3.47
-	punktyWykresuFunkcji[347].Y = 7.666
+	punktyWykresuFunkcji[347].Y = -14.651
 
 	punktyWykresuFunkcji[348].X = 3.48
-	punktyWykresuFunkcji[348].Y = 7.717
+	punktyWykresuFunkcji[348].Y = -14.899
 
 	punktyWykresuFunkcji[349].X = 3.49
-	punktyWykresuFunkcji[349].Y = 7.769
+	punktyWykresuFunkcji[349].Y = -15.149
 
 	punktyWykresuFunkcji[350].X = 3.5
-	punktyWykresuFunkcji[350].Y = 7.822
+	punktyWykresuFunkcji[350].Y = -15.401
 
 	punktyWykresuFunkcji[351].X = 3.51
-	punktyWykresuFunkcji[351].Y = 7.877
+	punktyWykresuFunkcji[351].Y = -15.654
 
 	punktyWykresuFunkcji[352].X = 3.52
-	punktyWykresuFunkcji[352].Y = 7.932
+	punktyWykresuFunkcji[352].Y = -15.909
 
 	punktyWykresuFunkcji[353].X = 3.53
-	punktyWykresuFunkcji[353].Y = 7.989
+	punktyWykresuFunkcji[353].Y = -16.167
 
 	punktyWykresuFunkcji[354].X = 3.54
-	punktyWykresuFunkcji[354].Y = 8.046
+	punktyWykresuFunkcji[354].Y = -16.426
 
 	punktyWykresuFunkcji[355].X = 3.55
-	punktyWykresuFunkcji[355].Y = 8.105
+	punktyWykresuFunkcji[355].Y = -16.687
 
 	punktyWykresuFunkcji[356].X = 3.56
-	punktyWykresuFunkcji[356].Y = 8.165
+	punktyWykresuFunkcji[356].Y = -16.95
 
 	punktyWykresuFunkcji[357].X = 3.57
-	punktyWykresuFunkcji[357].Y = 8.227
+	punktyWykresuFunkcji[357].Y = -17.214
 
 	punktyWykresuFunkcji[358].X = 3.58
-	punktyWykresuFunkcji[358].Y = 8.289
+	punktyWykresuFunkcji[358].Y = -17.481
 
 	punktyWykresuFunkcji[359].X = 3.59
-	punktyWykresuFunkcji[359].Y = 8.353
+	punktyWykresuFunkcji[359].Y = -17.749
 
 	punktyWykresuFunkcji[360].X = 3.6
-	punktyWykresuFunkcji[360].Y = 8.418
+	punktyWykresuFunkcji[360].Y = -18.02
 
 	punktyWykresuFunkcji[361].X = 3.61
-	punktyWykresuFunkcji[361].Y = 8.484
+	punktyWykresuFunkcji[361].Y = -18.292
 
 	punktyWykresuFunkcji[362].X = 3.62
-	punktyWykresuFunkcji[362].Y = 8.552
+	punktyWykresuFunkcji[362].Y = -18.566
 
 	punktyWykresuFunkcji[363].X = 3.63
-	punktyWykresuFunkcji[363].Y = 8.62
+	punktyWykresuFunkcji[363].Y = -18.842
 
 	punktyWykresuFunkcji[364].X = 3.64
-	punktyWykresuFunkcji[364].Y = 8.691
+	punktyWykresuFunkcji[364].Y = -19.12
 
 	punktyWykresuFunkcji[365].X = 3.65
-	punktyWykresuFunkcji[365].Y = 8.762
+	punktyWykresuFunkcji[365].Y = -19.4
 
 	punktyWykresuFunkcji[366].X = 3.66
-	punktyWykresuFunkcji[366].Y = 8.835
+	punktyWykresuFunkcji[366].Y = -19.682
 
 	punktyWykresuFunkcji[367].X = 3.67
-	punktyWykresuFunkcji[367].Y = 8.91
+	punktyWykresuFunkcji[367].Y = -19.965
 
 	punktyWykresuFunkcji[368].X = 3.68
-	punktyWykresuFunkcji[368].Y = 8.985
+	punktyWykresuFunkcji[368].Y = -20.251
 
 	punktyWykresuFunkcji[369].X = 3.69
-	punktyWykresuFunkcji[369].Y = 9.062
+	punktyWykresuFunkcji[369].Y = -20.538
 
 	punktyWykresuFunkcji[370].X = 3.7
-	punktyWykresuFunkcji[370].Y = 9.141
+	punktyWykresuFunkcji[370].Y = -20.828
 
 	punktyWykresuFunkcji[371].X = 3.71
-	punktyWykresuFunkcji[371].Y = 9.221
+	punktyWykresuFunkcji[371].Y = -21.119
 
 	punktyWykresuFunkcji[372].X = 3.72
-	punktyWykresuFunkcji[372].Y = 9.303
+	punktyWykresuFunkcji[372].Y = -21.412
 
 	punktyWykresuFunkcji[373].X = 3.73
-	punktyWykresuFunkcji[373].Y = 9.386
+	punktyWykresuFunkcji[373].Y = -21.707
 
 	punktyWykresuFunkcji[374].X = 3.74
-	punktyWykresuFunkcji[374].Y = 9.47
+	punktyWykresuFunkcji[374].Y = -22.004
 
 	punktyWykresuFunkcji[375].X = 3.75
-	punktyWykresuFunkcji[375].Y = 9.556
+	punktyWykresuFunkcji[375].Y = -22.303
 
 	punktyWykresuFunkcji[376].X = 3.76
-	punktyWykresuFunkcji[376].Y = 9.644
+	punktyWykresuFunkcji[376].Y = -22.604
 
 	punktyWykresuFunkcji[377].X = 3.77
-	punktyWykresuFunkcji[377].Y = 9.733
+	punktyWykresuFunkcji[377].Y = -22.906
 
 	punktyWykresuFunkcji[378].X = 3.78
-	punktyWykresuFunkcji[378].Y = 9.824
+	punktyWykresuFunkcji[378].Y = -23.211
 
 	punktyWykresuFunkcji[379].X = 3.79
-	punktyWykresuFunkcji[379].Y = 9.917
+	punktyWykresuFunkcji[379].Y = -23.518
 
 	punktyWykresuFunkcji[380].X = 3.8
-	punktyWykresuFunkcji[380].Y = 10.011
+	punktyWykresuFunkcji[380].Y = -23.826
 
 	punktyWykresuFunkcji[381].X = 3.81
-	punktyWykresuFunkcji[381].Y = 10.107
+	punktyWykresuFunkcji[381].Y = -24.136
 
 	punktyWykresuFunkcji[382].X = 3.82
-	punktyWykresuFunkcji[382].Y = 10.204
+	punktyWykresuFunkcji[382].Y = -24.449
 
 	punktyWykresuFunkcji[383].X = 3.83
-	punktyWykresuFunkcji[383].Y = 10.303
+	punktyWykresuFunkcji[383].Y = -24.763
 
 	punktyWykresuFunkcji[384].X = 3.84
-	punktyWykresuFunkcji[384].Y = 10.404
+	punktyWykresuFunkcji[384].Y = -25.079
 
 	punktyWykresuFunkcji[385].X = 3.85
-	punktyWykresuFunkcji[385].Y = 10.507
+	punktyWykresuFunkcji[385].Y = -25.397
 
 	punktyWykresuFunkcji[386].X = 3.86
-	punktyWykresuFunkcji[386].Y = 10.611
+	punktyWykresuFunkcji[386].Y = -25.717
 
 	punktyWykresuFunkcji[387].X = 3.87
-	punktyWykresuFunkcji[387].Y = 10.717
+	punktyWykresuFunkcji[387].Y = -26.039
 
 	punktyWykresuFunkcji[388].X = 3.88
-	punktyWykresuFunkcji[388].Y = 10.825
+	punktyWykresuFunkcji[388].Y = -26.363
 
 	punktyWykresuFunkcji[389].X = 3.89
-	punktyWykresuFunkcji[389].Y = 10.935
+	punktyWykresuFunkcji[389].Y = -26.688
 
 	punktyWykresuFunkcji[390].X = 3.9
-	punktyWykresuFunkcji[390].Y = 11.046
+	punktyWykresuFunkcji[390].Y = -27.016
 
 	punktyWykresuFunkcji[391].X = 3.91
-	punktyWykresuFunkcji[391].Y = 11.16
+	punktyWykresuFunkcji[391].Y = -27.345
 
 	punktyWykresuFunkcji[392].X = 3.92
-	punktyWykresuFunkcji[392].Y = 11.275
+	punktyWykresuFunkcji[392].Y = -27.677
 
 	punktyWykresuFunkcji[393].X = 3.93
-	punktyWykresuFunkcji[393].Y = 11.392
+	punktyWykresuFunkcji[393].Y = -28.01
 
 	punktyWykresuFunkcji[394].X = 3.94
-	punktyWykresuFunkcji[394].Y = 11.511
+	punktyWykresuFunkcji[394].Y = -28.346
 
 	punktyWykresuFunkcji[395].X = 3.95
-	punktyWykresuFunkcji[395].Y = 11.632
+	punktyWykresuFunkcji[395].Y = -28.683
 
 	punktyWykresuFunkcji[396].X = 3.96
-	punktyWykresuFunkcji[396].Y = 11.755
+	punktyWykresuFunkcji[396].Y = -29.022
 
 	punktyWykresuFunkcji[397].X = 3.97
-	punktyWykresuFunkcji[397].Y = 11.881
+	punktyWykresuFunkcji[397].Y = -29.363
 
 	punktyWykresuFunkcji[398].X = 3.98
-	punktyWykresuFunkcji[398].Y = 12.008
+	punktyWykresuFunkcji[398].Y = -29.706
 
 	punktyWykresuFunkcji[399].X = 3.99
-	punktyWykresuFunkcji[399].Y = 12.137
+	punktyWykresuFunkcji[399].Y = -30.051
 
 	punktyWykresuFunkcji[400].X = 4.0
-	punktyWykresuFunkcji[400].Y = 12.268
+	punktyWykresuFunkcji[400].Y = -30.398
 
 	punktyWykresuFunkcji[401].X = 4.01
-	punktyWykresuFunkcji[401].Y = 12.401
+	punktyWykresuFunkcji[401].Y = -30.747
 
 	punktyWykresuFunkcji[402].X = 4.02
-	punktyWykresuFunkcji[402].Y = 12.536
+	punktyWykresuFunkcji[402].Y = -31.097
 
 	punktyWykresuFunkcji[403].X = 4.03
-	punktyWykresuFunkcji[403].Y = 12.674
+	punktyWykresuFunkcji[403].Y = -31.45
 
 	punktyWykresuFunkcji[404].X = 4.04
-	punktyWykresuFunkcji[404].Y = 12.813
+	punktyWykresuFunkcji[404].Y = -31.805
 
 	punktyWykresuFunkcji[405].X = 4.05
-	punktyWykresuFunkcji[405].Y = 12.955
+	punktyWykresuFunkcji[405].Y = -32.161
 
 	punktyWykresuFunkcji[406].X = 4.06
-	punktyWykresuFunkcji[406].Y = 13.099
+	punktyWykresuFunkcji[406].Y = -32.52
 
 	punktyWykresuFunkcji[407].X = 4.07
-	punktyWykresuFunkcji[407].Y = 13.245
+	punktyWykresuFunkcji[407].Y = -32.88
 
 	punktyWykresuFunkcji[408].X = 4.08
-	punktyWykresuFunkcji[408].Y = 13.393
+	punktyWykresuFunkcji[408].Y = -33.242
 
 	punktyWykresuFunkcji[409].X = 4.09
-	punktyWykresuFunkcji[409].Y = 13.544
+	punktyWykresuFunkcji[409].Y = -33.607
 
 	punktyWykresuFunkcji[410].X = 4.1
-	punktyWykresuFunkcji[410].Y = 13.697
+	punktyWykresuFunkcji[410].Y = -33.973
 
 	punktyWykresuFunkcji[411].X = 4.11
-	punktyWykresuFunkcji[411].Y = 13.852
+	punktyWykresuFunkcji[411].Y = -34.341
 
 	punktyWykresuFunkcji[412].X = 4.12
-	punktyWykresuFunkcji[412].Y = 14.009
+	punktyWykresuFunkcji[412].Y = -34.711
 
 	punktyWykresuFunkcji[413].X = 4.13
-	punktyWykresuFunkcji[413].Y = 14.169
+	punktyWykresuFunkcji[413].Y = -35.083
 
 	punktyWykresuFunkcji[414].X = 4.14
-	punktyWykresuFunkcji[414].Y = 14.331
+	punktyWykresuFunkcji[414].Y = -35.457
 
 	punktyWykresuFunkcji[415].X = 4.15
-	punktyWykresuFunkcji[415].Y = 14.496
+	punktyWykresuFunkcji[415].Y = -35.832
 
 	punktyWykresuFunkcji[416].X = 4.16
-	punktyWykresuFunkcji[416].Y = 14.663
+	punktyWykresuFunkcji[416].Y = -36.21
 
 	punktyWykresuFunkcji[417].X = 4.17
-	punktyWykresuFunkcji[417].Y = 14.832
+	punktyWykresuFunkcji[417].Y = -36.59
 
 	punktyWykresuFunkcji[418].X = 4.18
-	punktyWykresuFunkcji[418].Y = 15.004
+	punktyWykresuFunkcji[418].Y = -36.971
 
 	punktyWykresuFunkcji[419].X = 4.19
-	punktyWykresuFunkcji[419].Y = 15.178
+	punktyWykresuFunkcji[419].Y = -37.355
 
 	punktyWykresuFunkcji[420].X = 4.2
-	punktyWykresuFunkcji[420].Y = 15.355
+	punktyWykresuFunkcji[420].Y = -37.74
 
 	punktyWykresuFunkcji[421].X = 4.21
-	punktyWykresuFunkcji[421].Y = 15.535
+	punktyWykresuFunkcji[421].Y = -38.128
 
 	punktyWykresuFunkcji[422].X = 4.22
-	punktyWykresuFunkcji[422].Y = 15.717
+	punktyWykresuFunkcji[422].Y = -38.517
 
 	punktyWykresuFunkcji[423].X = 4.23
-	punktyWykresuFunkcji[423].Y = 15.901
+	punktyWykresuFunkcji[423].Y = -38.908
 
 	punktyWykresuFunkcji[424].X = 4.24
-	punktyWykresuFunkcji[424].Y = 16.088
+	punktyWykresuFunkcji[424].Y = -39.301
 
 	punktyWykresuFunkcji[425].X = 4.25
-	punktyWykresuFunkcji[425].Y = 16.278
+	punktyWykresuFunkcji[425].Y = -39.696
 
 	punktyWykresuFunkcji[426].X = 4.26
-	punktyWykresuFunkcji[426].Y = 16.47
+	punktyWykresuFunkcji[426].Y = -40.093
 
 	punktyWykresuFunkcji[427].X = 4.27
-	punktyWykresuFunkcji[427].Y = 16.665
+	punktyWykresuFunkcji[427].Y = -40.492
 
 	punktyWykresuFunkcji[428].X = 4.28
-	punktyWykresuFunkcji[428].Y = 16.863
+	punktyWykresuFunkcji[428].Y = -40.893
 
 	punktyWykresuFunkcji[429].X = 4.29
-	punktyWykresuFunkcji[429].Y = 17.063
+	punktyWykresuFunkcji[429].Y = -41.296
 
 	punktyWykresuFunkcji[430].X = 4.3
-	punktyWykresuFunkcji[430].Y = 17.267
+	punktyWykresuFunkcji[430].Y = -41.7
 
 	punktyWykresuFunkcji[431].X = 4.31
-	punktyWykresuFunkcji[431].Y = 17.473
+	punktyWykresuFunkcji[431].Y = -42.107
 
 	punktyWykresuFunkcji[432].X = 4.32
-	punktyWykresuFunkcji[432].Y = 17.681
+	punktyWykresuFunkcji[432].Y = -42.515
 
 	punktyWykresuFunkcji[433].X = 4.33
-	punktyWykresuFunkcji[433].Y = 17.893
+	punktyWykresuFunkcji[433].Y = -42.926
 
 	punktyWykresuFunkcji[434].X = 4.34
-	punktyWykresuFunkcji[434].Y = 18.107
+	punktyWykresuFunkcji[434].Y = -43.338
 
 	punktyWykresuFunkcji[435].X = 4.35
-	punktyWykresuFunkcji[435].Y = 18.324
+	punktyWykresuFunkcji[435].Y = -43.752
 
 	punktyWykresuFunkcji[436].X = 4.36
-	punktyWykresuFunkcji[436].Y = 18.545
+	punktyWykresuFunkcji[436].Y = -44.168
 
 	punktyWykresuFunkcji[437].X = 4.37
-	punktyWykresuFunkcji[437].Y = 18.768
+	punktyWykresuFunkcji[437].Y = -44.586
 
 	punktyWykresuFunkcji[438].X = 4.38
-	punktyWykresuFunkcji[438].Y = 18.994
+	punktyWykresuFunkcji[438].Y = -45.006
 
 	punktyWykresuFunkcji[439].X = 4.39
-	punktyWykresuFunkcji[439].Y = 19.223
+	punktyWykresuFunkcji[439].Y = -45.428
 
 	punktyWykresuFunkcji[440].X = 4.4
-	punktyWykresuFunkcji[440].Y = 19.455
+	punktyWykresuFunkcji[440].Y = -45.852
 
 	punktyWykresuFunkcji[441].X = 4.41
-	punktyWykresuFunkcji[441].Y = 19.69
+	punktyWykresuFunkcji[441].Y = -46.278
 
 	punktyWykresuFunkcji[442].X = 4.42
-	punktyWykresuFunkcji[442].Y = 19.928
+	punktyWykresuFunkcji[442].Y = -46.706
 
 	punktyWykresuFunkcji[443].X = 4.43
-	punktyWykresuFunkcji[443].Y = 20.169
+	punktyWykresuFunkcji[443].Y = -47.135
 
 	punktyWykresuFunkcji[444].X = 4.44
-	punktyWykresuFunkcji[444].Y = 20.413
+	punktyWykresuFunkcji[444].Y = -47.567
 
 	punktyWykresuFunkcji[445].X = 4.45
-	punktyWykresuFunkcji[445].Y = 20.66
+	punktyWykresuFunkcji[445].Y = -48.0
 
 	punktyWykresuFunkcji[446].X = 4.46
-	punktyWykresuFunkcji[446].Y = 20.911
+	punktyWykresuFunkcji[446].Y = -48.435
 
 	punktyWykresuFunkcji[447].X = 4.47
-	punktyWykresuFunkcji[447].Y = 21.164
+	punktyWykresuFunkcji[447].Y = -48.872
 
 	punktyWykresuFunkcji[448].X = 4.48
-	punktyWykresuFunkcji[448].Y = 21.421
+	punktyWykresuFunkcji[448].Y = -49.312
 
 	punktyWykresuFunkcji[449].X = 4.49
-	punktyWykresuFunkcji[449].Y = 21.681
+	punktyWykresuFunkcji[449].Y = -49.753
 
 	punktyWykresuFunkcji[450].X = 4.5
-	punktyWykresuFunkcji[450].Y = 21.944
+	punktyWykresuFunkcji[450].Y = -50.196
 
 	punktyWykresuFunkcji[451].X = 4.51
-	punktyWykresuFunkcji[451].Y = 22.211
+	punktyWykresuFunkcji[451].Y = -50.64
 
 	punktyWykresuFunkcji[452].X = 4.52
-	punktyWykresuFunkcji[452].Y = 22.48
+	punktyWykresuFunkcji[452].Y = -51.087
 
 	punktyWykresuFunkcji[453].X = 4.53
-	punktyWykresuFunkcji[453].Y = 22.754
+	punktyWykresuFunkcji[453].Y = -51.536
 
 	punktyWykresuFunkcji[454].X = 4.54
-	punktyWykresuFunkcji[454].Y = 23.03
+	punktyWykresuFunkcji[454].Y = -51.986
 
 	punktyWykresuFunkcji[455].X = 4.55
-	punktyWykresuFunkcji[455].Y = 23.31
+	punktyWykresuFunkcji[455].Y = -52.439
 
 	punktyWykresuFunkcji[456].X = 4.56
-	punktyWykresuFunkcji[456].Y = 23.593
+	punktyWykresuFunkcji[456].Y = -52.893
 
 	punktyWykresuFunkcji[457].X = 4.57
-	punktyWykresuFunkcji[457].Y = 23.88
+	punktyWykresuFunkcji[457].Y = -53.349
 
 	punktyWykresuFunkcji[458].X = 4.58
-	punktyWykresuFunkcji[458].Y = 24.17
+	punktyWykresuFunkcji[458].Y = -53.807
 
 	punktyWykresuFunkcji[459].X = 4.59
-	punktyWykresuFunkcji[459].Y = 24.464
+	punktyWykresuFunkcji[459].Y = -54.267
 
 	punktyWykresuFunkcji[460].X = 4.6
-	punktyWykresuFunkcji[460].Y = 24.761
+	punktyWykresuFunkcji[460].Y = -54.729
 
 	punktyWykresuFunkcji[461].X = 4.61
-	punktyWykresuFunkcji[461].Y = 25.061
+	punktyWykresuFunkcji[461].Y = -55.193
 
 	punktyWykresuFunkcji[462].X = 4.62
-	punktyWykresuFunkcji[462].Y = 25.366
+	punktyWykresuFunkcji[462].Y = -55.659
 
 	punktyWykresuFunkcji[463].X = 4.63
-	punktyWykresuFunkcji[463].Y = 25.673
+	punktyWykresuFunkcji[463].Y = -56.127
 
 	punktyWykresuFunkcji[464].X = 4.64
-	punktyWykresuFunkcji[464].Y = 25.985
+	punktyWykresuFunkcji[464].Y = -56.596
 
 	punktyWykresuFunkcji[465].X = 4.65
-	punktyWykresuFunkcji[465].Y = 26.3
+	punktyWykresuFunkcji[465].Y = -57.067
 
 	punktyWykresuFunkcji[466].X = 4.66
-	punktyWykresuFunkcji[466].Y = 26.618
+	punktyWykresuFunkcji[466].Y = -57.541
 
 	punktyWykresuFunkcji[467].X = 4.67
-	punktyWykresuFunkcji[467].Y = 27.267
+	punktyWykresuFunkcji[467].Y = -58.016
 
 	punktyWykresuFunkcji[468].X = 4.68
-	punktyWykresuFunkcji[468].Y = 27.267
+	punktyWykresuFunkcji[468].Y = -58.493
 
 	punktyWykresuFunkcji[469].X = 4.69
-	punktyWykresuFunkcji[469].Y = 27.597
+	punktyWykresuFunkcji[469].Y = -58.972
 
 	punktyWykresuFunkcji[470].X = 4.7
-	punktyWykresuFunkcji[470].Y = 27.931
+	punktyWykresuFunkcji[470].Y = -59.453
 
 	punktyWykresuFunkcji[471].X = 4.71
-	punktyWykresuFunkcji[471].Y = 28.268
+	punktyWykresuFunkcji[471].Y = -59.936
 
 	punktyWykresuFunkcji[472].X = 4.72
-	punktyWykresuFunkcji[472].Y = 28.609
+	punktyWykresuFunkcji[472].Y = -60.42
 
 	punktyWykresuFunkcji[473].X = 4.73
-	punktyWykresuFunkcji[473].Y = 28.954
+	punktyWykresuFunkcji[473].Y = -60.907
 
 	punktyWykresuFunkcji[474].X = 4.74
-	punktyWykresuFunkcji[474].Y = 29.303
+	punktyWykresuFunkcji[474].Y = -61.395
 
 	punktyWykresuFunkcji[475].X = 4.75
-	punktyWykresuFunkcji[475].Y = 29.656
+	punktyWykresuFunkcji[475].Y = -61.885
 
 	punktyWykresuFunkcji[476].X = 4.76
-	punktyWykresuFunkcji[476].Y = 30.013
+	punktyWykresuFunkcji[476].Y = -62.378
 
 	punktyWykresuFunkcji[477].X = 4.77
-	punktyWykresuFunkcji[477].Y = 30.374
+	punktyWykresuFunkcji[477].Y = -62.872
 
 	punktyWykresuFunkcji[478].X = 4.78
-	punktyWykresuFunkcji[478].Y = 30.739
+	punktyWykresuFunkcji[478].Y = -63.368
 
 	punktyWykresuFunkcji[479].X = 4.79
-	punktyWykresuFunkcji[479].Y = 31.108
+	punktyWykresuFunkcji[479].Y = -63.865
 
 	punktyWykresuFunkcji[480].X = 4.8
-	punktyWykresuFunkcji[480].Y = 31.48
+	punktyWykresuFunkcji[480].Y = -64.365
 
 	punktyWykresuFunkcji[481].X = 4.81
-	punktyWykresuFunkcji[481].Y = 31.857
+	punktyWykresuFunkcji[481].Y = -64.867
 
 	punktyWykresuFunkcji[482].X = 4.82
-	punktyWykresuFunkcji[482].Y = 32.238
+	punktyWykresuFunkcji[482].Y = -65.37
 
 	punktyWykresuFunkcji[483].X = 4.83
-	punktyWykresuFunkcji[483].Y = 32.624
+	punktyWykresuFunkcji[483].Y = -65.875
 
 	punktyWykresuFunkcji[484].X = 4.84
-	punktyWykresuFunkcji[484].Y = 33.013
+	punktyWykresuFunkcji[484].Y = -66.382
 
 	punktyWykresuFunkcji[485].X = 4.85
-	punktyWykresuFunkcji[485].Y = 33.407
+	punktyWykresuFunkcji[485].Y = -66.891
 
 	punktyWykresuFunkcji[486].X = 4.86
-	punktyWykresuFunkcji[486].Y = 33.804
+	punktyWykresuFunkcji[486].Y = -67.402
 
 	punktyWykresuFunkcji[487].X = 4.87
-	punktyWykresuFunkcji[487].Y = 34.206
+	punktyWykresuFunkcji[487].Y = -67.915
 
 	punktyWykresuFunkcji[488].X = 4.88
-	punktyWykresuFunkcji[488].Y = 34.613
+	punktyWykresuFunkcji[488].Y = -68.43
 
 	punktyWykresuFunkcji[489].X = 4.89
-	punktyWykresuFunkcji[489].Y = 35.023
+	punktyWykresuFunkcji[489].Y = -68.946
 
 	punktyWykresuFunkcji[490].X = 4.9
-	punktyWykresuFunkcji[490].Y = 35.438
+	punktyWykresuFunkcji[490].Y = -69.465
 
 	punktyWykresuFunkcji[491].X = 4.91
-	punktyWykresuFunkcji[491].Y = 35.857
+	punktyWykresuFunkcji[491].Y = -69.985
 
 	punktyWykresuFunkcji[492].X = 4.92
-	punktyWykresuFunkcji[492].Y = 36.281
+	punktyWykresuFunkcji[492].Y = -70.507
 
 	punktyWykresuFunkcji[493].X = 4.93
-	punktyWykresuFunkcji[493].Y = 36.709
+	punktyWykresuFunkcji[493].Y = -71.031
 
 	punktyWykresuFunkcji[494].X = 4.94
-	punktyWykresuFunkcji[494].Y = 37.141
+	punktyWykresuFunkcji[494].Y = -71.557
 
 	punktyWykresuFunkcji[495].X = 4.95
-	punktyWykresuFunkcji[495].Y = 37.578
+	punktyWykresuFunkcji[495].Y = -72.085
 
 	punktyWykresuFunkcji[496].X = 4.96
-	punktyWykresuFunkcji[496].Y = 38.02
+	punktyWykresuFunkcji[496].Y = -72.614
 
 	punktyWykresuFunkcji[497].X = 4.97
-	punktyWykresuFunkcji[497].Y = 38.466
+	punktyWykresuFunkcji[497].Y = -73.146
 
 	punktyWykresuFunkcji[498].X = 4.98
-	punktyWykresuFunkcji[498].Y = 38.916
+	punktyWykresuFunkcji[498].Y = -73.679
 
 	punktyWykresuFunkcji[499].X = 4.99
-	punktyWykresuFunkcji[499].Y = 39.372
+	punktyWykresuFunkcji[499].Y = -74.214
 
 	punktyWykresuFunkcji[500].X = 5.0
-	punktyWykresuFunkcji[500].Y = 39.831
+	punktyWykresuFunkcji[500].Y = -74.751
 
 	punktyWykresuFunkcji[501].X = 5.01
-	punktyWykresuFunkcji[501].Y = 40.296
+	punktyWykresuFunkcji[501].Y = -75.29
 
 	punktyWykresuFunkcji[502].X = 5.02
-	punktyWykresuFunkcji[502].Y = 40.765
+	punktyWykresuFunkcji[502].Y = -75.831
 
 	punktyWykresuFunkcji[503].X = 5.03
-	punktyWykresuFunkcji[503].Y = 41.238
+	punktyWykresuFunkcji[503].Y = -76.373
 
 	punktyWykresuFunkcji[504].X = 5.04
-	punktyWykresuFunkcji[504].Y = 41.717
+	punktyWykresuFunkcji[504].Y = -76.918
 
 	punktyWykresuFunkcji[505].X = 5.05
-	punktyWykresuFunkcji[505].Y = 42.2
+	punktyWykresuFunkcji[505].Y = -77.464
 
 	punktyWykresuFunkcji[506].X = 5.06
-	punktyWykresuFunkcji[506].Y = 42.688
+	punktyWykresuFunkcji[506].Y = -78.012
 
 	punktyWykresuFunkcji[507].X = 5.07
-	punktyWykresuFunkcji[507].Y = 43.181
+	punktyWykresuFunkcji[507].Y = -78.562
 
 	punktyWykresuFunkcji[508].X = 5.08
-	punktyWykresuFunkcji[508].Y = 43.679
+	punktyWykresuFunkcji[508].Y = -79.114
 
 	punktyWykresuFunkcji[509].X = 5.09
-	punktyWykresuFunkcji[509].Y = 44.181
+	punktyWykresuFunkcji[509].Y = -79.668
 
 	punktyWykresuFunkcji[510].X = 5.1
-	punktyWykresuFunkcji[510].Y = 44.689
+	punktyWykresuFunkcji[510].Y = -80.223
 
 	punktyWykresuFunkcji[511].X = 5.11
-	punktyWykresuFunkcji[511].Y = 45.201
+	punktyWykresuFunkcji[511].Y = -80.781
 
 	punktyWykresuFunkcji[512].X = 5.12
-	punktyWykresuFunkcji[512].Y = 45.718
+	punktyWykresuFunkcji[512].Y = -81.34
 
 	punktyWykresuFunkcji[513].X = 5.13
-	punktyWykresuFunkcji[513].Y = 46.241
+	punktyWykresuFunkcji[513].Y = -81.901
 
 	punktyWykresuFunkcji[514].X = 5.14
-	punktyWykresuFunkcji[514].Y = 46.768
+	punktyWykresuFunkcji[514].Y = -82.464
 
 	punktyWykresuFunkcji[515].X = 5.15
-	punktyWykresuFunkcji[515].Y = 47.301
+	punktyWykresuFunkcji[515].Y = -83.029
 
 	punktyWykresuFunkcji[516].X = 5.16
-	punktyWykresuFunkcji[516].Y = 47.838
+	punktyWykresuFunkcji[516].Y = -83.596
 
 	punktyWykresuFunkcji[517].X = 5.17
-	punktyWykresuFunkcji[517].Y = 48.381
+	punktyWykresuFunkcji[517].Y = -84.164
 
 	punktyWykresuFunkcji[518].X = 5.18
-	punktyWykresuFunkcji[518].Y = 48.928
+	punktyWykresuFunkcji[518].Y = -84.734
 
 	punktyWykresuFunkcji[519].X = 5.19
-	punktyWykresuFunkcji[519].Y = 49.481
+	punktyWykresuFunkcji[519].Y = -85.307
 
 	punktyWykresuFunkcji[520].X = 5.2
-	punktyWykresuFunkcji[520].Y = 50.039
+	punktyWykresuFunkcji[520].Y = -85.881
 
 	punktyWykresuFunkcji[521].X = 5.21
-	punktyWykresuFunkcji[521].Y = 50.603
+	punktyWykresuFunkcji[521].Y = -86.457
 
 	punktyWykresuFunkcji[522].X = 5.22
-	punktyWykresuFunkcji[522].Y = 51.171
+	punktyWykresuFunkcji[522].Y = -87.034
 
 	punktyWykresuFunkcji[523].X = 5.23
-	punktyWykresuFunkcji[523].Y = 51.745
+	punktyWykresuFunkcji[523].Y = -87.614
 
 	punktyWykresuFunkcji[524].X = 5.24
-	punktyWykresuFunkcji[524].Y = 52.324
+	punktyWykresuFunkcji[524].Y = -88.195
 
 	punktyWykresuFunkcji[525].X = 5.25
-	punktyWykresuFunkcji[525].Y = 52.909
+	punktyWykresuFunkcji[525].Y = -88.779
 
 	punktyWykresuFunkcji[526].X = 5.26
-	punktyWykresuFunkcji[526].Y = 53.499
+	punktyWykresuFunkcji[526].Y = -89.364
 
 	punktyWykresuFunkcji[527].X = 5.27
-	punktyWykresuFunkcji[527].Y = 54.094
+	punktyWykresuFunkcji[527].Y = -89.951
 
 	punktyWykresuFunkcji[528].X = 5.28
-	punktyWykresuFunkcji[528].Y = 54.695
+	punktyWykresuFunkcji[528].Y = -90.54
 
 	punktyWykresuFunkcji[529].X = 5.29
-	punktyWykresuFunkcji[529].Y = 55.301
+	punktyWykresuFunkcji[529].Y = -91.13
 
 	punktyWykresuFunkcji[530].X = 5.3
-	punktyWykresuFunkcji[530].Y = 55.913
+	punktyWykresuFunkcji[530].Y = -91.723
 
 	punktyWykresuFunkcji[531].X = 5.31
-	punktyWykresuFunkcji[531].Y = 0.0
+	punktyWykresuFunkcji[531].Y = -92.317
 
 	punktyWykresuFunkcji[532].X = 5.32
 	punktyWykresuFunkcji[532].Y = -92.913
@@ -2026,76 +2026,76 @@ func main() {
 	punktyWykresuFunkcji[660].Y = -137.8
 
 	punktyWykresuFunkcji[670].X = 6.7
-	punktyWykresuFunkcji[670].Y = 0.0
+	punktyWykresuFunkcji[670].Y = -137.8
 
-	punktyWykresuFunkcji[671].X = 6.71
-	punktyWykresuFunkcji[671].Y = 0.0
+	punktyWykresuFunkcji[670].X = 6.71
+	punktyWykresuFunkcji[670].Y = -137.8
 
-	punktyWykresuFunkcji[672].X = 6.72
-	punktyWykresuFunkcji[672].Y = 0.0
+	punktyWykresuFunkcji[670].X = 6.72
+	punktyWykresuFunkcji[670].Y = -137.8
 
-	punktyWykresuFunkcji[673].X = 6.73
-	punktyWykresuFunkcji[673].Y = 0.0
+	punktyWykresuFunkcji[670].X = 6.73
+	punktyWykresuFunkcji[670].Y = -137.8
 
-	punktyWykresuFunkcji[674].X = 6.74
-	punktyWykresuFunkcji[674].Y = 0.0
+	punktyWykresuFunkcji[670].X = 6.74
+	punktyWykresuFunkcji[670].Y = -137.8
 
-	punktyWykresuFunkcji[675].X = 6.75
-	punktyWykresuFunkcji[675].Y = 0.0
+	punktyWykresuFunkcji[670].X = 6.75
+	punktyWykresuFunkcji[670].Y = -137.8
 
-	punktyWykresuFunkcji[676].X = 6.76
-	punktyWykresuFunkcji[676].Y = 0.0
+	punktyWykresuFunkcji[670].X = 6.76
+	punktyWykresuFunkcji[670].Y = -137.8
 
-	punktyWykresuFunkcji[677].X = 6.77
-	punktyWykresuFunkcji[677].Y = 0.0
+	punktyWykresuFunkcji[670].X = 6.77
+	punktyWykresuFunkcji[670].Y = -137.8
 
-	punktyWykresuFunkcji[678].X = 6.78
-	punktyWykresuFunkcji[678].Y = 0.0
+	punktyWykresuFunkcji[670].X = 6.78
+	punktyWykresuFunkcji[670].Y = -137.8
 
-	punktyWykresuFunkcji[679].X = 6.79
-	punktyWykresuFunkcji[679].Y = 0.0
+	punktyWykresuFunkcji[670].X = 6.79
+	punktyWykresuFunkcji[670].Y = -137.8
 
 	punktyWykresuFunkcji[680].X = 6.8
-	punktyWykresuFunkcji[680].Y = 0.0
+	punktyWykresuFunkcji[680].Y = -137.8
 
-	punktyWykresuFunkcji[681].X = 6.81
-	punktyWykresuFunkcji[681].Y = 0.0
+	punktyWykresuFunkcji[680].X = 6.81
+	punktyWykresuFunkcji[680].Y = -137.8
 
-	punktyWykresuFunkcji[682].X = 6.82
-	punktyWykresuFunkcji[682].Y = 0.0
+	punktyWykresuFunkcji[680].X = 6.82
+	punktyWykresuFunkcji[680].Y = -137.8
 
-	punktyWykresuFunkcji[683].X = 6.83
-	punktyWykresuFunkcji[683].Y = 0.0
+	punktyWykresuFunkcji[680].X = 6.83
+	punktyWykresuFunkcji[680].Y = -137.8
 
-	punktyWykresuFunkcji[684].X = 6.84
-	punktyWykresuFunkcji[684].Y = 0.0
+	punktyWykresuFunkcji[680].X = 6.84
+	punktyWykresuFunkcji[680].Y = -137.8
 
-	punktyWykresuFunkcji[685].X = 6.85
-	punktyWykresuFunkcji[685].Y = 0.0
+	punktyWykresuFunkcji[680].X = 6.85
+	punktyWykresuFunkcji[680].Y = -137.8
 
-	punktyWykresuFunkcji[686].X = 6.86
-	punktyWykresuFunkcji[686].Y = 0.0
+	punktyWykresuFunkcji[680].X = 6.86
+	punktyWykresuFunkcji[680].Y = -137.8
 
-	punktyWykresuFunkcji[687].X = 6.87
-	punktyWykresuFunkcji[687].Y = 0.0
+	punktyWykresuFunkcji[680].X = 6.87
+	punktyWykresuFunkcji[680].Y = -137.8
 
-	punktyWykresuFunkcji[688].X = 6.88
-	punktyWykresuFunkcji[688].Y = 0.0
+	punktyWykresuFunkcji[680].X = 6.88
+	punktyWykresuFunkcji[680].Y = -137.8
 
-	punktyWykresuFunkcji[689].X = 6.89
-	punktyWykresuFunkcji[689].Y = 0.0
+	punktyWykresuFunkcji[680].X = 6.89
+	punktyWykresuFunkcji[680].Y = -137.8
 
-	punktyWykresuFunkcji[690].X = 6.9
-	punktyWykresuFunkcji[690].Y = 0.0
+	punktyWykresuFunkcji[680].X = 6.9
+	punktyWykresuFunkcji[680].Y = -137.8
 
-	punktyWykresuFunkcji[691].X = 6.91
-	punktyWykresuFunkcji[691].Y = 0.0
+	punktyWykresuFunkcji[680].X = 6.91
+	punktyWykresuFunkcji[680].Y = -137.8
 
-	punktyWykresuFunkcji[692].X = 6.92
-	punktyWykresuFunkcji[692].Y = 0.0
+	punktyWykresuFunkcji[680].X = 6.92
+	punktyWykresuFunkcji[680].Y = -137.8
 
-	punktyWykresuFunkcji[693].X = 6.93
-	punktyWykresuFunkcji[693].Y = 0.0
+	punktyWykresuFunkcji[680].X = 6.93
+	punktyWykresuFunkcji[680].Y = -137.8
 
 	punktyWykresuFunkcji[680].X = 6.94
 	punktyWykresuFunkcji[680].Y = -137.8
