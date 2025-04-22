@@ -9,8 +9,8 @@ import (
 )
 
 func main() {
-	// Wykres wielomianu f(x) = x^5 - 19.222 x^4 + 69.903 x^3
-	// - 10.34 x^2 - 15.722 x + 9.177
+	// Wykres wielomianu f(x) = x^5 - 19.222 x^4 + 69.903 x^3 -
+	// 10.34 x^2 - 15.722 x + 9.177
 
 	punktyWykresuWielomianu := make(plotter.XYs, 801)
 

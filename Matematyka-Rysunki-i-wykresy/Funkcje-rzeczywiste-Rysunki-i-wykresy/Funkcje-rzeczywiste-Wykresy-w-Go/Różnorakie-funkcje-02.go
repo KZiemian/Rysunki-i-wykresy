@@ -3021,6 +3021,12 @@ func main() {
 
 
 
+
+
+
+
+
+
 	wykresFunkcji := plot.New()
 
 	wykresFunkcji.Title.Text = "Wykres funkcji f(x) = -(2/3)x^3 + x - 5cos(x) + 5"
