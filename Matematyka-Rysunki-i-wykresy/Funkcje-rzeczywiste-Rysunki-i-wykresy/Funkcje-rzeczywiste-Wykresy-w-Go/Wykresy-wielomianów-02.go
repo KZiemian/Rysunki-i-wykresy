@@ -11,7 +11,7 @@ import (
 func main() {
 	// Wykres wielomianu f(x) = x^4 - x^3 - x^2 + x
 
-	punktyWykresuWielomianu := make(plotter.XYs, 901)
+	punktyWykresuWielomianu := make(plotter.XYs, 1_001)
 
 	punktyWykresuWielomianu[0].X = 0.0
 	punktyWykresuWielomianu[0].Y = 0.0
@@ -2477,151 +2477,151 @@ func main() {
 	punktyWykresuWielomianu[820].Y = 3_910.809
 
 	punktyWykresuWielomianu[821].X = 8.21
-	punktyWykresuWielomianu[821].Y = 0.0
+	punktyWykresuWielomianu[821].Y = 3_930.73
 
 	punktyWykresuWielomianu[822].X = 8.22
-	punktyWykresuWielomianu[822].Y = 0.0
+	punktyWykresuWielomianu[822].Y = 3_950.728
 
 	punktyWykresuWielomianu[823].X = 8.23
-	punktyWykresuWielomianu[823].Y = 0.0
+	punktyWykresuWielomianu[823].Y = 3_970.801
 
 	punktyWykresuWielomianu[824].X = 8.24
-	punktyWykresuWielomianu[824].Y = 0.0
+	punktyWykresuWielomianu[824].Y = 3_990.95
 
 	punktyWykresuWielomianu[825].X = 8.25
-	punktyWykresuWielomianu[825].Y = 0.0
+	punktyWykresuWielomianu[825].Y = 4_011.175
 
 	punktyWykresuWielomianu[826].X = 8.26
-	punktyWykresuWielomianu[826].Y = 0.0
+	punktyWykresuWielomianu[826].Y = 4_031.477
 
 	punktyWykresuWielomianu[827].X = 8.27
-	punktyWykresuWielomianu[827].Y = 0.0
+	punktyWykresuWielomianu[827].Y = 4_051.856
 
 	punktyWykresuWielomianu[828].X = 8.28
-	punktyWykresuWielomianu[828].Y = 0.0
+	punktyWykresuWielomianu[828].Y = 4_072.312
 
 	punktyWykresuWielomianu[829].X = 8.29
-	punktyWykresuWielomianu[829].Y = 0.0
+	punktyWykresuWielomianu[829].Y = 4_092.845
 
 	punktyWykresuWielomianu[830].X = 8.3
-	punktyWykresuWielomianu[830].Y = 0.0
+	punktyWykresuWielomianu[830].Y = 4_114.455
 
 	punktyWykresuWielomianu[831].X = 8.31
-	punktyWykresuWielomianu[831].Y = 0.0
+	punktyWykresuWielomianu[831].Y = 4_134.142
 
 	punktyWykresuWielomianu[832].X = 8.32
-	punktyWykresuWielomianu[832].Y = 0.0
+	punktyWykresuWielomianu[832].Y = 4_154.907
 
 	punktyWykresuWielomianu[833].X = 8.33
-	punktyWykresuWielomianu[833].Y = 0.0
+	punktyWykresuWielomianu[833].Y = 4_175.751
 
 	punktyWykresuWielomianu[834].X = 8.34
-	punktyWykresuWielomianu[834].Y = 0.0
+	punktyWykresuWielomianu[834].Y = 4_196.672
 
 	punktyWykresuWielomianu[835].X = 8.35
-	punktyWykresuWielomianu[835].Y = 0.0
+	punktyWykresuWielomianu[835].Y = 4_217.671
 
 	punktyWykresuWielomianu[836].X = 8.36
-	punktyWykresuWielomianu[836].Y = 0.0
+	punktyWykresuWielomianu[836].Y = 4_238.749
 
 	punktyWykresuWielomianu[837].X = 8.37
-	punktyWykresuWielomianu[837].Y = 0.0
+	punktyWykresuWielomianu[837].Y = 4_259.906
 
 	punktyWykresuWielomianu[838].X = 8.38
-	punktyWykresuWielomianu[838].Y = 0.0
+	punktyWykresuWielomianu[838].Y = 4_281.141
 
 	punktyWykresuWielomianu[839].X = 8.39
-	punktyWykresuWielomianu[839].Y = 0.0
+	punktyWykresuWielomianu[839].Y = 4_302.455
 
 	punktyWykresuWielomianu[840].X = 8.4
-	punktyWykresuWielomianu[840].Y = 0.0
+	punktyWykresuWielomianu[840].Y = 4_323.849
 
 	punktyWykresuWielomianu[841].X = 8.41
-	punktyWykresuWielomianu[841].Y = 0.0
+	punktyWykresuWielomianu[841].Y = 4_345.322
 
 	punktyWykresuWielomianu[842].X = 8.42
-	punktyWykresuWielomianu[842].Y = 0.0
+	punktyWykresuWielomianu[842].Y = 4_366.875
 
 	punktyWykresuWielomianu[843].X = 8.43
-	punktyWykresuWielomianu[843].Y = 0.0
+	punktyWykresuWielomianu[843].Y = 4_388.508
 
 	punktyWykresuWielomianu[844].X = 8.44
-	punktyWykresuWielomianu[844].Y = 0.0
+	punktyWykresuWielomianu[844].Y = 4_410.22
 
 	punktyWykresuWielomianu[845].X = 8.45
-	punktyWykresuWielomianu[845].Y = 0.0
+	punktyWykresuWielomianu[845].Y = 4_432.013
 
 	punktyWykresuWielomianu[846].X = 8.46
-	punktyWykresuWielomianu[846].Y = 0.0
+	punktyWykresuWielomianu[846].Y = 4_453.886
 
 	punktyWykresuWielomianu[847].X = 8.47
-	punktyWykresuWielomianu[847].Y = 0.0
+	punktyWykresuWielomianu[847].Y = 4_475.84
 
 	punktyWykresuWielomianu[848].X = 8.48
-	punktyWykresuWielomianu[848].Y = 0.0
+	punktyWykresuWielomianu[848].Y = 4_497.875
 
 	punktyWykresuWielomianu[849].X = 8.49
-	punktyWykresuWielomianu[849].Y = 0.0
+	punktyWykresuWielomianu[849].Y = 4_519.99
 
 	punktyWykresuWielomianu[850].X = 8.5
-	punktyWykresuWielomianu[850].Y = 0.0
+	punktyWykresuWielomianu[850].Y = 4_542.187
 
 	punktyWykresuWielomianu[851].X = 8.51
-	punktyWykresuWielomianu[851].Y = 0.0
+	punktyWykresuWielomianu[851].Y = 4_564.465
 
 	punktyWykresuWielomianu[852].X = 8.52
-	punktyWykresuWielomianu[852].Y = 0.0
+	punktyWykresuWielomianu[852].Y = 4_586.825
 
 	punktyWykresuWielomianu[853].X = 8.53
-	punktyWykresuWielomianu[853].Y = 0.0
+	punktyWykresuWielomianu[853].Y = 4_609.267
 
 	punktyWykresuWielomianu[854].X = 8.54
-	punktyWykresuWielomianu[854].Y = 0.0
+	punktyWykresuWielomianu[854].Y = 4_631.79
 
 	punktyWykresuWielomianu[855].X = 8.55
-	punktyWykresuWielomianu[855].Y = 0.0
+	punktyWykresuWielomianu[855].Y = 4_654.396
 
 	punktyWykresuWielomianu[856].X = 8.56
-	punktyWykresuWielomianu[856].Y = 0.0
+	punktyWykresuWielomianu[856].Y = 4_677.084
 
 	punktyWykresuWielomianu[857].X = 8.57
-	punktyWykresuWielomianu[857].Y = 0.0
+	punktyWykresuWielomianu[857].Y = 4_699.855
 
 	punktyWykresuWielomianu[858].X = 8.58
-	punktyWykresuWielomianu[858].Y = 0.0
+	punktyWykresuWielomianu[858].Y = 4_722.709
 
 	punktyWykresuWielomianu[859].X = 8.59
-	punktyWykresuWielomianu[859].Y = 0.0
+	punktyWykresuWielomianu[859].Y = 4_745.645
 
 	punktyWykresuWielomianu[860].X = 8.6
-	punktyWykresuWielomianu[860].Y = 0.0
+	punktyWykresuWielomianu[860].Y = 4_768.665
 
 	punktyWykresuWielomianu[861].X = 8.61
-	punktyWykresuWielomianu[861].Y = 0.0
+	punktyWykresuWielomianu[861].Y = 4_791.768
 
 	punktyWykresuWielomianu[862].X = 8.62
-	punktyWykresuWielomianu[862].Y = 0.0
+	punktyWykresuWielomianu[862].Y = 4_814.955
 
 	punktyWykresuWielomianu[863].X = 8.63
-	punktyWykresuWielomianu[863].Y = 0.0
+	punktyWykresuWielomianu[863].Y = 4_838.226
 
 	punktyWykresuWielomianu[864].X = 8.64
-	punktyWykresuWielomianu[864].Y = 0.0
+	punktyWykresuWielomianu[864].Y = 4_861.58
 
 	punktyWykresuWielomianu[865].X = 8.65
-	punktyWykresuWielomianu[865].Y = 0.0
+	punktyWykresuWielomianu[865].Y = 4_885.019
 
 	punktyWykresuWielomianu[866].X = 8.66
-	punktyWykresuWielomianu[866].Y = 0.0
+	punktyWykresuWielomianu[866].Y = 4_908.542
 
 	punktyWykresuWielomianu[867].X = 8.67
-	punktyWykresuWielomianu[867].Y = 0.0
+	punktyWykresuWielomianu[867].Y = 4_932.15
 
 	punktyWykresuWielomianu[868].X = 8.68
-	punktyWykresuWielomianu[868].Y = 0.0
+	punktyWykresuWielomianu[868].Y = 4_955.842
 
 	punktyWykresuWielomianu[869].X = 8.69
-	punktyWykresuWielomianu[869].Y = 0.0
+	punktyWykresuWielomianu[869].Y = 4_979.62
 
 	punktyWykresuWielomianu[870].X = 8.7
 	punktyWykresuWielomianu[870].Y = 5_003.483
@@ -2716,64 +2716,305 @@ func main() {
 	punktyWykresuWielomianu[900].X = 9.0
 	punktyWykresuWielomianu[900].Y = 5_760.0
 
+	punktyWykresuWielomianu[901].X = 9.01
+	punktyWykresuWielomianu[901].Y = 5_786.605
 
+	punktyWykresuWielomianu[902].X = 9.02
+	punktyWykresuWielomianu[902].Y = 5_813.303
 
+	punktyWykresuWielomianu[903].X = 9.03
+	punktyWykresuWielomianu[903].Y = 5_840.093
 
+	punktyWykresuWielomianu[904].X = 9.04
+	punktyWykresuWielomianu[904].Y = 5_866.975
 
+	punktyWykresuWielomianu[905].X = 9.05
+	punktyWykresuWielomianu[905].Y = 5_893.949
 
+	punktyWykresuWielomianu[906].X = 9.06
+	punktyWykresuWielomianu[906].Y = 5_921.016
 
+	punktyWykresuWielomianu[907].X = 9.07
+	punktyWykresuWielomianu[907].Y = 5_948.176
 
+	punktyWykresuWielomianu[908].X = 9.08
+	punktyWykresuWielomianu[908].Y = 5_975.429
 
+	punktyWykresuWielomianu[909].X = 9.09
+	punktyWykresuWielomianu[909].Y = 6_002.775
 
+	punktyWykresuWielomianu[910].X = 9.1
+	punktyWykresuWielomianu[910].Y = 6_030.215
 
+	punktyWykresuWielomianu[911].X = 9.11
+	punktyWykresuWielomianu[911].Y = 6_057.748
 
+	punktyWykresuWielomianu[912].X = 9.12
+	punktyWykresuWielomianu[912].Y = 6_085.375
 
+	punktyWykresuWielomianu[913].X = 9.13
+	punktyWykresuWielomianu[913].Y = 6_113.097
 
+	punktyWykresuWielomianu[914].X = 9.14
+	punktyWykresuWielomianu[914].Y = 6_140.913
 
+	punktyWykresuWielomianu[915].X = 9.15
+	punktyWykresuWielomianu[915].Y = 6_168.823
 
+	punktyWykresuWielomianu[916].X = 9.16
+	punktyWykresuWielomianu[916].Y = 6_196.828
 
+	punktyWykresuWielomianu[917].X = 9.17
+	punktyWykresuWielomianu[917].Y = 6_224.929
 
+	punktyWykresuWielomianu[918].X = 9.18
+	punktyWykresuWielomianu[918].Y = 6_253.415
 
+	punktyWykresuWielomianu[919].X = 9.19
+	punktyWykresuWielomianu[919].Y = 6_281.415
 
+	punktyWykresuWielomianu[920].X = 9.2
+	punktyWykresuWielomianu[920].Y = 6_309.801
 
+	punktyWykresuWielomianu[921].X = 9.21
+	punktyWykresuWielomianu[921].Y = 6_338.283
 
+	punktyWykresuWielomianu[922].X = 9.22
+	punktyWykresuWielomianu[922].Y = 6_366.862
 
+	punktyWykresuWielomianu[923].X = 9.23
+	punktyWykresuWielomianu[923].Y = 6_395.536
 
+	punktyWykresuWielomianu[924].X = 9.24
+	punktyWykresuWielomianu[924].Y = 6_424.308
 
+	punktyWykresuWielomianu[925].X = 9.25
+	punktyWykresuWielomianu[925].Y = 6_453.175
 
+	punktyWykresuWielomianu[926].X = 9.26
+	punktyWykresuWielomianu[926].Y = 6_482.14
 
+	punktyWykresuWielomianu[927].X = 9.27
+	punktyWykresuWielomianu[927].Y = 6_511.202
 
+	punktyWykresuWielomianu[928].X = 9.28
+	punktyWykresuWielomianu[928].Y = 6_540.361
 
+	punktyWykresuWielomianu[929].X = 9.29
+	punktyWykresuWielomianu[929].Y = 6_569.618
 
+	punktyWykresuWielomianu[930].X = 9.3
+	punktyWykresuWielomianu[930].Y = 6_598.973
 
+	punktyWykresuWielomianu[931].X = 9.31
+	punktyWykresuWielomianu[931].Y = 6_628.425
 
+	punktyWykresuWielomianu[932].X = 9.32
+	punktyWykresuWielomianu[932].Y = 6_657.976
 
+	punktyWykresuWielomianu[933].X = 9.33
+	punktyWykresuWielomianu[933].Y = 6_687.625
 
+	punktyWykresuWielomianu[934].X = 9.34
+	punktyWykresuWielomianu[934].Y = 6_717.22
 
+	punktyWykresuWielomianu[935].X = 9.35
+	punktyWykresuWielomianu[935].Y = 6_747.22
 
+	punktyWykresuWielomianu[936].X = 9.36
+	punktyWykresuWielomianu[936].Y = 6_777.166
 
+	punktyWykresuWielomianu[937].X = 9.37
+	punktyWykresuWielomianu[937].Y = 6_807.211
 
+	punktyWykresuWielomianu[938].X = 9.38
+	punktyWykresuWielomianu[938].Y = 6_837.356
 
+	punktyWykresuWielomianu[939].X = 9.39
+	punktyWykresuWielomianu[939].Y = 6_867.601
 
+	punktyWykresuWielomianu[940].X = 9.4
+	punktyWykresuWielomianu[940].Y = 6_897.945
 
+	punktyWykresuWielomianu[941].X = 9.41
+	punktyWykresuWielomianu[941].Y = 6_928.39
 
+	punktyWykresuWielomianu[942].X = 9.42
+	punktyWykresuWielomianu[942].Y = 6_958.935
 
+	punktyWykresuWielomianu[943].X = 9.43
+	punktyWykresuWielomianu[943].Y = 6_989.581
 
+	punktyWykresuWielomianu[944].X = 9.44
+	punktyWykresuWielomianu[944].Y = 7_020.327
 
+	punktyWykresuWielomianu[945].X = 9.45
+	punktyWykresuWielomianu[945].Y = 7_051.175
 
+	punktyWykresuWielomianu[946].X = 9.46
+	punktyWykresuWielomianu[946].Y = 7_082.124
 
+	punktyWykresuWielomianu[947].X = 9.47
+	punktyWykresuWielomianu[947].Y = 7_113.174
 
+	punktyWykresuWielomianu[948].X = 9.48
+	punktyWykresuWielomianu[948].Y = 7_144.327
 
+	punktyWykresuWielomianu[949].X = 9.49
+	punktyWykresuWielomianu[949].Y = 7_175.581
 
+	punktyWykresuWielomianu[950].X = 9.5
+	punktyWykresuWielomianu[950].Y = 7_206.937
 
+	punktyWykresuWielomianu[951].X = 9.51
+	punktyWykresuWielomianu[951].Y = 7_238.396
 
+	punktyWykresuWielomianu[952].X = 9.52
+	punktyWykresuWielomianu[952].Y = 7_269.957
 
+	punktyWykresuWielomianu[953].X = 9.53
+	punktyWykresuWielomianu[953].Y = 7_301.621
 
+	punktyWykresuWielomianu[954].X = 9.54
+	punktyWykresuWielomianu[954].Y = 7_333.389
 
+	punktyWykresuWielomianu[955].X = 9.55
+	punktyWykresuWielomianu[955].Y = 7_365.259
 
+	punktyWykresuWielomianu[956].X = 9.56
+	punktyWykresuWielomianu[956].Y = 7_397.233
 
+	punktyWykresuWielomianu[957].X = 9.57
+	punktyWykresuWielomianu[957].Y = 7_429.311
 
+	punktyWykresuWielomianu[958].X = 9.58
+	punktyWykresuWielomianu[958].Y = 7_461.493
 
+	punktyWykresuWielomianu[959].X = 9.59
+	punktyWykresuWielomianu[959].Y = 7_493.779
+
+	punktyWykresuWielomianu[960].X = 9.6
+	punktyWykresuWielomianu[960].Y = 7_526.169
+
+	punktyWykresuWielomianu[961].X = 9.61
+	punktyWykresuWielomianu[961].Y = 7_558.664
+
+	punktyWykresuWielomianu[962].X = 9.62
+	punktyWykresuWielomianu[962].Y = 7_591.264
+
+	punktyWykresuWielomianu[963].X = 9.63
+	punktyWykresuWielomianu[963].Y = 7_623.969
+
+	punktyWykresuWielomianu[964].X = 9.64
+	punktyWykresuWielomianu[964].Y = 7_656.779
+
+	punktyWykresuWielomianu[965].X = 9.65
+	punktyWykresuWielomianu[965].Y = 7_689.695
+
+	punktyWykresuWielomianu[966].X = 9.66
+	punktyWykresuWielomianu[966].Y = 7_722.716
+
+	punktyWykresuWielomianu[967].X = 9.67
+	punktyWykresuWielomianu[967].Y = 7_755.844
+
+	punktyWykresuWielomianu[968].X = 9.68
+	punktyWykresuWielomianu[968].Y = 7_789.078
+
+	punktyWykresuWielomianu[969].X = 9.69
+	punktyWykresuWielomianu[969].Y = 7_822.418
+
+	punktyWykresuWielomianu[970].X = 9.7
+	punktyWykresuWielomianu[970].Y = 7_855.865
+
+	punktyWykresuWielomianu[971].X = 9.71
+	punktyWykresuWielomianu[971].Y = 7_889.418
+
+	punktyWykresuWielomianu[972].X = 9.72
+	punktyWykresuWielomianu[972].Y = 7_923.079
+
+	punktyWykresuWielomianu[973].X = 9.73
+	punktyWykresuWielomianu[973].Y = 7_956.847
+
+	punktyWykresuWielomianu[974].X = 9.74
+	punktyWykresuWielomianu[974].Y = 7_990.723
+
+	punktyWykresuWielomianu[975].X = 9.75
+	punktyWykresuWielomianu[975].Y = 8_024.707
+
+	punktyWykresuWielomianu[976].X = 9.76
+	punktyWykresuWielomianu[976].Y = 8_058.798
+
+	punktyWykresuWielomianu[977].X = 9.77
+	punktyWykresuWielomianu[977].Y = 8_092.998
+
+	punktyWykresuWielomianu[978].X = 9.78
+	punktyWykresuWielomianu[978].Y = 8_127.306
+
+	punktyWykresuWielomianu[979].X = 9.79
+	punktyWykresuWielomianu[979].Y = 8_161.723
+
+	punktyWykresuWielomianu[980].X = 9.8
+	punktyWykresuWielomianu[980].Y = 8_196.249
+
+	punktyWykresuWielomianu[981].X = 9.81
+	punktyWykresuWielomianu[981].Y = 8_230.884
+
+	punktyWykresuWielomianu[982].X = 9.82
+	punktyWykresuWielomianu[982].Y = 8_265.629
+
+	punktyWykresuWielomianu[983].X = 9.83
+	punktyWykresuWielomianu[983].Y = 8_300.483
+
+	punktyWykresuWielomianu[984].X = 9.84
+	punktyWykresuWielomianu[984].Y = 8_335.447
+
+	punktyWykresuWielomianu[985].X = 9.85
+	punktyWykresuWielomianu[985].Y = 8_370.521
+
+	punktyWykresuWielomianu[986].X = 9.86
+	punktyWykresuWielomianu[986].Y = 8_405.705
+
+	punktyWykresuWielomianu[987].X = 9.87
+	punktyWykresuWielomianu[987].Y = 8_441.0
+
+	punktyWykresuWielomianu[988].X = 9.88
+	punktyWykresuWielomianu[988].Y = 8_476.406
+
+	punktyWykresuWielomianu[989].X = 9.89
+	punktyWykresuWielomianu[989].Y = 8_511.923
+
+	punktyWykresuWielomianu[990].X = 9.9
+	punktyWykresuWielomianu[990].Y = 8_547.551
+
+	punktyWykresuWielomianu[991].X = 9.91
+	punktyWykresuWielomianu[991].Y = 8_583.29
+
+	punktyWykresuWielomianu[992].X = 9.92
+	punktyWykresuWielomianu[992].Y = 8_619.141
+
+	punktyWykresuWielomianu[993].X = 9.93
+	punktyWykresuWielomianu[993].Y = 8_655.104
+
+	punktyWykresuWielomianu[994].X = 9.94
+	punktyWykresuWielomianu[994].Y = 8_691.18
+
+	punktyWykresuWielomianu[995].X = 9.95
+	punktyWykresuWielomianu[995].Y = 8_727.367
+
+	punktyWykresuWielomianu[996].X = 9.96
+	punktyWykresuWielomianu[996].Y = 8_763.667
+
+	punktyWykresuWielomianu[997].X = 9.97
+	punktyWykresuWielomianu[997].Y = 8_800.081
+
+	punktyWykresuWielomianu[998].X = 9.98
+	punktyWykresuWielomianu[998].Y = 8_836.607
+
+	punktyWykresuWielomianu[999].X = 9.99
+	punktyWykresuWielomianu[999].Y = 8_873.246
+
+	punktyWykresuWielomianu[1_000].X = 10.0
+	punktyWykresuWielomianu[1_000].Y = 8_910.0
 
 
 
