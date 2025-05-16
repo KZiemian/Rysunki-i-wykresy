@@ -3013,8 +3013,8 @@ func main() {
 	punktyWykresuWielomianu[999].X = 9.99
 	punktyWykresuWielomianu[999].Y = 918.182
 
-	punktyWykresuWielomianu[1000].X = 10.0
-	punktyWykresuWielomianu[1000].Y = 921.0
+	punktyWykresuWielomianu[1_000].X = 10.0
+	punktyWykresuWielomianu[1_000].Y = 921.0
 
 
 
@@ -3040,7 +3040,7 @@ func main() {
 	wykresWielomianu.Legend.Add("f(x)", liniaWykresu)
 
 	if err := wykresWielomianu.Save(10*vg.Inch, 10*vg.Inch,
-		"Wykres-wielomianu-01.png"); err != nil {
+		"Wykres-wielomianu-06.png"); err != nil {
 
 		panic(err)
 	}
