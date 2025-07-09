@@ -10,8 +10,8 @@ import (
 
 func main() {
 	// Plot of function f(x) = 0.25x^4 - x^3 + x - 5cos(x) + 5
-	// Jest to funkcja pierwotna funkcji g(x) = x^3 - 3x^2 + 1 +
-	// 5sin(x), spełniająca warunek f(0) = 0.
+	// This is the integral of function g(x) = x^3 - 3x^2 + 1 + 5sin(x),
+	// which obey condition f(0) = 0.
 
 	pointsOfFunctionPlot := make(plotter.XYs, 1_001)
 
