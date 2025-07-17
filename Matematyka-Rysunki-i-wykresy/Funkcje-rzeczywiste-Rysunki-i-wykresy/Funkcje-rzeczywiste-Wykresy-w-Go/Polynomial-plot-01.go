@@ -6026,27 +6026,27 @@ func main() {
 
 
 
-	wykresWielomianu := plot.New()
+	polynomialPlot := plot.New()
 
-	wykresWielomianu.Title.Text = "Wykres funkcji f(x) = 0.000001x^6 - 0.001x^5 - 0.01x^4 - 0.1x^3 + x^2 + x - 10.0"
+	polynomialPlot.Title.Text = "Wykres funkcji f(x) = 0.000001x^6 - 0.001x^5 - 0.01x^4 - 0.1x^3 + x^2 + x - 10.0"
 
-	wykresWielomianu.X.Label.Text = "x"
-	wykresWielomianu.Y.Label.Text = "y"
+	polynomialPlot.X.Label.Text = "x"
+	polynomialPlot.Y.Label.Text = "y"
 
-	liniaWykresu, err := plotter.NewLine(pointsOfPolynomialPlot)
+	plotLine, err := plotter.NewLine(pointsOfPolynomialPlot)
 
 	if err != nil {
 		panic(err)
 	}
 
-	liniaWykresu.LineStyle.Width = vg.Points(0.1)
-	liniaWykresu.Color = color.RGBA{R: 200, G: 100, B: 100}
+	plotLine.LineStyle.Width = vg.Points(0.1)
+	plotLine.Color = color.RGBA{R: 200, G: 100, B: 100}
 
-	wykresWielomianu.Add(liniaWykresu)
-	wykresWielomianu.Legend.Add("f(x)", liniaWykresu)
+	polynomialPlot.Add(plotLine)
+	polynomialPlot.Legend.Add("f(x)", plotLine)
 
-	if err := wykresWielomianu.Save(10*vg.Inch, 10*vg.Inch,
-		"Wykres-wielomianu-01.png"); err != nil {
+	if err := polynomialPlot.Save(10*vg.Inch, 10*vg.Inch,
+		"Polynomial-plot-01.png"); err != nil {
 
 		panic(err)
 	}
