@@ -6045,7 +6045,7 @@ func main() {
 	plotOfFunction.Legend.Add("f(x)", plotLine)
 
 	if err := plotOfFunction.Save(10*vg.Inch, 10*vg.Inch,
-		"Bessel-function-0th-order-01.png"); err != nil {
+		"Bessel-function-0th-order-plot-01.png"); err != nil {
 
 		panic(err)
 	}

@@ -9,8 +9,8 @@ import (
 )
 
 func main() {
-	// Plot of polynomial f(x) = 0.000001 x^6 - + 0.001 x^5
-	// -0.01 x^4 - 0.1 x^3 + x^2 + x - 10.0
+	// Plot of polynomial f(x) = 0.000001 x^6 - + 0.001 x^5 -
+	// - 0.01 x^4 - 0.1 x^3 + x^2 + x - 10.0
 
 	pointsOfPolynomialPlot := make(plotter.XYs, 2_001)
 

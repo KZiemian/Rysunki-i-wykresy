@@ -3025,12 +3025,12 @@ func main() {
 
 
 
-	plotOfPolynomial := plot.New()
+	polynomialPlot := plot.New()
 
-	plotOfPolynomial.Title.Text = "Wykres funkcji f(x) = 0.001x^4 - 0.01x^3 - 0.1x^2 + x"
+	polynomialPlot.Title.Text = "Wykres funkcji f(x) = 0.001x^4 - 0.01x^3 - 0.1x^2 + x"
 
-	plotOfPolynomial.X.Label.Text = "x"
-	plotOfPolynomial.Y.Label.Text = "y"
+	polynomialPlot.X.Label.Text = "x"
+	polynomialPlot.Y.Label.Text = "y"
 
 	plotLine, err := plotter.NewLine(pointsOfPolynomialPlot)
 
@@ -3041,11 +3041,11 @@ func main() {
 	plotLine.LineStyle.Width = vg.Points(0.1)
 	plotLine.Color = color.RGBA{R: 200, G: 100, B: 100}
 
-	plotOfPolynomial.Add(plotLine)
-	plotOfPolynomial.Legend.Add("f(x)", plotLine)
+	polynomialPlot.Add(plotLine)
+	polynomialPlot.Legend.Add("f(x)", plotLine)
 
-	if err := plotLine.Save(10*vg.Inch, 10*vg.Inch,
-		"Wykres-wielomianu-05.png"); err != nil {
+	if err := polynomialPlot.Save(10*vg.Inch, 10*vg.Inch,
+		"Polynomial-plot-05.png"); err != nil {
 
 		panic(err)
 	}
