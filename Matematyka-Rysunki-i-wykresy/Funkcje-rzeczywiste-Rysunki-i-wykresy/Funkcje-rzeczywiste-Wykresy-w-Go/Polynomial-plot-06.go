@@ -3020,6 +3020,11 @@ func main() {
 
 
 
+
+
+
+
+
 	polynomialPlot := plot.New()
 
 	polynomialPlot.Title.Text = "Wykres funkcji f(x) = x^3 - x^2 + 2x + 1"
