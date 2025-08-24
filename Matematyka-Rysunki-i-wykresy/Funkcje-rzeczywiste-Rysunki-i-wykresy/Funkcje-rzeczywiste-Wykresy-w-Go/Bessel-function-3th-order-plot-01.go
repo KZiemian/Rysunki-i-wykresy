@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	// Plot of function Jn(3, x)
+	// Plot of function Jn(3, x).
 
 	pointsOfFunctionPlot := make(plotter.XYs, 2_001)
 

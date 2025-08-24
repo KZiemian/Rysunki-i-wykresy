@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	// Plot of function acos(x)
+	// Plot of function arccos(x).
 
 	pointsOfFunctionPlot := make(plotter.XYs, 201)
 

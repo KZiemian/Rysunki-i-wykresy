@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	// Plot of function f(x) = x * exp(-(x - 1))
+	// Plot of function f(x) = x * exp(-(x - 1.0)).
 
 	pointsOfFunctionPlot := make(plotter.XYs, 1_001)
 

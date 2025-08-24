@@ -10,7 +10,7 @@ import (
 
 func main() {
 	// Plot of polynomial f(x) = 0.000001 x^6 - + 0.001 x^5 -
-	// - 0.01 x^4 - 0.1 x^3 + x^2 + x - 10.0
+	// - 0.01 x^4 - 0.1 x^3 + x^2 + x - 10.0.
 
 	pointsOfPolynomialPlot := make(plotter.XYs, 2_001)
 
@@ -6028,7 +6028,7 @@ func main() {
 
 	polynomialPlot := plot.New()
 
-	polynomialPlot.Title.Text = "Wykres funkcji f(x) = 0.000001x^6 - 0.001x^5 - 0.01x^4 - 0.1x^3 + x^2 + x - 10.0"
+	polynomialPlot.Title.Text = "Plot of polynomial f(x) = 0.000001x^6 - 0.001x^5 - 0.01x^4 - 0.1x^3 + x^2 + x - 10.0"
 
 	polynomialPlot.X.Label.Text = "x"
 	polynomialPlot.Y.Label.Text = "y"

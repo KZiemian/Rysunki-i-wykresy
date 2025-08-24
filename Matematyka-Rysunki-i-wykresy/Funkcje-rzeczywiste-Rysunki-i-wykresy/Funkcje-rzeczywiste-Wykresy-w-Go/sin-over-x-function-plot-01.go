@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	// Plot of function sin(x)/x
+	// Plot of function f(x) = sin(x)/x.
 
 	pointsOfFunctionPlot := make(plotter.XYs, 2_521)
 

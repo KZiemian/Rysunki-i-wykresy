@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	// Plot of function exp(-x^2)
+	// Plot of function exp(-x^2).
 
 	pointsOfFunctionPlot := make(plotter.XYs, 529)
 

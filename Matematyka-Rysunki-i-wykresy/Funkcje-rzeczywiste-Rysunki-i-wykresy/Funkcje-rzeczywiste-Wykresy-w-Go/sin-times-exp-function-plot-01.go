@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	// Plot of function f(x) = sin(x) * exp(-x)
+	// Plot of function f(x) = sin(x) * exp(-x).
 
 	pointsOfFunctionPlot := make(plotter.XYs, 595)
 

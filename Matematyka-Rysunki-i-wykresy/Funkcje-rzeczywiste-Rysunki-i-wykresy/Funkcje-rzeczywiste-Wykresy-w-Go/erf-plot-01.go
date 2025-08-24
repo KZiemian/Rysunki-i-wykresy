@@ -10,7 +10,7 @@ import (
 
 func main() {
 	// Plot of function erf(x) (error function, integral of Gauss
-	// function)
+	// function).
 
 	pointsOfFunctionPlot := make(plotter.XYs, 2_001)
 

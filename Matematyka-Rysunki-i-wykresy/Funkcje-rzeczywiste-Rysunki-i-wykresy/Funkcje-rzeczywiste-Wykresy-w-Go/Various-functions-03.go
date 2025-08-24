@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	// Plot of function f(x) = -(2/3)x^3 + x - 5cos(x) + 5
+	// Plot of function f(x) = -(2/3)x^3 + x - 5cos(x) + 5.
 	// This is the integral of function g(x) = -2x^2 + 1 + 5sin(x),
 	// which obey condition f(0) = 0.
 

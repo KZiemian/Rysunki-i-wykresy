@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	// Plot of function f(x) = 0.25x^4 - x^3 + x - 5cos(x) + 5
+	// Plot of function f(x) = 0.25x^4 - x^3 + x - 5cos(x) + 5.
 	// This is the integral of function g(x) = x^3 - 3x^2 + 1 + 5sin(x),
 	// which obey condition f(0) = 0.
 

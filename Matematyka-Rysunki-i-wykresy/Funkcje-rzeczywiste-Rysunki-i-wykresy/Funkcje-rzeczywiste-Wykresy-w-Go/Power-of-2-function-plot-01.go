@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	// Plot of function 2^x
+	// Plot of function 2^x.
 
 	pointsOfFunctionPlot := make(plotter.XYs, 2_001)
 

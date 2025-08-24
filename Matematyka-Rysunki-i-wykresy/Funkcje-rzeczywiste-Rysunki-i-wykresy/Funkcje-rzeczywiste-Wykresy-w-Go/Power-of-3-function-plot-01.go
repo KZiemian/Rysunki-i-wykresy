@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	// Plot of function 3^x
+	// Plot of function 3^x.
 
 	pointsOfFunctionPlot := make(plotter.XYs, 1_625)
 

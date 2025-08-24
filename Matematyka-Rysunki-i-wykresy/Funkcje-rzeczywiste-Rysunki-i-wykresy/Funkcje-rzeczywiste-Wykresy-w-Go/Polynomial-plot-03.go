@@ -9,7 +9,8 @@ import (
 )
 
 func main() {
-	// Wykres wielomianu f(x) = x^4 - 20x^3 + 33.75x^2 - 235x + 89.0625
+	// Plot of polynomial f(x) = x^4 - 20x^3 + 33.75x^2 - 235x +
+	// + 89.0625.
 
 	pointsOfPolynomialPlot := make(plotter.XYs, 1_001)
 
@@ -3027,7 +3028,7 @@ func main() {
 
 	polynomialPlot := plot.New()
 
-	polynomialPlot.Title.Text = "Wykres funkcji f(x) = x^4 - 20x^3 + 33.75x^2 - 235x + 89.0625"
+	polynomialPlot.Title.Text = "Plot of polynomial f(x) = x^4 - 20x^3 + 33.75x^2 - 235x + 89.0625"
 
 	polynomialPlot.X.Label.Text = "x"
 	polynomialPlot.Y.Label.Text = "y"

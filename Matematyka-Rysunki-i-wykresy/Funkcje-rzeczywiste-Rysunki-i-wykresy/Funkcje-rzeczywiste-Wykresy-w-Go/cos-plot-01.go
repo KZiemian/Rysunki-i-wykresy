@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	// Wykres funkcji f(x) = cos(x)
+	// Plot of function cos(x).
 
 	pointsOfFunctionPlot := make(plotter.XYs, 321)
 

@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	// Wykres funkcji sin(x)
+	// Plot of function sin(x).
 
 	punktyWykresuFunkcji := make(plotter.XYs, 631)
 

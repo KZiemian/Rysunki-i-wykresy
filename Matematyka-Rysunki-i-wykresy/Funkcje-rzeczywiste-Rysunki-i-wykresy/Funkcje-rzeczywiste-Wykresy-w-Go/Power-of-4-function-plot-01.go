@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	// Plot of function 4^x
+	// Plot of function 4^x.
 
 	pointsOfFunctionPlot := make(plotter.XYs, 1_504)
 
@@ -926,16 +926,16 @@ func main() {
 	pointsOfFunctionPlot[303].Y = 0.062
 
 	pointsOfFunctionPlot[304].X = -1.99
-	pointsOfFunctionPlot[304].Y = 0.062
+	pointsOfFunctionPlot[304].Y = 0.063
 
 	pointsOfFunctionPlot[305].X = -1.98
-	pointsOfFunctionPlot[305].Y = 0.063
+	pointsOfFunctionPlot[305].Y = 0.064
 
 	pointsOfFunctionPlot[306].X = -1.97
-	pointsOfFunctionPlot[306].Y = 0.064
+	pointsOfFunctionPlot[306].Y = 0.065
 
 	pointsOfFunctionPlot[307].X = -1.96
-	pointsOfFunctionPlot[307].Y = 0.065
+	pointsOfFunctionPlot[307].Y = 0.066
 
 	pointsOfFunctionPlot[308].X = -1.95
 	pointsOfFunctionPlot[308].Y = 0.067
