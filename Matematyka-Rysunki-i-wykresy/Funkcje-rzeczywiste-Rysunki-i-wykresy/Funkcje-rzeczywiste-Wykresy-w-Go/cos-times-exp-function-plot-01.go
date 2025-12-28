@@ -914,67 +914,67 @@ func main() {
 	pointsOfFunctionPlot[299].Y = -0.049
 
 	pointsOfFunctionPlot[300].X = 3.0
-	pointsOfFunctionPlot[300].Y = -0.049
+	pointsOfFunctionPlot[300].Y = -0.492
 
 	pointsOfFunctionPlot[301].X = 3.01
-	pointsOfFunctionPlot[301].Y = -0.048
+	pointsOfFunctionPlot[301].Y = -0.488
 
 	pointsOfFunctionPlot[302].X = 3.02
-	pointsOfFunctionPlot[302].Y = -0.048
+	pointsOfFunctionPlot[302].Y = -0.484
 
 	pointsOfFunctionPlot[303].X = 3.03
-	pointsOfFunctionPlot[303].Y = -0.048
+	pointsOfFunctionPlot[303].Y = -0.48
 
 	pointsOfFunctionPlot[304].X = 3.04
-	pointsOfFunctionPlot[304].Y = -0.047
+	pointsOfFunctionPlot[304].Y = -0.475
 
 	pointsOfFunctionPlot[305].X = 3.05
-	pointsOfFunctionPlot[305].Y = -0.047
+	pointsOfFunctionPlot[305].Y = -0.471
 
 	pointsOfFunctionPlot[306].X = 3.06
-	pointsOfFunctionPlot[306].Y = -0.046
+	pointsOfFunctionPlot[306].Y = -0.467
 
 	pointsOfFunctionPlot[307].X = 3.07
-	pointsOfFunctionPlot[307].Y = -0.046
+	pointsOfFunctionPlot[307].Y = -0.463
 
 	pointsOfFunctionPlot[308].X = 3.08
-	pointsOfFunctionPlot[308].Y = -0.045
+	pointsOfFunctionPlot[308].Y = -0.458
 
 	pointsOfFunctionPlot[309].X = 3.09
-	pointsOfFunctionPlot[309].Y = -0.045
+	pointsOfFunctionPlot[309].Y = -0.454
 
 	pointsOfFunctionPlot[310].X = 3.1
-	pointsOfFunctionPlot[310].Y = -0.045
+	pointsOfFunctionPlot[310].Y = -0.45
 
 	pointsOfFunctionPlot[311].X = 3.11
-	pointsOfFunctionPlot[311].Y = -0.044
+	pointsOfFunctionPlot[311].Y = -0.445
 
 	pointsOfFunctionPlot[312].X = 3.12
-	pointsOfFunctionPlot[312].Y = -0.044
+	pointsOfFunctionPlot[312].Y = -0.441
 
 	pointsOfFunctionPlot[313].X = 3.13
-	pointsOfFunctionPlot[313].Y = -0.043
+	pointsOfFunctionPlot[313].Y = -0.437
 
 	pointsOfFunctionPlot[314].X = 3.14
-	pointsOfFunctionPlot[314].Y = -0.043
+	pointsOfFunctionPlot[314].Y = -0.432
 
 	pointsOfFunctionPlot[315].X = 3.15
-	pointsOfFunctionPlot[315].Y = -0.042
+	pointsOfFunctionPlot[315].Y = -0.428
 
 	pointsOfFunctionPlot[316].X = 3.16
-	pointsOfFunctionPlot[316].Y = -0.042
+	pointsOfFunctionPlot[316].Y = -0.424
 
 	pointsOfFunctionPlot[317].X = 3.17
-	pointsOfFunctionPlot[317].Y = -0.042
+	pointsOfFunctionPlot[317].Y = -0.419
 
 	pointsOfFunctionPlot[318].X = 3.18
-	pointsOfFunctionPlot[318].Y = -0.041
+	pointsOfFunctionPlot[318].Y = -0.415
 
 	pointsOfFunctionPlot[319].X = 3.19
-	pointsOfFunctionPlot[319].Y = -0.041
+	pointsOfFunctionPlot[319].Y = -0.411
 
 	pointsOfFunctionPlot[320].X = 3.2
-	pointsOfFunctionPlot[320].Y = -0.04
+	pointsOfFunctionPlot[320].Y = -0.406
 
 	pointsOfFunctionPlot[321].X = 3.21
 	pointsOfFunctionPlot[321].Y = -0.04
@@ -2094,7 +2094,7 @@ func main() {
 	plotOfFunction.Legend.Add("f(x)", plotLine)
 
 	if err := plotOfFunction.Save(10*vg.Inch, 10*vg.Inch,
-		"cos-times-exp-plot-01.png"); err != nil {
+		"cos-times-exp-function-plot-01.png"); err != nil {
 
 		panic(err)
 	}

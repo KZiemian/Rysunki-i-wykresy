@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	// Plot of function log10(x).
+	// Plot of function log_10(x).
 
 	pointsOfFunctionPlot := make(plotter.XYs, 1_001)
 
@@ -3027,7 +3027,7 @@ func main() {
 
 	plotOfFunction := plot.New()
 
-	plotOfFunction.Title.Text = "Plot of function log10(x)"
+	plotOfFunction.Title.Text = "Plot of function log_10(x)"
 
 	plotOfFunction.X.Label.Text = "x"
 	plotOfFunction.Y.Label.Text = "y"
