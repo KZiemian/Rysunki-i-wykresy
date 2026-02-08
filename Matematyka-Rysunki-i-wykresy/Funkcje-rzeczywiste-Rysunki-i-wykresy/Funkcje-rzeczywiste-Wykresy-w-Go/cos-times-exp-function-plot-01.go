@@ -43,7 +43,7 @@ func main() {
 	pointsOfFunctionPlot[9].X = 0.09
 	pointsOfFunctionPlot[9].Y = 0.91
 
-	pointsOfFunctionPlot[10].X = 0.1
+	pointsOfFunctionPlot[10].X = 0.10
 	pointsOfFunctionPlot[10].Y = 0.9
 
 	pointsOfFunctionPlot[11].X = 0.11
@@ -73,7 +73,7 @@ func main() {
 	pointsOfFunctionPlot[19].X = 0.19
 	pointsOfFunctionPlot[19].Y = 0.812
 
-	pointsOfFunctionPlot[20].X = 0.2
+	pointsOfFunctionPlot[20].X = 0.20
 	pointsOfFunctionPlot[20].Y = 0.802
 
 	pointsOfFunctionPlot[21].X = 0.21
@@ -103,7 +103,7 @@ func main() {
 	pointsOfFunctionPlot[29].X = 0.29
 	pointsOfFunctionPlot[29].Y = 0.717
 
-	pointsOfFunctionPlot[30].X = 0.3
+	pointsOfFunctionPlot[30].X = 0.30
 	pointsOfFunctionPlot[30].Y = 0.707
 
 	pointsOfFunctionPlot[31].X = 0.31
@@ -163,7 +163,7 @@ func main() {
 	pointsOfFunctionPlot[49].X = 0.49
 	pointsOfFunctionPlot[49].Y = 0.54
 
-	pointsOfFunctionPlot[50].X = 0.5
+	pointsOfFunctionPlot[50].X = 0.50
 	pointsOfFunctionPlot[50].Y = 0.532
 
 	pointsOfFunctionPlot[51].X = 0.51
@@ -193,7 +193,7 @@ func main() {
 	pointsOfFunctionPlot[59].X = 0.59
 	pointsOfFunctionPlot[59].Y = 0.46
 
-	pointsOfFunctionPlot[60].X = 0.6
+	pointsOfFunctionPlot[60].X = 0.60
 	pointsOfFunctionPlot[60].Y = 0.453
 
 	pointsOfFunctionPlot[61].X = 0.61
@@ -223,7 +223,7 @@ func main() {
 	pointsOfFunctionPlot[69].X = 0.69
 	pointsOfFunctionPlot[69].Y = 0.386
 
-	pointsOfFunctionPlot[70].X = 0.7
+	pointsOfFunctionPlot[70].X = 0.70
 	pointsOfFunctionPlot[70].Y = 0.379
 
 	pointsOfFunctionPlot[71].X = 0.71
@@ -253,7 +253,7 @@ func main() {
 	pointsOfFunctionPlot[79].X = 0.79
 	pointsOfFunctionPlot[79].Y = 0.319
 
-	pointsOfFunctionPlot[80].X = 0.8
+	pointsOfFunctionPlot[80].X = 0.80
 	pointsOfFunctionPlot[80].Y = 0.313
 
 	pointsOfFunctionPlot[81].X = 0.81
@@ -283,7 +283,7 @@ func main() {
 	pointsOfFunctionPlot[89].X = 0.89
 	pointsOfFunctionPlot[89].Y = 0.258
 
-	pointsOfFunctionPlot[90].X = 0.9
+	pointsOfFunctionPlot[90].X = 0.90
 	pointsOfFunctionPlot[90].Y = 0.252
 
 	pointsOfFunctionPlot[91].X = 0.91
@@ -343,7 +343,7 @@ func main() {
 	pointsOfFunctionPlot[109].X = 1.09
 	pointsOfFunctionPlot[109].Y = 0.155
 
-	pointsOfFunctionPlot[110].X = 1.1
+	pointsOfFunctionPlot[110].X = 1.10
 	pointsOfFunctionPlot[110].Y = 0.151
 
 	pointsOfFunctionPlot[111].X = 1.11
@@ -373,7 +373,7 @@ func main() {
 	pointsOfFunctionPlot[119].X = 1.19
 	pointsOfFunctionPlot[119].Y = 0.113
 
-	pointsOfFunctionPlot[120].X = 1.2
+	pointsOfFunctionPlot[120].X = 1.20
 	pointsOfFunctionPlot[120].Y = 0.109
 
 	pointsOfFunctionPlot[121].X = 1.21
@@ -403,7 +403,7 @@ func main() {
 	pointsOfFunctionPlot[129].X = 1.29
 	pointsOfFunctionPlot[129].Y = 0.076
 
-	pointsOfFunctionPlot[130].X = 1.3
+	pointsOfFunctionPlot[130].X = 1.30
 	pointsOfFunctionPlot[130].Y = 0.072
 
 	pointsOfFunctionPlot[131].X = 1.31
@@ -433,7 +433,7 @@ func main() {
 	pointsOfFunctionPlot[139].X = 1.39
 	pointsOfFunctionPlot[139].Y = 0.044
 
-	pointsOfFunctionPlot[140].X = 1.4
+	pointsOfFunctionPlot[140].X = 1.40
 	pointsOfFunctionPlot[140].Y = 0.041
 
 	pointsOfFunctionPlot[141].X = 1.41
@@ -463,7 +463,7 @@ func main() {
 	pointsOfFunctionPlot[149].X = 1.49
 	pointsOfFunctionPlot[149].Y = 0.018
 
-	pointsOfFunctionPlot[150].X = 1.5
+	pointsOfFunctionPlot[150].X = 1.50
 	pointsOfFunctionPlot[150].Y = 0.015
 
 	pointsOfFunctionPlot[151].X = 1.51
@@ -493,7 +493,7 @@ func main() {
 	pointsOfFunctionPlot[159].X = 1.59
 	pointsOfFunctionPlot[159].Y = -0.003
 
-	pointsOfFunctionPlot[160].X = 1.6
+	pointsOfFunctionPlot[160].X = 1.60
 	pointsOfFunctionPlot[160].Y = -0.005
 
 	pointsOfFunctionPlot[161].X = 1.61
@@ -523,7 +523,7 @@ func main() {
 	pointsOfFunctionPlot[169].X = 1.69
 	pointsOfFunctionPlot[169].Y = -0.021
 
-	pointsOfFunctionPlot[170].X = 1.7
+	pointsOfFunctionPlot[170].X = 1.70
 	pointsOfFunctionPlot[170].Y = -0.023
 
 	pointsOfFunctionPlot[171].X = 1.71
@@ -553,7 +553,7 @@ func main() {
 	pointsOfFunctionPlot[179].X = 1.79
 	pointsOfFunctionPlot[179].Y = -0.036
 
-	pointsOfFunctionPlot[180].X = 1.8
+	pointsOfFunctionPlot[180].X = 1.80
 	pointsOfFunctionPlot[180].Y = -0.037
 
 	pointsOfFunctionPlot[181].X = 1.81
@@ -583,7 +583,7 @@ func main() {
 	pointsOfFunctionPlot[189].X = 1.89
 	pointsOfFunctionPlot[189].Y = -0.047
 
-	pointsOfFunctionPlot[190].X = 1.9
+	pointsOfFunctionPlot[190].X = 1.90
 	pointsOfFunctionPlot[190].Y = -0.048
 
 	pointsOfFunctionPlot[191].X = 1.91
@@ -643,7 +643,7 @@ func main() {
 	pointsOfFunctionPlot[209].X = 2.09
 	pointsOfFunctionPlot[209].Y = -0.061
 
-	pointsOfFunctionPlot[210].X = 2.1
+	pointsOfFunctionPlot[210].X = 2.10
 	pointsOfFunctionPlot[210].Y = -0.061
 
 	pointsOfFunctionPlot[211].X = 2.11
@@ -673,7 +673,7 @@ func main() {
 	pointsOfFunctionPlot[219].X = 2.19
 	pointsOfFunctionPlot[219].Y = -0.065
 
-	pointsOfFunctionPlot[220].X = 2.2
+	pointsOfFunctionPlot[220].X = 2.20
 	pointsOfFunctionPlot[220].Y = -0.065
 
 	pointsOfFunctionPlot[221].X = 2.21
@@ -703,7 +703,7 @@ func main() {
 	pointsOfFunctionPlot[229].X = 2.29
 	pointsOfFunctionPlot[229].Y = -0.066
 
-	pointsOfFunctionPlot[230].X = 2.3
+	pointsOfFunctionPlot[230].X = 2.30
 	pointsOfFunctionPlot[230].Y = -0.066
 
 	pointsOfFunctionPlot[231].X = 2.31
@@ -733,7 +733,7 @@ func main() {
 	pointsOfFunctionPlot[239].X = 2.39
 	pointsOfFunctionPlot[239].Y = -0.066
 
-	pointsOfFunctionPlot[240].X = 2.4
+	pointsOfFunctionPlot[240].X = 2.40
 	pointsOfFunctionPlot[240].Y = -0.066
 
 	pointsOfFunctionPlot[241].X = 2.41
@@ -763,7 +763,7 @@ func main() {
 	pointsOfFunctionPlot[249].X = 2.49
 	pointsOfFunctionPlot[249].Y = -0.065
 
-	pointsOfFunctionPlot[250].X = 2.5
+	pointsOfFunctionPlot[250].X = 2.50
 	pointsOfFunctionPlot[250].Y = -0.065
 
 	pointsOfFunctionPlot[251].X = 2.51
@@ -793,7 +793,7 @@ func main() {
 	pointsOfFunctionPlot[259].X = 2.59
 	pointsOfFunctionPlot[259].Y = -0.063
 
-	pointsOfFunctionPlot[260].X = 2.6
+	pointsOfFunctionPlot[260].X = 2.60
 	pointsOfFunctionPlot[260].Y = -0.063
 
 	pointsOfFunctionPlot[261].X = 2.61
@@ -823,7 +823,7 @@ func main() {
 	pointsOfFunctionPlot[269].X = 2.69
 	pointsOfFunctionPlot[269].Y = -0.061
 
-	pointsOfFunctionPlot[270].X = 2.7
+	pointsOfFunctionPlot[270].X = 2.70
 	pointsOfFunctionPlot[270].Y = -0.06
 
 	pointsOfFunctionPlot[271].X = 2.71
@@ -853,7 +853,7 @@ func main() {
 	pointsOfFunctionPlot[279].X = 2.79
 	pointsOfFunctionPlot[279].Y = -0.057
 
-	pointsOfFunctionPlot[280].X = 2.8
+	pointsOfFunctionPlot[280].X = 2.80
 	pointsOfFunctionPlot[280].Y = -0.057
 
 	pointsOfFunctionPlot[281].X = 2.81
@@ -883,7 +883,7 @@ func main() {
 	pointsOfFunctionPlot[289].X = 2.89
 	pointsOfFunctionPlot[289].Y = -0.053
 
-	pointsOfFunctionPlot[290].X = 2.9
+	pointsOfFunctionPlot[290].X = 2.90
 	pointsOfFunctionPlot[290].Y = -0.053
 
 	pointsOfFunctionPlot[291].X = 2.91
@@ -914,67 +914,67 @@ func main() {
 	pointsOfFunctionPlot[299].Y = -0.049
 
 	pointsOfFunctionPlot[300].X = 3.0
-	pointsOfFunctionPlot[300].Y = -0.492
+	pointsOfFunctionPlot[300].Y = -0.049
 
 	pointsOfFunctionPlot[301].X = 3.01
-	pointsOfFunctionPlot[301].Y = -0.488
+	pointsOfFunctionPlot[301].Y = -0.048
 
 	pointsOfFunctionPlot[302].X = 3.02
-	pointsOfFunctionPlot[302].Y = -0.484
+	pointsOfFunctionPlot[302].Y = -0.048
 
 	pointsOfFunctionPlot[303].X = 3.03
-	pointsOfFunctionPlot[303].Y = -0.48
+	pointsOfFunctionPlot[303].Y = -0.048
 
 	pointsOfFunctionPlot[304].X = 3.04
-	pointsOfFunctionPlot[304].Y = -0.475
+	pointsOfFunctionPlot[304].Y = -0.047
 
 	pointsOfFunctionPlot[305].X = 3.05
-	pointsOfFunctionPlot[305].Y = -0.471
+	pointsOfFunctionPlot[305].Y = -0.047
 
 	pointsOfFunctionPlot[306].X = 3.06
-	pointsOfFunctionPlot[306].Y = -0.467
+	pointsOfFunctionPlot[306].Y = -0.046
 
 	pointsOfFunctionPlot[307].X = 3.07
-	pointsOfFunctionPlot[307].Y = -0.463
+	pointsOfFunctionPlot[307].Y = -0.046
 
 	pointsOfFunctionPlot[308].X = 3.08
-	pointsOfFunctionPlot[308].Y = -0.458
+	pointsOfFunctionPlot[308].Y = -0.045
 
 	pointsOfFunctionPlot[309].X = 3.09
-	pointsOfFunctionPlot[309].Y = -0.454
+	pointsOfFunctionPlot[309].Y = -0.045
 
-	pointsOfFunctionPlot[310].X = 3.1
-	pointsOfFunctionPlot[310].Y = -0.45
+	pointsOfFunctionPlot[310].X = 3.10
+	pointsOfFunctionPlot[310].Y = -0.045
 
 	pointsOfFunctionPlot[311].X = 3.11
-	pointsOfFunctionPlot[311].Y = -0.445
+	pointsOfFunctionPlot[311].Y = -0.044
 
 	pointsOfFunctionPlot[312].X = 3.12
-	pointsOfFunctionPlot[312].Y = -0.441
+	pointsOfFunctionPlot[312].Y = -0.044
 
 	pointsOfFunctionPlot[313].X = 3.13
-	pointsOfFunctionPlot[313].Y = -0.437
+	pointsOfFunctionPlot[313].Y = -0.043
 
 	pointsOfFunctionPlot[314].X = 3.14
-	pointsOfFunctionPlot[314].Y = -0.432
+	pointsOfFunctionPlot[314].Y = -0.043
 
 	pointsOfFunctionPlot[315].X = 3.15
-	pointsOfFunctionPlot[315].Y = -0.428
+	pointsOfFunctionPlot[315].Y = -0.042
 
 	pointsOfFunctionPlot[316].X = 3.16
-	pointsOfFunctionPlot[316].Y = -0.424
+	pointsOfFunctionPlot[316].Y = -0.042
 
 	pointsOfFunctionPlot[317].X = 3.17
-	pointsOfFunctionPlot[317].Y = -0.419
+	pointsOfFunctionPlot[317].Y = -0.042
 
 	pointsOfFunctionPlot[318].X = 3.18
-	pointsOfFunctionPlot[318].Y = -0.415
+	pointsOfFunctionPlot[318].Y = -0.041
 
 	pointsOfFunctionPlot[319].X = 3.19
-	pointsOfFunctionPlot[319].Y = -0.411
+	pointsOfFunctionPlot[319].Y = -0.041
 
-	pointsOfFunctionPlot[320].X = 3.2
-	pointsOfFunctionPlot[320].Y = -0.406
+	pointsOfFunctionPlot[320].X = 3.20
+	pointsOfFunctionPlot[320].Y = -0.04
 
 	pointsOfFunctionPlot[321].X = 3.21
 	pointsOfFunctionPlot[321].Y = -0.04
@@ -1003,7 +1003,7 @@ func main() {
 	pointsOfFunctionPlot[329].X = 3.29
 	pointsOfFunctionPlot[329].Y = -0.036
 
-	pointsOfFunctionPlot[330].X = 3.3
+	pointsOfFunctionPlot[330].X = 3.30
 	pointsOfFunctionPlot[330].Y = -0.036
 
 	pointsOfFunctionPlot[331].X = 3.31
@@ -1033,7 +1033,7 @@ func main() {
 	pointsOfFunctionPlot[339].X = 3.39
 	pointsOfFunctionPlot[339].Y = -0.032
 
-	pointsOfFunctionPlot[340].X = 3.4
+	pointsOfFunctionPlot[340].X = 3.40
 	pointsOfFunctionPlot[340].Y = -0.032
 
 	pointsOfFunctionPlot[341].X = 3.41
@@ -1063,7 +1063,7 @@ func main() {
 	pointsOfFunctionPlot[349].X = 3.49
 	pointsOfFunctionPlot[349].Y = -0.028
 
-	pointsOfFunctionPlot[350].X = 3.5
+	pointsOfFunctionPlot[350].X = 3.50
 	pointsOfFunctionPlot[350].Y = -0.028
 
 	pointsOfFunctionPlot[351].X = 3.51
@@ -1093,7 +1093,7 @@ func main() {
 	pointsOfFunctionPlot[359].X = 3.59
 	pointsOfFunctionPlot[359].Y = -0.024
 
-	pointsOfFunctionPlot[360].X = 3.6
+	pointsOfFunctionPlot[360].X = 3.60
 	pointsOfFunctionPlot[360].Y = -0.024
 
 	pointsOfFunctionPlot[361].X = 3.61
@@ -1123,7 +1123,7 @@ func main() {
 	pointsOfFunctionPlot[369].X = 3.69
 	pointsOfFunctionPlot[369].Y = -0.021
 
-	pointsOfFunctionPlot[370].X = 3.7
+	pointsOfFunctionPlot[370].X = 3.70
 	pointsOfFunctionPlot[370].Y = -0.021
 
 	pointsOfFunctionPlot[371].X = 3.71
@@ -1153,7 +1153,7 @@ func main() {
 	pointsOfFunctionPlot[379].X = 3.79
 	pointsOfFunctionPlot[379].Y = -0.018
 
-	pointsOfFunctionPlot[380].X = 3.8
+	pointsOfFunctionPlot[380].X = 3.80
 	pointsOfFunctionPlot[380].Y = -0.017
 
 	pointsOfFunctionPlot[381].X = 3.81
@@ -1183,7 +1183,7 @@ func main() {
 	pointsOfFunctionPlot[389].X = 3.89
 	pointsOfFunctionPlot[389].Y = -0.015
 
-	pointsOfFunctionPlot[390].X = 3.9
+	pointsOfFunctionPlot[390].X = 3.90
 	pointsOfFunctionPlot[390].Y = -0.014
 
 	pointsOfFunctionPlot[391].X = 3.91
@@ -1243,7 +1243,7 @@ func main() {
 	pointsOfFunctionPlot[409].X = 4.09
 	pointsOfFunctionPlot[409].Y = -0.009
 
-	pointsOfFunctionPlot[410].X = 4.1
+	pointsOfFunctionPlot[410].X = 4.10
 	pointsOfFunctionPlot[410].Y = -0.009
 
 	pointsOfFunctionPlot[411].X = 4.11
@@ -1273,7 +1273,7 @@ func main() {
 	pointsOfFunctionPlot[419].X = 4.19
 	pointsOfFunctionPlot[419].Y = -0.007
 
-	pointsOfFunctionPlot[420].X = 4.2
+	pointsOfFunctionPlot[420].X = 4.20
 	pointsOfFunctionPlot[420].Y = -0.007
 
 	pointsOfFunctionPlot[421].X = 4.21
@@ -1303,7 +1303,7 @@ func main() {
 	pointsOfFunctionPlot[429].X = 4.29
 	pointsOfFunctionPlot[429].Y = -0.005
 
-	pointsOfFunctionPlot[430].X = 4.3
+	pointsOfFunctionPlot[430].X = 4.30
 	pointsOfFunctionPlot[430].Y = -0.005
 
 	pointsOfFunctionPlot[431].X = 4.31
@@ -1333,7 +1333,7 @@ func main() {
 	pointsOfFunctionPlot[439].X = 4.39
 	pointsOfFunctionPlot[439].Y = -0.003
 
-	pointsOfFunctionPlot[440].X = 4.4
+	pointsOfFunctionPlot[440].X = 4.40
 	pointsOfFunctionPlot[440].Y = -0.003
 
 	pointsOfFunctionPlot[441].X = 4.41
@@ -1363,7 +1363,7 @@ func main() {
 	pointsOfFunctionPlot[449].X = 4.49
 	pointsOfFunctionPlot[449].Y = -0.002
 
-	pointsOfFunctionPlot[450].X = 4.5
+	pointsOfFunctionPlot[450].X = 4.50
 	pointsOfFunctionPlot[450].Y = -0.002
 
 	pointsOfFunctionPlot[451].X = 4.51
@@ -1393,7 +1393,7 @@ func main() {
 	pointsOfFunctionPlot[459].X = 4.59
 	pointsOfFunctionPlot[459].Y = -0.001
 
-	pointsOfFunctionPlot[460].X = 4.6
+	pointsOfFunctionPlot[460].X = 4.60
 	pointsOfFunctionPlot[460].Y = -0.001
 
 	pointsOfFunctionPlot[461].X = 4.61
@@ -1423,7 +1423,7 @@ func main() {
 	pointsOfFunctionPlot[469].X = 4.69
 	pointsOfFunctionPlot[469].Y = 0.0
 
-	pointsOfFunctionPlot[470].X = 4.7
+	pointsOfFunctionPlot[470].X = 4.70
 	pointsOfFunctionPlot[470].Y = 0.0
 
 	pointsOfFunctionPlot[471].X = 4.71
@@ -1453,7 +1453,7 @@ func main() {
 	pointsOfFunctionPlot[479].X = 4.79
 	pointsOfFunctionPlot[479].Y = 0.0
 
-	pointsOfFunctionPlot[480].X = 4.8
+	pointsOfFunctionPlot[480].X = 4.80
 	pointsOfFunctionPlot[480].Y = 0.0
 
 	pointsOfFunctionPlot[481].X = 4.81
@@ -1483,7 +1483,7 @@ func main() {
 	pointsOfFunctionPlot[489].X = 4.89
 	pointsOfFunctionPlot[489].Y = 0.001
 
-	pointsOfFunctionPlot[490].X = 4.9
+	pointsOfFunctionPlot[490].X = 4.90
 	pointsOfFunctionPlot[490].Y = 0.001
 
 	pointsOfFunctionPlot[491].X = 4.91
@@ -1543,7 +1543,7 @@ func main() {
 	pointsOfFunctionPlot[509].X = 5.09
 	pointsOfFunctionPlot[509].Y = 0.002
 
-	pointsOfFunctionPlot[510].X = 5.1
+	pointsOfFunctionPlot[510].X = 5.10
 	pointsOfFunctionPlot[510].Y = 0.002
 
 	pointsOfFunctionPlot[511].X = 5.11
@@ -1573,7 +1573,7 @@ func main() {
 	pointsOfFunctionPlot[519].X = 5.19
 	pointsOfFunctionPlot[519].Y = 0.002
 
-	pointsOfFunctionPlot[520].X = 5.2
+	pointsOfFunctionPlot[520].X = 5.20
 	pointsOfFunctionPlot[520].Y = 0.002
 
 	pointsOfFunctionPlot[521].X = 5.21
@@ -1603,7 +1603,7 @@ func main() {
 	pointsOfFunctionPlot[529].X = 5.29
 	pointsOfFunctionPlot[529].Y = 0.002
 
-	pointsOfFunctionPlot[530].X = 5.3
+	pointsOfFunctionPlot[530].X = 5.30
 	pointsOfFunctionPlot[530].Y = 0.002
 
 	pointsOfFunctionPlot[531].X = 5.31
@@ -1633,7 +1633,7 @@ func main() {
 	pointsOfFunctionPlot[539].X = 5.39
 	pointsOfFunctionPlot[539].Y = 0.002
 
-	pointsOfFunctionPlot[540].X = 5.4
+	pointsOfFunctionPlot[540].X = 5.40
 	pointsOfFunctionPlot[540].Y = 0.002
 
 	pointsOfFunctionPlot[541].X = 5.41
@@ -1663,7 +1663,7 @@ func main() {
 	pointsOfFunctionPlot[549].X = 5.49
 	pointsOfFunctionPlot[549].Y = 0.002
 
-	pointsOfFunctionPlot[550].X = 5.5
+	pointsOfFunctionPlot[550].X = 5.50
 	pointsOfFunctionPlot[550].Y = 0.002
 
 	pointsOfFunctionPlot[551].X = 5.51
@@ -1693,7 +1693,7 @@ func main() {
 	pointsOfFunctionPlot[559].X = 5.59
 	pointsOfFunctionPlot[559].Y = 0.002
 
-	pointsOfFunctionPlot[560].X = 5.6
+	pointsOfFunctionPlot[560].X = 5.60
 	pointsOfFunctionPlot[560].Y = 0.002
 
 	pointsOfFunctionPlot[561].X = 5.61
@@ -1723,7 +1723,7 @@ func main() {
 	pointsOfFunctionPlot[569].X = 5.69
 	pointsOfFunctionPlot[569].Y = 0.002
 
-	pointsOfFunctionPlot[570].X = 5.7
+	pointsOfFunctionPlot[570].X = 5.70
 	pointsOfFunctionPlot[570].Y = 0.002
 
 	pointsOfFunctionPlot[571].X = 5.71
@@ -1753,7 +1753,7 @@ func main() {
 	pointsOfFunctionPlot[579].X = 5.79
 	pointsOfFunctionPlot[579].Y = 0.002
 
-	pointsOfFunctionPlot[580].X = 5.8
+	pointsOfFunctionPlot[580].X = 5.80
 	pointsOfFunctionPlot[580].Y = 0.002
 
 	pointsOfFunctionPlot[581].X = 5.81
@@ -1783,7 +1783,7 @@ func main() {
 	pointsOfFunctionPlot[589].X = 5.89
 	pointsOfFunctionPlot[589].Y = 0.002
 
-	pointsOfFunctionPlot[590].X = 5.9
+	pointsOfFunctionPlot[590].X = 5.90
 	pointsOfFunctionPlot[590].Y = 0.002
 
 	pointsOfFunctionPlot[591].X = 5.91
@@ -1873,7 +1873,7 @@ func main() {
 	pointsOfFunctionPlot[619].X = 6.19
 	pointsOfFunctionPlot[619].Y = 0.002
 
-	pointsOfFunctionPlot[620].X = 6.2
+	pointsOfFunctionPlot[620].X = 6.20
 	pointsOfFunctionPlot[620].Y = 0.002
 
 	pointsOfFunctionPlot[621].X = 6.21
@@ -1903,7 +1903,7 @@ func main() {
 	pointsOfFunctionPlot[629].X = 6.29
 	pointsOfFunctionPlot[629].Y = 0.001
 
-	pointsOfFunctionPlot[630].X = 6.3
+	pointsOfFunctionPlot[630].X = 6.30
 	pointsOfFunctionPlot[630].Y = 0.001
 
 	pointsOfFunctionPlot[631].X = 6.31
@@ -1933,7 +1933,7 @@ func main() {
 	pointsOfFunctionPlot[639].X = 6.39
 	pointsOfFunctionPlot[639].Y = 0.001
 
-	pointsOfFunctionPlot[640].X = 6.4
+	pointsOfFunctionPlot[640].X = 6.40
 	pointsOfFunctionPlot[640].Y = 0.001
 
 	pointsOfFunctionPlot[641].X = 6.41
@@ -1963,7 +1963,7 @@ func main() {
 	pointsOfFunctionPlot[649].X = 6.49
 	pointsOfFunctionPlot[649].Y = 0.001
 
-	pointsOfFunctionPlot[650].X = 6.5
+	pointsOfFunctionPlot[650].X = 6.50
 	pointsOfFunctionPlot[650].Y = 0.001
 
 	pointsOfFunctionPlot[651].X = 6.51
@@ -1993,7 +1993,7 @@ func main() {
 	pointsOfFunctionPlot[659].X = 6.59
 	pointsOfFunctionPlot[659].Y = 0.001
 
-	pointsOfFunctionPlot[660].X = 6.6
+	pointsOfFunctionPlot[660].X = 6.60
 	pointsOfFunctionPlot[660].Y = 0.001
 
 	pointsOfFunctionPlot[661].X = 6.61
@@ -2023,7 +2023,7 @@ func main() {
 	pointsOfFunctionPlot[669].X = 6.69
 	pointsOfFunctionPlot[669].Y = 0.001
 
-	pointsOfFunctionPlot[670].X = 6.7
+	pointsOfFunctionPlot[670].X = 6.70
 	pointsOfFunctionPlot[670].Y = 0.001
 
 	pointsOfFunctionPlot[671].X = 6.71
@@ -2053,7 +2053,7 @@ func main() {
 	pointsOfFunctionPlot[679].X = 6.79
 	pointsOfFunctionPlot[679].Y = 0.001
 
-	pointsOfFunctionPlot[680].X = 6.8
+	pointsOfFunctionPlot[680].X = 6.80
 	pointsOfFunctionPlot[680].Y = 0.001
 
 	pointsOfFunctionPlot[681].X = 6.81

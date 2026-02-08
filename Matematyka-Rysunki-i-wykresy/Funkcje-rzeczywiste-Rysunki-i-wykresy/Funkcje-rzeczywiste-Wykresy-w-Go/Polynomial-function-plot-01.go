@@ -44,7 +44,7 @@ func main() {
 	pointsOfPolynomialPlot[9].X = 0.09
 	pointsOfPolynomialPlot[9].Y = -9.902
 
-	pointsOfPolynomialPlot[10].X = 0.1
+	pointsOfPolynomialPlot[10].X = 0.10
 	pointsOfPolynomialPlot[10].Y = -9.89
 
 	pointsOfPolynomialPlot[11].X = 0.11
@@ -74,7 +74,7 @@ func main() {
 	pointsOfPolynomialPlot[19].X = 0.19
 	pointsOfPolynomialPlot[19].Y = -9.774
 
-	pointsOfPolynomialPlot[20].X = 0.2
+	pointsOfPolynomialPlot[20].X = 0.20
 	pointsOfPolynomialPlot[20].Y = -9.76
 
 	pointsOfPolynomialPlot[21].X = 0.21
@@ -104,7 +104,7 @@ func main() {
 	pointsOfPolynomialPlot[29].X = 0.29
 	pointsOfPolynomialPlot[29].Y = -9.628
 
-	pointsOfPolynomialPlot[30].X = 0.3
+	pointsOfPolynomialPlot[30].X = 0.30
 	pointsOfPolynomialPlot[30].Y = -9.612
 
 	pointsOfPolynomialPlot[31].X = 0.31
@@ -134,7 +134,7 @@ func main() {
 	pointsOfPolynomialPlot[39].X = 0.39
 	pointsOfPolynomialPlot[39].Y = -9.464
 
-	pointsOfPolynomialPlot[40].X = 0.4
+	pointsOfPolynomialPlot[40].X = 0.40
 	pointsOfPolynomialPlot[40].Y = -9.446
 
 	pointsOfPolynomialPlot[41].X = 0.41
@@ -164,7 +164,7 @@ func main() {
 	pointsOfPolynomialPlot[49].X = 0.49
 	pointsOfPolynomialPlot[49].Y = -9.282
 
-	pointsOfPolynomialPlot[50].X = 0.5
+	pointsOfPolynomialPlot[50].X = 0.50
 	pointsOfPolynomialPlot[50].Y = -9.263
 
 	pointsOfPolynomialPlot[51].X = 0.51
@@ -194,7 +194,7 @@ func main() {
 	pointsOfPolynomialPlot[59].X = 0.59
 	pointsOfPolynomialPlot[59].Y = -9.083
 
-	pointsOfPolynomialPlot[60].X = 0.6
+	pointsOfPolynomialPlot[60].X = 0.60
 	pointsOfPolynomialPlot[60].Y = -9.062
 
 	pointsOfPolynomialPlot[61].X = 0.61
@@ -224,7 +224,7 @@ func main() {
 	pointsOfPolynomialPlot[69].X = 0.69
 	pointsOfPolynomialPlot[69].Y = -8.868
 
-	pointsOfPolynomialPlot[70].X = 0.7
+	pointsOfPolynomialPlot[70].X = 0.70
 	pointsOfPolynomialPlot[70].Y = -8.846
 
 	pointsOfPolynomialPlot[71].X = 0.71
@@ -254,7 +254,7 @@ func main() {
 	pointsOfPolynomialPlot[79].X = 0.79
 	pointsOfPolynomialPlot[79].Y = -8.638
 
-	pointsOfPolynomialPlot[80].X = 0.8
+	pointsOfPolynomialPlot[80].X = 0.80
 	pointsOfPolynomialPlot[80].Y = -8.615
 
 	pointsOfPolynomialPlot[81].X = 0.81
@@ -284,7 +284,7 @@ func main() {
 	pointsOfPolynomialPlot[89].X = 0.89
 	pointsOfPolynomialPlot[89].Y = -8.394
 
-	pointsOfPolynomialPlot[90].X = 0.9
+	pointsOfPolynomialPlot[90].X = 0.90
 	pointsOfPolynomialPlot[90].Y = -8.368
 
 	pointsOfPolynomialPlot[91].X = 0.91
@@ -344,7 +344,7 @@ func main() {
 	pointsOfPolynomialPlot[109].X = 1.09
 	pointsOfPolynomialPlot[109].Y = -7.864
 
-	pointsOfPolynomialPlot[110].X = 1.1
+	pointsOfPolynomialPlot[110].X = 1.10
 	pointsOfPolynomialPlot[110].Y = -7.836
 
 	pointsOfPolynomialPlot[111].X = 1.11
@@ -374,7 +374,7 @@ func main() {
 	pointsOfPolynomialPlot[119].X = 1.19
 	pointsOfPolynomialPlot[119].Y = -7.58
 
-	pointsOfPolynomialPlot[120].X = 1.2
+	pointsOfPolynomialPlot[120].X = 1.20
 	pointsOfPolynomialPlot[120].Y = -7.551
 
 	pointsOfPolynomialPlot[121].X = 1.21
@@ -404,7 +404,7 @@ func main() {
 	pointsOfPolynomialPlot[129].X = 1.29
 	pointsOfPolynomialPlot[129].Y = -7.284
 
-	pointsOfPolynomialPlot[130].X = 1.3
+	pointsOfPolynomialPlot[130].X = 1.30
 	pointsOfPolynomialPlot[130].Y = -7.254
 
 	pointsOfPolynomialPlot[131].X = 1.31
@@ -434,7 +434,7 @@ func main() {
 	pointsOfPolynomialPlot[139].X = 1.39
 	pointsOfPolynomialPlot[139].Y = -6.978
 
-	pointsOfPolynomialPlot[140].X = 1.4
+	pointsOfPolynomialPlot[140].X = 1.40
 	pointsOfPolynomialPlot[140].Y = -6.947
 
 	pointsOfPolynomialPlot[141].X = 1.41
@@ -464,7 +464,7 @@ func main() {
 	pointsOfPolynomialPlot[149].X = 1.49
 	pointsOfPolynomialPlot[149].Y = -6.662
 
-	pointsOfPolynomialPlot[150].X = 1.5
+	pointsOfPolynomialPlot[150].X = 1.50
 	pointsOfPolynomialPlot[150].Y = -6.63
 
 	pointsOfPolynomialPlot[151].X = 1.51
@@ -494,7 +494,7 @@ func main() {
 	pointsOfPolynomialPlot[159].X = 1.59
 	pointsOfPolynomialPlot[159].Y = -6.337
 
-	pointsOfPolynomialPlot[160].X = 1.6
+	pointsOfPolynomialPlot[160].X = 1.60
 	pointsOfPolynomialPlot[160].Y = -6.304
 
 	pointsOfPolynomialPlot[161].X = 1.61
@@ -524,7 +524,7 @@ func main() {
 	pointsOfPolynomialPlot[169].X = 1.69
 	pointsOfPolynomialPlot[169].Y = -6.004
 
-	pointsOfPolynomialPlot[170].X = 1.7
+	pointsOfPolynomialPlot[170].X = 1.70
 	pointsOfPolynomialPlot[170].Y = -5.97
 
 	pointsOfPolynomialPlot[171].X = 1.71
@@ -554,7 +554,7 @@ func main() {
 	pointsOfPolynomialPlot[179].X = 1.79
 	pointsOfPolynomialPlot[179].Y = -5.663
 
-	pointsOfPolynomialPlot[180].X = 1.8
+	pointsOfPolynomialPlot[180].X = 1.80
 	pointsOfPolynomialPlot[180].Y = -5.629
 
 	pointsOfPolynomialPlot[181].X = 1.81
@@ -584,7 +584,7 @@ func main() {
 	pointsOfPolynomialPlot[189].X = 1.89
 	pointsOfPolynomialPlot[189].Y = -5.316
 
-	pointsOfPolynomialPlot[190].X = 1.9
+	pointsOfPolynomialPlot[190].X = 1.90
 	pointsOfPolynomialPlot[190].Y = -5.281
 
 	pointsOfPolynomialPlot[191].X = 1.91
@@ -644,7 +644,7 @@ func main() {
 	pointsOfPolynomialPlot[209].X = 2.09
 	pointsOfPolynomialPlot[209].Y = -4.605
 
-	pointsOfPolynomialPlot[210].X = 2.1
+	pointsOfPolynomialPlot[210].X = 2.10
 	pointsOfPolynomialPlot[210].Y = -4.569
 
 	pointsOfPolynomialPlot[211].X = 2.11
@@ -674,7 +674,7 @@ func main() {
 	pointsOfPolynomialPlot[219].X = 2.19
 	pointsOfPolynomialPlot[219].Y = -4.243
 
-	pointsOfPolynomialPlot[220].X = 2.2
+	pointsOfPolynomialPlot[220].X = 2.20
 	pointsOfPolynomialPlot[220].Y = -4.207
 
 	pointsOfPolynomialPlot[221].X = 2.21
@@ -704,7 +704,7 @@ func main() {
 	pointsOfPolynomialPlot[229].X = 2.29
 	pointsOfPolynomialPlot[229].Y = -3.878
 
-	pointsOfPolynomialPlot[230].X = 2.3
+	pointsOfPolynomialPlot[230].X = 2.30
 	pointsOfPolynomialPlot[230].Y = -3.842
 
 	pointsOfPolynomialPlot[231].X = 2.31
@@ -734,7 +734,7 @@ func main() {
 	pointsOfPolynomialPlot[239].X = 2.39
 	pointsOfPolynomialPlot[239].Y = -3.511
 
-	pointsOfPolynomialPlot[240].X = 2.4
+	pointsOfPolynomialPlot[240].X = 2.40
 	pointsOfPolynomialPlot[240].Y = -3.474
 
 	pointsOfPolynomialPlot[241].X = 2.41
@@ -764,7 +764,7 @@ func main() {
 	pointsOfPolynomialPlot[249].X = 2.49
 	pointsOfPolynomialPlot[249].Y = -3.142
 
-	pointsOfPolynomialPlot[250].X = 2.5
+	pointsOfPolynomialPlot[250].X = 2.50
 	pointsOfPolynomialPlot[250].Y = -3.105
 
 	pointsOfPolynomialPlot[251].X = 2.51
@@ -794,7 +794,7 @@ func main() {
 	pointsOfPolynomialPlot[259].X = 2.59
 	pointsOfPolynomialPlot[259].Y = -2.772
 
-	pointsOfPolynomialPlot[260].X = 2.6
+	pointsOfPolynomialPlot[260].X = 2.60
 	pointsOfPolynomialPlot[260].Y = -2.735
 
 	pointsOfPolynomialPlot[261].X = 2.61
@@ -824,7 +824,7 @@ func main() {
 	pointsOfPolynomialPlot[269].X = 2.69
 	pointsOfPolynomialPlot[269].Y = -2.402
 
-	pointsOfPolynomialPlot[270].X = 2.7
+	pointsOfPolynomialPlot[270].X = 2.70
 	pointsOfPolynomialPlot[270].Y = -2.365
 
 	pointsOfPolynomialPlot[271].X = 2.71
@@ -854,7 +854,7 @@ func main() {
 	pointsOfPolynomialPlot[279].X = 2.79
 	pointsOfPolynomialPlot[279].Y = -2.034
 
-	pointsOfPolynomialPlot[280].X = 2.8
+	pointsOfPolynomialPlot[280].X = 2.80
 	pointsOfPolynomialPlot[280].Y = -1.997
 
 	pointsOfPolynomialPlot[281].X = 2.81
@@ -884,7 +884,7 @@ func main() {
 	pointsOfPolynomialPlot[289].X = 2.89
 	pointsOfPolynomialPlot[289].Y = -1.667
 
-	pointsOfPolynomialPlot[290].X = 2.9
+	pointsOfPolynomialPlot[290].X = 2.90
 	pointsOfPolynomialPlot[290].Y = -1.63
 
 	pointsOfPolynomialPlot[291].X = 2.91
@@ -944,7 +944,7 @@ func main() {
 	pointsOfPolynomialPlot[309].X = 3.09
 	pointsOfPolynomialPlot[309].Y = -0.941
 
-	pointsOfPolynomialPlot[310].X = 3.1
+	pointsOfPolynomialPlot[310].X = 3.10
 	pointsOfPolynomialPlot[310].Y = -0.905
 
 	pointsOfPolynomialPlot[311].X = 3.11
@@ -974,7 +974,7 @@ func main() {
 	pointsOfPolynomialPlot[319].X = 3.19
 	pointsOfPolynomialPlot[319].Y = -0.584
 
-	pointsOfPolynomialPlot[320].X = 3.2
+	pointsOfPolynomialPlot[320].X = 3.20
 	pointsOfPolynomialPlot[320].Y = -0.548
 
 	pointsOfPolynomialPlot[321].X = 3.21
@@ -1004,7 +1004,7 @@ func main() {
 	pointsOfPolynomialPlot[329].X = 3.29
 	pointsOfPolynomialPlot[329].Y = -0.231
 
-	pointsOfPolynomialPlot[330].X = 3.3
+	pointsOfPolynomialPlot[330].X = 3.30
 	pointsOfPolynomialPlot[330].Y = -0.197
 
 	pointsOfPolynomialPlot[331].X = 3.31
@@ -1034,7 +1034,7 @@ func main() {
 	pointsOfPolynomialPlot[339].X = 3.39
 	pointsOfPolynomialPlot[339].Y = 0.114
 
-	pointsOfPolynomialPlot[340].X = 3.4
+	pointsOfPolynomialPlot[340].X = 3.40
 	pointsOfPolynomialPlot[340].Y = 0.149
 
 	pointsOfPolynomialPlot[341].X = 3.41
@@ -1064,7 +1064,7 @@ func main() {
 	pointsOfPolynomialPlot[349].X = 3.49
 	pointsOfPolynomialPlot[349].Y = 0.455
 
-	pointsOfPolynomialPlot[350].X = 3.5
+	pointsOfPolynomialPlot[350].X = 3.50
 	pointsOfPolynomialPlot[350].Y = 0.488
 
 	pointsOfPolynomialPlot[351].X = 3.51
@@ -1094,7 +1094,7 @@ func main() {
 	pointsOfPolynomialPlot[359].X = 3.59
 	pointsOfPolynomialPlot[359].Y = 0.788
 
-	pointsOfPolynomialPlot[360].X = 3.6
+	pointsOfPolynomialPlot[360].X = 3.60
 	pointsOfPolynomialPlot[360].Y = 0.821
 
 	pointsOfPolynomialPlot[361].X = 3.61
@@ -1124,7 +1124,7 @@ func main() {
 	pointsOfPolynomialPlot[369].X = 3.69
 	pointsOfPolynomialPlot[369].Y = 1.114
 
-	pointsOfPolynomialPlot[370].X = 3.7
+	pointsOfPolynomialPlot[370].X = 3.70
 	pointsOfPolynomialPlot[370].Y = 1.146
 
 	pointsOfPolynomialPlot[371].X = 3.71
@@ -1154,7 +1154,7 @@ func main() {
 	pointsOfPolynomialPlot[379].X = 3.79
 	pointsOfPolynomialPlot[379].Y = 1.431
 
-	pointsOfPolynomialPlot[380].X = 3.8
+	pointsOfPolynomialPlot[380].X = 3.80
 	pointsOfPolynomialPlot[380].Y = 1.463
 
 	pointsOfPolynomialPlot[381].X = 3.81
@@ -1184,7 +1184,7 @@ func main() {
 	pointsOfPolynomialPlot[389].X = 3.89
 	pointsOfPolynomialPlot[389].Y = 1.74
 
-	pointsOfPolynomialPlot[390].X = 3.9
+	pointsOfPolynomialPlot[390].X = 3.90
 	pointsOfPolynomialPlot[390].Y = 1.77
 
 	pointsOfPolynomialPlot[391].X = 3.91
@@ -1244,7 +1244,7 @@ func main() {
 	pointsOfPolynomialPlot[409].X = 4.09
 	pointsOfPolynomialPlot[409].Y = 2.327
 
-	pointsOfPolynomialPlot[410].X = 4.1
+	pointsOfPolynomialPlot[410].X = 4.10
 	pointsOfPolynomialPlot[410].Y = 2.355
 
 	pointsOfPolynomialPlot[411].X = 4.11
@@ -1274,7 +1274,7 @@ func main() {
 	pointsOfPolynomialPlot[419].X = 4.19
 	pointsOfPolynomialPlot[419].Y = 2.604
 
-	pointsOfPolynomialPlot[420].X = 4.2
+	pointsOfPolynomialPlot[420].X = 4.20
 	pointsOfPolynomialPlot[420].Y = 2.631
 
 	pointsOfPolynomialPlot[421].X = 4.21
@@ -1334,7 +1334,7 @@ func main() {
 	pointsOfPolynomialPlot[439].X = 4.39
 	pointsOfPolynomialPlot[439].Y = 3.125
 
-	pointsOfPolynomialPlot[440].X = 4.4
+	pointsOfPolynomialPlot[440].X = 4.40
 	pointsOfPolynomialPlot[440].Y = 3.149
 
 	pointsOfPolynomialPlot[441].X = 4.41
@@ -1364,7 +1364,7 @@ func main() {
 	pointsOfPolynomialPlot[449].X = 4.49
 	pointsOfPolynomialPlot[449].Y = 3.367
 
-	pointsOfPolynomialPlot[450].X = 4.5
+	pointsOfPolynomialPlot[450].X = 4.50
 	pointsOfPolynomialPlot[450].Y = 3.39
 
 	pointsOfPolynomialPlot[451].X = 4.51
@@ -1394,7 +1394,7 @@ func main() {
 	pointsOfPolynomialPlot[459].X = 4.59
 	pointsOfPolynomialPlot[459].Y = 3.595
 
-	pointsOfPolynomialPlot[460].X = 4.6
+	pointsOfPolynomialPlot[460].X = 4.60
 	pointsOfPolynomialPlot[460].Y = 3.618
 
 	pointsOfPolynomialPlot[461].X = 4.61
@@ -1424,7 +1424,7 @@ func main() {
 	pointsOfPolynomialPlot[469].X = 4.69
 	pointsOfPolynomialPlot[469].Y = 3.811
 
-	pointsOfPolynomialPlot[470].X = 4.7
+	pointsOfPolynomialPlot[470].X = 4.70
 	pointsOfPolynomialPlot[470].Y = 3.832
 
 	pointsOfPolynomialPlot[471].X = 4.71
@@ -1454,7 +1454,7 @@ func main() {
 	pointsOfPolynomialPlot[479].X = 4.79
 	pointsOfPolynomialPlot[479].Y = 4.013
 
-	pointsOfPolynomialPlot[480].X = 4.8
+	pointsOfPolynomialPlot[480].X = 4.80
 	pointsOfPolynomialPlot[480].Y = 4.032
 
 	pointsOfPolynomialPlot[481].X = 4.81
@@ -1484,7 +1484,7 @@ func main() {
 	pointsOfPolynomialPlot[489].X = 4.89
 	pointsOfPolynomialPlot[489].Y = 4.2
 
-	pointsOfPolynomialPlot[490].X = 4.9
+	pointsOfPolynomialPlot[490].X = 4.90
 	pointsOfPolynomialPlot[490].Y = 4.218
 
 	pointsOfPolynomialPlot[491].X = 4.91
@@ -1574,7 +1574,7 @@ func main() {
 	pointsOfPolynomialPlot[519].X = 5.19
 	pointsOfPolynomialPlot[519].Y = 4.675
 
-	pointsOfPolynomialPlot[520].X = 5.2
+	pointsOfPolynomialPlot[520].X = 5.20
 	pointsOfPolynomialPlot[520].Y = 4.689
 
 	pointsOfPolynomialPlot[521].X = 5.21
@@ -1604,7 +1604,7 @@ func main() {
 	pointsOfPolynomialPlot[529].X = 5.29
 	pointsOfPolynomialPlot[529].Y = 4.804
 
-	pointsOfPolynomialPlot[530].X = 5.3
+	pointsOfPolynomialPlot[530].X = 5.30
 	pointsOfPolynomialPlot[530].Y = 4.815
 
 	pointsOfPolynomialPlot[531].X = 5.31
@@ -1634,7 +1634,7 @@ func main() {
 	pointsOfPolynomialPlot[539].X = 5.39
 	pointsOfPolynomialPlot[539].Y = 4.916
 
-	pointsOfPolynomialPlot[540].X = 5.4
+	pointsOfPolynomialPlot[540].X = 5.40
 	pointsOfPolynomialPlot[540].Y = 4.927
 
 	pointsOfPolynomialPlot[541].X = 5.41
@@ -1664,7 +1664,7 @@ func main() {
 	pointsOfPolynomialPlot[549].X = 5.49
 	pointsOfPolynomialPlot[549].Y = 5.013
 
-	pointsOfPolynomialPlot[550].X = 5.5
+	pointsOfPolynomialPlot[550].X = 5.50
 	pointsOfPolynomialPlot[550].Y = 5.022
 
 	pointsOfPolynomialPlot[551].X = 5.51
@@ -1694,7 +1694,7 @@ func main() {
 	pointsOfPolynomialPlot[559].X = 5.59
 	pointsOfPolynomialPlot[559].Y = 5.094
 
-	pointsOfPolynomialPlot[560].X = 5.6
+	pointsOfPolynomialPlot[560].X = 5.60
 	pointsOfPolynomialPlot[560].Y = 5.102
 
 	pointsOfPolynomialPlot[561].X = 5.61
@@ -1724,7 +1724,7 @@ func main() {
 	pointsOfPolynomialPlot[569].X = 5.69
 	pointsOfPolynomialPlot[569].Y = 5.16
 
-	pointsOfPolynomialPlot[570].X = 5.7
+	pointsOfPolynomialPlot[570].X = 5.70
 	pointsOfPolynomialPlot[570].Y = 5.165
 
 	pointsOfPolynomialPlot[571].X = 5.71
@@ -1754,7 +1754,7 @@ func main() {
 	pointsOfPolynomialPlot[579].X = 5.79
 	pointsOfPolynomialPlot[579].Y = 5.209
 
-	pointsOfPolynomialPlot[580].X = 5.8
+	pointsOfPolynomialPlot[580].X = 5.80
 	pointsOfPolynomialPlot[580].Y = 5.213
 
 	pointsOfPolynomialPlot[581].X = 5.81
@@ -1784,7 +1784,7 @@ func main() {
 	pointsOfPolynomialPlot[589].X = 5.89
 	pointsOfPolynomialPlot[589].Y = 5.243
 
-	pointsOfPolynomialPlot[590].X = 5.9
+	pointsOfPolynomialPlot[590].X = 5.90
 	pointsOfPolynomialPlot[590].Y = 5.246
 
 	pointsOfPolynomialPlot[591].X = 5.91
@@ -1844,7 +1844,7 @@ func main() {
 	pointsOfPolynomialPlot[609].X = 6.09
 	pointsOfPolynomialPlot[609].Y = 5.264
 
-	pointsOfPolynomialPlot[610].X = 6.1
+	pointsOfPolynomialPlot[610].X = 6.10
 	pointsOfPolynomialPlot[610].Y = 5.263
 
 	pointsOfPolynomialPlot[611].X = 6.11
@@ -1874,7 +1874,7 @@ func main() {
 	pointsOfPolynomialPlot[619].X = 6.19
 	pointsOfPolynomialPlot[619].Y = 5.251
 
-	pointsOfPolynomialPlot[620].X = 6.2
+	pointsOfPolynomialPlot[620].X = 6.20
 	pointsOfPolynomialPlot[620].Y = 5.249
 
 	pointsOfPolynomialPlot[621].X = 6.21
@@ -1904,7 +1904,7 @@ func main() {
 	pointsOfPolynomialPlot[629].X = 6.29
 	pointsOfPolynomialPlot[629].Y = 5.222
 
-	pointsOfPolynomialPlot[630].X = 6.3
+	pointsOfPolynomialPlot[630].X = 6.30
 	pointsOfPolynomialPlot[630].Y = 5.219
 
 	pointsOfPolynomialPlot[631].X = 6.31
@@ -1934,7 +1934,7 @@ func main() {
 	pointsOfPolynomialPlot[639].X = 6.39
 	pointsOfPolynomialPlot[639].Y = 5.179
 
-	pointsOfPolynomialPlot[640].X = 6.4
+	pointsOfPolynomialPlot[640].X = 6.40
 	pointsOfPolynomialPlot[640].Y = 5.174
 
 	pointsOfPolynomialPlot[641].X = 6.41
@@ -1964,7 +1964,7 @@ func main() {
 	pointsOfPolynomialPlot[649].X = 6.49
 	pointsOfPolynomialPlot[649].Y = 5.121
 
-	pointsOfPolynomialPlot[650].X = 6.5
+	pointsOfPolynomialPlot[650].X = 6.50
 	pointsOfPolynomialPlot[650].Y = 5.115
 
 	pointsOfPolynomialPlot[651].X = 6.51
@@ -1994,7 +1994,7 @@ func main() {
 	pointsOfPolynomialPlot[659].X = 6.59
 	pointsOfPolynomialPlot[659].Y = 5.049
 
-	pointsOfPolynomialPlot[660].X = 6.6
+	pointsOfPolynomialPlot[660].X = 6.60
 	pointsOfPolynomialPlot[660].Y = 5.041
 
 	pointsOfPolynomialPlot[661].X = 6.61
@@ -2024,7 +2024,7 @@ func main() {
 	pointsOfPolynomialPlot[669].X = 6.69
 	pointsOfPolynomialPlot[669].Y = 4.963
 
-	pointsOfPolynomialPlot[670].X = 6.7
+	pointsOfPolynomialPlot[670].X = 6.70
 	pointsOfPolynomialPlot[670].Y = 4.954
 
 	pointsOfPolynomialPlot[671].X = 6.71
@@ -2054,7 +2054,7 @@ func main() {
 	pointsOfPolynomialPlot[679].X = 6.79
 	pointsOfPolynomialPlot[679].Y = 4.864
 
-	pointsOfPolynomialPlot[680].X = 6.8
+	pointsOfPolynomialPlot[680].X = 6.80
 	pointsOfPolynomialPlot[680].Y = 4.853
 
 	pointsOfPolynomialPlot[681].X = 6.81
@@ -2084,7 +2084,7 @@ func main() {
 	pointsOfPolynomialPlot[689].X = 6.89
 	pointsOfPolynomialPlot[689].Y = 4.752
 
-	pointsOfPolynomialPlot[690].X = 6.9
+	pointsOfPolynomialPlot[690].X = 6.90
 	pointsOfPolynomialPlot[690].Y = 4.74
 
 	pointsOfPolynomialPlot[691].X = 6.91
@@ -2144,7 +2144,7 @@ func main() {
 	pointsOfPolynomialPlot[709].X = 7.09
 	pointsOfPolynomialPlot[709].Y = 4.491
 
-	pointsOfPolynomialPlot[710].X = 7.1
+	pointsOfPolynomialPlot[710].X = 7.10
 	pointsOfPolynomialPlot[710].Y = 4.477
 
 	pointsOfPolynomialPlot[711].X = 7.11
@@ -2174,7 +2174,7 @@ func main() {
 	pointsOfPolynomialPlot[719].X = 7.19
 	pointsOfPolynomialPlot[719].Y = 4.345
 
-	pointsOfPolynomialPlot[720].X = 7.2
+	pointsOfPolynomialPlot[720].X = 7.20
 	pointsOfPolynomialPlot[720].Y = 4.329
 
 	pointsOfPolynomialPlot[721].X = 7.21
@@ -2204,7 +2204,7 @@ func main() {
 	pointsOfPolynomialPlot[729].X = 7.29
 	pointsOfPolynomialPlot[729].Y = 4.188
 
-	pointsOfPolynomialPlot[730].X = 7.3
+	pointsOfPolynomialPlot[730].X = 7.30
 	pointsOfPolynomialPlot[730].Y = 4.172
 
 	pointsOfPolynomialPlot[731].X = 7.31
@@ -2234,7 +2234,7 @@ func main() {
 	pointsOfPolynomialPlot[739].X = 7.39
 	pointsOfPolynomialPlot[739].Y = 4.022
 
-	pointsOfPolynomialPlot[740].X = 7.4
+	pointsOfPolynomialPlot[740].X = 7.40
 	pointsOfPolynomialPlot[740].Y = 4.005
 
 	pointsOfPolynomialPlot[741].X = 7.41
@@ -2264,7 +2264,7 @@ func main() {
 	pointsOfPolynomialPlot[749].X = 7.49
 	pointsOfPolynomialPlot[749].Y = 3.848
 
-	pointsOfPolynomialPlot[750].X = 7.5
+	pointsOfPolynomialPlot[750].X = 7.50
 	pointsOfPolynomialPlot[750].Y = 3.83
 
 	pointsOfPolynomialPlot[751].X = 7.51
@@ -2294,7 +2294,7 @@ func main() {
 	pointsOfPolynomialPlot[759].X = 7.59
 	pointsOfPolynomialPlot[759].Y = 3.666
 
-	pointsOfPolynomialPlot[760].X = 7.6
+	pointsOfPolynomialPlot[760].X = 7.60
 	pointsOfPolynomialPlot[760].Y = 3.648
 
 	pointsOfPolynomialPlot[761].X = 7.61
@@ -2324,7 +2324,7 @@ func main() {
 	pointsOfPolynomialPlot[769].X = 7.69
 	pointsOfPolynomialPlot[769].Y = 3.479
 
-	pointsOfPolynomialPlot[770].X = 7.7
+	pointsOfPolynomialPlot[770].X = 7.70
 	pointsOfPolynomialPlot[770].Y = 3.459
 
 	pointsOfPolynomialPlot[771].X = 7.71
@@ -2354,7 +2354,7 @@ func main() {
 	pointsOfPolynomialPlot[779].X = 7.79
 	pointsOfPolynomialPlot[779].Y = 3.286
 
-	pointsOfPolynomialPlot[780].X = 7.8
+	pointsOfPolynomialPlot[780].X = 7.80
 	pointsOfPolynomialPlot[780].Y = 3.266
 
 	pointsOfPolynomialPlot[781].X = 7.81
@@ -2384,7 +2384,7 @@ func main() {
 	pointsOfPolynomialPlot[789].X = 7.89
 	pointsOfPolynomialPlot[789].Y = 3.089
 
-	pointsOfPolynomialPlot[790].X = 7.9
+	pointsOfPolynomialPlot[790].X = 7.90
 	pointsOfPolynomialPlot[790].Y = 3.069
 
 	pointsOfPolynomialPlot[791].X = 7.91
@@ -2444,7 +2444,7 @@ func main() {
 	pointsOfPolynomialPlot[809].X = 8.09
 	pointsOfPolynomialPlot[809].Y = 2.689
 
-	pointsOfPolynomialPlot[810].X = 8.1
+	pointsOfPolynomialPlot[810].X = 8.10
 	pointsOfPolynomialPlot[810].Y = 2.669
 
 	pointsOfPolynomialPlot[811].X = 8.11
@@ -2474,7 +2474,7 @@ func main() {
 	pointsOfPolynomialPlot[819].X = 8.19
 	pointsOfPolynomialPlot[819].Y = 2.489
 
-	pointsOfPolynomialPlot[820].X = 8.2
+	pointsOfPolynomialPlot[820].X = 8.20
 	pointsOfPolynomialPlot[820].Y = 2.469
 
 	pointsOfPolynomialPlot[821].X = 8.21
@@ -2504,7 +2504,7 @@ func main() {
 	pointsOfPolynomialPlot[829].X = 8.29
 	pointsOfPolynomialPlot[829].Y = 2.29
 
-	pointsOfPolynomialPlot[830].X = 8.3
+	pointsOfPolynomialPlot[830].X = 8.30
 	pointsOfPolynomialPlot[830].Y = 2.27
 
 	pointsOfPolynomialPlot[831].X = 8.31
@@ -2534,7 +2534,7 @@ func main() {
 	pointsOfPolynomialPlot[839].X = 8.39
 	pointsOfPolynomialPlot[839].Y = 2.113
 
-	pointsOfPolynomialPlot[840].X = 8.4
+	pointsOfPolynomialPlot[840].X = 8.40
 	pointsOfPolynomialPlot[840].Y = 2.075
 
 	pointsOfPolynomialPlot[841].X = 8.41
@@ -2564,7 +2564,7 @@ func main() {
 	pointsOfPolynomialPlot[849].X = 8.49
 	pointsOfPolynomialPlot[849].Y = 1.903
 
-	pointsOfPolynomialPlot[850].X = 8.5
+	pointsOfPolynomialPlot[850].X = 8.50
 	pointsOfPolynomialPlot[850].Y = 1.884
 
 	pointsOfPolynomialPlot[851].X = 8.51
@@ -2594,7 +2594,7 @@ func main() {
 	pointsOfPolynomialPlot[859].X = 8.59
 	pointsOfPolynomialPlot[859].Y = 1.718
 
-	pointsOfPolynomialPlot[860].X = 8.6
+	pointsOfPolynomialPlot[860].X = 8.60
 	pointsOfPolynomialPlot[860].Y = 1.7
 
 	pointsOfPolynomialPlot[861].X = 8.61
@@ -2624,7 +2624,7 @@ func main() {
 	pointsOfPolynomialPlot[869].X = 8.69
 	pointsOfPolynomialPlot[869].Y = 1.542
 
-	pointsOfPolynomialPlot[870].X = 8.7
+	pointsOfPolynomialPlot[870].X = 8.70
 	pointsOfPolynomialPlot[870].Y = 1.525
 
 	pointsOfPolynomialPlot[871].X = 8.71
@@ -2654,7 +2654,7 @@ func main() {
 	pointsOfPolynomialPlot[879].X = 8.79
 	pointsOfPolynomialPlot[879].Y = 1.376
 
-	pointsOfPolynomialPlot[880].X = 8.8
+	pointsOfPolynomialPlot[880].X = 8.80
 	pointsOfPolynomialPlot[880].Y = 1.36
 
 	pointsOfPolynomialPlot[881].X = 8.81
@@ -2684,7 +2684,7 @@ func main() {
 	pointsOfPolynomialPlot[889].X = 8.89
 	pointsOfPolynomialPlot[889].Y = 1.223
 
-	pointsOfPolynomialPlot[890].X = 8.9
+	pointsOfPolynomialPlot[890].X = 8.90
 	pointsOfPolynomialPlot[890].Y = 1.208
 
 	pointsOfPolynomialPlot[891].X = 8.91
@@ -2744,7 +2744,7 @@ func main() {
 	pointsOfPolynomialPlot[909].X = 9.09
 	pointsOfPolynomialPlot[909].Y = 0.96
 
-	pointsOfPolynomialPlot[910].X = 9.1
+	pointsOfPolynomialPlot[910].X = 9.10
 	pointsOfPolynomialPlot[910].Y = 0.949
 
 	pointsOfPolynomialPlot[911].X = 9.11
@@ -2774,7 +2774,7 @@ func main() {
 	pointsOfPolynomialPlot[919].X = 9.19
 	pointsOfPolynomialPlot[919].Y = 0.855
 
-	pointsOfPolynomialPlot[920].X = 9.2
+	pointsOfPolynomialPlot[920].X = 9.20
 	pointsOfPolynomialPlot[920].Y = 0.846
 
 	pointsOfPolynomialPlot[921].X = 9.21
@@ -2804,7 +2804,7 @@ func main() {
 	pointsOfPolynomialPlot[929].X = 9.29
 	pointsOfPolynomialPlot[929].Y = 0.772
 
-	pointsOfPolynomialPlot[930].X = 9.3
+	pointsOfPolynomialPlot[930].X = 9.30
 	pointsOfPolynomialPlot[930].Y = 0.764
 
 	pointsOfPolynomialPlot[931].X = 9.31
@@ -2834,7 +2834,7 @@ func main() {
 	pointsOfPolynomialPlot[939].X = 9.39
 	pointsOfPolynomialPlot[939].Y = 0.711
 
-	pointsOfPolynomialPlot[940].X = 9.4
+	pointsOfPolynomialPlot[940].X = 9.40
 	pointsOfPolynomialPlot[940].Y = 0.707
 
 	pointsOfPolynomialPlot[941].X = 9.41
@@ -2864,7 +2864,7 @@ func main() {
 	pointsOfPolynomialPlot[949].X = 9.49
 	pointsOfPolynomialPlot[949].Y = 0.677
 
-	pointsOfPolynomialPlot[950].X = 9.5
+	pointsOfPolynomialPlot[950].X = 9.50
 	pointsOfPolynomialPlot[950].Y = 0.675
 
 	pointsOfPolynomialPlot[951].X = 9.51
@@ -2894,7 +2894,7 @@ func main() {
 	pointsOfPolynomialPlot[959].X = 9.59
 	pointsOfPolynomialPlot[959].Y = 0.67
 
-	pointsOfPolynomialPlot[960].X = 9.6
+	pointsOfPolynomialPlot[960].X = 9.60
 	pointsOfPolynomialPlot[960].Y = 0.671
 
 	pointsOfPolynomialPlot[961].X = 9.61
@@ -2924,7 +2924,7 @@ func main() {
 	pointsOfPolynomialPlot[969].X = 9.69
 	pointsOfPolynomialPlot[969].Y = 0.695
 
-	pointsOfPolynomialPlot[970].X = 9.7
+	pointsOfPolynomialPlot[970].X = 9.70
 	pointsOfPolynomialPlot[970].Y = 0.699
 
 	pointsOfPolynomialPlot[971].X = 9.71
@@ -2954,7 +2954,7 @@ func main() {
 	pointsOfPolynomialPlot[979].X = 9.79
 	pointsOfPolynomialPlot[979].Y = 0.754
 
-	pointsOfPolynomialPlot[980].X = 9.8
+	pointsOfPolynomialPlot[980].X = 9.80
 	pointsOfPolynomialPlot[980].Y = 0.761
 
 	pointsOfPolynomialPlot[981].X = 9.81
@@ -2984,7 +2984,7 @@ func main() {
 	pointsOfPolynomialPlot[989].X = 9.89
 	pointsOfPolynomialPlot[989].Y = 0.849
 
-	pointsOfPolynomialPlot[990].X = 9.9
+	pointsOfPolynomialPlot[990].X = 9.90
 	pointsOfPolynomialPlot[990].Y = 0.861
 
 	pointsOfPolynomialPlot[991].X = 9.91
@@ -3044,7 +3044,7 @@ func main() {
 	pointsOfPolynomialPlot[1_009].X = 10.09
 	pointsOfPolynomialPlot[1_009].Y = 1.161
 
-	pointsOfPolynomialPlot[1_010].X = 10.1
+	pointsOfPolynomialPlot[1_010].X = 10.10
 	pointsOfPolynomialPlot[1_010].Y = 1.182
 
 	pointsOfPolynomialPlot[1_011].X = 10.11
@@ -3074,7 +3074,7 @@ func main() {
 	pointsOfPolynomialPlot[1_019].X = 10.19
 	pointsOfPolynomialPlot[1_019].Y = 1.385
 
-	pointsOfPolynomialPlot[1_020].X = 10.2
+	pointsOfPolynomialPlot[1_020].X = 10.20
 	pointsOfPolynomialPlot[1_020].Y = 1.41
 
 	pointsOfPolynomialPlot[1_021].X = 10.21
@@ -3104,7 +3104,7 @@ func main() {
 	pointsOfPolynomialPlot[1_029].X = 10.29
 	pointsOfPolynomialPlot[1_029].Y = 1.657
 
-	pointsOfPolynomialPlot[1_030].X = 10.3
+	pointsOfPolynomialPlot[1_030].X = 10.30
 	pointsOfPolynomialPlot[1_030].Y = 1.687
 
 	pointsOfPolynomialPlot[1_031].X = 10.31
@@ -3134,7 +3134,7 @@ func main() {
 	pointsOfPolynomialPlot[1_039].X = 10.39
 	pointsOfPolynomialPlot[1_039].Y = 1.982
 
-	pointsOfPolynomialPlot[1_040].X = 10.4
+	pointsOfPolynomialPlot[1_040].X = 10.40
 	pointsOfPolynomialPlot[1_040].Y = 2.018
 
 	pointsOfPolynomialPlot[1_041].X = 10.41
@@ -3164,7 +3164,7 @@ func main() {
 	pointsOfPolynomialPlot[1_049].X = 10.49
 	pointsOfPolynomialPlot[1_049].Y = 2.363
 
-	pointsOfPolynomialPlot[1_050].X = 10.5
+	pointsOfPolynomialPlot[1_050].X = 10.50
 	pointsOfPolynomialPlot[1_050].Y = 2.405
 
 	pointsOfPolynomialPlot[1_051].X = 10.51
@@ -3194,7 +3194,7 @@ func main() {
 	pointsOfPolynomialPlot[1_059].X = 10.59
 	pointsOfPolynomialPlot[1_059].Y = 2.804
 
-	pointsOfPolynomialPlot[1_060].X = 10.6
+	pointsOfPolynomialPlot[1_060].X = 10.60
 	pointsOfPolynomialPlot[1_060].Y = 2.851
 
 	pointsOfPolynomialPlot[1_061].X = 10.61
@@ -3224,7 +3224,7 @@ func main() {
 	pointsOfPolynomialPlot[1_069].X = 10.69
 	pointsOfPolynomialPlot[1_069].Y = 3.308
 
-	pointsOfPolynomialPlot[1_070].X = 10.7
+	pointsOfPolynomialPlot[1_070].X = 10.70
 	pointsOfPolynomialPlot[1_070].Y = 3.362
 
 	pointsOfPolynomialPlot[1_071].X = 10.71
@@ -3254,7 +3254,7 @@ func main() {
 	pointsOfPolynomialPlot[1_079].X = 10.79
 	pointsOfPolynomialPlot[1_079].Y = 3.878
 
-	pointsOfPolynomialPlot[1_080].X = 10.8
+	pointsOfPolynomialPlot[1_080].X = 10.80
 	pointsOfPolynomialPlot[1_080].Y = 3.939
 
 	pointsOfPolynomialPlot[1_081].X = 10.81
@@ -3284,7 +3284,7 @@ func main() {
 	pointsOfPolynomialPlot[1_089].X = 10.89
 	pointsOfPolynomialPlot[1_089].Y = 4.52
 
-	pointsOfPolynomialPlot[1_090].X = 10.9
+	pointsOfPolynomialPlot[1_090].X = 10.90
 	pointsOfPolynomialPlot[1_090].Y = 4.588
 
 	pointsOfPolynomialPlot[1_091].X = 10.91
@@ -3344,7 +3344,7 @@ func main() {
 	pointsOfPolynomialPlot[1_109].X = 11.09
 	pointsOfPolynomialPlot[1_109].Y = 6.032
 
-	pointsOfPolynomialPlot[1_110].X = 11.1
+	pointsOfPolynomialPlot[1_110].X = 11.10
 	pointsOfPolynomialPlot[1_110].Y = 6.116
 
 	pointsOfPolynomialPlot[1_111].X = 11.11
@@ -3374,7 +3374,7 @@ func main() {
 	pointsOfPolynomialPlot[1_119].X = 11.19
 	pointsOfPolynomialPlot[1_119].Y = 6.91
 
-	pointsOfPolynomialPlot[1_120].X = 11.2
+	pointsOfPolynomialPlot[1_120].X = 11.20
 	pointsOfPolynomialPlot[1_120].Y = 7.003
 
 	pointsOfPolynomialPlot[1_121].X = 11.21
@@ -3404,7 +3404,7 @@ func main() {
 	pointsOfPolynomialPlot[1_129].X = 11.29
 	pointsOfPolynomialPlot[1_129].Y = 7.876
 
-	pointsOfPolynomialPlot[1_130].X = 11.3
+	pointsOfPolynomialPlot[1_130].X = 11.30
 	pointsOfPolynomialPlot[1_130].Y = 7.978
 
 	pointsOfPolynomialPlot[1_131].X = 11.31
@@ -3434,7 +3434,7 @@ func main() {
 	pointsOfPolynomialPlot[1_139].X = 11.39
 	pointsOfPolynomialPlot[1_139].Y = 8.935
 
-	pointsOfPolynomialPlot[1_140].X = 11.4
+	pointsOfPolynomialPlot[1_140].X = 11.40
 	pointsOfPolynomialPlot[1_140].Y = 9.046
 
 	pointsOfPolynomialPlot[1_141].X = 11.41
@@ -3464,7 +3464,7 @@ func main() {
 	pointsOfPolynomialPlot[1_149].X = 11.49
 	pointsOfPolynomialPlot[1_149].Y = 10.089
 
-	pointsOfPolynomialPlot[1_150].X = 11.5
+	pointsOfPolynomialPlot[1_150].X = 11.50
 	pointsOfPolynomialPlot[1_150].Y = 10.21
 
 	pointsOfPolynomialPlot[1_151].X = 11.51
@@ -3494,7 +3494,7 @@ func main() {
 	pointsOfPolynomialPlot[1_159].X = 11.59
 	pointsOfPolynomialPlot[1_159].Y = 11.345
 
-	pointsOfPolynomialPlot[1_160].X = 11.6
+	pointsOfPolynomialPlot[1_160].X = 11.60
 	pointsOfPolynomialPlot[1_160].Y = 11.477
 
 	pointsOfPolynomialPlot[1_161].X = 11.61
@@ -3524,7 +3524,7 @@ func main() {
 	pointsOfPolynomialPlot[1_169].X = 11.69
 	pointsOfPolynomialPlot[1_169].Y = 12.707
 
-	pointsOfPolynomialPlot[1_170].X = 11.7
+	pointsOfPolynomialPlot[1_170].X = 11.70
 	pointsOfPolynomialPlot[1_170].Y = 12.849
 
 	pointsOfPolynomialPlot[1_171].X = 11.71
@@ -3554,7 +3554,7 @@ func main() {
 	pointsOfPolynomialPlot[1_179].X = 11.79
 	pointsOfPolynomialPlot[1_179].Y = 14.18
 
-	pointsOfPolynomialPlot[1_180].X = 11.8
+	pointsOfPolynomialPlot[1_180].X = 11.80
 	pointsOfPolynomialPlot[1_180].Y = 14.334
 
 	pointsOfPolynomialPlot[1_181].X = 11.81
@@ -3584,7 +3584,7 @@ func main() {
 	pointsOfPolynomialPlot[1_189].X = 11.89
 	pointsOfPolynomialPlot[1_189].Y = 15.769
 
-	pointsOfPolynomialPlot[1_190].X = 11.9
+	pointsOfPolynomialPlot[1_190].X = 11.90
 	pointsOfPolynomialPlot[1_190].Y = 15.935
 
 	pointsOfPolynomialPlot[1_191].X = 11.91
@@ -3644,7 +3644,7 @@ func main() {
 	pointsOfPolynomialPlot[1_209].X = 12.09
 	pointsOfPolynomialPlot[1_209].Y = 19.316
 
-	pointsOfPolynomialPlot[1_210].X = 12.1
+	pointsOfPolynomialPlot[1_210].X = 12.10
 	pointsOfPolynomialPlot[1_210].Y = 19.507
 
 	pointsOfPolynomialPlot[1_211].X = 12.11
@@ -3674,7 +3674,7 @@ func main() {
 	pointsOfPolynomialPlot[1_219].X = 12.19
 	pointsOfPolynomialPlot[1_219].Y = 21.285
 
-	pointsOfPolynomialPlot[1_220].X = 12.2
+	pointsOfPolynomialPlot[1_220].X = 12.20
 	pointsOfPolynomialPlot[1_220].Y = 21.489
 
 	pointsOfPolynomialPlot[1_221].X = 12.21
@@ -3704,7 +3704,7 @@ func main() {
 	pointsOfPolynomialPlot[1_229].X = 12.29
 	pointsOfPolynomialPlot[1_229].Y = 23.391
 
-	pointsOfPolynomialPlot[1_230].X = 12.3
+	pointsOfPolynomialPlot[1_230].X = 12.30
 	pointsOfPolynomialPlot[1_230].Y = 23.61
 
 	pointsOfPolynomialPlot[1_231].X = 12.31
@@ -3734,7 +3734,7 @@ func main() {
 	pointsOfPolynomialPlot[1_239].X = 12.39
 	pointsOfPolynomialPlot[1_239].Y = 25.64
 
-	pointsOfPolynomialPlot[1_240].X = 12.4
+	pointsOfPolynomialPlot[1_240].X = 12.40
 	pointsOfPolynomialPlot[1_240].Y = 25.873
 
 	pointsOfPolynomialPlot[1_241].X = 12.41
@@ -3764,7 +3764,7 @@ func main() {
 	pointsOfPolynomialPlot[1_249].X = 12.49
 	pointsOfPolynomialPlot[1_249].Y = 28.039
 
-	pointsOfPolynomialPlot[1_250].X = 12.5
+	pointsOfPolynomialPlot[1_250].X = 12.50
 	pointsOfPolynomialPlot[1_250].Y = 28.287
 
 	pointsOfPolynomialPlot[1_251].X = 12.51
@@ -3794,7 +3794,7 @@ func main() {
 	pointsOfPolynomialPlot[1_259].X = 12.59
 	pointsOfPolynomialPlot[1_259].Y = 30.592
 
-	pointsOfPolynomialPlot[1_260].X = 12.6
+	pointsOfPolynomialPlot[1_260].X = 12.60
 	pointsOfPolynomialPlot[1_260].Y = 30.856
 
 	pointsOfPolynomialPlot[1_261].X = 12.61
@@ -3824,7 +3824,7 @@ func main() {
 	pointsOfPolynomialPlot[1_269].X = 12.69
 	pointsOfPolynomialPlot[1_269].Y = 33.306
 
-	pointsOfPolynomialPlot[1_270].X = 12.7
+	pointsOfPolynomialPlot[1_270].X = 12.70
 	pointsOfPolynomialPlot[1_270].Y = 33.586
 
 	pointsOfPolynomialPlot[1_271].X = 12.71
@@ -3854,7 +3854,7 @@ func main() {
 	pointsOfPolynomialPlot[1_279].X = 12.79
 	pointsOfPolynomialPlot[1_279].Y = 36.187
 
-	pointsOfPolynomialPlot[1_280].X = 12.8
+	pointsOfPolynomialPlot[1_280].X = 12.80
 	pointsOfPolynomialPlot[1_280].Y = 36.484
 
 	pointsOfPolynomialPlot[1_281].X = 12.81
@@ -3884,7 +3884,7 @@ func main() {
 	pointsOfPolynomialPlot[1_289].X = 12.89
 	pointsOfPolynomialPlot[1_289].Y = 39.241
 
-	pointsOfPolynomialPlot[1_290].X = 12.9
+	pointsOfPolynomialPlot[1_290].X = 12.90
 	pointsOfPolynomialPlot[1_290].Y = 39.557
 
 	pointsOfPolynomialPlot[1_291].X = 12.91
@@ -3944,7 +3944,7 @@ func main() {
 	pointsOfPolynomialPlot[1_309].X = 13.09
 	pointsOfPolynomialPlot[1_309].Y = 45.897
 
-	pointsOfPolynomialPlot[1_310].X = 13.1
+	pointsOfPolynomialPlot[1_310].X = 13.10
 	pointsOfPolynomialPlot[1_310].Y = 46.249
 
 	pointsOfPolynomialPlot[1_311].X = 13.11
@@ -3974,7 +3974,7 @@ func main() {
 	pointsOfPolynomialPlot[1_319].X = 13.19
 	pointsOfPolynomialPlot[1_319].Y = 49.511
 
-	pointsOfPolynomialPlot[1_320].X = 13.2
+	pointsOfPolynomialPlot[1_320].X = 13.20
 	pointsOfPolynomialPlot[1_320].Y = 49.883
 
 	pointsOfPolynomialPlot[1_321].X = 13.21
@@ -4004,7 +4004,7 @@ func main() {
 	pointsOfPolynomialPlot[1_329].X = 13.29
 	pointsOfPolynomialPlot[1_329].Y = 53.325
 
-	pointsOfPolynomialPlot[1_330].X = 13.3
+	pointsOfPolynomialPlot[1_330].X = 13.30
 	pointsOfPolynomialPlot[1_330].Y = 53.718
 
 	pointsOfPolynomialPlot[1_331].X = 13.31
@@ -4034,7 +4034,7 @@ func main() {
 	pointsOfPolynomialPlot[1_339].X = 13.39
 	pointsOfPolynomialPlot[1_339].Y = 57.347
 
-	pointsOfPolynomialPlot[1_340].X = 13.4
+	pointsOfPolynomialPlot[1_340].X = 13.40
 	pointsOfPolynomialPlot[1_340].Y = 57.761
 
 	pointsOfPolynomialPlot[1_341].X = 13.41
@@ -4064,7 +4064,7 @@ func main() {
 	pointsOfPolynomialPlot[1_349].X = 13.49
 	pointsOfPolynomialPlot[1_349].Y = 61.583
 
-	pointsOfPolynomialPlot[1_350].X = 13.5
+	pointsOfPolynomialPlot[1_350].X = 13.50
 	pointsOfPolynomialPlot[1_350].Y = 62.018
 
 	pointsOfPolynomialPlot[1_351].X = 13.51
@@ -4094,7 +4094,7 @@ func main() {
 	pointsOfPolynomialPlot[1_359].X = 13.59
 	pointsOfPolynomialPlot[1_359].Y = 66.04
 
-	pointsOfPolynomialPlot[1_360].X = 13.6
+	pointsOfPolynomialPlot[1_360].X = 13.60
 	pointsOfPolynomialPlot[1_360].Y = 66.498
 
 	pointsOfPolynomialPlot[1_361].X = 13.61
@@ -4124,7 +4124,7 @@ func main() {
 	pointsOfPolynomialPlot[1_369].X = 13.69
 	pointsOfPolynomialPlot[1_369].Y = 70.726
 
-	pointsOfPolynomialPlot[1_370].X = 13.7
+	pointsOfPolynomialPlot[1_370].X = 13.70
 	pointsOfPolynomialPlot[1_370].Y = 71.208
 
 	pointsOfPolynomialPlot[1_371].X = 13.71
@@ -4154,7 +4154,7 @@ func main() {
 	pointsOfPolynomialPlot[1_379].X = 13.79
 	pointsOfPolynomialPlot[1_379].Y = 75.65
 
-	pointsOfPolynomialPlot[1_380].X = 13.8
+	pointsOfPolynomialPlot[1_380].X = 13.80
 	pointsOfPolynomialPlot[1_380].Y = 76.155
 
 	pointsOfPolynomialPlot[1_381].X = 13.81
@@ -4184,7 +4184,7 @@ func main() {
 	pointsOfPolynomialPlot[1_389].X = 13.89
 	pointsOfPolynomialPlot[1_389].Y = 80.817
 
-	pointsOfPolynomialPlot[1_390].X = 13.9
+	pointsOfPolynomialPlot[1_390].X = 13.90
 	pointsOfPolynomialPlot[1_390].Y = 81.348
 
 	pointsOfPolynomialPlot[1_391].X = 13.91
@@ -4244,7 +4244,7 @@ func main() {
 	pointsOfPolynomialPlot[1_409].X = 14.09
 	pointsOfPolynomialPlot[1_409].Y = 91.917
 
-	pointsOfPolynomialPlot[1_410].X = 14.1
+	pointsOfPolynomialPlot[1_410].X = 14.10
 	pointsOfPolynomialPlot[1_410].Y = 92.5
 
 	pointsOfPolynomialPlot[1_411].X = 14.11
@@ -4274,7 +4274,7 @@ func main() {
 	pointsOfPolynomialPlot[1_419].X = 14.19
 	pointsOfPolynomialPlot[1_419].Y = 97.866
 
-	pointsOfPolynomialPlot[1_420].X = 14.2
+	pointsOfPolynomialPlot[1_420].X = 14.20
 	pointsOfPolynomialPlot[1_420].Y = 98.476
 
 	pointsOfPolynomialPlot[1_421].X = 14.21
@@ -4304,7 +4304,7 @@ func main() {
 	pointsOfPolynomialPlot[1_429].X = 14.29
 	pointsOfPolynomialPlot[1_429].Y = 104.091
 
-	pointsOfPolynomialPlot[1_430].X = 14.3
+	pointsOfPolynomialPlot[1_430].X = 14.30
 	pointsOfPolynomialPlot[1_430].Y = 104.729
 
 	pointsOfPolynomialPlot[1_431].X = 14.31
@@ -4334,7 +4334,7 @@ func main() {
 	pointsOfPolynomialPlot[1_439].X = 14.39
 	pointsOfPolynomialPlot[1_439].Y = 110.602
 
-	pointsOfPolynomialPlot[1_440].X = 14.4
+	pointsOfPolynomialPlot[1_440].X = 14.40
 	pointsOfPolynomialPlot[1_440].Y = 111.269
 
 	pointsOfPolynomialPlot[1_441].X = 14.41
@@ -4364,7 +4364,7 @@ func main() {
 	pointsOfPolynomialPlot[1_449].X = 14.49
 	pointsOfPolynomialPlot[1_449].Y = 117.407
 
-	pointsOfPolynomialPlot[1_450].X = 14.5
+	pointsOfPolynomialPlot[1_450].X = 14.50
 	pointsOfPolynomialPlot[1_450].Y = 118.104
 
 	pointsOfPolynomialPlot[1_451].X = 14.51
@@ -4394,7 +4394,7 @@ func main() {
 	pointsOfPolynomialPlot[1_459].X = 14.59
 	pointsOfPolynomialPlot[1_459].Y = 124.515
 
-	pointsOfPolynomialPlot[1_460].X = 14.6
+	pointsOfPolynomialPlot[1_460].X = 14.60
 	pointsOfPolynomialPlot[1_460].Y = 125.242
 
 	pointsOfPolynomialPlot[1_461].X = 14.61
@@ -4424,7 +4424,7 @@ func main() {
 	pointsOfPolynomialPlot[1_469].X = 14.69
 	pointsOfPolynomialPlot[1_469].Y = 131.934
 
-	pointsOfPolynomialPlot[1_470].X = 14.7
+	pointsOfPolynomialPlot[1_470].X = 14.70
 	pointsOfPolynomialPlot[1_470].Y = 132.694
 
 	pointsOfPolynomialPlot[1_471].X = 14.71
@@ -4454,7 +4454,7 @@ func main() {
 	pointsOfPolynomialPlot[1_479].X = 14.79
 	pointsOfPolynomialPlot[1_479].Y = 139.674
 
-	pointsOfPolynomialPlot[1_480].X = 14.8
+	pointsOfPolynomialPlot[1_480].X = 14.80
 	pointsOfPolynomialPlot[1_480].Y = 140.466
 
 	pointsOfPolynomialPlot[1_481].X = 14.81
@@ -4484,7 +4484,7 @@ func main() {
 	pointsOfPolynomialPlot[1_489].X = 14.89
 	pointsOfPolynomialPlot[1_489].Y = 147.745
 
-	pointsOfPolynomialPlot[1_490].X = 14.9
+	pointsOfPolynomialPlot[1_490].X = 14.90
 	pointsOfPolynomialPlot[1_490].Y = 148.571
 
 	pointsOfPolynomialPlot[1_491].X = 14.91
@@ -4544,7 +4544,7 @@ func main() {
 	pointsOfPolynomialPlot[1_509].X = 15.09
 	pointsOfPolynomialPlot[1_509].Y = 164.914
 
-	pointsOfPolynomialPlot[1_510].X = 15.1
+	pointsOfPolynomialPlot[1_510].X = 15.10
 	pointsOfPolynomialPlot[1_510].Y = 165.81
 
 	pointsOfPolynomialPlot[1_511].X = 15.11
@@ -4574,7 +4574,7 @@ func main() {
 	pointsOfPolynomialPlot[1_519].X = 15.19
 	pointsOfPolynomialPlot[1_519].Y = 174.033
 
-	pointsOfPolynomialPlot[1_520].X = 15.2
+	pointsOfPolynomialPlot[1_520].X = 15.20
 	pointsOfPolynomialPlot[1_520].Y = 174.965
 
 	pointsOfPolynomialPlot[1_521].X = 15.21
@@ -4604,7 +4604,7 @@ func main() {
 	pointsOfPolynomialPlot[1_529].X = 15.29
 	pointsOfPolynomialPlot[1_529].Y = 183.52
 
-	pointsOfPolynomialPlot[1_530].X = 15.3
+	pointsOfPolynomialPlot[1_530].X = 15.30
 	pointsOfPolynomialPlot[1_530].Y = 184.49
 
 	pointsOfPolynomialPlot[1_531].X = 15.31
@@ -4634,7 +4634,7 @@ func main() {
 	pointsOfPolynomialPlot[1_539].X = 15.39
 	pointsOfPolynomialPlot[1_539].Y = 193.387
 
-	pointsOfPolynomialPlot[1_540].X = 15.4
+	pointsOfPolynomialPlot[1_540].X = 15.40
 	pointsOfPolynomialPlot[1_540].Y = 194.394
 
 	pointsOfPolynomialPlot[1_541].X = 15.41
@@ -4664,7 +4664,7 @@ func main() {
 	pointsOfPolynomialPlot[1_549].X = 15.49
 	pointsOfPolynomialPlot[1_549].Y = 203.642
 
-	pointsOfPolynomialPlot[1_550].X = 15.5
+	pointsOfPolynomialPlot[1_550].X = 15.50
 	pointsOfPolynomialPlot[1_550].Y = 204.69
 
 	pointsOfPolynomialPlot[1_551].X = 15.51
@@ -4694,7 +4694,7 @@ func main() {
 	pointsOfPolynomialPlot[1_559].X = 15.59
 	pointsOfPolynomialPlot[1_559].Y = 214.298
 
-	pointsOfPolynomialPlot[1_560].X = 15.6
+	pointsOfPolynomialPlot[1_560].X = 15.60
 	pointsOfPolynomialPlot[1_560].Y = 215.386
 
 	pointsOfPolynomialPlot[1_561].X = 15.61
@@ -4724,7 +4724,7 @@ func main() {
 	pointsOfPolynomialPlot[1_569].X = 15.69
 	pointsOfPolynomialPlot[1_569].Y = 225.363
 
-	pointsOfPolynomialPlot[1_570].X = 15.7
+	pointsOfPolynomialPlot[1_570].X = 15.70
 	pointsOfPolynomialPlot[1_570].Y = 226.493
 
 	pointsOfPolynomialPlot[1_571].X = 15.71
@@ -4754,7 +4754,7 @@ func main() {
 	pointsOfPolynomialPlot[1_579].X = 15.79
 	pointsOfPolynomialPlot[1_579].Y = 236.85
 
-	pointsOfPolynomialPlot[1_580].X = 15.8
+	pointsOfPolynomialPlot[1_580].X = 15.80
 	pointsOfPolynomialPlot[1_580].Y = 238.023
 
 	pointsOfPolynomialPlot[1_581].X = 15.81
@@ -4784,7 +4784,7 @@ func main() {
 	pointsOfPolynomialPlot[1_589].X = 15.89
 	pointsOfPolynomialPlot[1_589].Y = 248.769
 
-	pointsOfPolynomialPlot[1_590].X = 15.9
+	pointsOfPolynomialPlot[1_590].X = 15.90
 	pointsOfPolynomialPlot[1_590].Y = 249.986
 
 	pointsOfPolynomialPlot[1_591].X = 15.91
@@ -4844,7 +4844,7 @@ func main() {
 	pointsOfPolynomialPlot[1_609].X = 16.09
 	pointsOfPolynomialPlot[1_609].Y = 273.949
 
-	pointsOfPolynomialPlot[1_610].X = 16.1
+	pointsOfPolynomialPlot[1_610].X = 16.10
 	pointsOfPolynomialPlot[1_610].Y = 275.256
 
 	pointsOfPolynomialPlot[1_611].X = 16.11
@@ -4874,7 +4874,7 @@ func main() {
 	pointsOfPolynomialPlot[1_619].X = 16.19
 	pointsOfPolynomialPlot[1_619].Y = 287.231
 
-	pointsOfPolynomialPlot[1_620].X = 16.2
+	pointsOfPolynomialPlot[1_620].X = 16.20
 	pointsOfPolynomialPlot[1_620].Y = 288.586
 
 	pointsOfPolynomialPlot[1_621].X = 16.21
@@ -4904,7 +4904,7 @@ func main() {
 	pointsOfPolynomialPlot[1_629].X = 16.29
 	pointsOfPolynomialPlot[1_629].Y = 300.992
 
-	pointsOfPolynomialPlot[1_630].X = 16.3
+	pointsOfPolynomialPlot[1_630].X = 16.30
 	pointsOfPolynomialPlot[1_630].Y = 302.395
 
 	pointsOfPolynomialPlot[1_631].X = 16.31
@@ -4934,7 +4934,7 @@ func main() {
 	pointsOfPolynomialPlot[1_639].X = 16.39
 	pointsOfPolynomialPlot[1_639].Y = 315.242
 
-	pointsOfPolynomialPlot[1_640].X = 16.4
+	pointsOfPolynomialPlot[1_640].X = 16.40
 	pointsOfPolynomialPlot[1_640].Y = 316.694
 
 	pointsOfPolynomialPlot[1_641].X = 16.41
@@ -4964,7 +4964,7 @@ func main() {
 	pointsOfPolynomialPlot[1_649].X = 16.49
 	pointsOfPolynomialPlot[1_649].Y = 329.993
 
-	pointsOfPolynomialPlot[1_650].X = 16.5
+	pointsOfPolynomialPlot[1_650].X = 16.50
 	pointsOfPolynomialPlot[1_650].Y = 331.497
 
 	pointsOfPolynomialPlot[1_651].X = 16.51
@@ -4994,7 +4994,7 @@ func main() {
 	pointsOfPolynomialPlot[1_659].X = 16.59
 	pointsOfPolynomialPlot[1_659].Y = 345.259
 
-	pointsOfPolynomialPlot[1_660].X = 16.6
+	pointsOfPolynomialPlot[1_660].X = 16.60
 	pointsOfPolynomialPlot[1_660].Y = 346.814
 
 	pointsOfPolynomialPlot[1_661].X = 16.61
@@ -5024,7 +5024,7 @@ func main() {
 	pointsOfPolynomialPlot[1_669].X = 16.69
 	pointsOfPolynomialPlot[1_669].Y = 361.05
 
-	pointsOfPolynomialPlot[1_670].X = 16.7
+	pointsOfPolynomialPlot[1_670].X = 16.70
 	pointsOfPolynomialPlot[1_670].Y = 362.659
 
 	pointsOfPolynomialPlot[1_671].X = 16.71
@@ -5054,7 +5054,7 @@ func main() {
 	pointsOfPolynomialPlot[1_679].X = 16.79
 	pointsOfPolynomialPlot[1_679].Y = 377.38
 
-	pointsOfPolynomialPlot[1_680].X = 16.8
+	pointsOfPolynomialPlot[1_680].X = 16.80
 	pointsOfPolynomialPlot[1_680].Y = 379.043
 
 	pointsOfPolynomialPlot[1_681].X = 16.81
@@ -5084,7 +5084,7 @@ func main() {
 	pointsOfPolynomialPlot[1_689].X = 16.89
 	pointsOfPolynomialPlot[1_689].Y = 394.262
 
-	pointsOfPolynomialPlot[1_690].X = 16.9
+	pointsOfPolynomialPlot[1_690].X = 16.90
 	pointsOfPolynomialPlot[1_690].Y = 395.981
 
 	pointsOfPolynomialPlot[1_691].X = 16.91
@@ -5144,7 +5144,7 @@ func main() {
 	pointsOfPolynomialPlot[1_709].X = 17.09
 	pointsOfPolynomialPlot[1_709].Y = 429.732
 
-	pointsOfPolynomialPlot[1_710].X = 17.1
+	pointsOfPolynomialPlot[1_710].X = 17.10
 	pointsOfPolynomialPlot[1_710].Y = 431.566
 
 	pointsOfPolynomialPlot[1_711].X = 17.11
@@ -5174,7 +5174,7 @@ func main() {
 	pointsOfPolynomialPlot[1_719].X = 17.19
 	pointsOfPolynomialPlot[1_719].Y = 448.346
 
-	pointsOfPolynomialPlot[1_720].X = 17.2
+	pointsOfPolynomialPlot[1_720].X = 17.20
 	pointsOfPolynomialPlot[1_720].Y = 450.24
 
 	pointsOfPolynomialPlot[1_721].X = 17.21
@@ -5204,7 +5204,7 @@ func main() {
 	pointsOfPolynomialPlot[1_729].X = 17.29
 	pointsOfPolynomialPlot[1_729].Y = 467.565
 
-	pointsOfPolynomialPlot[1_730].X = 17.3
+	pointsOfPolynomialPlot[1_730].X = 17.30
 	pointsOfPolynomialPlot[1_730].Y = 469.52
 
 	pointsOfPolynomialPlot[1_731].X = 17.31
@@ -5234,7 +5234,7 @@ func main() {
 	pointsOfPolynomialPlot[1_739].X = 17.39
 	pointsOfPolynomialPlot[1_739].Y = 487.402
 
-	pointsOfPolynomialPlot[1_740].X = 17.4
+	pointsOfPolynomialPlot[1_740].X = 17.40
 	pointsOfPolynomialPlot[1_740].Y = 489.42
 
 	pointsOfPolynomialPlot[1_741].X = 17.41
@@ -5264,7 +5264,7 @@ func main() {
 	pointsOfPolynomialPlot[1_749].X = 17.49
 	pointsOfPolynomialPlot[1_749].Y = 507.871
 
-	pointsOfPolynomialPlot[1_750].X = 17.5
+	pointsOfPolynomialPlot[1_750].X = 17.50
 	pointsOfPolynomialPlot[1_750].Y = 509.953
 
 	pointsOfPolynomialPlot[1_751].X = 17.51
@@ -5294,7 +5294,7 @@ func main() {
 	pointsOfPolynomialPlot[1_759].X = 17.59
 	pointsOfPolynomialPlot[1_759].Y = 528.986
 
-	pointsOfPolynomialPlot[1_760].X = 17.6
+	pointsOfPolynomialPlot[1_760].X = 17.60
 	pointsOfPolynomialPlot[1_760].Y = 531.133
 
 	pointsOfPolynomialPlot[1_761].X = 17.61
@@ -5324,7 +5324,7 @@ func main() {
 	pointsOfPolynomialPlot[1_769].X = 17.69
 	pointsOfPolynomialPlot[1_769].Y = 550.761
 
-	pointsOfPolynomialPlot[1_770].X = 17.7
+	pointsOfPolynomialPlot[1_770].X = 17.70
 	pointsOfPolynomialPlot[1_770].Y = 552.976
 
 	pointsOfPolynomialPlot[1_771].X = 17.71
@@ -5354,7 +5354,7 @@ func main() {
 	pointsOfPolynomialPlot[1_779].X = 17.79
 	pointsOfPolynomialPlot[1_779].Y = 573.212
 
-	pointsOfPolynomialPlot[1_780].X = 17.8
+	pointsOfPolynomialPlot[1_780].X = 17.80
 	pointsOfPolynomialPlot[1_780].Y = 575.494
 
 	pointsOfPolynomialPlot[1_781].X = 17.81
@@ -5384,7 +5384,7 @@ func main() {
 	pointsOfPolynomialPlot[1_789].X = 17.89
 	pointsOfPolynomialPlot[1_789].Y = 596.352
 
-	pointsOfPolynomialPlot[1_790].X = 17.9
+	pointsOfPolynomialPlot[1_790].X = 17.90
 	pointsOfPolynomialPlot[1_790].Y = 598.704
 
 	pointsOfPolynomialPlot[1_791].X = 17.91
@@ -5444,7 +5444,7 @@ func main() {
 	pointsOfPolynomialPlot[1_809].X = 18.09
 	pointsOfPolynomialPlot[1_809].Y = 644.76
 
-	pointsOfPolynomialPlot[1_810].X = 18.1
+	pointsOfPolynomialPlot[1_810].X = 18.10
 	pointsOfPolynomialPlot[1_810].Y = 647.257
 
 	pointsOfPolynomialPlot[1_811].X = 18.11
@@ -5474,7 +5474,7 @@ func main() {
 	pointsOfPolynomialPlot[1_819].X = 18.19
 	pointsOfPolynomialPlot[1_819].Y = 670.059
 
-	pointsOfPolynomialPlot[1_820].X = 18.2
+	pointsOfPolynomialPlot[1_820].X = 18.20
 	pointsOfPolynomialPlot[1_820].Y = 672.63
 
 	pointsOfPolynomialPlot[1_821].X = 18.21
@@ -5504,7 +5504,7 @@ func main() {
 	pointsOfPolynomialPlot[1_829].X = 18.29
 	pointsOfPolynomialPlot[1_829].Y = 696.108
 
-	pointsOfPolynomialPlot[1_830].X = 18.3
+	pointsOfPolynomialPlot[1_830].X = 18.30
 	pointsOfPolynomialPlot[1_830].Y = 698.755
 
 	pointsOfPolynomialPlot[1_831].X = 18.31
@@ -5534,7 +5534,7 @@ func main() {
 	pointsOfPolynomialPlot[1_839].X = 18.39
 	pointsOfPolynomialPlot[1_839].Y = 722.924
 
-	pointsOfPolynomialPlot[1_840].X = 18.4
+	pointsOfPolynomialPlot[1_840].X = 18.40
 	pointsOfPolynomialPlot[1_840].Y = 725.648
 
 	pointsOfPolynomialPlot[1_841].X = 18.41
@@ -5564,7 +5564,7 @@ func main() {
 	pointsOfPolynomialPlot[1_849].X = 18.49
 	pointsOfPolynomialPlot[1_849].Y = 750.521
 
-	pointsOfPolynomialPlot[1_850].X = 18.5
+	pointsOfPolynomialPlot[1_850].X = 18.50
 	pointsOfPolynomialPlot[1_850].Y = 753.325
 
 	pointsOfPolynomialPlot[1_851].X = 18.51
@@ -5594,7 +5594,7 @@ func main() {
 	pointsOfPolynomialPlot[1_859].X = 18.59
 	pointsOfPolynomialPlot[1_859].Y = 778.917
 
-	pointsOfPolynomialPlot[1_860].X = 18.6
+	pointsOfPolynomialPlot[1_860].X = 18.60
 	pointsOfPolynomialPlot[1_860].Y = 781.801
 
 	pointsOfPolynomialPlot[1_861].X = 18.61
@@ -5624,7 +5624,7 @@ func main() {
 	pointsOfPolynomialPlot[1_869].X = 18.69
 	pointsOfPolynomialPlot[1_869].Y = 808.127
 
-	pointsOfPolynomialPlot[1_870].X = 18.7
+	pointsOfPolynomialPlot[1_870].X = 18.70
 	pointsOfPolynomialPlot[1_870].Y = 811.093
 
 	pointsOfPolynomialPlot[1_871].X = 18.71
@@ -5654,7 +5654,7 @@ func main() {
 	pointsOfPolynomialPlot[1_879].X = 18.79
 	pointsOfPolynomialPlot[1_879].Y = 838.126
 
-	pointsOfPolynomialPlot[1_880].X = 18.8
+	pointsOfPolynomialPlot[1_880].X = 18.80
 	pointsOfPolynomialPlot[1_880].Y = 841.219
 
 	pointsOfPolynomialPlot[1_881].X = 18.81
@@ -5684,7 +5684,7 @@ func main() {
 	pointsOfPolynomialPlot[1_889].X = 18.89
 	pointsOfPolynomialPlot[1_889].Y = 869.057
 
-	pointsOfPolynomialPlot[1_890].X = 18.9
+	pointsOfPolynomialPlot[1_890].X = 18.90
 	pointsOfPolynomialPlot[1_890].Y = 872.193
 
 	pointsOfPolynomialPlot[1_891].X = 18.91
@@ -5744,7 +5744,7 @@ func main() {
 	pointsOfPolynomialPlot[1_909].X = 19.09
 	pointsOfPolynomialPlot[1_909].Y = 933.447
 
-	pointsOfPolynomialPlot[1_910].X = 19.1
+	pointsOfPolynomialPlot[1_910].X = 19.10
 	pointsOfPolynomialPlot[1_910].Y = 936.759
 
 	pointsOfPolynomialPlot[1_911].X = 19.11
@@ -5774,7 +5774,7 @@ func main() {
 	pointsOfPolynomialPlot[1_919].X = 19.19
 	pointsOfPolynomialPlot[1_919].Y = 966.982
 
-	pointsOfPolynomialPlot[1_920].X = 19.2
+	pointsOfPolynomialPlot[1_920].X = 19.20
 	pointsOfPolynomialPlot[1_920].Y = 970.385
 
 	pointsOfPolynomialPlot[1_921].X = 19.21
@@ -5804,7 +5804,7 @@ func main() {
 	pointsOfPolynomialPlot[1_929].X = 19.29
 	pointsOfPolynomialPlot[1_929].Y = 1_001.434
 
-	pointsOfPolynomialPlot[1_930].X = 19.3
+	pointsOfPolynomialPlot[1_930].X = 19.30
 	pointsOfPolynomialPlot[1_930].Y = 1_004.93
 
 	pointsOfPolynomialPlot[1_931].X = 19.31
@@ -5834,7 +5834,7 @@ func main() {
 	pointsOfPolynomialPlot[1_939].X = 19.39
 	pointsOfPolynomialPlot[1_939].Y = 1_036.821
 
-	pointsOfPolynomialPlot[1_940].X = 19.4
+	pointsOfPolynomialPlot[1_940].X = 19.40
 	pointsOfPolynomialPlot[1_940].Y = 1_040.412
 
 	pointsOfPolynomialPlot[1_941].X = 19.41
@@ -5864,7 +5864,7 @@ func main() {
 	pointsOfPolynomialPlot[1_949].X = 19.49
 	pointsOfPolynomialPlot[1_949].Y = 1_073.161
 
-	pointsOfPolynomialPlot[1_950].X = 19.5
+	pointsOfPolynomialPlot[1_950].X = 19.50
 	pointsOfPolynomialPlot[1_950].Y = 1_076.848
 
 	pointsOfPolynomialPlot[1_951].X = 19.51
@@ -5894,7 +5894,7 @@ func main() {
 	pointsOfPolynomialPlot[1_959].X = 19.59
 	pointsOfPolynomialPlot[1_959].Y = 1_110.472
 
-	pointsOfPolynomialPlot[1_960].X = 19.6
+	pointsOfPolynomialPlot[1_960].X = 19.60
 	pointsOfPolynomialPlot[1_960].Y = 1_114.257
 
 	pointsOfPolynomialPlot[1_961].X = 19.61
@@ -5924,7 +5924,7 @@ func main() {
 	pointsOfPolynomialPlot[1_969].X = 19.69
 	pointsOfPolynomialPlot[1_969].Y = 1_148.773
 
-	pointsOfPolynomialPlot[1_970].X = 19.7
+	pointsOfPolynomialPlot[1_970].X = 19.70
 	pointsOfPolynomialPlot[1_970].Y = 1_152.658
 
 	pointsOfPolynomialPlot[1_971].X = 19.71
@@ -5954,7 +5954,7 @@ func main() {
 	pointsOfPolynomialPlot[1_979].X = 19.79
 	pointsOfPolynomialPlot[1_979].Y = 1_188.082
 
-	pointsOfPolynomialPlot[1_980].X = 19.8
+	pointsOfPolynomialPlot[1_980].X = 19.80
 	pointsOfPolynomialPlot[1_980].Y = 1_192.07
 
 	pointsOfPolynomialPlot[1_981].X = 19.81
@@ -5984,7 +5984,7 @@ func main() {
 	pointsOfPolynomialPlot[1_989].X = 19.89
 	pointsOfPolynomialPlot[1_989].Y = 1_228.419
 
-	pointsOfPolynomialPlot[1_990].X = 19.9
+	pointsOfPolynomialPlot[1_990].X = 19.90
 	pointsOfPolynomialPlot[1_990].Y = 1_232.51
 
 	pointsOfPolynomialPlot[1_991].X = 19.91
@@ -6046,7 +6046,7 @@ func main() {
 	polynomialPlot.Legend.Add("f(x)", plotLine)
 
 	if err := polynomialPlot.Save(10*vg.Inch, 10*vg.Inch,
-		"Polynomial-plot-01.png"); err != nil {
+		"Polynomial-function-plot-01.png"); err != nil {
 
 		panic(err)
 	}
