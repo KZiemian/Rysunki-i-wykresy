@@ -6027,7 +6027,7 @@ func main() {
 
 	plotOfFunction := plot.New()
 
-	plotOfFunction.Title.Text = "Plot of function Jn(3, x)"
+	plotOfFunction.Title.Text = "Plot of function J3(x) (Jn(3, x))"
 
 	plotOfFunction.X.Label.Text = "x"
 	plotOfFunction.Y.Label.Text = "y"
@@ -6042,7 +6042,7 @@ func main() {
 	plotLine.Color = color.RGBA{R: 200, G: 100, B: 100}
 
 	plotOfFunction.Add(plotLine)
-	plotOfFunction.Legend.Add("f(x)", plotLine)
+	plotOfFunction.Legend.Add("J3(x)", plotLine)
 
 	if err := plotOfFunction.Save(10*vg.Inch, 10*vg.Inch,
 		"Bessel-function-3th-order-plot-01.png"); err != nil {
