@@ -3959,7 +3959,7 @@ func main() {
 	pointsOfFunctionPlot[1_314].Y = 1_415_585.28
 
 	pointsOfFunctionPlot[1_315].X = 8.81
-	pointsOfFunctionPlot[1_315].Y = 1_415_585.28
+	pointsOfFunctionPlot[1_315].Y = 1_438_552.573
 
 	pointsOfFunctionPlot[1_316].X = 8.82
 	pointsOfFunctionPlot[1_316].Y = 1_461_892.5
@@ -4344,7 +4344,7 @@ func main() {
 	plotLine.Color = color.RGBA{R: 200, G: 100, B: 100}
 
 	plotOfFunction.Add(plotLine)
-	plotOfFunction.Legend.Add("f(x)", plotLine)
+	plotOfFunction.Legend.Add("5^x", plotLine)
 
 	if err := plotOfFunction.Save(10*vg.Inch, 10*vg.Inch,
 		"Power-of-5-function-plot-01.png"); err != nil {

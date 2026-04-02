@@ -1630,7 +1630,7 @@ func main() {
 	plotLine.Color = color.RGBA{R: 200, G: 100, B: 100}
 
 	plotOfFunction.Add(plotLine)
-	plotOfFunction.Legend.Add("f(x)", plotLine)
+	plotOfFunction.Legend.Add("exp(-x^2)", plotLine)
 
 	if err := plotOfFunction.Save(10*vg.Inch, 10*vg.Inch,
 		"Gauss-function-plot-01.png"); err != nil {

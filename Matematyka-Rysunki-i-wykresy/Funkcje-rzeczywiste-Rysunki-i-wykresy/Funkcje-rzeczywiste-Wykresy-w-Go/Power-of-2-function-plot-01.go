@@ -1754,7 +1754,7 @@ func main() {
 	pointsOfFunctionPlot[579].Y = 0.054
 
 	pointsOfFunctionPlot[580].X = -4.20
-	pointsOfFunctionPlot[580].Y = 0.045
+	pointsOfFunctionPlot[580].Y = 0.054
 
 	pointsOfFunctionPlot[581].X = -4.19
 	pointsOfFunctionPlot[581].Y = 0.054
@@ -2987,7 +2987,7 @@ func main() {
 	pointsOfFunctionPlot[990].Y = 0.933
 
 	pointsOfFunctionPlot[991].X = -0.09
-	pointsOfFunctionPlot[991].Y = 0.946
+	pointsOfFunctionPlot[991].Y = 0.939
 
 	pointsOfFunctionPlot[992].X = -0.08
 	pointsOfFunctionPlot[992].Y = 0.946
@@ -6042,7 +6042,7 @@ func main() {
 	plotLine.Color = color.RGBA{R: 200, G: 100, B: 100}
 
 	plotOfFunction.Add(plotLine)
-	plotOfFunction.Legend.Add("f(x)", plotLine)
+	plotOfFunction.Legend.Add("2^x", plotLine)
 
 	if err := plotOfFunction.Save(10*vg.Inch, 10*vg.Inch,
 		"Power-of-2-function-plot-01.png"); err != nil {

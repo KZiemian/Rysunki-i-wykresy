@@ -3605,7 +3605,7 @@ func main() {
 	plotLine.Color = color.RGBA{R: 200, G: 100, B: 100}
 
 	plotOfFunction.Add(plotLine)
-	plotOfFunction.Legend.Add("f(x)", plotLine)
+	plotOfFunction.Legend.Add("erf(x)", plotLine)
 
 	if err := plotOfFunction.Save(10*vg.Inch, 10*vg.Inch,
 		"erf-function-plot-01.png"); err != nil {

@@ -3027,7 +3027,7 @@ func main() {
 
 	plotOfFunction := plot.New()
 
-	plotOfFunction.Title.Text = "Plot of function f(x) = x exp(-(x - 1))"
+	plotOfFunction.Title.Text = "Plot of function f(x) = x * exp(-(x - 1))"
 
 	plotOfFunction.X.Label.Text = "x"
 	plotOfFunction.Y.Label.Text = "y"

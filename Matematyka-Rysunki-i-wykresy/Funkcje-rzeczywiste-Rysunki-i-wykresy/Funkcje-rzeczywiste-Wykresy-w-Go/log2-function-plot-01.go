@@ -3042,7 +3042,7 @@ func main() {
 	plotLine.Color = color.RGBA{R: 200, G: 100, B: 100}
 
 	plotOfFunction.Add(plotLine)
-	plotOfFunction.Legend.Add("log2(x)", plotLine)
+	plotOfFunction.Legend.Add("log_2(x)", plotLine)
 
 	if err := plotOfFunction.Save(10*vg.Inch, 10*vg.Inch,
 		"log2-function-plot-01.png"); err != nil {

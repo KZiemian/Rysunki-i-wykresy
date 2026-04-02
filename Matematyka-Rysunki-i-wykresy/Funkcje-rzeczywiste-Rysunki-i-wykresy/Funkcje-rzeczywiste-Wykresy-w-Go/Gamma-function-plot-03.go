@@ -1557,7 +1557,7 @@ func main() {
 	plotLine.Color = color.RGBA{R: 200, G: 100, B: 100}
 
 	plotOfFunction.Add(plotLine)
-	plotOfFunction.Legend.Add("f(x)", plotLine)
+	plotOfFunction.Legend.Add("Gamma(x)", plotLine)
 
 
 

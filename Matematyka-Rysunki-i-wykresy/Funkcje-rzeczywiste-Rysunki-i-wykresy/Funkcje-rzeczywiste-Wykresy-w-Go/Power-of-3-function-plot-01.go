@@ -169,7 +169,7 @@ func main() {
 	pointsOfFunctionPlot[51].X = -5.84
 	pointsOfFunctionPlot[51].Y = 0.001
 
-	pointsOfFunctionPlot[52].X = -5.82
+	pointsOfFunctionPlot[52].X = -5.83
 	pointsOfFunctionPlot[52].Y = 0.001
 
 	pointsOfFunctionPlot[53].X = -5.82
@@ -4947,7 +4947,7 @@ func main() {
 	plotLine.Color = color.RGBA{R: 200, G: 100, B: 100}
 
 	plotOfFunction.Add(plotLine)
-	plotOfFunction.Legend.Add("f(x)", plotLine)
+	plotOfFunction.Legend.Add("3^x", plotLine)
 
 	if err := plotOfFunction.Save(10*vg.Inch, 10*vg.Inch,
 		"Power-of-3-function-plot-01.png"); err != nil {

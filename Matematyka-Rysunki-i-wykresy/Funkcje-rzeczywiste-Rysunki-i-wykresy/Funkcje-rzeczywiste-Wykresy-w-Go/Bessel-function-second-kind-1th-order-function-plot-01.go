@@ -9,72 +9,72 @@ import (
 )
 
 func main() {
-	// Plot of function J0(x).
+	// Plot of function Y1(x).
 
 	pointsOfFunctionPlot := make(plotter.XYs, 2_001)
 
-	// pointsOfFunctionPlot[0].X = 0.001
-	// pointsOfFunctionPlot[0].Y = -636.622
+	pointsOfFunctionPlot[0].X = 0.001
+	pointsOfFunctionPlot[0].Y = -636.622
 
-	// pointsOfFunctionPlot[1].X = 0.01
-	// pointsOfFunctionPlot[1].Y = -63.678
+	pointsOfFunctionPlot[1].X = 0.01
+	pointsOfFunctionPlot[1].Y = -63.678
 
-	// pointsOfFunctionPlot[2].X = 0.02
-	// pointsOfFunctionPlot[2].Y = -31.859
+	pointsOfFunctionPlot[2].X = 0.02
+	pointsOfFunctionPlot[2].Y = -31.859
 
-	// pointsOfFunctionPlot[3].X = 0.03
-	// pointsOfFunctionPlot[3].Y = -21.26
+	pointsOfFunctionPlot[3].X = 0.03
+	pointsOfFunctionPlot[3].Y = -21.26
 
-	// pointsOfFunctionPlot[4].X = 0.04
-	// pointsOfFunctionPlot[4].Y = -15.964
+	pointsOfFunctionPlot[4].X = 0.04
+	pointsOfFunctionPlot[4].Y = -15.964
 
-	// pointsOfFunctionPlot[5].X = 0.05
-	// pointsOfFunctionPlot[5].Y = -12.789
+	pointsOfFunctionPlot[5].X = 0.05
+	pointsOfFunctionPlot[5].Y = -12.789
 
-	// pointsOfFunctionPlot[6].X = 0.06
-	// pointsOfFunctionPlot[6].Y = -10.675
+	pointsOfFunctionPlot[6].X = 0.06
+	pointsOfFunctionPlot[6].Y = -10.675
 
-	// pointsOfFunctionPlot[7].X = 0.07
-	// pointsOfFunctionPlot[7].Y = -9.167
+	pointsOfFunctionPlot[7].X = 0.07
+	pointsOfFunctionPlot[7].Y = -9.167
 
-	// pointsOfFunctionPlot[8].X = 0.08
-	// pointsOfFunctionPlot[8].Y = -8.037
+	pointsOfFunctionPlot[8].X = 0.08
+	pointsOfFunctionPlot[8].Y = -8.037
 
-	// pointsOfFunctionPlot[9].X = 0.09
-	// pointsOfFunctionPlot[9].Y = -7.16
+	pointsOfFunctionPlot[9].X = 0.09
+	pointsOfFunctionPlot[9].Y = -7.16
 
-	// pointsOfFunctionPlot[10].X = 0.10
-	// pointsOfFunctionPlot[10].Y = -6.458
+	pointsOfFunctionPlot[10].X = 0.10
+	pointsOfFunctionPlot[10].Y = -6.458
 
-	// pointsOfFunctionPlot[11].X = 0.11
-	// pointsOfFunctionPlot[11].Y = -5.886
+	pointsOfFunctionPlot[11].X = 0.11
+	pointsOfFunctionPlot[11].Y = -5.886
 
-	// pointsOfFunctionPlot[12].X = 0.12
-	// pointsOfFunctionPlot[12].Y = -5.409
+	pointsOfFunctionPlot[12].X = 0.12
+	pointsOfFunctionPlot[12].Y = -5.409
 
-	// pointsOfFunctionPlot[13].X = 0.13
-	// pointsOfFunctionPlot[13].Y = -5.006
+	pointsOfFunctionPlot[13].X = 0.13
+	pointsOfFunctionPlot[13].Y = -5.006
 
-	// pointsOfFunctionPlot[14].X = 0.14
-	// pointsOfFunctionPlot[14].Y = -4.661
+	pointsOfFunctionPlot[14].X = 0.14
+	pointsOfFunctionPlot[14].Y = -4.661
 
-	// pointsOfFunctionPlot[15].X = 0.15
-	// pointsOfFunctionPlot[15].Y = -4.363
+	pointsOfFunctionPlot[15].X = 0.15
+	pointsOfFunctionPlot[15].Y = -4.363
 
-	// pointsOfFunctionPlot[16].X = 0.16
-	// pointsOfFunctionPlot[16].Y = -4.103
+	pointsOfFunctionPlot[16].X = 0.16
+	pointsOfFunctionPlot[16].Y = -4.103
 
-	// pointsOfFunctionPlot[17].X = 0.17
-	// pointsOfFunctionPlot[17].Y = -3.873
+	pointsOfFunctionPlot[17].X = 0.17
+	pointsOfFunctionPlot[17].Y = -3.873
 
-	// pointsOfFunctionPlot[18].X = 0.18
-	// pointsOfFunctionPlot[18].Y = -3.669
+	pointsOfFunctionPlot[18].X = 0.18
+	pointsOfFunctionPlot[18].Y = -3.669
 
-	// pointsOfFunctionPlot[19].X = 0.19
-	// pointsOfFunctionPlot[19].Y = -3.487
+	pointsOfFunctionPlot[19].X = 0.19
+	pointsOfFunctionPlot[19].Y = -3.487
 
-	// pointsOfFunctionPlot[20].X = 0.20
-	// pointsOfFunctionPlot[20].Y = -3.323
+	pointsOfFunctionPlot[20].X = 0.20
+	pointsOfFunctionPlot[20].Y = -3.323
 
 	pointsOfFunctionPlot[21].X = 0.21
 	pointsOfFunctionPlot[21].Y = -3.175
@@ -3797,721 +3797,721 @@ func main() {
 	pointsOfFunctionPlot[1_260].Y = -0.168
 
 	pointsOfFunctionPlot[1_261].X = 12.61
-	pointsOfFunctionPlot[1_261].Y = -0.164
+	pointsOfFunctionPlot[1_261].Y = -0.17
 
 	pointsOfFunctionPlot[1_262].X = 12.62
-	pointsOfFunctionPlot[1_262].Y = -0.165
+	pointsOfFunctionPlot[1_262].Y = -0.171
 
 	pointsOfFunctionPlot[1_263].X = 12.63
-	pointsOfFunctionPlot[1_263].Y = -0.166
+	pointsOfFunctionPlot[1_263].Y = -0.173
 
 	pointsOfFunctionPlot[1_264].X = 12.64
-	pointsOfFunctionPlot[1_264].Y = -0.168
+	pointsOfFunctionPlot[1_264].Y = -0.174
 
 	pointsOfFunctionPlot[1_265].X = 12.65
-	pointsOfFunctionPlot[1_265].Y = -0.169
+	pointsOfFunctionPlot[1_265].Y = -0.174
 
 	pointsOfFunctionPlot[1_266].X = 12.66
-	pointsOfFunctionPlot[1_266].Y = -0.171
+	pointsOfFunctionPlot[1_266].Y = -0.177
 
 	pointsOfFunctionPlot[1_267].X = 12.67
-	pointsOfFunctionPlot[1_267].Y = -0.172
+	pointsOfFunctionPlot[1_267].Y = -0.178
 
 	pointsOfFunctionPlot[1_268].X = 12.68
-	pointsOfFunctionPlot[1_268].Y = -0.173
+	pointsOfFunctionPlot[1_268].Y = -0.179
 
 	pointsOfFunctionPlot[1_269].X = 12.69
-	pointsOfFunctionPlot[1_269].Y = -0.175
+	pointsOfFunctionPlot[1_269].Y = -0.18
 
 	pointsOfFunctionPlot[1_270].X = 12.70
-	pointsOfFunctionPlot[1_270].Y = -0.176
+	pointsOfFunctionPlot[1_270].Y = -0.182
 
 	pointsOfFunctionPlot[1_271].X = 12.71
-	pointsOfFunctionPlot[1_271].Y = -0.177
+	pointsOfFunctionPlot[1_271].Y = -0.183
 
 	pointsOfFunctionPlot[1_272].X = 12.72
-	pointsOfFunctionPlot[1_272].Y = -0.179
+	pointsOfFunctionPlot[1_272].Y = -0.184
 
 	pointsOfFunctionPlot[1_273].X = 12.73
-	pointsOfFunctionPlot[1_273].Y = -0.18
+	pointsOfFunctionPlot[1_273].Y = -0.185
 
 	pointsOfFunctionPlot[1_274].X = 12.74
-	pointsOfFunctionPlot[1_274].Y = -0.181
+	pointsOfFunctionPlot[1_274].Y = -0.186
 
 	pointsOfFunctionPlot[1_275].X = 12.75
-	pointsOfFunctionPlot[1_275].Y = -0.182
+	pointsOfFunctionPlot[1_275].Y = -0.188
 
 	pointsOfFunctionPlot[1_276].X = 12.76
-	pointsOfFunctionPlot[1_276].Y = -0.184
+	pointsOfFunctionPlot[1_276].Y = -0.189
 
 	pointsOfFunctionPlot[1_277].X = 12.77
-	pointsOfFunctionPlot[1_277].Y = -0.185
+	pointsOfFunctionPlot[1_277].Y = -0.19
 
 	pointsOfFunctionPlot[1_278].X = 12.78
-	pointsOfFunctionPlot[1_278].Y = -0.186
+	pointsOfFunctionPlot[1_278].Y = -0.191
 
 	pointsOfFunctionPlot[1_279].X = 12.79
-	pointsOfFunctionPlot[1_279].Y = -0.187
+	pointsOfFunctionPlot[1_279].Y = -0.192
 
 	pointsOfFunctionPlot[1_280].X = 12.80
-	pointsOfFunctionPlot[1_280].Y = -0.188
+	pointsOfFunctionPlot[1_280].Y = -0.193
 
 	pointsOfFunctionPlot[1_281].X = 12.81
-	pointsOfFunctionPlot[1_281].Y = 0.189
+	pointsOfFunctionPlot[1_281].Y = -0.194
 
 	pointsOfFunctionPlot[1_282].X = 12.82
-	pointsOfFunctionPlot[1_282].Y = 0.19
+	pointsOfFunctionPlot[1_282].Y = -0.195
 
 	pointsOfFunctionPlot[1_283].X = 12.83
-	pointsOfFunctionPlot[1_283].Y = 0.191
+	pointsOfFunctionPlot[1_283].Y = -0.196
 
 	pointsOfFunctionPlot[1_284].X = 12.84
-	pointsOfFunctionPlot[1_284].Y = 0.192
+	pointsOfFunctionPlot[1_284].Y = -0.197
 
 	pointsOfFunctionPlot[1_285].X = 12.85
-	pointsOfFunctionPlot[1_285].Y = 0.194
+	pointsOfFunctionPlot[1_285].Y = -0.198
 
 	pointsOfFunctionPlot[1_286].X = 12.86
-	pointsOfFunctionPlot[1_286].Y = 0.195
+	pointsOfFunctionPlot[1_286].Y = -0.199
 
 	pointsOfFunctionPlot[1_287].X = 12.87
-	pointsOfFunctionPlot[1_287].Y = 0.196
+	pointsOfFunctionPlot[1_287].Y = -0.2
 
 	pointsOfFunctionPlot[1_288].X = 12.88
-	pointsOfFunctionPlot[1_288].Y = 0.196
+	pointsOfFunctionPlot[1_288].Y = -0.201
 
 	pointsOfFunctionPlot[1_289].X = 12.89
-	pointsOfFunctionPlot[1_289].Y = 0.197
+	pointsOfFunctionPlot[1_289].Y = -0.201
 
 	pointsOfFunctionPlot[1_290].X = 12.90
-	pointsOfFunctionPlot[1_290].Y = 0.198
+	pointsOfFunctionPlot[1_290].Y = -0.202
 
 	pointsOfFunctionPlot[1_291].X = 12.91
-	pointsOfFunctionPlot[1_291].Y = 0.199
+	pointsOfFunctionPlot[1_291].Y = -0.202
 
 	pointsOfFunctionPlot[1_292].X = 12.92
-	pointsOfFunctionPlot[1_292].Y = 0.2
+	pointsOfFunctionPlot[1_292].Y = -0.204
 
 	pointsOfFunctionPlot[1_293].X = 12.93
-	pointsOfFunctionPlot[1_293].Y = 0.201
+	pointsOfFunctionPlot[1_293].Y = -0.205
 
 	pointsOfFunctionPlot[1_294].X = 12.94
-	pointsOfFunctionPlot[1_294].Y = 0.202
+	pointsOfFunctionPlot[1_294].Y = -0.205
 
 	pointsOfFunctionPlot[1_295].X = 12.95
-	pointsOfFunctionPlot[1_295].Y = 0.203
+	pointsOfFunctionPlot[1_295].Y = -0.206
 
 	pointsOfFunctionPlot[1_296].X = 12.96
-	pointsOfFunctionPlot[1_296].Y = 0.203
+	pointsOfFunctionPlot[1_296].Y = -0.207
 
 	pointsOfFunctionPlot[1_297].X = 12.97
-	pointsOfFunctionPlot[1_297].Y = 0.204
+	pointsOfFunctionPlot[1_297].Y = -0.208
 
 	pointsOfFunctionPlot[1_298].X = 12.98
-	pointsOfFunctionPlot[1_298].Y = 0.205
+	pointsOfFunctionPlot[1_298].Y = -0.208
 
 	pointsOfFunctionPlot[1_299].X = 12.99
-	pointsOfFunctionPlot[1_299].Y = 0.206
+	pointsOfFunctionPlot[1_299].Y = -0.209
 
 	pointsOfFunctionPlot[1_300].X = 13.0
-	pointsOfFunctionPlot[1_300].Y = 0.206
+	pointsOfFunctionPlot[1_300].Y = -0.21
 
 	pointsOfFunctionPlot[1_301].X = 13.01
-	pointsOfFunctionPlot[1_301].Y = 0.207
+	pointsOfFunctionPlot[1_301].Y = -0.21
 
 	pointsOfFunctionPlot[1_302].X = 13.02
-	pointsOfFunctionPlot[1_302].Y = 0.208
+	pointsOfFunctionPlot[1_302].Y = -0.211
 
 	pointsOfFunctionPlot[1_303].X = 13.03
-	pointsOfFunctionPlot[1_303].Y = 0.208
+	pointsOfFunctionPlot[1_303].Y = -0.211
 
 	pointsOfFunctionPlot[1_304].X = 13.04
-	pointsOfFunctionPlot[1_304].Y = 0.209
+	pointsOfFunctionPlot[1_304].Y = -0.212
 
 	pointsOfFunctionPlot[1_305].X = 13.05
-	pointsOfFunctionPlot[1_305].Y = 0.21
+	pointsOfFunctionPlot[1_305].Y = -0.212
 
 	pointsOfFunctionPlot[1_306].X = 13.06
-	pointsOfFunctionPlot[1_306].Y = 0.21
+	pointsOfFunctionPlot[1_306].Y = -0.213
 
 	pointsOfFunctionPlot[1_307].X = 13.07
-	pointsOfFunctionPlot[1_307].Y = 0.211
+	pointsOfFunctionPlot[1_307].Y = -0.213
 
 	pointsOfFunctionPlot[1_308].X = 13.08
-	pointsOfFunctionPlot[1_308].Y = 0.211
+	pointsOfFunctionPlot[1_308].Y = -0.214
 
 	pointsOfFunctionPlot[1_309].X = 13.09
-	pointsOfFunctionPlot[1_309].Y = 0.212
+	pointsOfFunctionPlot[1_309].Y = -0.214
 
 	pointsOfFunctionPlot[1_310].X = 13.10
-	pointsOfFunctionPlot[1_310].Y = 0.212
+	pointsOfFunctionPlot[1_310].Y = -0.215
 
 	pointsOfFunctionPlot[1_311].X = 13.11
-	pointsOfFunctionPlot[1_311].Y = 0.213
+	pointsOfFunctionPlot[1_311].Y = -0.215
 
 	pointsOfFunctionPlot[1_312].X = 13.12
-	pointsOfFunctionPlot[1_312].Y = 0.213
+	pointsOfFunctionPlot[1_312].Y = -0.215
 
 	pointsOfFunctionPlot[1_313].X = 13.13
-	pointsOfFunctionPlot[1_313].Y = 0.214
+	pointsOfFunctionPlot[1_313].Y = -0.216
 
 	pointsOfFunctionPlot[1_314].X = 13.14
-	pointsOfFunctionPlot[1_314].Y = 0.214
+	pointsOfFunctionPlot[1_314].Y = -0.216
 
 	pointsOfFunctionPlot[1_315].X = 13.15
-	pointsOfFunctionPlot[1_315].Y = 0.215
+	pointsOfFunctionPlot[1_315].Y = -0.216
 
 	pointsOfFunctionPlot[1_316].X = 13.16
-	pointsOfFunctionPlot[1_316].Y = 0.215
+	pointsOfFunctionPlot[1_316].Y = -0.217
 
 	pointsOfFunctionPlot[1_317].X = 13.17
-	pointsOfFunctionPlot[1_317].Y = 0.215
+	pointsOfFunctionPlot[1_317].Y = -0.217
 
 	pointsOfFunctionPlot[1_318].X = 13.18
-	pointsOfFunctionPlot[1_318].Y = 0.216
+	pointsOfFunctionPlot[1_318].Y = -0.217
 
 	pointsOfFunctionPlot[1_319].X = 13.19
-	pointsOfFunctionPlot[1_319].Y = 0.216
+	pointsOfFunctionPlot[1_319].Y = -0.217
 
 	pointsOfFunctionPlot[1_320].X = 13.20
-	pointsOfFunctionPlot[1_320].Y = 0.216
+	pointsOfFunctionPlot[1_320].Y = -0.218
 
 	pointsOfFunctionPlot[1_321].X = 13.21
-	pointsOfFunctionPlot[1_321].Y = 0.216
+	pointsOfFunctionPlot[1_321].Y = -0.218
 
 	pointsOfFunctionPlot[1_322].X = 13.22
-	pointsOfFunctionPlot[1_322].Y = 0.217
+	pointsOfFunctionPlot[1_322].Y = -0.218
 
 	pointsOfFunctionPlot[1_323].X = 13.23
-	pointsOfFunctionPlot[1_323].Y = 0.217
+	pointsOfFunctionPlot[1_323].Y = -0.218
 
 	pointsOfFunctionPlot[1_324].X = 13.24
-	pointsOfFunctionPlot[1_324].Y = 0.217
+	pointsOfFunctionPlot[1_324].Y = -0.218
 
 	pointsOfFunctionPlot[1_325].X = 13.25
-	pointsOfFunctionPlot[1_325].Y = 0.217
+	pointsOfFunctionPlot[1_325].Y = -0.218
 
 	pointsOfFunctionPlot[1_326].X = 13.26
-	pointsOfFunctionPlot[1_326].Y = 0.217
+	pointsOfFunctionPlot[1_326].Y = -0.218
 
 	pointsOfFunctionPlot[1_327].X = 13.27
-	pointsOfFunctionPlot[1_327].Y = 0.218
+	pointsOfFunctionPlot[1_327].Y = -0.218
 
 	pointsOfFunctionPlot[1_328].X = 13.28
-	pointsOfFunctionPlot[1_328].Y = 0.218
+	pointsOfFunctionPlot[1_328].Y = -0.218
 
 	pointsOfFunctionPlot[1_329].X = 13.29
-	pointsOfFunctionPlot[1_329].Y = 0.218
+	pointsOfFunctionPlot[1_329].Y = -0.218
 
 	pointsOfFunctionPlot[1_330].X = 13.30
-	pointsOfFunctionPlot[1_330].Y = 0.218
+	pointsOfFunctionPlot[1_330].Y = -0.218
 
 	pointsOfFunctionPlot[1_331].X = 13.31
-	pointsOfFunctionPlot[1_331].Y = 0.218
+	pointsOfFunctionPlot[1_331].Y = -0.218
 
 	pointsOfFunctionPlot[1_332].X = 13.32
-	pointsOfFunctionPlot[1_332].Y = 0.218
+	pointsOfFunctionPlot[1_332].Y = -0.218
 
 	pointsOfFunctionPlot[1_333].X = 13.33
-	pointsOfFunctionPlot[1_333].Y = 0.218
+	pointsOfFunctionPlot[1_333].Y = -0.218
 
 	pointsOfFunctionPlot[1_334].X = 13.34
-	pointsOfFunctionPlot[1_334].Y = 0.218
+	pointsOfFunctionPlot[1_334].Y = -0.218
 
 	pointsOfFunctionPlot[1_335].X = 13.35
-	pointsOfFunctionPlot[1_335].Y = 0.218
+	pointsOfFunctionPlot[1_335].Y = -0.218
 
 	pointsOfFunctionPlot[1_336].X = 13.36
-	pointsOfFunctionPlot[1_336].Y = 0.218
+	pointsOfFunctionPlot[1_336].Y = -0.218
 
 	pointsOfFunctionPlot[1_337].X = 13.37
-	pointsOfFunctionPlot[1_337].Y = 0.218
+	pointsOfFunctionPlot[1_337].Y = -0.218
 
 	pointsOfFunctionPlot[1_338].X = 13.38
-	pointsOfFunctionPlot[1_338].Y = 0.218
+	pointsOfFunctionPlot[1_338].Y = -0.218
 
 	pointsOfFunctionPlot[1_339].X = 13.39
-	pointsOfFunctionPlot[1_339].Y = 0.217
+	pointsOfFunctionPlot[1_339].Y = -0.217
 
 	pointsOfFunctionPlot[1_340].X = 13.40
-	pointsOfFunctionPlot[1_340].Y = 0.217
+	pointsOfFunctionPlot[1_340].Y = -0.217
 
 	pointsOfFunctionPlot[1_341].X = 13.41
-	pointsOfFunctionPlot[1_341].Y = 0.217
+	pointsOfFunctionPlot[1_341].Y = -0.217
 
 	pointsOfFunctionPlot[1_342].X = 13.42
-	pointsOfFunctionPlot[1_342].Y = 0.217
+	pointsOfFunctionPlot[1_342].Y = -0.217
 
 	pointsOfFunctionPlot[1_343].X = 13.43
-	pointsOfFunctionPlot[1_343].Y = 0.217
+	pointsOfFunctionPlot[1_343].Y = -0.216
 
 	pointsOfFunctionPlot[1_344].X = 13.44
-	pointsOfFunctionPlot[1_344].Y = 0.216
+	pointsOfFunctionPlot[1_344].Y = -0.216
 
 	pointsOfFunctionPlot[1_345].X = 13.45
-	pointsOfFunctionPlot[1_345].Y = 0.216
+	pointsOfFunctionPlot[1_345].Y = -0.216
 
 	pointsOfFunctionPlot[1_346].X = 13.46
-	pointsOfFunctionPlot[1_346].Y = 0.216
+	pointsOfFunctionPlot[1_346].Y = -0.215
 
 	pointsOfFunctionPlot[1_347].X = 13.47
-	pointsOfFunctionPlot[1_347].Y = 0.216
+	pointsOfFunctionPlot[1_347].Y = -0.215
 
 	pointsOfFunctionPlot[1_348].X = 13.48
-	pointsOfFunctionPlot[1_348].Y = 0.215
+	pointsOfFunctionPlot[1_348].Y = -0.214
 
 	pointsOfFunctionPlot[1_349].X = 13.49
-	pointsOfFunctionPlot[1_349].Y = 0.215
+	pointsOfFunctionPlot[1_349].Y = -0.214
 
 	pointsOfFunctionPlot[1_350].X = 13.50
-	pointsOfFunctionPlot[1_350].Y = 0.214
+	pointsOfFunctionPlot[1_350].Y = -0.214
 
 	pointsOfFunctionPlot[1_351].X = 13.51
-	pointsOfFunctionPlot[1_351].Y = 0.214
+	pointsOfFunctionPlot[1_351].Y = -0.213
 
 	pointsOfFunctionPlot[1_352].X = 13.52
-	pointsOfFunctionPlot[1_352].Y = 0.214
+	pointsOfFunctionPlot[1_352].Y = -0.213
 
 	pointsOfFunctionPlot[1_353].X = 13.53
-	pointsOfFunctionPlot[1_353].Y = 0.213
+	pointsOfFunctionPlot[1_353].Y = -0.212
 
 	pointsOfFunctionPlot[1_354].X = 13.54
-	pointsOfFunctionPlot[1_354].Y = 0.213
+	pointsOfFunctionPlot[1_354].Y = -0.212
 
 	pointsOfFunctionPlot[1_355].X = 13.55
-	pointsOfFunctionPlot[1_355].Y = 0.212
+	pointsOfFunctionPlot[1_355].Y = -0.211
 
 	pointsOfFunctionPlot[1_356].X = 13.56
-	pointsOfFunctionPlot[1_356].Y = 0.212
+	pointsOfFunctionPlot[1_356].Y = -0.21
 
 	pointsOfFunctionPlot[1_357].X = 13.57
-	pointsOfFunctionPlot[1_357].Y = 0.211
+	pointsOfFunctionPlot[1_357].Y = -0.21
 
 	pointsOfFunctionPlot[1_358].X = 13.58
-	pointsOfFunctionPlot[1_358].Y = 0.211
+	pointsOfFunctionPlot[1_358].Y = -0.209
 
 	pointsOfFunctionPlot[1_359].X = 13.59
-	pointsOfFunctionPlot[1_359].Y = 0.21
+	pointsOfFunctionPlot[1_359].Y = -0.209
 
 	pointsOfFunctionPlot[1_360].X = 13.60
-	pointsOfFunctionPlot[1_360].Y = 0.21
+	pointsOfFunctionPlot[1_360].Y = -0.208
 
 	pointsOfFunctionPlot[1_361].X = 13.61
-	pointsOfFunctionPlot[1_361].Y = 0.209
+	pointsOfFunctionPlot[1_361].Y = -0.207
 
 	pointsOfFunctionPlot[1_362].X = 13.62
-	pointsOfFunctionPlot[1_362].Y = 0.208
+	pointsOfFunctionPlot[1_362].Y = -0.207
 
 	pointsOfFunctionPlot[1_363].X = 13.63
-	pointsOfFunctionPlot[1_363].Y = 0.208
+	pointsOfFunctionPlot[1_363].Y = -0.206
 
 	pointsOfFunctionPlot[1_364].X = 13.64
-	pointsOfFunctionPlot[1_364].Y = 0.207
+	pointsOfFunctionPlot[1_364].Y = -0.205
 
 	pointsOfFunctionPlot[1_365].X = 13.65
-	pointsOfFunctionPlot[1_365].Y = 0.206
+	pointsOfFunctionPlot[1_365].Y = -0.204
 
 	pointsOfFunctionPlot[1_366].X = 13.66
-	pointsOfFunctionPlot[1_366].Y = 0.206
+	pointsOfFunctionPlot[1_366].Y = -0.204
 
 	pointsOfFunctionPlot[1_367].X = 13.67
-	pointsOfFunctionPlot[1_367].Y = 0.205
+	pointsOfFunctionPlot[1_367].Y = -0.203
 
 	pointsOfFunctionPlot[1_368].X = 13.68
-	pointsOfFunctionPlot[1_368].Y = 0.204
+	pointsOfFunctionPlot[1_368].Y = -0.202
 
 	pointsOfFunctionPlot[1_369].X = 13.69
-	pointsOfFunctionPlot[1_369].Y = 0.204
+	pointsOfFunctionPlot[1_369].Y = -0.201
 
 	pointsOfFunctionPlot[1_370].X = 13.70
-	pointsOfFunctionPlot[1_370].Y = 0.203
+	pointsOfFunctionPlot[1_370].Y = -0.2
 
 	pointsOfFunctionPlot[1_371].X = 13.71
-	pointsOfFunctionPlot[1_371].Y = 0.202
+	pointsOfFunctionPlot[1_371].Y = -0.199
 
 	pointsOfFunctionPlot[1_372].X = 13.72
-	pointsOfFunctionPlot[1_372].Y = 0.201
+	pointsOfFunctionPlot[1_372].Y = -0.198
 
 	pointsOfFunctionPlot[1_373].X = 13.73
-	pointsOfFunctionPlot[1_373].Y = 0.2
+	pointsOfFunctionPlot[1_373].Y = -0.198
 
 	pointsOfFunctionPlot[1_374].X = 13.74
-	pointsOfFunctionPlot[1_374].Y = 0.199
+	pointsOfFunctionPlot[1_374].Y = -0.197
 
 	pointsOfFunctionPlot[1_375].X = 13.75
-	pointsOfFunctionPlot[1_375].Y = 0.199
+	pointsOfFunctionPlot[1_375].Y = -0.196
 
 	pointsOfFunctionPlot[1_376].X = 13.76
-	pointsOfFunctionPlot[1_376].Y = 0.198
+	pointsOfFunctionPlot[1_376].Y = -0.195
 
 	pointsOfFunctionPlot[1_377].X = 13.77
-	pointsOfFunctionPlot[1_377].Y = 0.197
+	pointsOfFunctionPlot[1_377].Y = -0.194
 
 	pointsOfFunctionPlot[1_378].X = 13.78
-	pointsOfFunctionPlot[1_378].Y = 0.196
+	pointsOfFunctionPlot[1_378].Y = -0.193
 
 	pointsOfFunctionPlot[1_379].X = 13.79
-	pointsOfFunctionPlot[1_379].Y = 0.195
+	pointsOfFunctionPlot[1_379].Y = -0.192
 
 	pointsOfFunctionPlot[1_380].X = 13.80
-	pointsOfFunctionPlot[1_380].Y = 0.194
+	pointsOfFunctionPlot[1_380].Y = -0.191
 
 	pointsOfFunctionPlot[1_381].X = 13.81
-	pointsOfFunctionPlot[1_381].Y = 0.193
+	pointsOfFunctionPlot[1_381].Y = -0.19
 
 	pointsOfFunctionPlot[1_382].X = 13.82
-	pointsOfFunctionPlot[1_382].Y = 0.192
+	pointsOfFunctionPlot[1_382].Y = -0.189
 
 	pointsOfFunctionPlot[1_383].X = 13.83
-	pointsOfFunctionPlot[1_383].Y = 0.191
+	pointsOfFunctionPlot[1_383].Y = -0.187
 
 	pointsOfFunctionPlot[1_384].X = 13.84
-	pointsOfFunctionPlot[1_384].Y = 0.19
+	pointsOfFunctionPlot[1_384].Y = -0.186
 
 	pointsOfFunctionPlot[1_385].X = 13.85
-	pointsOfFunctionPlot[1_385].Y = 0.189
+	pointsOfFunctionPlot[1_385].Y = -0.185
 
 	pointsOfFunctionPlot[1_386].X = 13.86
-	pointsOfFunctionPlot[1_386].Y = 0.188
+	pointsOfFunctionPlot[1_386].Y = -0.184
 
 	pointsOfFunctionPlot[1_387].X = 13.87
-	pointsOfFunctionPlot[1_387].Y = 0.186
+	pointsOfFunctionPlot[1_387].Y = -0.183
 
 	pointsOfFunctionPlot[1_388].X = 13.88
-	pointsOfFunctionPlot[1_388].Y = 0.185
+	pointsOfFunctionPlot[1_388].Y = -0.182
 
 	pointsOfFunctionPlot[1_389].X = 13.89
-	pointsOfFunctionPlot[1_389].Y = 0.184
+	pointsOfFunctionPlot[1_389].Y = -0.18
 
 	pointsOfFunctionPlot[1_390].X = 13.90
-	pointsOfFunctionPlot[1_390].Y = 0.183
+	pointsOfFunctionPlot[1_390].Y = -0.179
 
 	pointsOfFunctionPlot[1_391].X = 13.91
-	pointsOfFunctionPlot[1_391].Y = 0.182
+	pointsOfFunctionPlot[1_391].Y = -0.178
 
 	pointsOfFunctionPlot[1_392].X = 13.92
-	pointsOfFunctionPlot[1_392].Y = 0.181
+	pointsOfFunctionPlot[1_392].Y = -0.177
 
 	pointsOfFunctionPlot[1_393].X = 13.93
-	pointsOfFunctionPlot[1_393].Y = 0.18
+	pointsOfFunctionPlot[1_393].Y = -0.175
 
 	pointsOfFunctionPlot[1_394].X = 13.94
-	pointsOfFunctionPlot[1_394].Y = 0.178
+	pointsOfFunctionPlot[1_394].Y = -0.174
 
 	pointsOfFunctionPlot[1_395].X = 13.95
-	pointsOfFunctionPlot[1_395].Y = 0.177
+	pointsOfFunctionPlot[1_395].Y = -0.173
 
 	pointsOfFunctionPlot[1_396].X = 13.96
-	pointsOfFunctionPlot[1_396].Y = 0.176
+	pointsOfFunctionPlot[1_396].Y = -0.172
 
 	pointsOfFunctionPlot[1_397].X = 13.97
-	pointsOfFunctionPlot[1_397].Y = 0.175
+	pointsOfFunctionPlot[1_397].Y = -0.17
 
 	pointsOfFunctionPlot[1_398].X = 13.98
-	pointsOfFunctionPlot[1_398].Y = 0.173
+	pointsOfFunctionPlot[1_398].Y = -0.169
 
 	pointsOfFunctionPlot[1_399].X = 13.99
-	pointsOfFunctionPlot[1_399].Y = 0.172
+	pointsOfFunctionPlot[1_399].Y = -0.168
 
 	pointsOfFunctionPlot[1_400].X = 14.0
-	pointsOfFunctionPlot[1_400].Y = 0.171
+	pointsOfFunctionPlot[1_400].Y = -0.166
 
 	pointsOfFunctionPlot[1_401].X = 14.01
-	pointsOfFunctionPlot[1_401].Y = 0.169
+	pointsOfFunctionPlot[1_401].Y = -0.165
 
 	pointsOfFunctionPlot[1_402].X = 14.02
-	pointsOfFunctionPlot[1_402].Y = 0.168
+	pointsOfFunctionPlot[1_402].Y = -0.163
 
 	pointsOfFunctionPlot[1_403].X = 14.03
-	pointsOfFunctionPlot[1_403].Y = 0.167
+	pointsOfFunctionPlot[1_403].Y = -0.162
 
 	pointsOfFunctionPlot[1_404].X = 14.04
-	pointsOfFunctionPlot[1_404].Y = 0.165
+	pointsOfFunctionPlot[1_404].Y = -0.16
 
 	pointsOfFunctionPlot[1_405].X = 14.05
-	pointsOfFunctionPlot[1_405].Y = 0.164
+	pointsOfFunctionPlot[1_405].Y = -0.159
 
 	pointsOfFunctionPlot[1_406].X = 14.06
-	pointsOfFunctionPlot[1_406].Y = 0.162
+	pointsOfFunctionPlot[1_406].Y = -0.158
 
 	pointsOfFunctionPlot[1_407].X = 14.07
-	pointsOfFunctionPlot[1_407].Y = 0.161
+	pointsOfFunctionPlot[1_407].Y = -0.156
 
 	pointsOfFunctionPlot[1_408].X = 14.08
-	pointsOfFunctionPlot[1_408].Y = 0.159
+	pointsOfFunctionPlot[1_408].Y = -0.155
 
 	pointsOfFunctionPlot[1_409].X = 14.09
-	pointsOfFunctionPlot[1_409].Y = 0.158
+	pointsOfFunctionPlot[1_409].Y = -0.153
 
 	pointsOfFunctionPlot[1_410].X = 14.10
-	pointsOfFunctionPlot[1_410].Y = 0.156
+	pointsOfFunctionPlot[1_410].Y = -0.151
 
 	pointsOfFunctionPlot[1_411].X = 14.11
-	pointsOfFunctionPlot[1_411].Y = 0.155
+	pointsOfFunctionPlot[1_411].Y = -0.15
 
 	pointsOfFunctionPlot[1_412].X = 14.12
-	pointsOfFunctionPlot[1_412].Y = 0.153
+	pointsOfFunctionPlot[1_412].Y = -0.148
 
 	pointsOfFunctionPlot[1_413].X = 14.13
-	pointsOfFunctionPlot[1_413].Y = 0.152
+	pointsOfFunctionPlot[1_413].Y = -0.147
 
 	pointsOfFunctionPlot[1_414].X = 14.14
-	pointsOfFunctionPlot[1_414].Y = 0.15
+	pointsOfFunctionPlot[1_414].Y = -0.145
 
 	pointsOfFunctionPlot[1_415].X = 14.15
-	pointsOfFunctionPlot[1_415].Y = 0.149
+	pointsOfFunctionPlot[1_415].Y = -0.144
 
 	pointsOfFunctionPlot[1_416].X = 14.16
-	pointsOfFunctionPlot[1_416].Y = 0.147
+	pointsOfFunctionPlot[1_416].Y = -0.142
 
 	pointsOfFunctionPlot[1_417].X = 14.17
-	pointsOfFunctionPlot[1_417].Y = 0.146
+	pointsOfFunctionPlot[1_417].Y = -0.14
 
 	pointsOfFunctionPlot[1_418].X = 14.18
-	pointsOfFunctionPlot[1_418].Y = 0.144
+	pointsOfFunctionPlot[1_418].Y = -0.139
 
 	pointsOfFunctionPlot[1_419].X = 14.19
-	pointsOfFunctionPlot[1_419].Y = 0.142
+	pointsOfFunctionPlot[1_419].Y = -0.137
 
 	pointsOfFunctionPlot[1_420].X = 14.20
-	pointsOfFunctionPlot[1_420].Y = 0.141
+	pointsOfFunctionPlot[1_420].Y = -0.135
 
 	pointsOfFunctionPlot[1_421].X = 14.21
-	pointsOfFunctionPlot[1_421].Y = 0.139
+	pointsOfFunctionPlot[1_421].Y = -0.134
 
 	pointsOfFunctionPlot[1_422].X = 14.22
-	pointsOfFunctionPlot[1_422].Y = 0.138
+	pointsOfFunctionPlot[1_422].Y = -0.132
 
 	pointsOfFunctionPlot[1_423].X = 14.23
-	pointsOfFunctionPlot[1_423].Y = 0.136
+	pointsOfFunctionPlot[1_423].Y = -0.13
 
 	pointsOfFunctionPlot[1_424].X = 14.24
-	pointsOfFunctionPlot[1_424].Y = 0.134
+	pointsOfFunctionPlot[1_424].Y = -0.129
 
 	pointsOfFunctionPlot[1_425].X = 14.25
-	pointsOfFunctionPlot[1_425].Y = 0.133
+	pointsOfFunctionPlot[1_425].Y = -0.127
 
 	pointsOfFunctionPlot[1_426].X = 14.26
-	pointsOfFunctionPlot[1_426].Y = 0.131
+	pointsOfFunctionPlot[1_426].Y = -0.125
 
 	pointsOfFunctionPlot[1_427].X = 14.27
-	pointsOfFunctionPlot[1_427].Y = 0.129
+	pointsOfFunctionPlot[1_427].Y = -0.123
 
 	pointsOfFunctionPlot[1_428].X = 14.28
-	pointsOfFunctionPlot[1_428].Y = 0.127
+	pointsOfFunctionPlot[1_428].Y = -0.122
 
 	pointsOfFunctionPlot[1_429].X = 14.29
-	pointsOfFunctionPlot[1_429].Y = 0.126
+	pointsOfFunctionPlot[1_429].Y = -0.12
 
 	pointsOfFunctionPlot[1_430].X = 14.30
-	pointsOfFunctionPlot[1_430].Y = 0.124
+	pointsOfFunctionPlot[1_430].Y = -0.118
 
 	pointsOfFunctionPlot[1_431].X = 14.31
-	pointsOfFunctionPlot[1_431].Y = 0.122
+	pointsOfFunctionPlot[1_431].Y = -0.116
 
 	pointsOfFunctionPlot[1_432].X = 14.32
-	pointsOfFunctionPlot[1_432].Y = 0.12
+	pointsOfFunctionPlot[1_432].Y = -0.115
 
 	pointsOfFunctionPlot[1_433].X = 14.33
-	pointsOfFunctionPlot[1_433].Y = 0.119
+	pointsOfFunctionPlot[1_433].Y = -0.113
 
 	pointsOfFunctionPlot[1_434].X = 14.34
-	pointsOfFunctionPlot[1_434].Y = 0.117
+	pointsOfFunctionPlot[1_434].Y = -0.111
 
 	pointsOfFunctionPlot[1_435].X = 14.35
-	pointsOfFunctionPlot[1_435].Y = 0.115
+	pointsOfFunctionPlot[1_435].Y = -0.109
 
 	pointsOfFunctionPlot[1_436].X = 14.36
-	pointsOfFunctionPlot[1_436].Y = 0.113
+	pointsOfFunctionPlot[1_436].Y = -0.107
 
 	pointsOfFunctionPlot[1_437].X = 14.37
-	pointsOfFunctionPlot[1_437].Y = 0.111
+	pointsOfFunctionPlot[1_437].Y = -0.105
 
 	pointsOfFunctionPlot[1_438].X = 14.38
-	pointsOfFunctionPlot[1_438].Y = 0.11
+	pointsOfFunctionPlot[1_438].Y = -0.104
 
 	pointsOfFunctionPlot[1_439].X = 14.39
-	pointsOfFunctionPlot[1_439].Y = 0.108
+	pointsOfFunctionPlot[1_439].Y = -0.102
 
 	pointsOfFunctionPlot[1_440].X = 14.40
-	pointsOfFunctionPlot[1_440].Y = 0.106
+	pointsOfFunctionPlot[1_440].Y = -0.1
 
 	pointsOfFunctionPlot[1_441].X = 14.41
-	pointsOfFunctionPlot[1_441].Y = 0.104
+	pointsOfFunctionPlot[1_441].Y = -0.098
 
 	pointsOfFunctionPlot[1_442].X = 14.42
-	pointsOfFunctionPlot[1_442].Y = 0.102
+	pointsOfFunctionPlot[1_442].Y = -0.096
 
 	pointsOfFunctionPlot[1_443].X = 14.43
-	pointsOfFunctionPlot[1_443].Y = 0.1
+	pointsOfFunctionPlot[1_443].Y = -0.094
 
 	pointsOfFunctionPlot[1_444].X = 14.44
-	pointsOfFunctionPlot[1_444].Y = 0.099
+	pointsOfFunctionPlot[1_444].Y = -0.092
 
 	pointsOfFunctionPlot[1_445].X = 14.45
-	pointsOfFunctionPlot[1_445].Y = 0.097
+	pointsOfFunctionPlot[1_445].Y = -0.09
 
 	pointsOfFunctionPlot[1_446].X = 14.46
-	pointsOfFunctionPlot[1_446].Y = 0.095
+	pointsOfFunctionPlot[1_446].Y = -0.088
 
 	pointsOfFunctionPlot[1_447].X = 14.47
-	pointsOfFunctionPlot[1_447].Y = 0.093
+	pointsOfFunctionPlot[1_447].Y = -0.086
 
 	pointsOfFunctionPlot[1_448].X = 14.48
-	pointsOfFunctionPlot[1_448].Y = 0.091
+	pointsOfFunctionPlot[1_448].Y = -0.084
 
 	pointsOfFunctionPlot[1_449].X = 14.49
-	pointsOfFunctionPlot[1_449].Y = 0.089
+	pointsOfFunctionPlot[1_449].Y = -0.082
 
 	pointsOfFunctionPlot[1_450].X = 14.50
-	pointsOfFunctionPlot[1_450].Y = 0.087
+	pointsOfFunctionPlot[1_450].Y = -0.081
 
 	pointsOfFunctionPlot[1_451].X = 14.51
-	pointsOfFunctionPlot[1_451].Y = 0.085
+	pointsOfFunctionPlot[1_451].Y = -0.079
 
 	pointsOfFunctionPlot[1_452].X = 14.52
-	pointsOfFunctionPlot[1_452].Y = 0.083
+	pointsOfFunctionPlot[1_452].Y = -0.077
 
 	pointsOfFunctionPlot[1_453].X = 14.53
-	pointsOfFunctionPlot[1_453].Y = 0.081
+	pointsOfFunctionPlot[1_453].Y = -0.075
 
 	pointsOfFunctionPlot[1_454].X = 14.54
-	pointsOfFunctionPlot[1_454].Y = 0.079
+	pointsOfFunctionPlot[1_454].Y = -0.073
 
 	pointsOfFunctionPlot[1_455].X = 14.55
-	pointsOfFunctionPlot[1_455].Y = 0.077
+	pointsOfFunctionPlot[1_455].Y = -0.071
 
 	pointsOfFunctionPlot[1_456].X = 14.56
-	pointsOfFunctionPlot[1_456].Y = 0.075
+	pointsOfFunctionPlot[1_456].Y = -0.069
 
 	pointsOfFunctionPlot[1_457].X = 14.57
-	pointsOfFunctionPlot[1_457].Y = 0.073
+	pointsOfFunctionPlot[1_457].Y = -0.067
 
 	pointsOfFunctionPlot[1_458].X = 14.58
-	pointsOfFunctionPlot[1_458].Y = 0.071
+	pointsOfFunctionPlot[1_458].Y = -0.065
 
 	pointsOfFunctionPlot[1_459].X = 14.59
-	pointsOfFunctionPlot[1_459].Y = 0.069
+	pointsOfFunctionPlot[1_459].Y = -0.063
 
 	pointsOfFunctionPlot[1_460].X = 14.60
-	pointsOfFunctionPlot[1_460].Y = 0.067
+	pointsOfFunctionPlot[1_460].Y = -0.061
 
 	pointsOfFunctionPlot[1_461].X = 14.61
-	pointsOfFunctionPlot[1_461].Y = 0.065
+	pointsOfFunctionPlot[1_461].Y = -0.059
 
 	pointsOfFunctionPlot[1_462].X = 14.62
-	pointsOfFunctionPlot[1_462].Y = 0.063
+	pointsOfFunctionPlot[1_462].Y = -0.057
 
 	pointsOfFunctionPlot[1_463].X = 14.63
-	pointsOfFunctionPlot[1_463].Y = 0.061
+	pointsOfFunctionPlot[1_463].Y = -0.055
 
 	pointsOfFunctionPlot[1_464].X = 14.64
-	pointsOfFunctionPlot[1_464].Y = 0.059
+	pointsOfFunctionPlot[1_464].Y = -0.053
 
 	pointsOfFunctionPlot[1_465].X = 14.65
-	pointsOfFunctionPlot[1_465].Y = 0.057
+	pointsOfFunctionPlot[1_465].Y = -0.051
 
 	pointsOfFunctionPlot[1_466].X = 14.66
-	pointsOfFunctionPlot[1_466].Y = 0.055
+	pointsOfFunctionPlot[1_466].Y = -0.048
 
 	pointsOfFunctionPlot[1_467].X = 14.67
-	pointsOfFunctionPlot[1_467].Y = 0.053
+	pointsOfFunctionPlot[1_467].Y = -0.046
 
 	pointsOfFunctionPlot[1_468].X = 14.68
-	pointsOfFunctionPlot[1_468].Y = 0.051
+	pointsOfFunctionPlot[1_468].Y = -0.044
 
 	pointsOfFunctionPlot[1_469].X = 14.69
-	pointsOfFunctionPlot[1_469].Y = 0.049
+	pointsOfFunctionPlot[1_469].Y = -0.042
 
 	pointsOfFunctionPlot[1_470].X = 14.70
-	pointsOfFunctionPlot[1_470].Y = 0.047
+	pointsOfFunctionPlot[1_470].Y = -0.04
 
 	pointsOfFunctionPlot[1_471].X = 14.71
-	pointsOfFunctionPlot[1_471].Y = 0.045
+	pointsOfFunctionPlot[1_471].Y = -0.038
 
 	pointsOfFunctionPlot[1_472].X = 14.72
-	pointsOfFunctionPlot[1_472].Y = 0.043
+	pointsOfFunctionPlot[1_472].Y = -0.036
 
 	pointsOfFunctionPlot[1_473].X = 14.73
-	pointsOfFunctionPlot[1_473].Y = 0.041
+	pointsOfFunctionPlot[1_473].Y = -0.034
 
 	pointsOfFunctionPlot[1_474].X = 14.74
-	pointsOfFunctionPlot[1_474].Y = 0.039
+	pointsOfFunctionPlot[1_474].Y = -0.032
 
 	pointsOfFunctionPlot[1_475].X = 14.75
-	pointsOfFunctionPlot[1_475].Y = 0.037
+	pointsOfFunctionPlot[1_475].Y = -0.03
 
 	pointsOfFunctionPlot[1_476].X = 14.76
-	pointsOfFunctionPlot[1_476].Y = 0.035
+	pointsOfFunctionPlot[1_476].Y = -0.028
 
 	pointsOfFunctionPlot[1_477].X = 14.77
-	pointsOfFunctionPlot[1_477].Y = 0.033
+	pointsOfFunctionPlot[1_477].Y = -0.026
 
 	pointsOfFunctionPlot[1_478].X = 14.78
-	pointsOfFunctionPlot[1_478].Y = 0.031
+	pointsOfFunctionPlot[1_478].Y = -0.024
 
 	pointsOfFunctionPlot[1_479].X = 14.79
-	pointsOfFunctionPlot[1_479].Y = 0.029
+	pointsOfFunctionPlot[1_479].Y = -0.022
 
 	pointsOfFunctionPlot[1_480].X = 14.80
-	pointsOfFunctionPlot[1_480].Y = 0.027
+	pointsOfFunctionPlot[1_480].Y = -0.02
 
 	pointsOfFunctionPlot[1_481].X = 14.81
-	pointsOfFunctionPlot[1_481].Y = 0.025
+	pointsOfFunctionPlot[1_481].Y = -0.018
 
 	pointsOfFunctionPlot[1_482].X = 14.82
-	pointsOfFunctionPlot[1_482].Y = 0.022
+	pointsOfFunctionPlot[1_482].Y = -0.016
 
 	pointsOfFunctionPlot[1_483].X = 14.83
-	pointsOfFunctionPlot[1_483].Y = 0.02
+	pointsOfFunctionPlot[1_483].Y = -0.013
 
 	pointsOfFunctionPlot[1_484].X = 14.84
-	pointsOfFunctionPlot[1_484].Y = 0.018
+	pointsOfFunctionPlot[1_484].Y = -0.011
 
 	pointsOfFunctionPlot[1_485].X = 14.85
-	pointsOfFunctionPlot[1_485].Y = 0.016
+	pointsOfFunctionPlot[1_485].Y = -0.009
 
 	pointsOfFunctionPlot[1_486].X = 14.86
-	pointsOfFunctionPlot[1_486].Y = 0.014
+	pointsOfFunctionPlot[1_486].Y = -0.007
 
 	pointsOfFunctionPlot[1_487].X = 14.87
-	pointsOfFunctionPlot[1_487].Y = 0.012
+	pointsOfFunctionPlot[1_487].Y = -0.005
 
 	pointsOfFunctionPlot[1_488].X = 14.88
-	pointsOfFunctionPlot[1_488].Y = 0.01
+	pointsOfFunctionPlot[1_488].Y = -0.003
 
 	pointsOfFunctionPlot[1_489].X = 14.89
-	pointsOfFunctionPlot[1_489].Y = 0.008
+	pointsOfFunctionPlot[1_489].Y = -0.001
 
 	pointsOfFunctionPlot[1_490].X = 14.90
-	pointsOfFunctionPlot[1_490].Y = 0.006
+	pointsOfFunctionPlot[1_490].Y = 0.0
 
 	pointsOfFunctionPlot[1_491].X = 14.91
-	pointsOfFunctionPlot[1_491].Y = 0.004
+	pointsOfFunctionPlot[1_491].Y = 0.002
 
 	pointsOfFunctionPlot[1_492].X = 14.92
-	pointsOfFunctionPlot[1_492].Y = 0.002
+	pointsOfFunctionPlot[1_492].Y = 0.004
 
 	pointsOfFunctionPlot[1_493].X = 14.93
-	pointsOfFunctionPlot[1_493].Y = 0.0
+	pointsOfFunctionPlot[1_493].Y = 0.006
 
 	pointsOfFunctionPlot[1_494].X = 14.94
-	pointsOfFunctionPlot[1_494].Y = -0.001
+	pointsOfFunctionPlot[1_494].Y = 0.008
 
 	pointsOfFunctionPlot[1_495].X = 14.95
-	pointsOfFunctionPlot[1_495].Y = -0.003
+	pointsOfFunctionPlot[1_495].Y = 0.01
 
 	pointsOfFunctionPlot[1_496].X = 14.96
-	pointsOfFunctionPlot[1_496].Y = -0.006
+	pointsOfFunctionPlot[1_496].Y = 0.012
 
 	pointsOfFunctionPlot[1_497].X = 14.97
-	pointsOfFunctionPlot[1_497].Y = -0.008
+	pointsOfFunctionPlot[1_497].Y = 0.014
 
 	pointsOfFunctionPlot[1_498].X = 14.98
-	pointsOfFunctionPlot[1_498].Y = -0.01
+	pointsOfFunctionPlot[1_498].Y = 0.016
 
 	pointsOfFunctionPlot[1_499].X = 14.99
-	pointsOfFunctionPlot[1_499].Y = -0.012
+	pointsOfFunctionPlot[1_499].Y = 0.019
 
 	pointsOfFunctionPlot[1_500].X = 15.0
 	pointsOfFunctionPlot[1_500].Y = 0.021
